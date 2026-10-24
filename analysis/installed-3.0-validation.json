@@ -1,0 +1,258 @@
+{
+  "source": "192.168.2.106 / cmp-100 actual controller bootloader readback",
+  "bytes": 32768,
+  "two_reads_identical": true,
+  "sha256": "186930d0fe8e4caa6fa2873e151225df6c7d1a6f6c4811a82601b113f65c6ddf",
+  "vector_count": 51,
+  "reset_target_byte": "0x438",
+  "usb_descriptors": [
+    {
+      "byte_address": "0x13e",
+      "vid": "16c0",
+      "pid": "05dc",
+      "bcdDevice": "0x100"
+    },
+    {
+      "byte_address": "0x70fe",
+      "vid": "16c0",
+      "pid": "05dc",
+      "bcdDevice": "0x102"
+    }
+  ],
+  "usb_string_candidates": [
+    {
+      "byte_address": "0x150",
+      "text": "Fan-Controller"
+    },
+    {
+      "byte_address": "0x16e",
+      "text": "info@octominer.com"
+    },
+    {
+      "byte_address": "0x7110",
+      "text": "USBasp"
+    },
+    {
+      "byte_address": "0x711e",
+      "text": "www.fischl.de"
+    }
+  ],
+  "boot_region_0x7000_0x7fff_unique_values": 235,
+  "boot_region_sha256": "49bfaeb962b47fbf9b7b6828c4df3ef512c9ba017754546eced793b2a7842369",
+  "vectors": [
+    {
+      "vector_byte": "0x0",
+      "target_byte": "0x438"
+    },
+    {
+      "vector_byte": "0x4",
+      "target_byte": "0x4c8"
+    },
+    {
+      "vector_byte": "0x8",
+      "target_byte": "0x472"
+    },
+    {
+      "vector_byte": "0xc",
+      "target_byte": "0x472"
+    },
+    {
+      "vector_byte": "0x10",
+      "target_byte": "0xf32"
+    },
+    {
+      "vector_byte": "0x14",
+      "target_byte": "0xfc4"
+    },
+    {
+      "vector_byte": "0x18",
+      "target_byte": "0x472"
+    },
+    {
+      "vector_byte": "0x1c",
+      "target_byte": "0x106e"
+    },
+    {
+      "vector_byte": "0x20",
+      "target_byte": "0x472"
+    },
+    {
+      "vector_byte": "0x24",
+      "target_byte": "0x472"
+    },
+    {
+      "vector_byte": "0x28",
+      "target_byte": "0x472"
+    },
+    {
+      "vector_byte": "0x2c",
+      "target_byte": "0x472"
+    },
+    {
+      "vector_byte": "0x30",
+      "target_byte": "0x472"
+    },
+    {
+      "vector_byte": "0x34",
+      "target_byte": "0x472"
+    },
+    {
+      "vector_byte": "0x38",
+      "target_byte": "0x472"
+    },
+    {
+      "vector_byte": "0x3c",
+      "target_byte": "0x472"
+    },
+    {
+      "vector_byte": "0x40",
+      "target_byte": "0x472"
+    },
+    {
+      "vector_byte": "0x44",
+      "target_byte": "0x472"
+    },
+    {
+      "vector_byte": "0x48",
+      "target_byte": "0x472"
+    },
+    {
+      "vector_byte": "0x4c",
+      "target_byte": "0x472"
+    },
+    {
+      "vector_byte": "0x50",
+      "target_byte": "0x472"
+    },
+    {
+      "vector_byte": "0x54",
+      "target_byte": "0x472"
+    },
+    {
+      "vector_byte": "0x58",
+      "target_byte": "0x472"
+    },
+    {
+      "vector_byte": "0x5c",
+      "target_byte": "0x472"
+    },
+    {
+      "vector_byte": "0x60",
+      "target_byte": "0x154e"
+    },
+    {
+      "vector_byte": "0x64",
+      "target_byte": "0x472"
+    },
+    {
+      "vector_byte": "0x68",
+      "target_byte": "0x472"
+    },
+    {
+      "vector_byte": "0x6c",
+      "target_byte": "0x472"
+    },
+    {
+      "vector_byte": "0x70",
+      "target_byte": "0x472"
+    },
+    {
+      "vector_byte": "0x74",
+      "target_byte": "0x472"
+    },
+    {
+      "vector_byte": "0x78",
+      "target_byte": "0x472"
+    },
+    {
+      "vector_byte": "0x7c",
+      "target_byte": "0x1112"
+    },
+    {
+      "vector_byte": "0x80",
+      "target_byte": "0x145c"
+    },
+    {
+      "vector_byte": "0x84",
+      "target_byte": "0x14de"
+    },
+    {
+      "vector_byte": "0x88",
+      "target_byte": "0x472"
+    },
+    {
+      "vector_byte": "0x8c",
+      "target_byte": "0x472"
+    },
+    {
+      "vector_byte": "0x90",
+      "target_byte": "0x472"
+    },
+    {
+      "vector_byte": "0x94",
+      "target_byte": "0x10b0"
+    },
+    {
+      "vector_byte": "0x98",
+      "target_byte": "0x472"
+    },
+    {
+      "vector_byte": "0x9c",
+      "target_byte": "0x472"
+    },
+    {
+      "vector_byte": "0xa0",
+      "target_byte": "0x472"
+    },
+    {
+      "vector_byte": "0xa4",
+      "target_byte": "0x472"
+    },
+    {
+      "vector_byte": "0xa8",
+      "target_byte": "0x472"
+    },
+    {
+      "vector_byte": "0xac",
+      "target_byte": "0x472"
+    },
+    {
+      "vector_byte": "0xb0",
+      "target_byte": "0x472"
+    },
+    {
+      "vector_byte": "0xb4",
+      "target_byte": "0x472"
+    },
+    {
+      "vector_byte": "0xb8",
+      "target_byte": "0x472"
+    },
+    {
+      "vector_byte": "0xbc",
+      "target_byte": "0x472"
+    },
+    {
+      "vector_byte": "0xc0",
+      "target_byte": "0x472"
+    },
+    {
+      "vector_byte": "0xc4",
+      "target_byte": "0x472"
+    },
+    {
+      "vector_byte": "0xc8",
+      "target_byte": "0x472"
+    }
+  ],
+  "differences_from_packaged": {
+    "firmware_07": {
+      "same_prefix": false,
+      "differing_bytes_within_old_linear_span": 15650
+    },
+    "firmware_09": {
+      "same_prefix": false,
+      "differing_bytes_within_old_linear_span": 14554
+    }
+  }
+}

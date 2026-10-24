@@ -1,0 +1,14 @@
+{
+  "scope": "fan-control",
+  "exit_code": 0,
+  "seconds": 190.0,
+  "subtype": "success",
+  "is_error": false,
+  "num_turns": 25,
+  "session_id": "a0a89cc8-832e-41b0-8fd4-65e4afbd3379",
+  "stop_reason": "end_turn",
+  "terminal_reason": "completed",
+  "model_usage": [
+    "claude-opus-5-5"
+  ]
+}

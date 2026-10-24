@@ -1,0 +1,66 @@
+{
+  "artifacts/installed-3.0/after.json": {
+    "bytes": 1106,
+    "sha256": "9c6980b23317007442a74ffe696bdec30e1b7a125d3a491263b82f24be8a510e"
+  },
+  "artifacts/installed-3.0/before.json": {
+    "bytes": 1106,
+    "sha256": "cb3aaffa4d73fe8066cd1d2dfc0769b6ca61693a1973fc77b895bcb1ff520b6c"
+  },
+  "artifacts/installed-3.0/firmware-3.0-pass1.bin": {
+    "bytes": 32768,
+    "sha256": "186930d0fe8e4caa6fa2873e151225df6c7d1a6f6c4811a82601b113f65c6ddf"
+  },
+  "artifacts/installed-3.0/firmware-3.0-pass2.bin": {
+    "bytes": 32768,
+    "sha256": "186930d0fe8e4caa6fa2873e151225df6c7d1a6f6c4811a82601b113f65c6ddf"
+  },
+  "artifacts/installed-3.0/octominer-fw3.0-hw1.2-flash.bin": {
+    "bytes": 32768,
+    "sha256": "186930d0fe8e4caa6fa2873e151225df6c7d1a6f6c4811a82601b113f65c6ddf"
+  },
+  "artifacts/installed-3.0/report.json": {
+    "bytes": 12925,
+    "sha256": "2b584922c2d87e81287c0ddfc0ce40287771ba1a5dee2d63c670c2eb2b8d4aac"
+  },
+  "artifacts/installed-3.0/restored.json": {
+    "bytes": 1106,
+    "sha256": "5ed16ed78220d54c50f9136ba84d536a1f7fef082b90d9a6af356d1ee02f3b72"
+  },
+  "INSTALLED-3.0-READBACK.md": {
+    "bytes": 4828,
+    "sha256": "06843ac85b17f8451523283d32e6bca766a1fbda5b92eed147e681f0cdb88126"
+  },
+  "analysis/installed-3.0-validation.json": {
+    "bytes": 4888,
+    "sha256": "06e7b53304b2df2513f4ac4402d12b6e6e751f5b8e22d63857ce7d9e48c31aaf"
+  },
+  "analysis/installed-3.0-disassembly.txt": {
+    "bytes": 400668,
+    "sha256": "cf4e4b6e7c8494ee7f1e47fc9069d391c82564a40bbe4bc0e62145d36f1b6802"
+  },
+  "analysis/readback_core.py": {
+    "bytes": 646,
+    "sha256": "874ddf19d94ddd75dade5a809eb628be732ef2f754175e986d85062a57a8dccf"
+  },
+  "analysis/acquire_installed_flash.py": {
+    "bytes": 10914,
+    "sha256": "ce8bffcf4a2eb4b8d230347b28e44ccea5426552fd92cf47281ab15e572869f9"
+  },
+  "analysis/test_readback_core.py": {
+    "bytes": 1535,
+    "sha256": "2dda7e40d604455a7977fa71805cb11bbc7e41f41730a3f0bddd7a432b5c1601"
+  },
+  "analysis/installed-readback-session.log": {
+    "bytes": 3720,
+    "sha256": "da5b98bfaba8a34e5b8bc3e1765f120a1d2bf6e899cbc08708d377d305e5d588"
+  },
+  "analysis/installed-readback-retry.log": {
+    "bytes": 2147,
+    "sha256": "cf7b03952edecb0bdbd5e60f22d3c290a34648b45be736d6dbacc83b8492e1f9"
+  },
+  "analysis/installed-readback-retry2.log": {
+    "bytes": 6279,
+    "sha256": "dd817636f02011da6d4a98d9f0be9cab389cfc97ad9dad6f74a5e196dfa87c8f"
+  }
+}

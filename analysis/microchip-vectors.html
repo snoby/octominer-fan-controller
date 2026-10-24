@@ -1,0 +1,687 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us" data-whc_version="26.1">
+    <head><link rel="shortcut icon" href="oxygen-webhelp\template\resources/images/favicon.ico"/><link rel="icon" href="oxygen-webhelp\template\resources/images/favicon.ico"/><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="description" content="Table 14-1.  Reset and Interrupt Vectors in ATmega324PB Vector No Program Address (2) Source Interrupts definition 1 0x0000 (1) RESET External Pin, Power-on Reset, Brown-out Reset and Watchdog System ..."/><meta name="copyright" content="(C) Copyright 2026"/><meta name="generator" content="DITA-OT"/><title>14.1 Interrupt Vectors in ATmega324PB</title><!--  Generated with Oxygen version 26.1, build number 2024091616.  --><meta name="wh-path2root" content=""/><meta name="wh-toc-id" content="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14-d14978e1085"/><meta name="wh-source-relpath" content="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14.xml"/><meta name="wh-out-relpath" content="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14.html"/>
+
+    <link rel="stylesheet" type="text/css" href="./oxygen-webhelp/app/commons.css?buildId=2024091616"/>
+    <link rel="stylesheet" type="text/css" href="./oxygen-webhelp/app/topic.css?buildId=2024091616"/>
+
+    <script src="./oxygen-webhelp/app/options/properties.js?buildId=20260119183107"></script>
+    <script src="./oxygen-webhelp/app/localization/strings.js?buildId=2024091616"></script>
+    <script src="./oxygen-webhelp/app/search/index/keywords.js?buildId=20260119183107"></script>
+    <script defer="defer" src="./oxygen-webhelp/app/commons.js?buildId=2024091616"></script>
+    <script defer="defer" src="./oxygen-webhelp/app/topic.js?buildId=2024091616"></script>
+<link rel="stylesheet" type="text/css" href="oxygen-webhelp/template/resources/css/microchip.css?buildId=2024091616"/><link rel="stylesheet" type="text/css" href="oxygen-webhelp/template/resources/css/notes.css?buildId=2024091616"/><link rel="stylesheet" type="text/css" href="oxygen-webhelp/template/resources/css/mchp-css-overrides.css?buildId=2024091616"/><link rel="stylesheet" type="text/css" href="oxygen-webhelp/template/resources/css/syntax-highlight.css?buildId=2024091616"/><meta name="documentType" content="Datasheet"/><meta name="documentTitle" content="AVR Microcontroller with Core Independent Peripherals and PicoPower technology"/><meta name="businessUnit" content="MCU"/><script>
+            window.adobeDataLayer = window.adobeDataLayer || [];
+            window.adobeDataLayer.push({
+                page: {
+                    documentType: "Datasheet",
+                    documentTitle: "AVR Microcontroller with Core Independent Peripherals and PicoPower technology",
+                    businessUnit: "MCU"  
+                }
+            });
+        </script>
+
+<!-- OneTrust Cookies Consent Notice start for onlinedocs.microchip.com -->
+<script type="text/javascript" src="https://cdn.cookielaw.org/consent/0194dac3-b686-73e5-b876-eb9241be4496/OtAutoBlock.js"></script>
+<script src="https://cdn.cookielaw.org/consent/0194dac3-b686-73e5-b876-eb9241be4496/otSDKStub.js" type="text/javascript" charset="UTF-8" data-domain-script="0194dac3-b686-73e5-b876-eb9241be4496"></script>
+<script type="text/javascript">
+function OptanonWrapper() { }
+</script>
+<!-- OneTrust Cookies Consent Notice end for onlinedocs.microchip.com -->
+ 
+<script src="mchp-context-help.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,300" rel="stylesheet" type="text/css"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML" async="" type="text/javascript"></script>
+<script src="https://assets.adobedtm.com/6a72a357eb48/a636c708c7fe/launch-0b0023397020.min.js"></script><!-- Adobe Analytics -->
+</head>
+
+    <body id="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14" class="wh_topic_page frmBody">
+        <a href="#wh_topic_body" class="sr-only sr-only-focusable">
+            Jump to main content
+        </a>
+        
+        
+        
+        
+        <header class="navbar navbar-default wh_header">
+    <div class="container-fluid">
+        <div class="wh_header_flex_container navbar-nav navbar-expand-md navbar-dark">
+            <div class="wh_logo_and_publication_title_container">
+                <div class="wh_logo_and_publication_title">
+                    
+                    <a href="index.html" class=" wh_logo d-none d-sm-block "><img src="oxygen-webhelp\template\resources/images/microchip.png" alt="AVR Microcontroller with Core Independent Peripherals and PicoPower technology ATmega324PB"/></a>
+                    <div class=" wh_publication_title "><a href="index.html">AVR Microcontroller with Core Independent Peripherals and PicoPower technology ATmega324PB</a></div>
+                    
+                </div>
+                
+                
+            </div>
+
+            <div class="wh_top_menu_and_indexterms_link collapse navbar-collapse" id="wh_top_menu_and_indexterms_link">
+                
+                
+                
+                
+            </div>
+        </div>
+    </div>
+</header>
+        
+        
+         
+        
+        <div class=" wh_search_input navbar-form wh_topic_page_search search " role="form">
+            
+            
+            
+            <form id="searchForm" method="get" role="search" action="search.html"><div class="d-flex justify-contents-around"><div class="flex-grow-1"></div><div class="position-relative flex-grow-1"><input type="search" placeholder="Search " class="wh_search_textfield" id="textToSearch" name="searchQuery" aria-label="Search query" required="required"/><button type="submit" class="wh_search_button" aria-label="Search"><span class="search_input_text">Search</span></button></div><div class="align-self-center flex-grow-1 ml-2"><div class="d-flex justify-content-end"><div class="dropdown"><a style="font-size: 1em; padding: 7px 12px !important;" class="btn py-3 px-3 btn-outline-light dropdown-toggle" href="#" role="button" id="devicesMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Product Pages</a><div style="font-size: 1em;" class="dropdown-menu" aria-labelledby="devicesMenu"><a class="dropdown-item" target="_blank" href="https://www.microchip.com/en-us/product/atmega324pb">ATmega324PB</a></div></div></div></div></div></form>
+            
+            <div class="mchp-color-stripe-grid-container">
+  <div class="mchp-main-bar mchp-orange-bar"></div>
+  <div class="mchp-main-bar mchp-blue-bar"></div>
+  <div class="mchp-main-bar mchp-green-bar"></div>
+</div>
+            
+        </div>
+        
+        <div class="container-fluid" id="wh_topic_container">
+            <div class="row">
+
+                <nav class="wh_tools d-print-none navbar-expand-md" aria-label="Tools">
+                    
+                    <div data-tooltip-position="bottom" class=" wh_breadcrumb "><ol class="d-print-none"><li><span class="home"><a href="index.html"><span>Home</span></a></span></li><li><div class="topicref" data-id="GUID-211B471D-4D71-46E8-A16F-50C078839F8E"><div class="title"><a href="GUID-211B471D-4D71-46E8-A16F-50C078839F8E.html"><ph xmlns="http://www.oxygenxml.com/ns/webhelp/toc">14</ph>
+INT- Interrupts</a></div></div></li><li class="active"><div class="topicref" data-id="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14"><div class="title"><a href="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14.html"><ph xmlns="http://www.oxygenxml.com/ns/webhelp/toc">14.1</ph>
+Interrupt Vectors in ATmega324PB</a></div></div></li></ol></div>
+                    
+                    
+                    
+                    <div class="wh_right_tools">
+                        <div class=" wh_navigation_links "><span id="topic_navigation_links" class="navheader">
+  
+<span class="navprev"><a class="- topic/link link" href="GUID-211B471D-4D71-46E8-A16F-50C078839F8E.html" title="INT- Interrupts" aria-label="Previous topic: INT- Interrupts" rel="prev">
+                    Previous
+            </a></span><span class="divider">|</span>  
+<span class="navnext"><a class="- topic/link link" href="GUID-F002CCCE-AD6E-49EE-97F8-A174FE7FF008.html" title="Register Description" aria-label="Next topic: Register Description" rel="next">
+                    Next
+            </a></span>  </span></div>
+                        <button class="wh_hide_highlight" aria-label="Toggle search highlights" title="Toggle search highlights"></button>
+                        <button class="webhelp_expand_collapse_sections" data-next-state="collapsed" aria-label="Collapse sections" title="Collapse sections"></button>
+                        
+                        
+                        
+                        
+                        
+                        <button type="button" id="wh_toc_button" class="custom-toggler navbar-toggler collapsed wh_toggle_button navbar-light" aria-expanded="false" aria-label="Toggle publishing table of content" aria-controls="wh_publication_toc">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                    
+                </nav>
+            </div>
+            
+            <div class="row" style="margin-top: -1em;"><div class="col-lg-9 col-md-9 col-sm-12 offset-lg-3 offset-md-3 text-right border-bottom mb-1"><h2 class="text-dark header_title">ATmega324PB</h2></div></div>
+            
+            
+            <div class="wh_content_area">
+                <div class="row">
+                    
+                        <nav id="wh_publication_toc" class="col-lg-3 col-md-3 col-sm-12 d-md-block d-none d-print-none" aria-label="Table of Contents Container">
+                            <div id="wh_publication_toc_content">
+		                        
+                            	<div class=" wh_publication_toc " data-tooltip-position="right"><span class="expand-button-action-labels"><span id="button-expand-action" role="button" aria-label="Expand"></span><span id="button-collapse-action" role="button" aria-label="Collapse"></span><span id="button-pending-action" role="button" aria-label="Pending"></span></span><ul role="tree" aria-label="Table of Contents"><li role="treeitem"><div data-tocid="GUID-1C7FC5CD-E28F-4D27-95A1-FD8BAD20788A-d14978e11" class="topicref introduction" data-id="GUID-1C7FC5CD-E28F-4D27-95A1-FD8BAD20788A" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="GUID-1C7FC5CD-E28F-4D27-95A1-FD8BAD20788A.html" id="GUID-1C7FC5CD-E28F-4D27-95A1-FD8BAD20788A-d14978e11-link">Introduction</a></div></div></li><li role="treeitem"><div data-tocid="GUID-ADDC9731-8F46-4959-83BC-73E61D67E6F8-d14978e19" class="topicref introduction" data-id="GUID-ADDC9731-8F46-4959-83BC-73E61D67E6F8" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="GUID-ADDC9731-8F46-4959-83BC-73E61D67E6F8.html" id="GUID-ADDC9731-8F46-4959-83BC-73E61D67E6F8-d14978e19-link">Feature</a></div></div></li><li role="treeitem"><div data-tocid="GUID-A0156EE4-6B35-40D5-86D3-65EC18A258DF-d14978e27" class="topicref" data-id="GUID-A0156EE4-6B35-40D5-86D3-65EC18A258DF" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="GUID-A0156EE4-6B35-40D5-86D3-65EC18A258DF.html" id="GUID-A0156EE4-6B35-40D5-86D3-65EC18A258DF-d14978e27-link"><ph xmlns="http://www.oxygenxml.com/ns/webhelp/toc">1</ph>
+Description</a></div></div></li><li role="treeitem"><div data-tocid="GUID-4834F016-D587-4164-A02B-DD7538039B3C-d14978e35" class="topicref" data-id="GUID-4834F016-D587-4164-A02B-DD7538039B3C" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="GUID-4834F016-D587-4164-A02B-DD7538039B3C.html" id="GUID-4834F016-D587-4164-A02B-DD7538039B3C-d14978e35-link"><ph xmlns="http://www.oxygenxml.com/ns/webhelp/toc">2</ph>
+Configuration Summary</a></div></div></li><li role="treeitem"><div data-tocid="GUID-D4F3DE8A-FCD0-4F38-89CD-149809243CB3-d14978e43" class="topicref" data-id="GUID-D4F3DE8A-FCD0-4F38-89CD-149809243CB3" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="GUID-D4F3DE8A-FCD0-4F38-89CD-149809243CB3.html" id="GUID-D4F3DE8A-FCD0-4F38-89CD-149809243CB3-d14978e43-link"><ph xmlns="http://www.oxygenxml.com/ns/webhelp/toc">3</ph>
+Ordering Information </a></div></div></li><li role="treeitem"><div data-tocid="GUID-66A12834-3928-4EE2-AD50-289333B15C08-d14978e51" class="topicref" data-id="GUID-66A12834-3928-4EE2-AD50-289333B15C08" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="GUID-66A12834-3928-4EE2-AD50-289333B15C08.html" id="GUID-66A12834-3928-4EE2-AD50-289333B15C08-d14978e51-link"><ph xmlns="http://www.oxygenxml.com/ns/webhelp/toc">4</ph>
+Block Diagram</a></div></div></li><li role="treeitem" aria-expanded="false"><div data-tocid="GUID-C9D3537C-A2B4-4A63-B3CD-E66EC63A44CB-d14978e59" class="topicref" data-id="GUID-C9D3537C-A2B4-4A63-B3CD-E66EC63A44CB" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action GUID-C9D3537C-A2B4-4A63-B3CD-E66EC63A44CB-d14978e59-link" class="wh-expand-btn"></span><div class="title"><a href="GUID-C9D3537C-A2B4-4A63-B3CD-E66EC63A44CB.html" id="GUID-C9D3537C-A2B4-4A63-B3CD-E66EC63A44CB-d14978e59-link"><ph xmlns="http://www.oxygenxml.com/ns/webhelp/toc">5</ph>
+Pin Configurations</a></div></div></li><li role="treeitem"><div data-tocid="GUID-70A456F9-B9A1-4501-8FFD-4305652ABF3F-d14978e148" class="topicref" data-id="GUID-70A456F9-B9A1-4501-8FFD-4305652ABF3F" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="GUID-70A456F9-B9A1-4501-8FFD-4305652ABF3F.html" id="GUID-70A456F9-B9A1-4501-8FFD-4305652ABF3F-d14978e148-link"><ph xmlns="http://www.oxygenxml.com/ns/webhelp/toc">6</ph>
+I/O Multiplexing</a></div></div></li><li role="treeitem" aria-expanded="false"><div data-tocid="GUID-104AA030-09C4-4D3D-AA8C-E5FF749BBCA3-d14978e157" class="topicref" data-id="GUID-104AA030-09C4-4D3D-AA8C-E5FF749BBCA3" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action GUID-104AA030-09C4-4D3D-AA8C-E5FF749BBCA3-d14978e157-link" class="wh-expand-btn"></span><div class="title"><a href="GUID-104AA030-09C4-4D3D-AA8C-E5FF749BBCA3.html" id="GUID-104AA030-09C4-4D3D-AA8C-E5FF749BBCA3-d14978e157-link"><ph xmlns="http://www.oxygenxml.com/ns/webhelp/toc">7</ph>
+General Information</a></div></div></li><li role="treeitem" aria-expanded="false"><div data-tocid="GUID-01FCBBAB-C6D8-4B37-A204-D934D4F253B9-d14978e182" class="topicref" data-id="GUID-01FCBBAB-C6D8-4B37-A204-D934D4F253B9" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action GUID-01FCBBAB-C6D8-4B37-A204-D934D4F253B9-d14978e182-link" class="wh-expand-btn"></span><div class="title"><a href="GUID-01FCBBAB-C6D8-4B37-A204-D934D4F253B9.html" id="GUID-01FCBBAB-C6D8-4B37-A204-D934D4F253B9-d14978e182-link"><ph xmlns="http://www.oxygenxml.com/ns/webhelp/toc">8</ph>
+AVR CPU Core</a></div></div></li><li role="treeitem" aria-expanded="false"><div data-tocid="GUID-53CC24E0-9CCE-4741-B615-806CC894722A-d14978e293" class="topicref" data-id="GUID-53CC24E0-9CCE-4741-B615-806CC894722A" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action GUID-53CC24E0-9CCE-4741-B615-806CC894722A-d14978e293-link" class="wh-expand-btn"></span><div class="title"><a href="GUID-53CC24E0-9CCE-4741-B615-806CC894722A.html" id="GUID-53CC24E0-9CCE-4741-B615-806CC894722A-d14978e293-link"><ph xmlns="http://www.oxygenxml.com/ns/webhelp/toc">9</ph>
+AVR Memories</a></div></div></li><li role="treeitem" aria-expanded="false"><div data-tocid="GUID-C394C43E-237C-4424-A5D1-3EA42E64955A-d14978e456" class="topicref" data-id="GUID-C394C43E-237C-4424-A5D1-3EA42E64955A" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action GUID-C394C43E-237C-4424-A5D1-3EA42E64955A-d14978e456-link" class="wh-expand-btn"></span><div class="title"><a href="GUID-C394C43E-237C-4424-A5D1-3EA42E64955A.html" id="GUID-C394C43E-237C-4424-A5D1-3EA42E64955A-d14978e456-link"><ph xmlns="http://www.oxygenxml.com/ns/webhelp/toc">10</ph>
+System Clock and Clock Options</a></div></div></li><li role="treeitem" aria-expanded="false"><div data-tocid="GUID-4BAD6EFF-49CA-4F8C-82D6-7080330AA04F-d14978e662" class="topicref" data-id="GUID-4BAD6EFF-49CA-4F8C-82D6-7080330AA04F" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action GUID-4BAD6EFF-49CA-4F8C-82D6-7080330AA04F-d14978e662-link" class="wh-expand-btn"></span><div class="title"><a href="GUID-4BAD6EFF-49CA-4F8C-82D6-7080330AA04F.html" id="GUID-4BAD6EFF-49CA-4F8C-82D6-7080330AA04F-d14978e662-link"><ph xmlns="http://www.oxygenxml.com/ns/webhelp/toc">11</ph>
+CFD - Clock Failure Detection mechanism</a></div></div></li><li role="treeitem" aria-expanded="false"><div data-tocid="GUID-B9279CDD-5742-4610-8FE1-BCF5C953081A-d14978e732" class="topicref" data-id="GUID-B9279CDD-5742-4610-8FE1-BCF5C953081A" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action GUID-B9279CDD-5742-4610-8FE1-BCF5C953081A-d14978e732-link" class="wh-expand-btn"></span><div class="title"><a href="GUID-B9279CDD-5742-4610-8FE1-BCF5C953081A.html" id="GUID-B9279CDD-5742-4610-8FE1-BCF5C953081A-d14978e732-link"><ph xmlns="http://www.oxygenxml.com/ns/webhelp/toc">12</ph>
+PM - Power Management and Sleep Modes</a></div></div></li><li role="treeitem" aria-expanded="false"><div data-tocid="GUID-37AB5386-7DF4-4FB1-80B1-1B716460C8DB-d14978e950" class="topicref" data-id="GUID-37AB5386-7DF4-4FB1-80B1-1B716460C8DB" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action GUID-37AB5386-7DF4-4FB1-80B1-1B716460C8DB-d14978e950-link" class="wh-expand-btn"></span><div class="title"><a href="GUID-37AB5386-7DF4-4FB1-80B1-1B716460C8DB.html" id="GUID-37AB5386-7DF4-4FB1-80B1-1B716460C8DB-d14978e950-link"><ph xmlns="http://www.oxygenxml.com/ns/webhelp/toc">13</ph>
+SCRST - System Control and Reset</a></div></div></li><li role="treeitem" aria-expanded="true"><div data-tocid="GUID-211B471D-4D71-46E8-A16F-50C078839F8E-d14978e1077" class="topicref" data-id="GUID-211B471D-4D71-46E8-A16F-50C078839F8E" data-state="expanded"><span role="button" tabindex="0" aria-labelledby="button-collapse-action GUID-211B471D-4D71-46E8-A16F-50C078839F8E-d14978e1077-link" class="wh-expand-btn"></span><div class="title"><a href="GUID-211B471D-4D71-46E8-A16F-50C078839F8E.html" id="GUID-211B471D-4D71-46E8-A16F-50C078839F8E-d14978e1077-link"><ph xmlns="http://www.oxygenxml.com/ns/webhelp/toc">14</ph>
+INT- Interrupts</a></div></div><ul role="group" class="navbar-nav nav-list"><li role="treeitem" class="active"><div data-tocid="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14-d14978e1085" class="topicref" data-id="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14.html" id="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14-d14978e1085-link"><ph xmlns="http://www.oxygenxml.com/ns/webhelp/toc">14.1</ph>
+Interrupt Vectors in ATmega324PB</a></div></div></li><li role="treeitem" aria-expanded="false"><div data-tocid="GUID-F002CCCE-AD6E-49EE-97F8-A174FE7FF008-d14978e1093" class="topicref" data-id="GUID-F002CCCE-AD6E-49EE-97F8-A174FE7FF008" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action GUID-F002CCCE-AD6E-49EE-97F8-A174FE7FF008-d14978e1093-link" class="wh-expand-btn"></span><div class="title"><a href="GUID-F002CCCE-AD6E-49EE-97F8-A174FE7FF008.html" id="GUID-F002CCCE-AD6E-49EE-97F8-A174FE7FF008-d14978e1093-link"><ph xmlns="http://www.oxygenxml.com/ns/webhelp/toc">14.2</ph>
+Register Description</a><div class="wh-tooltip"><p class="shortdesc"></p></div></div></div></li></ul></li><li role="treeitem" aria-expanded="false"><div data-tocid="GUID-421354CE-5C89-4DCA-8030-45622380C841-d14978e1123" class="topicref" data-id="GUID-421354CE-5C89-4DCA-8030-45622380C841" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action GUID-421354CE-5C89-4DCA-8030-45622380C841-d14978e1123-link" class="wh-expand-btn"></span><div class="title"><a href="GUID-421354CE-5C89-4DCA-8030-45622380C841.html" id="GUID-421354CE-5C89-4DCA-8030-45622380C841-d14978e1123-link"><ph xmlns="http://www.oxygenxml.com/ns/webhelp/toc">15</ph>
+External Interrupts</a></div></div></li><li role="treeitem" aria-expanded="false"><div data-tocid="GUID-17CFE490-9407-4B66-86B0-F62B6E0B469D-d14978e1268" class="topicref" data-id="GUID-17CFE490-9407-4B66-86B0-F62B6E0B469D" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action GUID-17CFE490-9407-4B66-86B0-F62B6E0B469D-d14978e1268-link" class="wh-expand-btn"></span><div class="title"><a href="GUID-17CFE490-9407-4B66-86B0-F62B6E0B469D.html" id="GUID-17CFE490-9407-4B66-86B0-F62B6E0B469D-d14978e1268-link"><ph xmlns="http://www.oxygenxml.com/ns/webhelp/toc">16</ph>
+I/O-Ports</a></div></div></li><li role="treeitem" aria-expanded="false"><div data-tocid="GUID-60FE9500-1477-4661-801A-FFA30F14AF51-d14978e1576" class="topicref" data-id="GUID-60FE9500-1477-4661-801A-FFA30F14AF51" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action GUID-60FE9500-1477-4661-801A-FFA30F14AF51-d14978e1576-link" class="wh-expand-btn"></span><div class="title"><a href="GUID-60FE9500-1477-4661-801A-FFA30F14AF51.html" id="GUID-60FE9500-1477-4661-801A-FFA30F14AF51-d14978e1576-link"><ph xmlns="http://www.oxygenxml.com/ns/webhelp/toc">17</ph>
+TC<span class="ph">0</span> - 8-bit Timer/Counter<span class="ph">0</span> with PWM</a></div></div></li><li role="treeitem" aria-expanded="false"><div data-tocid="GUID-8734BE98-9BE4-403E-BDEF-9EFEDAB3E227-d14978e1833" class="topicref" data-id="GUID-8734BE98-9BE4-403E-BDEF-9EFEDAB3E227" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action GUID-8734BE98-9BE4-403E-BDEF-9EFEDAB3E227-d14978e1833-link" class="wh-expand-btn"></span><div class="title"><a href="GUID-8734BE98-9BE4-403E-BDEF-9EFEDAB3E227.html" id="GUID-8734BE98-9BE4-403E-BDEF-9EFEDAB3E227-d14978e1833-link"><ph xmlns="http://www.oxygenxml.com/ns/webhelp/toc">18</ph>
+TC<span class="ph">1, 3, 4</span> - 16-bit Timer/Counter<span class="ph">1, 3, 4</span> with PWM</a></div></div></li><li role="treeitem" aria-expanded="false"><div data-tocid="GUID-6B806E1B-5236-4DA1-8964-4068137E5541-d14978e2335" class="topicref" data-id="GUID-6B806E1B-5236-4DA1-8964-4068137E5541" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action GUID-6B806E1B-5236-4DA1-8964-4068137E5541-d14978e2335-link" class="wh-expand-btn"></span><div class="title"><a href="GUID-6B806E1B-5236-4DA1-8964-4068137E5541.html" id="GUID-6B806E1B-5236-4DA1-8964-4068137E5541-d14978e2335-link"><ph xmlns="http://www.oxygenxml.com/ns/webhelp/toc">19</ph>
+Timer/Counter 0, 1<span class="ph">, 3</span><span class="ph">, 4</span> Prescalers</a></div></div></li><li role="treeitem" aria-expanded="false"><div data-tocid="GUID-62F4F8E9-00D2-4D03-9772-1E3CDDF1C639-d14978e2394" class="topicref" data-id="GUID-62F4F8E9-00D2-4D03-9772-1E3CDDF1C639" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action GUID-62F4F8E9-00D2-4D03-9772-1E3CDDF1C639-d14978e2394-link" class="wh-expand-btn"></span><div class="title"><a href="GUID-62F4F8E9-00D2-4D03-9772-1E3CDDF1C639.html" id="GUID-62F4F8E9-00D2-4D03-9772-1E3CDDF1C639-d14978e2394-link"><ph xmlns="http://www.oxygenxml.com/ns/webhelp/toc">20</ph>
+TC<span class="ph">2</span> - 8-bit Timer/Counter<span class="ph">2</span> with PWM and Asynchronous Operation</a></div></div></li><li role="treeitem" aria-expanded="false"><div data-tocid="GUID-F2F70766-7DAC-40D4-AC61-ACBD435BC440-d14978e2679" class="topicref" data-id="GUID-F2F70766-7DAC-40D4-AC61-ACBD435BC440" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action GUID-F2F70766-7DAC-40D4-AC61-ACBD435BC440-d14978e2679-link" class="wh-expand-btn"></span><div class="title"><a href="GUID-F2F70766-7DAC-40D4-AC61-ACBD435BC440.html" id="GUID-F2F70766-7DAC-40D4-AC61-ACBD435BC440-d14978e2679-link"><ph xmlns="http://www.oxygenxml.com/ns/webhelp/toc">21</ph>
+OCM - Output Compare Modulator</a></div></div></li><li role="treeitem" aria-expanded="false"><div data-tocid="GUID-1E93177B-9165-4B6F-9810-E388F78FAAA2-d14978e2714" class="topicref" data-id="GUID-1E93177B-9165-4B6F-9810-E388F78FAAA2" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action GUID-1E93177B-9165-4B6F-9810-E388F78FAAA2-d14978e2714-link" class="wh-expand-btn"></span><div class="title"><a href="GUID-1E93177B-9165-4B6F-9810-E388F78FAAA2.html" id="GUID-1E93177B-9165-4B6F-9810-E388F78FAAA2-d14978e2714-link"><ph xmlns="http://www.oxygenxml.com/ns/webhelp/toc">22</ph>
+SPI – Serial Peripheral Interface</a></div></div></li><li role="treeitem" aria-expanded="false"><div data-tocid="GUID-ED4E1C2B-55CD-4CF0-972B-56190F77908B-d14978e2849" class="topicref" data-id="GUID-ED4E1C2B-55CD-4CF0-972B-56190F77908B" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action GUID-ED4E1C2B-55CD-4CF0-972B-56190F77908B-d14978e2849-link" class="wh-expand-btn"></span><div class="title"><a href="GUID-ED4E1C2B-55CD-4CF0-972B-56190F77908B.html" id="GUID-ED4E1C2B-55CD-4CF0-972B-56190F77908B-d14978e2849-link"><ph xmlns="http://www.oxygenxml.com/ns/webhelp/toc">23</ph>
+USART - Universal Synchronous Asynchronous Receiver Transceiver</a></div></div></li><li role="treeitem" aria-expanded="false"><div data-tocid="GUID-8E752DB2-4532-45FE-9F42-D91954E50673-d14978e3201" class="topicref" data-id="GUID-8E752DB2-4532-45FE-9F42-D91954E50673" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action GUID-8E752DB2-4532-45FE-9F42-D91954E50673-d14978e3201-link" class="wh-expand-btn"></span><div class="title"><a href="GUID-8E752DB2-4532-45FE-9F42-D91954E50673.html" id="GUID-8E752DB2-4532-45FE-9F42-D91954E50673-d14978e3201-link"><ph xmlns="http://www.oxygenxml.com/ns/webhelp/toc">24</ph>
+USARTSPI - USART in SPI Mode</a></div></div></li><li role="treeitem" aria-expanded="false"><div data-tocid="GUID-1C91CF6E-09AC-4840-9F49-DF54068A6DA9-d14978e3299" class="topicref" data-id="GUID-1C91CF6E-09AC-4840-9F49-DF54068A6DA9" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action GUID-1C91CF6E-09AC-4840-9F49-DF54068A6DA9-d14978e3299-link" class="wh-expand-btn"></span><div class="title"><a href="GUID-1C91CF6E-09AC-4840-9F49-DF54068A6DA9.html" id="GUID-1C91CF6E-09AC-4840-9F49-DF54068A6DA9-d14978e3299-link"><ph xmlns="http://www.oxygenxml.com/ns/webhelp/toc">25</ph>
+TWI - 2-wire Serial Interface</a></div></div></li><li role="treeitem" aria-expanded="false"><div data-tocid="GUID-2C6D5553-9283-4192-B127-5E20BB847330-d14978e3592" class="topicref" data-id="GUID-2C6D5553-9283-4192-B127-5E20BB847330" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action GUID-2C6D5553-9283-4192-B127-5E20BB847330-d14978e3592-link" class="wh-expand-btn"></span><div class="title"><a href="GUID-2C6D5553-9283-4192-B127-5E20BB847330.html" id="GUID-2C6D5553-9283-4192-B127-5E20BB847330-d14978e3592-link"><ph xmlns="http://www.oxygenxml.com/ns/webhelp/toc">26</ph>
+AC - Analog Comparator</a></div></div></li><li role="treeitem" aria-expanded="false"><div data-tocid="GUID-271A36E7-1647-447F-BF06-7B1313D78F3F-d14978e3660" class="topicref" data-id="GUID-271A36E7-1647-447F-BF06-7B1313D78F3F" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action GUID-271A36E7-1647-447F-BF06-7B1313D78F3F-d14978e3660-link" class="wh-expand-btn"></span><div class="title"><a href="GUID-271A36E7-1647-447F-BF06-7B1313D78F3F.html" id="GUID-271A36E7-1647-447F-BF06-7B1313D78F3F-d14978e3660-link"><ph xmlns="http://www.oxygenxml.com/ns/webhelp/toc">27</ph>
+ADC - Analog to Digital Converter</a></div></div></li><li role="treeitem" aria-expanded="false"><div data-tocid="GUID-BD72F6A2-C0EE-4515-A788-C7FADCACE653-d14978e3857" class="topicref" data-id="GUID-BD72F6A2-C0EE-4515-A788-C7FADCACE653" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action GUID-BD72F6A2-C0EE-4515-A788-C7FADCACE653-d14978e3857-link" class="wh-expand-btn"></span><div class="title"><a href="GUID-BD72F6A2-C0EE-4515-A788-C7FADCACE653.html" id="GUID-BD72F6A2-C0EE-4515-A788-C7FADCACE653-d14978e3857-link"><ph xmlns="http://www.oxygenxml.com/ns/webhelp/toc">28</ph>
+PTC - Peripheral Touch Controller</a></div></div></li><li role="treeitem" aria-expanded="false"><div data-tocid="GUID-C1A90EAB-EDEA-4B3B-8625-02C335DE849B-d14978e3938" class="topicref" data-id="GUID-C1A90EAB-EDEA-4B3B-8625-02C335DE849B" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action GUID-C1A90EAB-EDEA-4B3B-8625-02C335DE849B-d14978e3938-link" class="wh-expand-btn"></span><div class="title"><a href="GUID-C1A90EAB-EDEA-4B3B-8625-02C335DE849B.html" id="GUID-C1A90EAB-EDEA-4B3B-8625-02C335DE849B-d14978e3938-link"><ph xmlns="http://www.oxygenxml.com/ns/webhelp/toc">29</ph>
+JTAG Interface and On-chip Debug System</a></div></div></li><li role="treeitem" aria-expanded="false"><div data-tocid="GUID-D3BA61EB-B7D8-4ABA-9CC3-A5AC25A7E317-d14978e4239" class="topicref" data-id="GUID-D3BA61EB-B7D8-4ABA-9CC3-A5AC25A7E317" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action GUID-D3BA61EB-B7D8-4ABA-9CC3-A5AC25A7E317-d14978e4239-link" class="wh-expand-btn"></span><div class="title"><a href="GUID-D3BA61EB-B7D8-4ABA-9CC3-A5AC25A7E317.html" id="GUID-D3BA61EB-B7D8-4ABA-9CC3-A5AC25A7E317-d14978e4239-link"><ph xmlns="http://www.oxygenxml.com/ns/webhelp/toc">30</ph>
+BTLDR - Boot Loader Support – Read-While-Write Self-Programming</a></div></div></li><li role="treeitem" aria-expanded="false"><div data-tocid="GUID-6D36843A-3818-46A6-ADC8-FE65E5EEB6F2-d14978e4477" class="topicref" data-id="GUID-6D36843A-3818-46A6-ADC8-FE65E5EEB6F2" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action GUID-6D36843A-3818-46A6-ADC8-FE65E5EEB6F2-d14978e4477-link" class="wh-expand-btn"></span><div class="title"><a href="GUID-6D36843A-3818-46A6-ADC8-FE65E5EEB6F2.html" id="GUID-6D36843A-3818-46A6-ADC8-FE65E5EEB6F2-d14978e4477-link"><ph xmlns="http://www.oxygenxml.com/ns/webhelp/toc">31</ph>
+MEMPROG- Memory Programming</a></div></div></li><li role="treeitem" aria-expanded="false"><div data-tocid="GUID-86F9655C-216B-4C1D-9C73-BE81FCACBEE9-d14978e4993" class="topicref" data-id="GUID-86F9655C-216B-4C1D-9C73-BE81FCACBEE9" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action GUID-86F9655C-216B-4C1D-9C73-BE81FCACBEE9-d14978e4993-link" class="wh-expand-btn"></span><div class="title"><a href="GUID-86F9655C-216B-4C1D-9C73-BE81FCACBEE9.html" id="GUID-86F9655C-216B-4C1D-9C73-BE81FCACBEE9-d14978e4993-link"><ph xmlns="http://www.oxygenxml.com/ns/webhelp/toc">32</ph>
+Electrical Characteristics</a></div></div></li><li role="treeitem" aria-expanded="false"><div data-tocid="GUID-55B6F635-BCEB-42C8-BFDD-9051A50A1B3E-d14978e5114" class="topicref" data-id="GUID-55B6F635-BCEB-42C8-BFDD-9051A50A1B3E" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action GUID-55B6F635-BCEB-42C8-BFDD-9051A50A1B3E-d14978e5114-link" class="wh-expand-btn"></span><div class="title"><a href="GUID-55B6F635-BCEB-42C8-BFDD-9051A50A1B3E.html" id="GUID-55B6F635-BCEB-42C8-BFDD-9051A50A1B3E-d14978e5114-link"><ph xmlns="http://www.oxygenxml.com/ns/webhelp/toc">33</ph>
+ Typical Characteristics</a></div></div></li><li role="treeitem"><div data-tocid="GUID-6683EB1A-DA91-4C67-A041-2C6BE048D138-d14978e5222" class="topicref registersummary" data-id="GUID-6683EB1A-DA91-4C67-A041-2C6BE048D138" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="GUID-6683EB1A-DA91-4C67-A041-2C6BE048D138.html" id="GUID-6683EB1A-DA91-4C67-A041-2C6BE048D138-d14978e5222-link"><ph xmlns="http://www.oxygenxml.com/ns/webhelp/toc">34</ph>
+Register Summary</a></div></div></li><li role="treeitem"><div data-tocid="GUID-D673337B-0269-4C6C-9B06-0B654B905D18-d14978e5231" class="topicref" data-id="GUID-D673337B-0269-4C6C-9B06-0B654B905D18" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="GUID-D673337B-0269-4C6C-9B06-0B654B905D18.html" id="GUID-D673337B-0269-4C6C-9B06-0B654B905D18-d14978e5231-link"><ph xmlns="http://www.oxygenxml.com/ns/webhelp/toc">35</ph>
+Instruction Set Summary</a></div></div></li><li role="treeitem" aria-expanded="false"><div data-tocid="GUID-63A1FD40-1829-4D3A-9994-C1792EB5B2AD-d14978e5240" class="topicref" data-id="GUID-63A1FD40-1829-4D3A-9994-C1792EB5B2AD" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action GUID-63A1FD40-1829-4D3A-9994-C1792EB5B2AD-d14978e5240-link" class="wh-expand-btn"></span><div class="title"><a href="GUID-63A1FD40-1829-4D3A-9994-C1792EB5B2AD.html" id="GUID-63A1FD40-1829-4D3A-9994-C1792EB5B2AD-d14978e5240-link"><ph xmlns="http://www.oxygenxml.com/ns/webhelp/toc">36</ph>
+Packaging Information</a></div></div></li><li role="treeitem" aria-expanded="false"><div data-tocid="GUID-49988EAD-DD9A-4AD7-8C79-8BC2014A7C2B-d14978e5266" class="topicref" data-id="GUID-49988EAD-DD9A-4AD7-8C79-8BC2014A7C2B" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action GUID-49988EAD-DD9A-4AD7-8C79-8BC2014A7C2B-d14978e5266-link" class="wh-expand-btn"></span><div class="title"><a href="GUID-49988EAD-DD9A-4AD7-8C79-8BC2014A7C2B.html" id="GUID-49988EAD-DD9A-4AD7-8C79-8BC2014A7C2B-d14978e5266-link"><ph xmlns="http://www.oxygenxml.com/ns/webhelp/toc">37</ph>
+Errata</a></div></div></li><li role="treeitem"><div data-tocid="GUID-E719CD3E-39D2-4C6E-8455-142BF4BAEE15-d14978e5299" class="topicref" data-id="GUID-E719CD3E-39D2-4C6E-8455-142BF4BAEE15" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="GUID-E719CD3E-39D2-4C6E-8455-142BF4BAEE15.html" id="GUID-E719CD3E-39D2-4C6E-8455-142BF4BAEE15-d14978e5299-link"><ph xmlns="http://www.oxygenxml.com/ns/webhelp/toc">38</ph>
+Datasheet Revision History</a></div></div></li><li role="treeitem"><div data-tocid="GUID-7551DC67-D79D-4F0C-B56F-7B17E12400E0-d14978e5308" class="topicref backmatter" data-id="GUID-7551DC67-D79D-4F0C-B56F-7B17E12400E0" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="GUID-7551DC67-D79D-4F0C-B56F-7B17E12400E0.html" id="GUID-7551DC67-D79D-4F0C-B56F-7B17E12400E0-d14978e5308-link">The Microchip Web Site</a></div></div></li><li role="treeitem"><div data-tocid="GUID-CDA512D8-0DE4-4672-8716-04CAC681CB38-d14978e5316" class="topicref backmatter" data-id="GUID-CDA512D8-0DE4-4672-8716-04CAC681CB38" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="GUID-CDA512D8-0DE4-4672-8716-04CAC681CB38.html" id="GUID-CDA512D8-0DE4-4672-8716-04CAC681CB38-d14978e5316-link">Customer Change Notification Service</a></div></div></li><li role="treeitem"><div data-tocid="GUID-F05182E4-B102-4775-A746-1FF37F465312-d14978e5324" class="topicref backmatter" data-id="GUID-F05182E4-B102-4775-A746-1FF37F465312" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="GUID-F05182E4-B102-4775-A746-1FF37F465312.html" id="GUID-F05182E4-B102-4775-A746-1FF37F465312-d14978e5324-link">Customer Support</a></div></div></li><li role="treeitem"><div data-tocid="GUID-E8251634-7B15-4073-A103-5A5F128B8699-d14978e5332" class="topicref backmatter" data-id="GUID-E8251634-7B15-4073-A103-5A5F128B8699" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="GUID-E8251634-7B15-4073-A103-5A5F128B8699.html" id="GUID-E8251634-7B15-4073-A103-5A5F128B8699-d14978e5332-link">Microchip Devices Code Protection Feature</a></div></div></li><li role="treeitem"><div data-tocid="GUID-125F1A93-76CC-4BD7-BACA-01844FBD5F4F-d14978e5340" class="topicref backmatter" data-id="GUID-125F1A93-76CC-4BD7-BACA-01844FBD5F4F" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="GUID-125F1A93-76CC-4BD7-BACA-01844FBD5F4F.html" id="GUID-125F1A93-76CC-4BD7-BACA-01844FBD5F4F-d14978e5340-link">Legal Notice</a></div></div></li><li role="treeitem"><div data-tocid="GUID-21750586-F9F2-4E33-87FB-8F2994BF4744-d14978e5348" class="topicref backmatter" data-id="GUID-21750586-F9F2-4E33-87FB-8F2994BF4744" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="GUID-21750586-F9F2-4E33-87FB-8F2994BF4744.html" id="GUID-21750586-F9F2-4E33-87FB-8F2994BF4744-d14978e5348-link">Trademarks</a></div></div></li><li role="treeitem"><div data-tocid="GUID-07985EED-D525-413B-AEFE-78B563328687-d14978e5356" class="topicref backmatter" data-id="GUID-07985EED-D525-413B-AEFE-78B563328687" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="GUID-07985EED-D525-413B-AEFE-78B563328687.html" id="GUID-07985EED-D525-413B-AEFE-78B563328687-d14978e5356-link">Quality Management System Certified by DNV</a></div></div></li><li role="treeitem"><div data-tocid="GUID-02A694CF-88A5-4ADA-8785-7EEEC62D66EA-d14978e5365" class="topicref salessection" data-id="GUID-02A694CF-88A5-4ADA-8785-7EEEC62D66EA" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="GUID-02A694CF-88A5-4ADA-8785-7EEEC62D66EA.html" id="GUID-02A694CF-88A5-4ADA-8785-7EEEC62D66EA-d14978e5365-link">Worldwide Sales and Service</a></div></div></li></ul></div>
+		                        
+                            </div>
+                        </nav>
+                    
+                    
+                    <div class="col-lg-9 col-md-9 col-sm-12" id="wh_topic_body">
+                        <button id="wh_close_publication_toc_button" class="close-toc-button d-none" aria-label="Toggle publishing table of content" aria-controls="wh_publication_toc" aria-expanded="true">
+                            <span class="close-toc-icon-container">
+                                <span class="close-toc-icon"></span>     
+                            </span>
+                        </button>
+                        
+                        
+                        <div class=" wh_topic_content body "><main role="main"><article role="article" aria-labelledby="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__GUID-C6B5481A-0488-44E1-AA95-21C93E0F1674"><h1 class="- topic/title title topictitle1" id="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__GUID-C6B5481A-0488-44E1-AA95-21C93E0F1674" style="">14.1 Interrupt Vectors in ATmega324PB</h1><div class="- topic/body body"><div class="table-container"><table class="- topic/table table widetable scale-90" id="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R" data-ofbid="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R" data-cols="4"><caption class="- topic/title title tablecap" data-caption-side="top" data-is-repeated="true"><span class="table--title-label"><span class="table--title-label">Table 14-1. </span></span><span class="table--title" id="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__GUID-41A60F09-84DB-428D-9496-F2E7AA76A48F">Reset and Interrupt Vectors in
+                ATmega324PB</span></caption><colgroup><col/><col/><col/><col/></colgroup><thead class="- topic/thead thead"><tr class="- topic/row"><th class="- topic/entry entry colsep-0 rowsep-0" id="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__1">Vector No</th><th class="- topic/entry entry colsep-0 rowsep-0" id="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__2">Program Address<sup class="+ topic/ph hi-d/sup ph sup">(2)</sup></th><th class="- topic/entry entry colsep-0 rowsep-0" id="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__3">Source</th><th class="- topic/entry entry colsep-0 rowsep-0" id="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__4">Interrupts definition</th></tr></thead><tbody class="- topic/tbody tbody"><tr class="- topic/row"><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__1">1</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__2">0x0000<sup class="+ topic/ph hi-d/sup ph sup">(1)</sup></td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__3">RESET</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__4">External Pin, Power-on Reset, Brown-out Reset and Watchdog System
+                            Reset</td></tr><tr class="- topic/row"><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__1">2</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__2">0x0002</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__3">INT0</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__4">External Interrupt Request 0</td></tr><tr class="- topic/row"><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__1">3</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__2">0x0004</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__3">INT1</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__4">External Interrupt Request 1</td></tr><tr class="- topic/row"><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__1">4</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__2">0x0006</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__3">INT2</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__4">External Interrupt Request 2</td></tr><tr class="- topic/row"><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__1">5</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__2">0x0008</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__3">PCINT0</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__4">Pin Change Interrupt Request 0</td></tr><tr class="- topic/row"><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__1">6</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__2">0x000A</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__3">PCINT1</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__4">Pin Change Interrupt Request 1</td></tr><tr class="- topic/row"><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__1">7</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__2">0x000C</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__3">PCINT2</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__4">Pin Change Interrupt Request 2</td></tr><tr class="- topic/row"><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__1">8</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__2">0x000E</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__3">PCINT3</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__4">Pin Change Interrupt Request 3</td></tr><tr class="- topic/row"><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__1">9</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__2">0x0010</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__3">WDT</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__4">Watchdog Time-out Interrupt</td></tr><tr class="- topic/row"><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__1">10</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__2">0x0012</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__3">TIMER2_COMPA</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__4">Timer/Counter2 Compare Match A</td></tr><tr class="- topic/row"><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__1">11</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__2">0x0014</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__3">TIMER2_COMPB</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__4">Timer/Coutner2 Compare Match B</td></tr><tr class="- topic/row"><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__1">12</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__2">0x0016</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__3">TIMER2_OVF</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__4">Timer/Counter2 Overflow</td></tr><tr class="- topic/row"><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__1">13</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__2">0x0018</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__3">TIMER1_CAPT</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__4">Timer/Counter1 Capture Event</td></tr><tr class="- topic/row"><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__1">14</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__2">0x001A</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__3">TIMER1_COMPA</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__4">Timer/Counter1 Compare Match A</td></tr><tr class="- topic/row"><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__1">15</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__2">0x001C</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__3">TIMER1_COMPB</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__4">Timer/Coutner1 Compare Match B</td></tr><tr class="- topic/row"><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__1">16</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__2">0x001E</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__3">TIMER1_OVF</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__4">Timer/Counter1 Overflow</td></tr><tr class="- topic/row"><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__1">17</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__2">0x0020</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__3">TIMER0_COMPA</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__4">Timer/Counter0 Compare Match A</td></tr><tr class="- topic/row"><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__1">18</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__2">0x0022</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__3">TIMER0_COMPB</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__4">Timer/Coutner0 Compare Match B</td></tr><tr class="- topic/row"><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__1">19</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__2">0x0024</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__3">TIMER0_OVF</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__4">Timer/Counter0 Overflow</td></tr><tr class="- topic/row"><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__1">20</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__2">0x0026</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__3">SPI0_STC</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__4">SPI0 Serial Transfer Complete</td></tr><tr class="- topic/row"><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__1">21</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__2">0x0028</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__3">USART0_RX</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__4">USART0 Rx Complete</td></tr><tr class="- topic/row"><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__1">22</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__2">0x002A</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__3">USART0_UDRE</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__4">USART0, Data Register Empty</td></tr><tr class="- topic/row"><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__1">23</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__2">0x002C</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__3">USART0_TX</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__4">USART0, Tx Complete</td></tr><tr class="- topic/row"><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__1">24</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__2">0x002E</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__3">ANALOG_COMP</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__4">Analog Comparator</td></tr><tr class="- topic/row"><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__1">25</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__2">0x0030</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__3">ADC</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__4">ADC Conversion Complete</td></tr><tr class="- topic/row"><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__1">26</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__2">0x0032</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__3">EE_READY</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__4">EEPROM Ready</td></tr><tr class="- topic/row"><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__1">27</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__2">0x0034</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__3">TWI0</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__4">TWI0 Transfer complete</td></tr><tr class="- topic/row"><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__1">28</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__2">0x0036</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__3">SPM_READY</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__4">Store Program Memory Ready</td></tr><tr class="- topic/row"><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__1">29</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__2">0x0038</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__3">USART1_RX</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__4">USART1 Rx Complete</td></tr><tr class="- topic/row"><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__1">30</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__2">0x003A</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__3">USART1_UDRE</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__4">USART1, Data Register Empty</td></tr><tr class="- topic/row"><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__1">31</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__2">0x003C</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__3">USART1_TX</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__4">USART0, Tx Complete</td></tr><tr class="- topic/row"><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__1">32</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__2">0x003E</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__3">TIMER3_CAPT</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__4">Timer/Counter3 Capture Event</td></tr><tr class="- topic/row"><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__1">33</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__2">0x0040</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__3">TIMER3_COMPA</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__4">Timer/Counter3 Compare Match A</td></tr><tr class="- topic/row"><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__1">34</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__2">0x0042</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__3">TIMER3_COMPB</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__4">Timer/Coutner3 Compare Match B</td></tr><tr class="- topic/row"><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__1">35</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__2">0x0044</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__3">TIMER3_OVF</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__4">Timer/Counter3 Overflow</td></tr><tr class="- topic/row"><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__1">36</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__2">0x0046</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__3">USART0_START</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__4">USART0 Start Frame detection</td></tr><tr class="- topic/row"><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__1">37</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__2">0x0048</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__3">USART1_START</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__4">USART1 Start Frame detection</td></tr><tr class="- topic/row"><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__1">38</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__2">0x004A</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__3">PCINT4</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__4">Pin Change Interrupt 4</td></tr><tr class="- topic/row"><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__1">39</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__2">0x004C</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__3">CFD</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__4">Crystal Failure Detection </td></tr><tr class="- topic/row"><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__1">40</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__2">0x004E</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__3">PTC_EOC</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__4">PTC End of Conversion</td></tr><tr class="- topic/row"><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__1">41</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__2">0x0050</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__3">PTC_WCOMP</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__4">PTC Window comparator mode</td></tr><tr class="- topic/row"><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__1">42</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__2">0x0052</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__3">SPI1_STC</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__4">SPI1 Serial Transfer Complete</td></tr><tr class="- topic/row"><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__1">43</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__2">0x0054</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__3">TWI1</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__4">TWI1 Transfer complete</td></tr><tr class="- topic/row"><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__1">44</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__2">0x0056</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__3">TIMER4_CAPT</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__4">Timer/Counter4 Capture Event</td></tr><tr class="- topic/row"><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__1">45</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__2">0x0058</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__3">TIMER4_COMPA</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__4">Timer/Counter4 Compare Match A</td></tr><tr class="- topic/row"><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__1">46</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__2">0x005A</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__3">TIMER4_COMPB</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__4">Timer/Coutner4 Compare Match B</td></tr><tr class="- topic/row"><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__1">47</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__2">0x005C</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__3">TIMER4_OVF</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__4">Timer/Counter4 Overflow</td></tr><tr class="- topic/row"><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__1">48</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__2">0x005E</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__3">USART2_RX</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__4">USART2 Rx Complete</td></tr><tr class="- topic/row"><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__1">49</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__2">0x0060</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__3">USART2_UDRE</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__4">USART2, Data Register Empty</td></tr><tr class="- topic/row"><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__1">50</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__2">0x0062</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__3">USART2_TX</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__4">USART2, Tx Complete</td></tr><tr class="- topic/row"><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__1">51</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__2">0x0064</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__3">USART2_START</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_M5Y_DJW_4R__entry__4">USART2 Start Frame detection</td></tr></tbody></table></div><div class="- topic/note note notype note_notype" id="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__GUID-E9553DF4-660F-40F9-9E7A-65A613024A08" data-ofbid="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__GUID-E9553DF4-660F-40F9-9E7A-65A613024A08"><span class="note__title">Note:</span> 
+            <ol class="- topic/ol ol" id="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__OL_AFX_TRZ_MT" data-ofbid="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__OL_AFX_TRZ_MT"><li class="- topic/li li" id="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__GUID-80709ABF-8CD0-4DC6-8C33-1EC3361E3744" data-ofbid="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__GUID-80709ABF-8CD0-4DC6-8C33-1EC3361E3744">When the BOOTRST Fuse is programmed, the device will jump to the Boot Loader
+                    address at reset, see <em class="+ topic/ph hi-d/i ph i">Memory programming</em>
+                </li><li class="- topic/li li" id="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__GUID-181A3E76-8AAC-4985-9AD8-64652E2F788B" data-ofbid="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__GUID-181A3E76-8AAC-4985-9AD8-64652E2F788B">When the IVSEL bit in MCUCR is set, Interrupt Vectors will be moved to the start
+                    of the Boot Flash Section. The address of each Interrupt Vector will then be the
+                    address in this table added to the start address of the Boot Flash
+                        Section.</li></ol>
+        </div><p class="- topic/p p">The table below shows reset and Interrupt Vectors placement for the various combinations
+            of BOOTRST and IVSEL settings. If the program never enables an interrupt source, the
+            Interrupt Vectors are not used, and regular program code can be placed at these
+            locations. This is also the case if the Reset Vector is in the Application section while
+            the Interrupt Vectors are in the Boot section or vice versa.</p><div class="table-container"><table class="- topic/table table frame-all" id="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_VTT_1SZ_MT" data-ofbid="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_VTT_1SZ_MT" data-cols="4"><caption class="- topic/title title tablecap" data-caption-side="top" data-is-repeated="true"><span class="table--title-label"><span class="table--title-label">Table 14-2. </span></span><span class="table--title" id="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__GUID-19193071-9559-43A6-93BB-6113AB06BF48">Reset and Interrupt Vectors placement</span></caption><colgroup><col/><col/><col/><col/></colgroup><thead class="- topic/thead thead"><tr class="- topic/row"><th class="- topic/entry entry colsep-1 rowsep-1" id="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_VTT_1SZ_MT__entry__1">BOOTRST</th><th class="- topic/entry entry colsep-1 rowsep-1" id="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_VTT_1SZ_MT__entry__2">IVSEL</th><th class="- topic/entry entry colsep-1 rowsep-1" id="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_VTT_1SZ_MT__entry__3">Reset Address</th><th class="- topic/entry entry colsep-0 rowsep-1" id="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_VTT_1SZ_MT__entry__4">Interrupt Vectors Start Address</th></tr></thead><tbody class="- topic/tbody tbody"><tr class="- topic/row"><td class="- topic/entry entry colsep-1 rowsep-1" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_VTT_1SZ_MT__entry__1">1</td><td class="- topic/entry entry colsep-1 rowsep-1" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_VTT_1SZ_MT__entry__2">0</td><td class="- topic/entry entry colsep-1 rowsep-1" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_VTT_1SZ_MT__entry__3">0x0000</td><td class="- topic/entry entry colsep-0 rowsep-1" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_VTT_1SZ_MT__entry__4">0x0002</td></tr><tr class="- topic/row"><td class="- topic/entry entry colsep-1 rowsep-1" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_VTT_1SZ_MT__entry__1">1</td><td class="- topic/entry entry colsep-1 rowsep-1" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_VTT_1SZ_MT__entry__2">1</td><td class="- topic/entry entry colsep-1 rowsep-1" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_VTT_1SZ_MT__entry__3">0x0000</td><td class="- topic/entry entry colsep-0 rowsep-1" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_VTT_1SZ_MT__entry__4">Boot Reset Address + 0x0002</td></tr><tr class="- topic/row"><td class="- topic/entry entry colsep-1 rowsep-1" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_VTT_1SZ_MT__entry__1">0</td><td class="- topic/entry entry colsep-1 rowsep-1" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_VTT_1SZ_MT__entry__2">0</td><td class="- topic/entry entry colsep-1 rowsep-1" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_VTT_1SZ_MT__entry__3">Boot Reset Address</td><td class="- topic/entry entry colsep-0 rowsep-1" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_VTT_1SZ_MT__entry__4">0x0002</td></tr><tr class="- topic/row"><td class="- topic/entry entry colsep-1 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_VTT_1SZ_MT__entry__1">0</td><td class="- topic/entry entry colsep-1 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_VTT_1SZ_MT__entry__2">1</td><td class="- topic/entry entry colsep-1 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_VTT_1SZ_MT__entry__3">Boot Reset Address</td><td class="- topic/entry entry colsep-0 rowsep-0" headers="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__TABLE_VTT_1SZ_MT__entry__4">Boot Reset Address + 0x0002</td></tr></tbody></table></div><div class="- topic/note note notype note_notype" id="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__GUID-A19EDB21-C709-441A-87E9-A8D1DD6F96E0" data-ofbid="GUID-17DC7BA7-6985-4E13-AD56-5F675170DB14__GUID-A19EDB21-C709-441A-87E9-A8D1DD6F96E0"><span class="note__title">Note:</span> The Boot Reset Address is shown in Table <em class="+ topic/ph hi-d/i ph i">Boot size configuration</em> in Boot Loader
+            Parameters. For the BOOTRST Fuse “1” means unprogrammed while “0” means programmed.
+                </div><div class="- topic/p p">When the BOOTRST Fuse is unprogrammed, the Boot section size set to 8K bytes
+            and the IVSEL bit in the MCUCR Register is set before any interrupts are enabled, the
+            most typical and general program setup for the Reset and Interrupt Vector Addresses
+            is:<pre class="+ topic/pre pr-d/codeblock pre codeblock language-avrasm">
+Address    Labels     Code                    Comments
+0x00000    RESET:     ldi r16,high(RAMEND)    ; Main program start
+0x00001               out SPH,r16             ; Set Stack Pointer to top of RAM
+0x00002               ldi r16,low(RAMEND)
+0x00003               out SPL,r16
+0x00004               sei                     ; Enable interrupts
+0x00005               &lt;instr&gt;            xxx
+;
+.org 0x1F002
+0x1F002               jmp EXT_INT0            ; IRQ0 Handler
+0x1F004               jmp EXT_INT1            ; IRQ1 Handler
+...        ...         ...                    ;
+0x1FO36               jmp SPM_RDY             ; SPM Ready Handler</pre></div><div class="- topic/p p">When the BOOTRST Fuse is programmed and the Boot section size set to 8K
+            bytes, the most typical and general program setup for the Reset and Interrupt Vector
+            Addresses
+            is:<pre class="+ topic/pre pr-d/codeblock pre codeblock language-avrasm">
+Address    Labels     Code                     Comments
+.org 0x0002
+0x00002               jmp EXT_INT0            ; IRQ0 Handler
+0x00004               jmp EXT_INT1            ; IRQ1 Handler
+...          ...      ...                     ;
+0x00036               jmp SPM_RDY             ; SPM Ready Handler
+;
+.org       0x1F000
+0x1F000    RESET:     ldi r16,high(RAMEND)    ; Main program start
+0x1F001               out SPH,r16             ; Set Stack Pointer to top of RAM
+0x1F002               ldi r16,low(RAMEND)
+0x1F003               out SPL,r16
+0x1F004               sei                     ; Enable interrupts
+0x1F005               &lt;instr&gt; xxx</pre></div><div class="- topic/p p">When the BOOTRST Fuse is programmed, the Boot section size set to 8K bytes
+            and the IVSEL bit in the MCUCR Register is set before any interrupts are enabled, the
+            most typical and general program setup for the Reset and Interrupt Vector Addresses
+            is:<pre class="+ topic/pre pr-d/codeblock pre codeblock language-avrasm">
+Address    Labels      Code                     Comments
+;
+.org 0x1F000
+0x1F000                jmp RESET               ; Reset handler
+0x1F002                jmp EXT_INT0            ; IRQ0 Handler
+0x1F004                jmp EXT_INT1            ; IRQ1 Handler
+...        ...         ...                     ;
+0x1F036                jmp SPM_RDY             ; SPM Ready Handler
+;
+0x1F03E    RESET:      ldi r16,high(RAMEND)    ; Main program start
+0x1F03F                out SPH,r16             ; Set Stack Pointer to top of RAM
+0x1F040                ldi r16,low(RAMEND)
+0x1F041                out SPL,r16
+0x1F042                sei                     ; Enable interrupts
+0x1FO43                &lt;instr&gt; xxx</pre></div></div></article></main></div>
+                        
+                        
+                        
+                        
+                        
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            
+            
+        </div> 
+        <div class="mchp_disclaimer"><p class="mchp_disclaimer_text">The online versions of the documents are provided as a courtesy. Verify all content and data in the device’s PDF documentation found on the device product page.</p></div><footer class="wh_footer">
+  <div class=" footer-container mx-auto ">
+    <div class="main">
+  <div class="max">
+    <div>
+      <div class="accordion-list">
+        <input type="checkbox" class="accordion-input" id="section-1"/>
+        <span for="section-1" class="accordion-label">
+          <div id="text-5521a8ec2b" class="cmp-text">
+            <p>About</p>
+          </div>
+        </span>
+        <div class="mchp-component-list" style="display: block; max-height: none">
+          <div class="mchp-component-items">
+            <div class="mchp-component-item mchp-component-item--first">
+              <div class="link">
+                <div>
+                  <a href="https://www.microchip.com/en-us/about/corporate-overview" class="mchp-link__link" aria-label="Company">Company</a>
+                  <span class="mchp-link__separator"></span>
+                </div>
+              </div>
+            </div>
+            <div class="mchp-component-item">
+              <div class="link">
+                <div>
+                  <a href="https://www.microchip.com/en-us/about/careers" class="mchp-link__link" aria-label="Careers">Careers</a>
+                  <span class="mchp-link__separator"></span>
+                </div>
+              </div>
+            </div>
+            <div class="mchp-component-item">
+              <div class="link">
+                <div>
+                  <a href="https://www.microchip.com/en-us/about/contact-us" class="mchp-link__link" aria-label="Contact Us">Contact Us</a>
+                  <span class="mchp-link__separator"></span>
+                </div>
+              </div>
+            </div>
+            <div class="mchp-component-item">
+              <div class="link">
+                <div>
+                  <a href="https://www.microchip.com/en-us/about/media-center" class="mchp-link__link" aria-label="Media Center">Media Center</a>
+                  <span class="mchp-link__separator"></span>
+                </div>
+              </div>
+            </div>
+            <div class="mchp-component-item">
+              <div class="link">
+                <div>
+                  <a href="https://www.microchip.com/en-us/about/investors" class="mchp-link__link" aria-label="Investor Relations">Investor Relations</a>
+                  <span class="mchp-link__separator"></span>
+                </div>
+              </div>
+            </div>
+            <div class="mchp-component-item mchp-component-item--last">
+              <div class="link">
+                <div>
+                  <a href="https://www.microchip.com/en-us/about/corporate-responsibility" class="mchp-link__link" aria-label="Corporate Responsibility">Corporate Responsibility</a>
+                  <span class="mchp-link__separator"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="accordion-list">
+        <input type="checkbox" class="accordion-input" id="section-2"/>
+        <span for="section-2" class="accordion-label">
+          <div id="text-ea8a67216c" class="cmp-text">
+            <p>Support</p>
+          </div>
+        </span>
+        <div class="mchp-component-list" style="display: block; max-height: none">
+          <div class="mchp-component-items">
+            <div class="mchp-component-item mchp-component-item--first">
+              <div class="link">
+                <div>
+                  <a target="_blank" href="https://forum.microchip.com/" class="mchp-link__link" aria-label="Microchip Forums">Microchip Forums</a>
+                  <span class="mchp-link__separator"></span>
+                </div>
+              </div>
+            </div>
+            <div class="mchp-component-item">
+              <div class="link">
+                <div>
+                  <a target="_blank" href="https://www.avrfreaks.net/" class="mchp-link__link" aria-label="AVR Freaks">AVR Freaks</a>
+                  <span class="mchp-link__separator"></span>
+                </div>
+              </div>
+            </div>
+            <div class="mchp-component-item">
+              <div class="link">
+                <div>
+                  <a href="https://www.microchip.com/en-us/support/design-help" class="mchp-link__link" aria-label="Design Help">Design Help</a>
+                  <span class="mchp-link__separator"></span>
+                </div>
+              </div>
+            </div>
+            <div class="mchp-component-item">
+              <div class="link">
+                <div>
+                  <a href="https://www.microchip.com/en-us/support/technical-support" class="mchp-link__link" aria-label="Technical Support">Technical Support</a>
+                  <span class="mchp-link__separator"></span>
+                </div>
+              </div>
+            </div>
+            <div class="mchp-component-item">
+              <div class="link">
+                <div>
+                  <a target="_blank" href="https://www.microchip.com/exportcontroldata/" class="mchp-link__link" aria-label="Export Control Data">Export Control Data</a>
+                  <span class="mchp-link__separator"></span>
+                </div>
+              </div>
+            </div>
+            <div class="mchp-component-item mchp-component-item--last">
+              <div class="link">
+                <div>
+                  <a href="https://www.microchip.com/en-us/support/product-change-notification" class="mchp-link__link" aria-label="PCNs">PCNs</a>
+                  <span class="mchp-link__separator"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="accordion-list">
+        <input type="checkbox" class="accordion-input" id="section-3"/>
+        <span for="section-3" class="accordion-label">
+          <div id="text-229415b3f9" class="cmp-text">
+            <p>Quick Links</p>
+          </div>
+        </span>
+        <div class="mchp-component-list" style="display: block; max-height: none">
+          <div class="mchp-component-items">
+            <div class="mchp-component-item mchp-component-item--first">
+              <div class="link">
+                <div>
+                  <a target="_blank" href="https://www.microchipdirect.com/" class="mchp-link__link" aria-label="microchipDIRECT.com">microchipDIRECT.com</a>
+                  <span class="mchp-link__separator"></span>
+                </div>
+              </div>
+            </div>
+            <div class="mchp-component-item">
+              <div class="link">
+                <div>
+                  <a target="_blank" href="https://secure.microchip.com/mu" class="mchp-link__link" aria-label="Microchip University">Microchip University</a>
+                  <span class="mchp-link__separator"></span>
+                </div>
+              </div>
+            </div>
+            <div class="mchp-component-item">
+              <div class="link">
+                <div>
+                  <a href="https://www.microchip.com/mymicrochip/" class="mchp-link__link" aria-label="myMicrochip">myMicrochip</a>
+                  <span class="mchp-link__separator"></span>
+                </div>
+              </div>
+            </div>
+            <div class="mchp-component-item">
+              <div class="link">
+                <div>
+                  <a href="https://www.microchip.com/en-us/about/media-center/blog" class="mchp-link__link" aria-label="Blogs">Blogs</a>
+                  <span class="mchp-link__separator"></span>
+                </div>
+              </div>
+            </div>
+            <div class="mchp-component-item">
+              <div class="link">
+                <div>
+                  <a href="https://www.microchip.com/en-us/tools-resources/reference-designs" class="mchp-link__link" aria-label="Reference Designs">Reference Designs</a>
+                  <span class="mchp-link__separator"></span>
+                </div>
+              </div>
+            </div>
+            <div class="mchp-component-item mchp-component-item--last">
+              <div class="link">
+                <div>
+                  <a href="https://www.microchip.com/en-us/products/selection-tools/parametric-search-landing-page" class="mchp-link__link" aria-label="Parametric Search">Parametric Search</a>
+                  <span class="mchp-link__separator"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div>
+          <div class="cmp-image">
+            <img class="cmp-image__image" alt="Microchip Logo" src="oxygen-webhelp/template/resources/images/microchip-logo.png"/>
+          </div>
+        </div>
+        <div>
+          <div id="text-cf91d72ddd" class="cmp-text">
+            <p>Microchip Technology Inc.</p>
+            <p>2355 West Chandler Blvd.</p>
+            <p>Chandler, Arizona, USA</p>
+          </div>
+        </div>
+        <div>
+          <div class="mchp-component-list">
+            <div class="mchp-component-items">
+              <div class="mchp-component-item mchp-component-item--first">
+                <div class="image">
+                  <div class="cmp-image">
+                    <a class="cmp-image__link" href="https://www.facebook.com/microchiptechnology/" aria-label="Microchip Facebook" target="_blank">
+                      <img class="cmp-image__image" alt="Microchip Facebook" src="oxygen-webhelp/template/resources/images/facebook-icon.png"/>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="mchp-component-item">
+                <div class="image">
+                  <div class="cmp-image">
+                    <a class="cmp-image__link" href="https://www.linkedin.com/company/microchip-technology" aria-label="Microchip LinkedIn" target="_blank">
+                      <img class="cmp-image__image" alt="Microchip LinkedIn" src="oxygen-webhelp/template/resources/images/linkedin-icon.png"/>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="mchp-component-item">
+                <div class="image">
+                  <div class="cmp-image">
+                    <a class="cmp-image__link" href="https://x.com/MicrochipTech" aria-label="Microchip Twitter" target="_blank">
+                      <img class="cmp-image__image" alt="Microchip Twitter" src="oxygen-webhelp/template/resources/images/twitter-new.png"/>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="mchp-component-item">
+                <div class="image">
+                  <div class="cmp-image">
+                    <a class="cmp-image__link" href="https://www.youtube.com/user/MicrochipTechnology" aria-label="Image Hyperlink" target="_blank">
+                      <img class="cmp-image__image" alt="" src="oxygen-webhelp/template/resources/images/youtube-icon.png"/>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="mchp-component-item">
+                <div class="image">
+                  <div class="cmp-image">
+                    <a class="cmp-image__link" href="https://www.instagram.com/microchiptechnologyinc/" aria-label="Microchip Instagram" target="_blank">
+                      <img class="cmp-image__image" alt="Microchip Instagram" src="oxygen-webhelp/template/resources/images/instagram-icon.png"/>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="mchp-component-item mchp-component-item--last">
+                <div class="image">
+                  <div class="cmp-image">
+                    <a class="cmp-image__link" href="https://www.weibo.com/microchiptech" aria-label="Microchip Weibo" target="_blank">
+                      <img class="cmp-image__image" alt="Microchip Weibo" src="oxygen-webhelp/template/resources/images/snap.png"/>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <p>
+        © Copyright 1998-<span class="current-year">2024</span> Microchip Technology Inc. All rights reserved.
+        Shanghai ICP Recordal No.09049794
+      </p>
+      <p></p>
+    </div>
+    <div>
+      <div class="legal-privacy-cookie-container">
+        <div class="mchp-component-list">
+          <div class="mchp-component-items">
+            <div class="mchp-component-item mchp-component-item--first">
+              <div class="link">
+                <div>
+                  <a href="https://www.microchip.com/en-us/about/legal-information/website-terms-and-conditions" class="mchp-link__link" aria-label="Terms Of Use">Terms Of Use</a>
+                  <span class="mchp-link__separator"></span>
+                </div>
+              </div>
+            </div>
+            <div class="mchp-component-item">
+              <div class="link">
+                <div>
+                  <a href="https://www.microchip.com/en-us/about/legal-information/privacy-notice" class="mchp-link__link" aria-label="Privacy Notice">Privacy Notice</a>
+                  <span class="mchp-link__separator"></span>
+                </div>
+              </div>
+            </div>
+            <div class="mchp-component-item mchp-component-item--last">
+              <div class="link">
+                <div>
+                  <a href="https://www.microchip.com/en-us/about/legal-information" class="mchp-link__link" aria-label="Legal">Legal</a>
+                  <span class="mchp-link__separator"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <!-- OneTrust Cookies Settings button start -->
+        <div>
+          <a id="ot-sdk-btn" class="ot-sdk-show-settings">Your Privacy Choices</a>
+          <img src="oxygen-webhelp/template/resources/images/privacyoptions29x14.png" alt="California Consumer Privacy Act (CCPA) Opt-Out Icon" data-tooltip="California Consumer Privacy Act (CCPA) Opt-Out Icon" data-tooltip-position="top-center" class="tooltip-initialized"/>
+        </div>
+        <!-- OneTrust Cookies Settings button end -->
+      </div>
+    </div>
+  </div>
+</div>
+
+<script><!--
+
+  (function () {
+    var currentYear = new Date().getFullYear();
+    document.querySelector('.current-year').textContent = currentYear;
+  })();
+
+--></script>
+
+<script type="text/javascript"><!--
+
+  window.addEventListener("DOMContentLoaded", function() {
+    var checkExist = setInterval(function() {
+      if (typeof _satellite !== 'undefined') {
+        clearInterval(checkExist);
+        _satellite.pageBottom();
+      }
+    }, 100);
+  });
+
+--></script>
+<!-- Adobe Analytics -->
+<script type="text/javascript" src="mchp-js/prepend.js"></script>
+<!-- Package for viewing PDFs on mobile devices -->
+<script type="text/javascript" src="mchp-js/onetrust.js"></script>
+<!-- Package for viewing PDFs on mobile devices -->
+
+<script><!--
+
+
+  // wait until jquery is ready
+  var jqInterval = setInterval(function() {
+    if (typeof jQuery !== 'undefined') {
+      clearInterval(jqInterval);
+      // jQuery is ready, run your code here
+      $(document).ready(function() {
+        $(document).ready(function() {
+          function open() {
+              $(".accordion-label").click(function(e) {
+                  e.preventDefault();
+                  if (!mediaQueryMatch.matches) {
+                      e = $(this).next(".mchp-component-list");
+                      var f = $(".accordion-list > .mchp-component-list").not(e);
+                      $(this).hasClass("active") ? ($(this).removeClass("active"),
+                      e.slideUp(300, function() {
+                          $(this).css("max-height", "0")
+                      })) : (f.slideUp(300, function() {
+                          $(this).css("max-height", "0")
+                      }),
+                      $(".accordion-label").removeClass("active"),
+                      $(this).addClass("active"),
+                      e.slideDown(300, function() {
+                          $(this).css("max-height", "none")
+                      }))
+                  }
+              })
+          }
+          function hide(activeLabel) {
+              if (activeLabel.matches) {
+                  activeLabel = document.getElementsByClassName("accordion-label active");
+                  for (let f = 0; f < activeLabel.length; f++) {
+                    activeLabel[f].classList.remove("active");
+                  }
+                  for (activeLabel = 0; activeLabel < accordionList.length; activeLabel++) {
+                    accordionList[activeLabel].style.display = "block",
+                    accordionList[activeLabel].style.maxHeight = "none"
+                  }
+              } else {
+                for (activeLabel = 0; activeLabel < accordionList.length; activeLabel++) {
+                  accordionList[activeLabel].style.display = "none",
+                  accordionList[activeLabel].style.maxHeight = "0"
+                }
+              }
+          }
+          var mediaQueryMatch = window.matchMedia("(min-width: 630px)");
+          var accordionList = $(".accordion-list > .mchp-component-list");
+          hide(mediaQueryMatch);
+          setTimeout(function() {
+              $(".legal-privacy-cookie-container .ot-sdk-show-settings")?.text("Your Privacy Choices")
+          }, 1000);
+          $(window).on("load", function() {
+              open()
+          });
+          mediaQueryMatch.addListener(hide)
+        });
+      });
+    }
+  }, 100);
+
+
+--></script>
+  </div>
+</footer>
+        
+        <div id="go2top" class="d-print-none">
+            <span class="oxy-icon oxy-icon-up"></span>
+        </div>
+        
+        <div id="modal_img_large" class="modal">
+            <span class="close oxy-icon oxy-icon-remove"></span>
+            <div id="modal_img_container"></div>
+            <div id="caption"></div>
+        </div>
+        
+        
+        
+    </body>
+</html>

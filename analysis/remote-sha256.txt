@@ -1,0 +1,9 @@
+cfd394dd371604a62c52b49d55faf815e3bba45bfe6c5785f3c5b4cff8f6d704  /hive/opt/octofan/avrdude.conf
+9f2dbaa9257d133b0c682e70d11ab6c2c6bcf42e98dc8842cdf2b5d1972a1cc5  /hive/opt/octofan/fan_controller_cli
+5d5ee5e049bdefebcbc068df8f24765ae86b951770863db62328dfa19c5d3221  /hive/opt/octofan/firmware_07.hex
+74bfec60bfbf2ef15c51bca0171e95632f0fe2e5df0bc4e272910be4d5a51705  /hive/opt/octofan/firmware_09.hex
+883fa8704f150881e34d7b0b1d4bff21a56f98f724d654b3997ff495cdec2abe  /hive/opt/octofan/fw_update.log
+6d1c90863cb5d76514df0265c28b7380e454ae020f63ece66ea24031e5c5607a  /hive/opt/octofan/octofan
+5e39fb3bba45544be5a15ffabfa97c74d35b0282ff08b1637d4d2d69c82327f3  /hive/opt/octofan/rig-intake-temp.sh
+e071b4b8268ed55abce10245db532f87b6ff47c98deb7663b3b0a59ffc6297d6  /hive/opt/octofan/watchdog-octofan
+f68e381d5fdad6759eca4ea350a7d8686c735436e96f4e0c3e9c04980641c883  /hive/opt/octofan/watchdog-octofan.sh

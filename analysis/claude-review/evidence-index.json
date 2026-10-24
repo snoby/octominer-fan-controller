@@ -1,0 +1,105 @@
+{
+  "disassembly": "/Users/snoby/octominer-re/analysis/installed-3.0-disassembly.txt",
+  "ranges": {
+    "startup_and_main": [
+      {
+        "byte_start": "0x438",
+        "byte_end_exclusive": "0x474",
+        "source_line_start": 458,
+        "source_line_end": 484
+      },
+      {
+        "byte_start": "0x2056",
+        "byte_end_exclusive": "0x2352",
+        "source_line_start": 3455,
+        "source_line_end": 3765
+      }
+    ],
+    "pwm_init": [
+      {
+        "byte_start": "0x177c",
+        "byte_end_exclusive": "0x183e",
+        "source_line_start": 2513,
+        "source_line_end": 2584
+      }
+    ],
+    "pwm_and_calibration_usb": [
+      {
+        "byte_start": "0x24ca",
+        "byte_end_exclusive": "0x268a",
+        "source_line_start": 3929,
+        "source_line_end": 4108
+      }
+    ],
+    "tach_calibration_timer": [
+      {
+        "byte_start": "0x1112",
+        "byte_end_exclusive": "0x11ee",
+        "source_line_start": 1895,
+        "source_line_end": 1996
+      },
+      {
+        "byte_start": "0x13bc",
+        "byte_end_exclusive": "0x13e0",
+        "source_line_start": 2147,
+        "source_line_end": 2155
+      }
+    ],
+    "watchdog_usb": [
+      {
+        "byte_start": "0x26d4",
+        "byte_end_exclusive": "0x27f2",
+        "source_line_start": 4141,
+        "source_line_end": 4257
+      }
+    ],
+    "dangerous_commands": [
+      {
+        "byte_start": "0x35a8",
+        "byte_end_exclusive": "0x36dc",
+        "source_line_start": 5753,
+        "source_line_end": 5874
+      }
+    ],
+    "eeprom_helpers": [
+      {
+        "byte_start": "0x3880",
+        "byte_end_exclusive": "0x3912",
+        "source_line_start": 6078,
+        "source_line_end": 6145
+      }
+    ],
+    "oled_usb": [
+      {
+        "byte_start": "0x348a",
+        "byte_end_exclusive": "0x35a8",
+        "source_line_start": 5621,
+        "source_line_end": 5752
+      }
+    ],
+    "bme_init_prefix": [
+      {
+        "byte_start": "0x1c10",
+        "byte_end_exclusive": "0x1ca0",
+        "source_line_start": 2984,
+        "source_line_end": 3055
+      }
+    ],
+    "version": [
+      {
+        "byte_start": "0x23fc",
+        "byte_end_exclusive": "0x2426",
+        "source_line_start": 3845,
+        "source_line_end": 3858
+      }
+    ],
+    "gpio_masks": [
+      {
+        "byte_start": "0x1710",
+        "byte_end_exclusive": "0x177c",
+        "source_line_start": 2465,
+        "source_line_end": 2512
+      }
+    ]
+  }
+}

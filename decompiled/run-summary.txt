@@ -1,0 +1,7 @@
+Ghidra=12.2
+Language=avr8:LE:16:default
+Function entries=122
+Decompiled=122
+Failed=0
+GZF exported=true
+Code address unit=2

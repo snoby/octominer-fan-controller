@@ -1,0 +1,7 @@
+{
+  "intentionally_wrong_change": "word reader returns address instead of EEPROM data",
+  "return_code": 1,
+  "detected": true,
+  "failure": "ee_read_word address=0x0",
+  "not_a_firmware_modification": true
+}

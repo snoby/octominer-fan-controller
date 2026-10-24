@@ -1,0 +1,222 @@
+{
+  "formulae": [
+    {
+      "name": "ghidra",
+      "full_name": "ghidra",
+      "tap": "homebrew/core",
+      "oldnames": [],
+      "aliases": [],
+      "versioned_formulae": [],
+      "desc": "Multi-platform software reverse engineering framework",
+      "license": "Apache-2.0",
+      "homepage": "https://github.com/NationalSecurityAgency/ghidra",
+      "versions": {
+        "stable": "12.2",
+        "head": null,
+        "bottle": true
+      },
+      "urls": {
+        "stable": {
+          "url": "https://github.com/NationalSecurityAgency/ghidra/archive/refs/tags/Ghidra_12.2_build.tar.gz",
+          "tag": null,
+          "revision": null,
+          "using": null,
+          "checksum": "ade4fd6e277a10c82db4e75ff5acaeedb3113ef0c7d126ea2c8b38c37128f3c3"
+        }
+      },
+      "patches": [],
+      "revision": 0,
+      "version_scheme": 0,
+      "compatibility_version": null,
+      "autobump": true,
+      "no_autobump_message": null,
+      "skip_livecheck": false,
+      "bottle": {
+        "stable": {
+          "rebuild": 1,
+          "root_url": "https://ghcr.io/v2/homebrew/core",
+          "files": {
+            "arm64_tahoe": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/ghidra/blobs/sha256:cee537edc3ede3db751094a5eb02716250d64c78b8036d0ccc2d5b6f2870f8f5",
+              "sha256": "cee537edc3ede3db751094a5eb02716250d64c78b8036d0ccc2d5b6f2870f8f5"
+            }
+          }
+        }
+      },
+      "pour_bottle_only_if": null,
+      "keg_only": false,
+      "keg_only_reason": null,
+      "options": [],
+      "build_dependencies": [
+        "gradle",
+        "python@3.15"
+      ],
+      "dependencies": [
+        "openjdk@25"
+      ],
+      "test_dependencies": [],
+      "recommended_dependencies": [],
+      "optional_dependencies": [],
+      "uses_from_macos": [],
+      "uses_from_macos_bounds": [],
+      "requirements": [],
+      "conflicts_with": [],
+      "conflicts_with_reasons": [],
+      "link_overwrite": [],
+      "caveats": null,
+      "installed": [],
+      "linked_keg": null,
+      "pinned": false,
+      "outdated": false,
+      "deprecated": false,
+      "deprecation_date": null,
+      "deprecation_reason": null,
+      "deprecation_replacement_formula": null,
+      "deprecation_replacement_cask": null,
+      "deprecate_args": null,
+      "disabled": false,
+      "disable_date": null,
+      "disable_reason": null,
+      "disable_replacement_formula": null,
+      "disable_replacement_cask": null,
+      "disable_args": null,
+      "post_install_steps": [],
+      "post_install_defined": false,
+      "service": null,
+      "tap_git_head": "15bc3f47831784f46b6f79bb957e822174831abb",
+      "ruby_source_path": "Formula/g/ghidra.rb",
+      "ruby_source_checksum": {
+        "sha256": "40a4573f99eadff7e07ffd7beee3f89203c04c4558db1fa50920a43ebf45e4ad"
+      }
+    },
+    {
+      "name": "openjdk@21",
+      "full_name": "openjdk@21",
+      "tap": "homebrew/core",
+      "oldnames": [],
+      "aliases": [],
+      "versioned_formulae": [
+        "openjdk@25",
+        "openjdk@17",
+        "openjdk@11",
+        "openjdk@8"
+      ],
+      "desc": "Development kit for the Java programming language",
+      "license": "GPL-2.0-only WITH Classpath-exception-2.0",
+      "homepage": "https://openjdk.org/",
+      "versions": {
+        "stable": "21.0.13.0.2",
+        "head": null,
+        "bottle": true
+      },
+      "urls": {
+        "stable": {
+          "url": "https://github.com/openjdk/jdk21u/archive/refs/tags/jdk-21.0.13.0.2-ga.tar.gz",
+          "tag": null,
+          "revision": null,
+          "using": null,
+          "checksum": "e1fb821df977c3fc86f08867816f1cc2b437cabee43f3dd768695e2565ac8641"
+        }
+      },
+      "patches": [],
+      "revision": 0,
+      "version_scheme": 0,
+      "compatibility_version": null,
+      "autobump": true,
+      "no_autobump_message": null,
+      "skip_livecheck": false,
+      "bottle": {
+        "stable": {
+          "rebuild": 0,
+          "root_url": "https://ghcr.io/v2/homebrew/core",
+          "files": {
+            "arm64_tahoe": {
+              "cellar": ":any",
+              "url": "https://ghcr.io/v2/homebrew/core/openjdk/21/blobs/sha256:11da5602683895aff43fa7ba1bccaa73f0432994f7068976758546954515114a",
+              "sha256": "11da5602683895aff43fa7ba1bccaa73f0432994f7068976758546954515114a"
+            }
+          }
+        }
+      },
+      "pour_bottle_only_if": null,
+      "keg_only": true,
+      "keg_only_reason": {
+        "reason": ":versioned_formula",
+        "explanation": ""
+      },
+      "options": [],
+      "build_dependencies": [
+        "autoconf",
+        "pkgconf"
+      ],
+      "dependencies": [
+        "freetype",
+        "giflib",
+        "harfbuzz",
+        "jpeg-turbo",
+        "libpng",
+        "little-cms2"
+      ],
+      "test_dependencies": [],
+      "recommended_dependencies": [],
+      "optional_dependencies": [],
+      "uses_from_macos": [
+        {
+          "unzip": "build"
+        },
+        {
+          "zip": "build"
+        },
+        {
+          "cups": "no_linkage"
+        }
+      ],
+      "uses_from_macos_bounds": [
+        {},
+        {},
+        {}
+      ],
+      "requirements": [],
+      "conflicts_with": [],
+      "conflicts_with_reasons": [],
+      "link_overwrite": [],
+      "caveats": "For the system Java wrappers to find this JDK, symlink it with\n  sudo ln -sfn $HOMEBREW_PREFIX/opt/openjdk@21/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk-21.jdk\n",
+      "installed": [],
+      "linked_keg": null,
+      "pinned": false,
+      "outdated": false,
+      "deprecated": false,
+      "deprecation_date": "2028-09-30",
+      "deprecation_reason": null,
+      "deprecation_replacement_formula": null,
+      "deprecation_replacement_cask": null,
+      "deprecate_args": {
+        "date": "2028-09-30",
+        "because": "unmaintained",
+        "replacement_formula": null,
+        "replacement_cask": null
+      },
+      "disabled": false,
+      "disable_date": "2031-09-30",
+      "disable_reason": null,
+      "disable_replacement_formula": null,
+      "disable_replacement_cask": null,
+      "disable_args": {
+        "date": "2031-09-30",
+        "because": "unmaintained",
+        "replacement_formula": null,
+        "replacement_cask": null
+      },
+      "post_install_steps": [],
+      "post_install_defined": false,
+      "service": null,
+      "tap_git_head": "15bc3f47831784f46b6f79bb957e822174831abb",
+      "ruby_source_path": "Formula/o/openjdk@21.rb",
+      "ruby_source_checksum": {
+        "sha256": "4cfb836e9d2746b7a98976207ef3b26c5e8c181a60e4282ad53d8a39354df6dc"
+      }
+    }
+  ],
+  "casks": []
+}

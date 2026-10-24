@@ -1,0 +1,44 @@
+[
+  {
+    "scope": "fan-control",
+    "exit_code": 0,
+    "seconds": 190.0,
+    "subtype": "success",
+    "is_error": false,
+    "num_turns": 25,
+    "session_id": "a0a89cc8-832e-41b0-8fd4-65e4afbd3379",
+    "stop_reason": "end_turn",
+    "terminal_reason": "completed",
+    "model_usage": [
+      "claude-opus-5-5"
+    ]
+  },
+  {
+    "scope": "watchdog-and-usb",
+    "exit_code": 0,
+    "seconds": 221.9,
+    "subtype": "success",
+    "is_error": false,
+    "num_turns": 27,
+    "session_id": "2d60aebc-6a22-4cea-92f5-66e220e35ef4",
+    "stop_reason": "end_turn",
+    "terminal_reason": "completed",
+    "model_usage": [
+      "claude-opus-5-5"
+    ]
+  },
+  {
+    "scope": "peripherals-and-decompiler-quality",
+    "exit_code": 1,
+    "seconds": 116.1,
+    "subtype": "error_max_turns",
+    "is_error": true,
+    "num_turns": 25,
+    "session_id": "7f562c0c-dea1-4a88-bbf1-805901c1a354",
+    "stop_reason": "tool_use",
+    "terminal_reason": "max_turns",
+    "model_usage": [
+      "claude-opus-5-5"
+    ]
+  }
+]

@@ -1,0 +1,1855 @@
+/Users/snoby/octominer-re/artifacts/192.168.2.106/fan_controller_cli:	file format elf64-x86-64
+
+.debug_info contents:
+0x00000000: Compile Unit: length = 0x00000dda, format = DWARF32, version = 0x0004, abbr_offset = 0x0000, addr_size = 0x08 (next unit at 0x00000dde)
+
+0x0000000b: DW_TAG_compile_unit
+              DW_AT_producer	("GNU C11 7.5.0 -mtune=generic -march=x86-64 -g3 -O0 -fmessage-length=0 -fstack-protector-strong")
+              DW_AT_language	(DW_LANG_C99)
+              DW_AT_name	("../fan_controller_cli.c")
+              DW_AT_comp_dir	("/home/christian/Development/Eclipse_Workspace/fan_controller_cli/Debug")
+              DW_AT_low_pc	(0x0000000000400bad)
+              DW_AT_high_pc	(0x000000000040475f)
+              DW_AT_stmt_list	(0x00000000)
+              DW_AT_GNU_macros	(0x00000000)
+
+0x00000031:   DW_TAG_base_type
+                DW_AT_byte_size	(0x01)
+                DW_AT_encoding	(DW_ATE_unsigned_char)
+                DW_AT_name	("unsigned char")
+
+0x00000038:   DW_TAG_base_type
+                DW_AT_byte_size	(0x02)
+                DW_AT_encoding	(DW_ATE_unsigned)
+                DW_AT_name	("short unsigned int")
+
+0x0000003f:   DW_TAG_base_type
+                DW_AT_byte_size	(0x04)
+                DW_AT_encoding	(DW_ATE_unsigned)
+                DW_AT_name	("unsigned int")
+
+0x00000046:   DW_TAG_base_type
+                DW_AT_byte_size	(0x08)
+                DW_AT_encoding	(DW_ATE_unsigned)
+                DW_AT_name	("long unsigned int")
+
+0x0000004d:   DW_TAG_base_type
+                DW_AT_byte_size	(0x01)
+                DW_AT_encoding	(DW_ATE_signed_char)
+                DW_AT_name	("signed char")
+
+0x00000054:   DW_TAG_typedef
+                DW_AT_name	("__uint8_t")
+                DW_AT_decl_file	("/usr/include/x86_64-linux-gnu/bits/types.h")
+                DW_AT_decl_line	(37)
+                DW_AT_type	(0x00000031 "unsigned char")
+
+0x0000005f:   DW_TAG_typedef
+                DW_AT_name	("__int16_t")
+                DW_AT_decl_file	("/usr/include/x86_64-linux-gnu/bits/types.h")
+                DW_AT_decl_line	(38)
+                DW_AT_type	(0x0000006a "short int")
+
+0x0000006a:   DW_TAG_base_type
+                DW_AT_byte_size	(0x02)
+                DW_AT_encoding	(DW_ATE_signed)
+                DW_AT_name	("short int")
+
+0x00000071:   DW_TAG_typedef
+                DW_AT_name	("__uint16_t")
+                DW_AT_decl_file	("/usr/include/x86_64-linux-gnu/bits/types.h")
+                DW_AT_decl_line	(39)
+                DW_AT_type	(0x00000038 "short unsigned int")
+
+0x0000007c:   DW_TAG_base_type
+                DW_AT_byte_size	(0x04)
+                DW_AT_encoding	(DW_ATE_signed)
+                DW_AT_name	("int")
+
+0x00000083:   DW_TAG_typedef
+                DW_AT_name	("__uint32_t")
+                DW_AT_decl_file	("/usr/include/x86_64-linux-gnu/bits/types.h")
+                DW_AT_decl_line	(41)
+                DW_AT_type	(0x0000003f "unsigned int")
+
+0x0000008e:   DW_TAG_base_type
+                DW_AT_byte_size	(0x08)
+                DW_AT_encoding	(DW_ATE_signed)
+                DW_AT_name	("long int")
+
+0x00000095:   DW_TAG_typedef
+                DW_AT_name	("__off_t")
+                DW_AT_decl_file	("/usr/include/x86_64-linux-gnu/bits/types.h")
+                DW_AT_decl_line	(140)
+                DW_AT_type	(0x0000008e "long int")
+
+0x000000a0:   DW_TAG_typedef
+                DW_AT_name	("__off64_t")
+                DW_AT_decl_file	("/usr/include/x86_64-linux-gnu/bits/types.h")
+                DW_AT_decl_line	(141)
+                DW_AT_type	(0x0000008e "long int")
+
+0x000000ab:   DW_TAG_pointer_type
+                DW_AT_byte_size	(0x08)
+
+0x000000ad:   DW_TAG_pointer_type
+                DW_AT_byte_size	(0x08)
+                DW_AT_type	(0x000000b3 "char")
+
+0x000000b3:   DW_TAG_base_type
+                DW_AT_byte_size	(0x01)
+                DW_AT_encoding	(DW_ATE_signed_char)
+                DW_AT_name	("char")
+
+0x000000ba:   DW_TAG_const_type
+                DW_AT_type	(0x000000b3 "char")
+
+0x000000bf:   DW_TAG_typedef
+                DW_AT_name	("size_t")
+                DW_AT_decl_file	("/usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h")
+                DW_AT_decl_line	(216)
+                DW_AT_type	(0x00000046 "long unsigned int")
+
+0x000000ca:   DW_TAG_variable
+                DW_AT_name	("__environ")
+                DW_AT_decl_file	("/usr/include/unistd.h")
+                DW_AT_decl_line	(546)
+                DW_AT_type	(0x000000d6 "char **")
+                DW_AT_external	(true)
+                DW_AT_declaration	(true)
+
+0x000000d6:   DW_TAG_pointer_type
+                DW_AT_byte_size	(0x08)
+                DW_AT_type	(0x000000ad "char *")
+
+0x000000dc:   DW_TAG_variable
+                DW_AT_name	("optarg")
+                DW_AT_decl_file	("/usr/include/x86_64-linux-gnu/bits/getopt_core.h")
+                DW_AT_decl_line	(36)
+                DW_AT_type	(0x000000ad "char *")
+                DW_AT_external	(true)
+                DW_AT_declaration	(true)
+
+0x000000e7:   DW_TAG_variable
+                DW_AT_name	("optind")
+                DW_AT_decl_file	("/usr/include/x86_64-linux-gnu/bits/getopt_core.h")
+                DW_AT_decl_line	(50)
+                DW_AT_type	(0x0000007c "int")
+                DW_AT_external	(true)
+                DW_AT_declaration	(true)
+
+0x000000f2:   DW_TAG_variable
+                DW_AT_name	("opterr")
+                DW_AT_decl_file	("/usr/include/x86_64-linux-gnu/bits/getopt_core.h")
+                DW_AT_decl_line	(55)
+                DW_AT_type	(0x0000007c "int")
+                DW_AT_external	(true)
+                DW_AT_declaration	(true)
+
+0x000000fd:   DW_TAG_variable
+                DW_AT_name	("optopt")
+                DW_AT_decl_file	("/usr/include/x86_64-linux-gnu/bits/getopt_core.h")
+                DW_AT_decl_line	(59)
+                DW_AT_type	(0x0000007c "int")
+                DW_AT_external	(true)
+                DW_AT_declaration	(true)
+
+0x00000108:   DW_TAG_base_type
+                DW_AT_byte_size	(0x08)
+                DW_AT_encoding	(DW_ATE_signed)
+                DW_AT_name	("long long int")
+
+0x0000010f:   DW_TAG_typedef
+                DW_AT_name	("int16_t")
+                DW_AT_decl_file	("/usr/include/x86_64-linux-gnu/bits/stdint-intn.h")
+                DW_AT_decl_line	(25)
+                DW_AT_type	(0x0000005f "__int16_t")
+
+0x0000011a:   DW_TAG_base_type
+                DW_AT_byte_size	(0x08)
+                DW_AT_encoding	(DW_ATE_unsigned)
+                DW_AT_name	("long long unsigned int")
+
+0x00000121:   DW_TAG_typedef
+                DW_AT_name	("uint8_t")
+                DW_AT_decl_file	("/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h")
+                DW_AT_decl_line	(24)
+                DW_AT_type	(0x00000054 "__uint8_t")
+
+0x0000012c:   DW_TAG_typedef
+                DW_AT_name	("uint16_t")
+                DW_AT_decl_file	("/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h")
+                DW_AT_decl_line	(25)
+                DW_AT_type	(0x00000071 "__uint16_t")
+
+0x00000137:   DW_TAG_typedef
+                DW_AT_name	("uint32_t")
+                DW_AT_decl_file	("/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h")
+                DW_AT_decl_line	(26)
+                DW_AT_type	(0x00000083 "__uint32_t")
+
+0x00000142:   DW_TAG_array_type
+                DW_AT_type	(0x0000015d "const char *const")
+                DW_AT_sibling	(0x00000152)
+
+0x0000014b:     DW_TAG_subrange_type
+                  DW_AT_type	(0x00000046 "long unsigned int")
+                  DW_AT_upper_bound	(0x40)
+
+0x00000151:     NULL
+
+0x00000152:   DW_TAG_const_type
+                DW_AT_type	(0x00000142 "const char *const[65]")
+
+0x00000157:   DW_TAG_pointer_type
+                DW_AT_byte_size	(0x08)
+                DW_AT_type	(0x000000ba "const char")
+
+0x0000015d:   DW_TAG_const_type
+                DW_AT_type	(0x00000157 "const char *")
+
+0x00000162:   DW_TAG_variable
+                DW_AT_name	("_sys_siglist")
+                DW_AT_decl_file	("/usr/include/signal.h")
+                DW_AT_decl_line	(286)
+                DW_AT_type	(0x00000152 "const const char *const[65]")
+                DW_AT_external	(true)
+                DW_AT_declaration	(true)
+
+0x0000016e:   DW_TAG_variable
+                DW_AT_name	("sys_siglist")
+                DW_AT_decl_file	("/usr/include/signal.h")
+                DW_AT_decl_line	(287)
+                DW_AT_type	(0x00000152 "const const char *const[65]")
+                DW_AT_external	(true)
+                DW_AT_declaration	(true)
+
+0x0000017a:   DW_TAG_array_type
+                DW_AT_type	(0x000000b3 "char")
+                DW_AT_sibling	(0x0000018a)
+
+0x00000183:     DW_TAG_subrange_type
+                  DW_AT_type	(0x00000046 "long unsigned int")
+                  DW_AT_upper_bound	(0xff)
+
+0x00000189:     NULL
+
+0x0000018a:   DW_TAG_structure_type
+                DW_AT_name	("usb_endpoint_descriptor")
+                DW_AT_byte_size	(0x20)
+                DW_AT_decl_file	("/usr/include/usb.h")
+                DW_AT_decl_line	(94)
+                DW_AT_sibling	(0x0000020f)
+
+0x00000196:     DW_TAG_member
+                  DW_AT_name	("bLength")
+                  DW_AT_decl_file	("/usr/include/usb.h")
+                  DW_AT_decl_line	(95)
+                  DW_AT_type	(0x00000121 "uint8_t")
+                  DW_AT_data_member_location	(0x00)
+
+0x000001a2:     DW_TAG_member
+                  DW_AT_name	("bDescriptorType")
+                  DW_AT_decl_file	("/usr/include/usb.h")
+                  DW_AT_decl_line	(96)
+                  DW_AT_type	(0x00000121 "uint8_t")
+                  DW_AT_data_member_location	(0x01)
+
+0x000001ae:     DW_TAG_member
+                  DW_AT_name	("bEndpointAddress")
+                  DW_AT_decl_file	("/usr/include/usb.h")
+                  DW_AT_decl_line	(97)
+                  DW_AT_type	(0x00000121 "uint8_t")
+                  DW_AT_data_member_location	(0x02)
+
+0x000001ba:     DW_TAG_member
+                  DW_AT_name	("bmAttributes")
+                  DW_AT_decl_file	("/usr/include/usb.h")
+                  DW_AT_decl_line	(98)
+                  DW_AT_type	(0x00000121 "uint8_t")
+                  DW_AT_data_member_location	(0x03)
+
+0x000001c6:     DW_TAG_member
+                  DW_AT_name	("wMaxPacketSize")
+                  DW_AT_decl_file	("/usr/include/usb.h")
+                  DW_AT_decl_line	(99)
+                  DW_AT_type	(0x0000012c "uint16_t")
+                  DW_AT_data_member_location	(0x04)
+
+0x000001d2:     DW_TAG_member
+                  DW_AT_name	("bInterval")
+                  DW_AT_decl_file	("/usr/include/usb.h")
+                  DW_AT_decl_line	(100)
+                  DW_AT_type	(0x00000121 "uint8_t")
+                  DW_AT_data_member_location	(0x06)
+
+0x000001de:     DW_TAG_member
+                  DW_AT_name	("bRefresh")
+                  DW_AT_decl_file	("/usr/include/usb.h")
+                  DW_AT_decl_line	(101)
+                  DW_AT_type	(0x00000121 "uint8_t")
+                  DW_AT_data_member_location	(0x07)
+
+0x000001ea:     DW_TAG_member
+                  DW_AT_name	("bSynchAddress")
+                  DW_AT_decl_file	("/usr/include/usb.h")
+                  DW_AT_decl_line	(102)
+                  DW_AT_type	(0x00000121 "uint8_t")
+                  DW_AT_data_member_location	(0x08)
+
+0x000001f6:     DW_TAG_member
+                  DW_AT_name	("extra")
+                  DW_AT_decl_file	("/usr/include/usb.h")
+                  DW_AT_decl_line	(104)
+                  DW_AT_type	(0x0000020f "unsigned char *")
+                  DW_AT_data_member_location	(0x10)
+
+0x00000202:     DW_TAG_member
+                  DW_AT_name	("extralen")
+                  DW_AT_decl_file	("/usr/include/usb.h")
+                  DW_AT_decl_line	(105)
+                  DW_AT_type	(0x0000007c "int")
+                  DW_AT_data_member_location	(0x18)
+
+0x0000020e:     NULL
+
+0x0000020f:   DW_TAG_pointer_type
+                DW_AT_byte_size	(0x08)
+                DW_AT_type	(0x00000031 "unsigned char")
+
+0x00000215:   DW_TAG_structure_type
+                DW_AT_name	("usb_interface_descriptor")
+                DW_AT_byte_size	(0x28)
+                DW_AT_decl_file	("/usr/include/usb.h")
+                DW_AT_decl_line	(119)
+                DW_AT_sibling	(0x000002b2)
+
+0x00000221:     DW_TAG_member
+                  DW_AT_name	("bLength")
+                  DW_AT_decl_file	("/usr/include/usb.h")
+                  DW_AT_decl_line	(120)
+                  DW_AT_type	(0x00000121 "uint8_t")
+                  DW_AT_data_member_location	(0x00)
+
+0x0000022d:     DW_TAG_member
+                  DW_AT_name	("bDescriptorType")
+                  DW_AT_decl_file	("/usr/include/usb.h")
+                  DW_AT_decl_line	(121)
+                  DW_AT_type	(0x00000121 "uint8_t")
+                  DW_AT_data_member_location	(0x01)
+
+0x00000239:     DW_TAG_member
+                  DW_AT_name	("bInterfaceNumber")
+                  DW_AT_decl_file	("/usr/include/usb.h")
+                  DW_AT_decl_line	(122)
+                  DW_AT_type	(0x00000121 "uint8_t")
+                  DW_AT_data_member_location	(0x02)
+
+0x00000245:     DW_TAG_member
+                  DW_AT_name	("bAlternateSetting")
+                  DW_AT_decl_file	("/usr/include/usb.h")
+                  DW_AT_decl_line	(123)
+                  DW_AT_type	(0x00000121 "uint8_t")
+                  DW_AT_data_member_location	(0x03)
+
+0x00000251:     DW_TAG_member
+                  DW_AT_name	("bNumEndpoints")
+                  DW_AT_decl_file	("/usr/include/usb.h")
+                  DW_AT_decl_line	(124)
+                  DW_AT_type	(0x00000121 "uint8_t")
+                  DW_AT_data_member_location	(0x04)
+
+0x0000025d:     DW_TAG_member
+                  DW_AT_name	("bInterfaceClass")
+                  DW_AT_decl_file	("/usr/include/usb.h")
+                  DW_AT_decl_line	(125)
+                  DW_AT_type	(0x00000121 "uint8_t")
+                  DW_AT_data_member_location	(0x05)
+
+0x00000269:     DW_TAG_member
+                  DW_AT_name	("bInterfaceSubClass")
+                  DW_AT_decl_file	("/usr/include/usb.h")
+                  DW_AT_decl_line	(126)
+                  DW_AT_type	(0x00000121 "uint8_t")
+                  DW_AT_data_member_location	(0x06)
+
+0x00000275:     DW_TAG_member
+                  DW_AT_name	("bInterfaceProtocol")
+                  DW_AT_decl_file	("/usr/include/usb.h")
+                  DW_AT_decl_line	(127)
+                  DW_AT_type	(0x00000121 "uint8_t")
+                  DW_AT_data_member_location	(0x07)
+
+0x00000281:     DW_TAG_member
+                  DW_AT_name	("iInterface")
+                  DW_AT_decl_file	("/usr/include/usb.h")
+                  DW_AT_decl_line	(128)
+                  DW_AT_type	(0x00000121 "uint8_t")
+                  DW_AT_data_member_location	(0x08)
+
+0x0000028d:     DW_TAG_member
+                  DW_AT_name	("endpoint")
+                  DW_AT_decl_file	("/usr/include/usb.h")
+                  DW_AT_decl_line	(130)
+                  DW_AT_type	(0x000002b2 "usb_endpoint_descriptor *")
+                  DW_AT_data_member_location	(0x10)
+
+0x00000299:     DW_TAG_member
+                  DW_AT_name	("extra")
+                  DW_AT_decl_file	("/usr/include/usb.h")
+                  DW_AT_decl_line	(132)
+                  DW_AT_type	(0x0000020f "unsigned char *")
+                  DW_AT_data_member_location	(0x18)
+
+0x000002a5:     DW_TAG_member
+                  DW_AT_name	("extralen")
+                  DW_AT_decl_file	("/usr/include/usb.h")
+                  DW_AT_decl_line	(133)
+                  DW_AT_type	(0x0000007c "int")
+                  DW_AT_data_member_location	(0x20)
+
+0x000002b1:     NULL
+
+0x000002b2:   DW_TAG_pointer_type
+                DW_AT_byte_size	(0x08)
+                DW_AT_type	(0x0000018a "usb_endpoint_descriptor")
+
+0x000002b8:   DW_TAG_structure_type
+                DW_AT_name	("usb_interface")
+                DW_AT_byte_size	(0x10)
+                DW_AT_decl_file	("/usr/include/usb.h")
+                DW_AT_decl_line	(137)
+                DW_AT_sibling	(0x000002dd)
+
+0x000002c4:     DW_TAG_member
+                  DW_AT_name	("altsetting")
+                  DW_AT_decl_file	("/usr/include/usb.h")
+                  DW_AT_decl_line	(138)
+                  DW_AT_type	(0x000002dd "usb_interface_descriptor *")
+                  DW_AT_data_member_location	(0x00)
+
+0x000002d0:     DW_TAG_member
+                  DW_AT_name	("num_altsetting")
+                  DW_AT_decl_file	("/usr/include/usb.h")
+                  DW_AT_decl_line	(140)
+                  DW_AT_type	(0x0000007c "int")
+                  DW_AT_data_member_location	(0x08)
+
+0x000002dc:     NULL
+
+0x000002dd:   DW_TAG_pointer_type
+                DW_AT_byte_size	(0x08)
+                DW_AT_type	(0x00000215 "usb_interface_descriptor")
+
+0x000002e3:   DW_TAG_structure_type
+                DW_AT_name	("usb_config_descriptor")
+                DW_AT_byte_size	(0x28)
+                DW_AT_decl_file	("/usr/include/usb.h")
+                DW_AT_decl_line	(145)
+                DW_AT_sibling	(0x00000374)
+
+0x000002ef:     DW_TAG_member
+                  DW_AT_name	("bLength")
+                  DW_AT_decl_file	("/usr/include/usb.h")
+                  DW_AT_decl_line	(146)
+                  DW_AT_type	(0x00000121 "uint8_t")
+                  DW_AT_data_member_location	(0x00)
+
+0x000002fb:     DW_TAG_member
+                  DW_AT_name	("bDescriptorType")
+                  DW_AT_decl_file	("/usr/include/usb.h")
+                  DW_AT_decl_line	(147)
+                  DW_AT_type	(0x00000121 "uint8_t")
+                  DW_AT_data_member_location	(0x01)
+
+0x00000307:     DW_TAG_member
+                  DW_AT_name	("wTotalLength")
+                  DW_AT_decl_file	("/usr/include/usb.h")
+                  DW_AT_decl_line	(148)
+                  DW_AT_type	(0x0000012c "uint16_t")
+                  DW_AT_data_member_location	(0x02)
+
+0x00000313:     DW_TAG_member
+                  DW_AT_name	("bNumInterfaces")
+                  DW_AT_decl_file	("/usr/include/usb.h")
+                  DW_AT_decl_line	(149)
+                  DW_AT_type	(0x00000121 "uint8_t")
+                  DW_AT_data_member_location	(0x04)
+
+0x0000031f:     DW_TAG_member
+                  DW_AT_name	("bConfigurationValue")
+                  DW_AT_decl_file	("/usr/include/usb.h")
+                  DW_AT_decl_line	(150)
+                  DW_AT_type	(0x00000121 "uint8_t")
+                  DW_AT_data_member_location	(0x05)
+
+0x0000032b:     DW_TAG_member
+                  DW_AT_name	("iConfiguration")
+                  DW_AT_decl_file	("/usr/include/usb.h")
+                  DW_AT_decl_line	(151)
+                  DW_AT_type	(0x00000121 "uint8_t")
+                  DW_AT_data_member_location	(0x06)
+
+0x00000337:     DW_TAG_member
+                  DW_AT_name	("bmAttributes")
+                  DW_AT_decl_file	("/usr/include/usb.h")
+                  DW_AT_decl_line	(152)
+                  DW_AT_type	(0x00000121 "uint8_t")
+                  DW_AT_data_member_location	(0x07)
+
+0x00000343:     DW_TAG_member
+                  DW_AT_name	("MaxPower")
+                  DW_AT_decl_file	("/usr/include/usb.h")
+                  DW_AT_decl_line	(153)
+                  DW_AT_type	(0x00000121 "uint8_t")
+                  DW_AT_data_member_location	(0x08)
+
+0x0000034f:     DW_TAG_member
+                  DW_AT_name	("interface")
+                  DW_AT_decl_file	("/usr/include/usb.h")
+                  DW_AT_decl_line	(155)
+                  DW_AT_type	(0x00000374 "usb_interface *")
+                  DW_AT_data_member_location	(0x10)
+
+0x0000035b:     DW_TAG_member
+                  DW_AT_name	("extra")
+                  DW_AT_decl_file	("/usr/include/usb.h")
+                  DW_AT_decl_line	(157)
+                  DW_AT_type	(0x0000020f "unsigned char *")
+                  DW_AT_data_member_location	(0x18)
+
+0x00000367:     DW_TAG_member
+                  DW_AT_name	("extralen")
+                  DW_AT_decl_file	("/usr/include/usb.h")
+                  DW_AT_decl_line	(158)
+                  DW_AT_type	(0x0000007c "int")
+                  DW_AT_data_member_location	(0x20)
+
+0x00000373:     NULL
+
+0x00000374:   DW_TAG_pointer_type
+                DW_AT_byte_size	(0x08)
+                DW_AT_type	(0x000002b8 "usb_interface")
+
+0x0000037a:   DW_TAG_structure_type
+                DW_AT_name	("usb_device_descriptor")
+                DW_AT_byte_size	(0x12)
+                DW_AT_decl_file	("/usr/include/usb.h")
+                DW_AT_decl_line	(162)
+                DW_AT_sibling	(0x0000042f)
+
+0x00000386:     DW_TAG_member
+                  DW_AT_name	("bLength")
+                  DW_AT_decl_file	("/usr/include/usb.h")
+                  DW_AT_decl_line	(163)
+                  DW_AT_type	(0x00000121 "uint8_t")
+                  DW_AT_data_member_location	(0x00)
+
+0x00000392:     DW_TAG_member
+                  DW_AT_name	("bDescriptorType")
+                  DW_AT_decl_file	("/usr/include/usb.h")
+                  DW_AT_decl_line	(164)
+                  DW_AT_type	(0x00000121 "uint8_t")
+                  DW_AT_data_member_location	(0x01)
+
+0x0000039e:     DW_TAG_member
+                  DW_AT_name	("bcdUSB")
+                  DW_AT_decl_file	("/usr/include/usb.h")
+                  DW_AT_decl_line	(165)
+                  DW_AT_type	(0x0000012c "uint16_t")
+                  DW_AT_data_member_location	(0x02)
+
+0x000003aa:     DW_TAG_member
+                  DW_AT_name	("bDeviceClass")
+                  DW_AT_decl_file	("/usr/include/usb.h")
+                  DW_AT_decl_line	(166)
+                  DW_AT_type	(0x00000121 "uint8_t")
+                  DW_AT_data_member_location	(0x04)
+
+0x000003b6:     DW_TAG_member
+                  DW_AT_name	("bDeviceSubClass")
+                  DW_AT_decl_file	("/usr/include/usb.h")
+                  DW_AT_decl_line	(167)
+                  DW_AT_type	(0x00000121 "uint8_t")
+                  DW_AT_data_member_location	(0x05)
+
+0x000003c2:     DW_TAG_member
+                  DW_AT_name	("bDeviceProtocol")
+                  DW_AT_decl_file	("/usr/include/usb.h")
+                  DW_AT_decl_line	(168)
+                  DW_AT_type	(0x00000121 "uint8_t")
+                  DW_AT_data_member_location	(0x06)
+
+0x000003ce:     DW_TAG_member
+                  DW_AT_name	("bMaxPacketSize0")
+                  DW_AT_decl_file	("/usr/include/usb.h")
+                  DW_AT_decl_line	(169)
+                  DW_AT_type	(0x00000121 "uint8_t")
+                  DW_AT_data_member_location	(0x07)
+
+0x000003da:     DW_TAG_member
+                  DW_AT_name	("idVendor")
+                  DW_AT_decl_file	("/usr/include/usb.h")
+                  DW_AT_decl_line	(170)
+                  DW_AT_type	(0x0000012c "uint16_t")
+                  DW_AT_data_member_location	(0x08)
+
+0x000003e6:     DW_TAG_member
+                  DW_AT_name	("idProduct")
+                  DW_AT_decl_file	("/usr/include/usb.h")
+                  DW_AT_decl_line	(171)
+                  DW_AT_type	(0x0000012c "uint16_t")
+                  DW_AT_data_member_location	(0x0a)
+
+0x000003f2:     DW_TAG_member
+                  DW_AT_name	("bcdDevice")
+                  DW_AT_decl_file	("/usr/include/usb.h")
+                  DW_AT_decl_line	(172)
+                  DW_AT_type	(0x0000012c "uint16_t")
+                  DW_AT_data_member_location	(0x0c)
+
+0x000003fe:     DW_TAG_member
+                  DW_AT_name	("iManufacturer")
+                  DW_AT_decl_file	("/usr/include/usb.h")
+                  DW_AT_decl_line	(173)
+                  DW_AT_type	(0x00000121 "uint8_t")
+                  DW_AT_data_member_location	(0x0e)
+
+0x0000040a:     DW_TAG_member
+                  DW_AT_name	("iProduct")
+                  DW_AT_decl_file	("/usr/include/usb.h")
+                  DW_AT_decl_line	(174)
+                  DW_AT_type	(0x00000121 "uint8_t")
+                  DW_AT_data_member_location	(0x0f)
+
+0x00000416:     DW_TAG_member
+                  DW_AT_name	("iSerialNumber")
+                  DW_AT_decl_file	("/usr/include/usb.h")
+                  DW_AT_decl_line	(175)
+                  DW_AT_type	(0x00000121 "uint8_t")
+                  DW_AT_data_member_location	(0x10)
+
+0x00000422:     DW_TAG_member
+                  DW_AT_name	("bNumConfigurations")
+                  DW_AT_decl_file	("/usr/include/usb.h")
+                  DW_AT_decl_line	(176)
+                  DW_AT_type	(0x00000121 "uint8_t")
+                  DW_AT_data_member_location	(0x11)
+
+0x0000042e:     NULL
+
+0x0000042f:   DW_TAG_structure_type
+                DW_AT_name	("usb_device")
+                DW_AT_byte_size	(0x1058)
+                DW_AT_decl_file	("/usr/include/usb.h")
+                DW_AT_decl_line	(248)
+                DW_AT_sibling	(0x000004c1)
+
+0x0000043c:     DW_TAG_member
+                  DW_AT_name	("next")
+                  DW_AT_decl_file	("/usr/include/usb.h")
+                  DW_AT_decl_line	(249)
+                  DW_AT_type	(0x000004c1 "usb_device *")
+                  DW_AT_data_member_location	(0x00)
+
+0x00000448:     DW_TAG_member
+                  DW_AT_name	("prev")
+                  DW_AT_decl_file	("/usr/include/usb.h")
+                  DW_AT_decl_line	(249)
+                  DW_AT_type	(0x000004c1 "usb_device *")
+                  DW_AT_data_member_location	(0x08)
+
+0x00000454:     DW_TAG_member
+                  DW_AT_name	("filename")
+                  DW_AT_decl_file	("/usr/include/usb.h")
+                  DW_AT_decl_line	(251)
+                  DW_AT_type	(0x000004c7 "char[4097]")
+                  DW_AT_data_member_location	(0x10)
+
+0x00000460:     DW_TAG_member
+                  DW_AT_name	("bus")
+                  DW_AT_decl_file	("/usr/include/usb.h")
+                  DW_AT_decl_line	(253)
+                  DW_AT_type	(0x00000538 "usb_bus *")
+                  DW_AT_data_member_location	(0x1018)
+
+0x0000046d:     DW_TAG_member
+                  DW_AT_name	("descriptor")
+                  DW_AT_decl_file	("/usr/include/usb.h")
+                  DW_AT_decl_line	(255)
+                  DW_AT_type	(0x0000037a "usb_device_descriptor")
+                  DW_AT_data_member_location	(0x1020)
+
+0x0000047a:     DW_TAG_member
+                  DW_AT_name	("config")
+                  DW_AT_decl_file	("/usr/include/usb.h")
+                  DW_AT_decl_line	(256)
+                  DW_AT_type	(0x0000053e "usb_config_descriptor *")
+                  DW_AT_data_member_location	(0x1038)
+
+0x00000488:     DW_TAG_member
+                  DW_AT_name	("dev")
+                  DW_AT_decl_file	("/usr/include/usb.h")
+                  DW_AT_decl_line	(258)
+                  DW_AT_type	(0x000000ab "void *")
+                  DW_AT_data_member_location	(0x1040)
+
+0x00000496:     DW_TAG_member
+                  DW_AT_name	("devnum")
+                  DW_AT_decl_file	("/usr/include/usb.h")
+                  DW_AT_decl_line	(260)
+                  DW_AT_type	(0x00000121 "uint8_t")
+                  DW_AT_data_member_location	(0x1048)
+
+0x000004a4:     DW_TAG_member
+                  DW_AT_name	("num_children")
+                  DW_AT_decl_file	("/usr/include/usb.h")
+                  DW_AT_decl_line	(262)
+                  DW_AT_type	(0x00000031 "unsigned char")
+                  DW_AT_data_member_location	(0x1049)
+
+0x000004b2:     DW_TAG_member
+                  DW_AT_name	("children")
+                  DW_AT_decl_file	("/usr/include/usb.h")
+                  DW_AT_decl_line	(263)
+                  DW_AT_type	(0x00000544 "usb_device **")
+                  DW_AT_data_member_location	(0x1050)
+
+0x000004c0:     NULL
+
+0x000004c1:   DW_TAG_pointer_type
+                DW_AT_byte_size	(0x08)
+                DW_AT_type	(0x0000042f "usb_device")
+
+0x000004c7:   DW_TAG_array_type
+                DW_AT_type	(0x000000b3 "char")
+                DW_AT_sibling	(0x000004d8)
+
+0x000004d0:     DW_TAG_subrange_type
+                  DW_AT_type	(0x00000046 "long unsigned int")
+                  DW_AT_upper_bound	(0x1000)
+
+0x000004d7:     NULL
+
+0x000004d8:   DW_TAG_structure_type
+                DW_AT_name	("usb_bus")
+                DW_AT_byte_size	(0x1030)
+                DW_AT_decl_file	("/usr/include/usb.h")
+                DW_AT_decl_line	(266)
+                DW_AT_sibling	(0x00000538)
+
+0x000004e6:     DW_TAG_member
+                  DW_AT_name	("next")
+                  DW_AT_decl_file	("/usr/include/usb.h")
+                  DW_AT_decl_line	(267)
+                  DW_AT_type	(0x00000538 "usb_bus *")
+                  DW_AT_data_member_location	(0x00)
+
+0x000004f3:     DW_TAG_member
+                  DW_AT_name	("prev")
+                  DW_AT_decl_file	("/usr/include/usb.h")
+                  DW_AT_decl_line	(267)
+                  DW_AT_type	(0x00000538 "usb_bus *")
+                  DW_AT_data_member_location	(0x08)
+
+0x00000500:     DW_TAG_member
+                  DW_AT_name	("dirname")
+                  DW_AT_decl_file	("/usr/include/usb.h")
+                  DW_AT_decl_line	(269)
+                  DW_AT_type	(0x000004c7 "char[4097]")
+                  DW_AT_data_member_location	(0x10)
+
+0x0000050d:     DW_TAG_member
+                  DW_AT_name	("devices")
+                  DW_AT_decl_file	("/usr/include/usb.h")
+                  DW_AT_decl_line	(271)
+                  DW_AT_type	(0x000004c1 "usb_device *")
+                  DW_AT_data_member_location	(0x1018)
+
+0x0000051b:     DW_TAG_member
+                  DW_AT_name	("location")
+                  DW_AT_decl_file	("/usr/include/usb.h")
+                  DW_AT_decl_line	(272)
+                  DW_AT_type	(0x00000137 "uint32_t")
+                  DW_AT_data_member_location	(0x1020)
+
+0x00000529:     DW_TAG_member
+                  DW_AT_name	("root_dev")
+                  DW_AT_decl_file	("/usr/include/usb.h")
+                  DW_AT_decl_line	(274)
+                  DW_AT_type	(0x000004c1 "usb_device *")
+                  DW_AT_data_member_location	(0x1028)
+
+0x00000537:     NULL
+
+0x00000538:   DW_TAG_pointer_type
+                DW_AT_byte_size	(0x08)
+                DW_AT_type	(0x000004d8 "usb_bus")
+
+0x0000053e:   DW_TAG_pointer_type
+                DW_AT_byte_size	(0x08)
+                DW_AT_type	(0x000002e3 "usb_config_descriptor")
+
+0x00000544:   DW_TAG_pointer_type
+                DW_AT_byte_size	(0x08)
+                DW_AT_type	(0x000004c1 "usb_device *")
+
+0x0000054a:   DW_TAG_typedef
+                DW_AT_name	("usb_dev_handle")
+                DW_AT_decl_file	("/usr/include/usb.h")
+                DW_AT_decl_line	(278)
+                DW_AT_type	(0x00000556 "usb_dev_handle")
+
+0x00000556:   DW_TAG_structure_type
+                DW_AT_name	("usb_dev_handle")
+                DW_AT_declaration	(true)
+
+0x0000055b:   DW_TAG_variable
+                DW_AT_name	("usb_busses")
+                DW_AT_decl_file	("/usr/include/usb.h")
+                DW_AT_decl_line	(281)
+                DW_AT_type	(0x00000538 "usb_bus *")
+                DW_AT_external	(true)
+                DW_AT_declaration	(true)
+
+0x00000567:   DW_TAG_structure_type
+                DW_AT_name	("_IO_FILE")
+                DW_AT_byte_size	(0xd8)
+                DW_AT_decl_file	("/usr/include/x86_64-linux-gnu/bits/libio.h")
+                DW_AT_decl_line	(245)
+                DW_AT_sibling	(0x000006e7)
+
+0x00000573:     DW_TAG_member
+                  DW_AT_name	("_flags")
+                  DW_AT_decl_file	("/usr/include/x86_64-linux-gnu/bits/libio.h")
+                  DW_AT_decl_line	(246)
+                  DW_AT_type	(0x0000007c "int")
+                  DW_AT_data_member_location	(0x00)
+
+0x0000057f:     DW_TAG_member
+                  DW_AT_name	("_IO_read_ptr")
+                  DW_AT_decl_file	("/usr/include/x86_64-linux-gnu/bits/libio.h")
+                  DW_AT_decl_line	(251)
+                  DW_AT_type	(0x000000ad "char *")
+                  DW_AT_data_member_location	(0x08)
+
+0x0000058b:     DW_TAG_member
+                  DW_AT_name	("_IO_read_end")
+                  DW_AT_decl_file	("/usr/include/x86_64-linux-gnu/bits/libio.h")
+                  DW_AT_decl_line	(252)
+                  DW_AT_type	(0x000000ad "char *")
+                  DW_AT_data_member_location	(0x10)
+
+0x00000597:     DW_TAG_member
+                  DW_AT_name	("_IO_read_base")
+                  DW_AT_decl_file	("/usr/include/x86_64-linux-gnu/bits/libio.h")
+                  DW_AT_decl_line	(253)
+                  DW_AT_type	(0x000000ad "char *")
+                  DW_AT_data_member_location	(0x18)
+
+0x000005a3:     DW_TAG_member
+                  DW_AT_name	("_IO_write_base")
+                  DW_AT_decl_file	("/usr/include/x86_64-linux-gnu/bits/libio.h")
+                  DW_AT_decl_line	(254)
+                  DW_AT_type	(0x000000ad "char *")
+                  DW_AT_data_member_location	(0x20)
+
+0x000005af:     DW_TAG_member
+                  DW_AT_name	("_IO_write_ptr")
+                  DW_AT_decl_file	("/usr/include/x86_64-linux-gnu/bits/libio.h")
+                  DW_AT_decl_line	(255)
+                  DW_AT_type	(0x000000ad "char *")
+                  DW_AT_data_member_location	(0x28)
+
+0x000005bb:     DW_TAG_member
+                  DW_AT_name	("_IO_write_end")
+                  DW_AT_decl_file	("/usr/include/x86_64-linux-gnu/bits/libio.h")
+                  DW_AT_decl_line	(256)
+                  DW_AT_type	(0x000000ad "char *")
+                  DW_AT_data_member_location	(0x30)
+
+0x000005c8:     DW_TAG_member
+                  DW_AT_name	("_IO_buf_base")
+                  DW_AT_decl_file	("/usr/include/x86_64-linux-gnu/bits/libio.h")
+                  DW_AT_decl_line	(257)
+                  DW_AT_type	(0x000000ad "char *")
+                  DW_AT_data_member_location	(0x38)
+
+0x000005d5:     DW_TAG_member
+                  DW_AT_name	("_IO_buf_end")
+                  DW_AT_decl_file	("/usr/include/x86_64-linux-gnu/bits/libio.h")
+                  DW_AT_decl_line	(258)
+                  DW_AT_type	(0x000000ad "char *")
+                  DW_AT_data_member_location	(0x40)
+
+0x000005e2:     DW_TAG_member
+                  DW_AT_name	("_IO_save_base")
+                  DW_AT_decl_file	("/usr/include/x86_64-linux-gnu/bits/libio.h")
+                  DW_AT_decl_line	(260)
+                  DW_AT_type	(0x000000ad "char *")
+                  DW_AT_data_member_location	(0x48)
+
+0x000005ef:     DW_TAG_member
+                  DW_AT_name	("_IO_backup_base")
+                  DW_AT_decl_file	("/usr/include/x86_64-linux-gnu/bits/libio.h")
+                  DW_AT_decl_line	(261)
+                  DW_AT_type	(0x000000ad "char *")
+                  DW_AT_data_member_location	(0x50)
+
+0x000005fc:     DW_TAG_member
+                  DW_AT_name	("_IO_save_end")
+                  DW_AT_decl_file	("/usr/include/x86_64-linux-gnu/bits/libio.h")
+                  DW_AT_decl_line	(262)
+                  DW_AT_type	(0x000000ad "char *")
+                  DW_AT_data_member_location	(0x58)
+
+0x00000609:     DW_TAG_member
+                  DW_AT_name	("_markers")
+                  DW_AT_decl_file	("/usr/include/x86_64-linux-gnu/bits/libio.h")
+                  DW_AT_decl_line	(264)
+                  DW_AT_type	(0x0000071f "_IO_marker *")
+                  DW_AT_data_member_location	(0x60)
+
+0x00000616:     DW_TAG_member
+                  DW_AT_name	("_chain")
+                  DW_AT_decl_file	("/usr/include/x86_64-linux-gnu/bits/libio.h")
+                  DW_AT_decl_line	(266)
+                  DW_AT_type	(0x00000725 "_IO_FILE *")
+                  DW_AT_data_member_location	(0x68)
+
+0x00000623:     DW_TAG_member
+                  DW_AT_name	("_fileno")
+                  DW_AT_decl_file	("/usr/include/x86_64-linux-gnu/bits/libio.h")
+                  DW_AT_decl_line	(268)
+                  DW_AT_type	(0x0000007c "int")
+                  DW_AT_data_member_location	(0x70)
+
+0x00000630:     DW_TAG_member
+                  DW_AT_name	("_flags2")
+                  DW_AT_decl_file	("/usr/include/x86_64-linux-gnu/bits/libio.h")
+                  DW_AT_decl_line	(272)
+                  DW_AT_type	(0x0000007c "int")
+                  DW_AT_data_member_location	(0x74)
+
+0x0000063d:     DW_TAG_member
+                  DW_AT_name	("_old_offset")
+                  DW_AT_decl_file	("/usr/include/x86_64-linux-gnu/bits/libio.h")
+                  DW_AT_decl_line	(274)
+                  DW_AT_type	(0x00000095 "__off_t")
+                  DW_AT_data_member_location	(0x78)
+
+0x0000064a:     DW_TAG_member
+                  DW_AT_name	("_cur_column")
+                  DW_AT_decl_file	("/usr/include/x86_64-linux-gnu/bits/libio.h")
+                  DW_AT_decl_line	(278)
+                  DW_AT_type	(0x00000038 "short unsigned int")
+                  DW_AT_data_member_location	(0x80)
+
+0x00000657:     DW_TAG_member
+                  DW_AT_name	("_vtable_offset")
+                  DW_AT_decl_file	("/usr/include/x86_64-linux-gnu/bits/libio.h")
+                  DW_AT_decl_line	(279)
+                  DW_AT_type	(0x0000004d "signed char")
+                  DW_AT_data_member_location	(0x82)
+
+0x00000664:     DW_TAG_member
+                  DW_AT_name	("_shortbuf")
+                  DW_AT_decl_file	("/usr/include/x86_64-linux-gnu/bits/libio.h")
+                  DW_AT_decl_line	(280)
+                  DW_AT_type	(0x0000072b "char[1]")
+                  DW_AT_data_member_location	(0x83)
+
+0x00000671:     DW_TAG_member
+                  DW_AT_name	("_lock")
+                  DW_AT_decl_file	("/usr/include/x86_64-linux-gnu/bits/libio.h")
+                  DW_AT_decl_line	(284)
+                  DW_AT_type	(0x0000073b "_IO_lock_t *")
+                  DW_AT_data_member_location	(0x88)
+
+0x0000067e:     DW_TAG_member
+                  DW_AT_name	("_offset")
+                  DW_AT_decl_file	("/usr/include/x86_64-linux-gnu/bits/libio.h")
+                  DW_AT_decl_line	(293)
+                  DW_AT_type	(0x000000a0 "__off64_t")
+                  DW_AT_data_member_location	(0x90)
+
+0x0000068b:     DW_TAG_member
+                  DW_AT_name	("__pad1")
+                  DW_AT_decl_file	("/usr/include/x86_64-linux-gnu/bits/libio.h")
+                  DW_AT_decl_line	(301)
+                  DW_AT_type	(0x000000ab "void *")
+                  DW_AT_data_member_location	(0x98)
+
+0x00000698:     DW_TAG_member
+                  DW_AT_name	("__pad2")
+                  DW_AT_decl_file	("/usr/include/x86_64-linux-gnu/bits/libio.h")
+                  DW_AT_decl_line	(302)
+                  DW_AT_type	(0x000000ab "void *")
+                  DW_AT_data_member_location	(0xa0)
+
+0x000006a5:     DW_TAG_member
+                  DW_AT_name	("__pad3")
+                  DW_AT_decl_file	("/usr/include/x86_64-linux-gnu/bits/libio.h")
+                  DW_AT_decl_line	(303)
+                  DW_AT_type	(0x000000ab "void *")
+                  DW_AT_data_member_location	(0xa8)
+
+0x000006b2:     DW_TAG_member
+                  DW_AT_name	("__pad4")
+                  DW_AT_decl_file	("/usr/include/x86_64-linux-gnu/bits/libio.h")
+                  DW_AT_decl_line	(304)
+                  DW_AT_type	(0x000000ab "void *")
+                  DW_AT_data_member_location	(0xb0)
+
+0x000006bf:     DW_TAG_member
+                  DW_AT_name	("__pad5")
+                  DW_AT_decl_file	("/usr/include/x86_64-linux-gnu/bits/libio.h")
+                  DW_AT_decl_line	(306)
+                  DW_AT_type	(0x000000bf "size_t")
+                  DW_AT_data_member_location	(0xb8)
+
+0x000006cc:     DW_TAG_member
+                  DW_AT_name	("_mode")
+                  DW_AT_decl_file	("/usr/include/x86_64-linux-gnu/bits/libio.h")
+                  DW_AT_decl_line	(307)
+                  DW_AT_type	(0x0000007c "int")
+                  DW_AT_data_member_location	(0xc0)
+
+0x000006d9:     DW_TAG_member
+                  DW_AT_name	("_unused2")
+                  DW_AT_decl_file	("/usr/include/x86_64-linux-gnu/bits/libio.h")
+                  DW_AT_decl_line	(309)
+                  DW_AT_type	(0x00000741 "char[20]")
+                  DW_AT_data_member_location	(0xc4)
+
+0x000006e6:     NULL
+
+0x000006e7:   DW_TAG_typedef
+                DW_AT_name	("_IO_lock_t")
+                DW_AT_decl_file	("/usr/include/x86_64-linux-gnu/bits/libio.h")
+                DW_AT_decl_line	(154)
+
+0x000006ee:   DW_TAG_structure_type
+                DW_AT_name	("_IO_marker")
+                DW_AT_byte_size	(0x18)
+                DW_AT_decl_file	("/usr/include/x86_64-linux-gnu/bits/libio.h")
+                DW_AT_decl_line	(160)
+                DW_AT_sibling	(0x0000071f)
+
+0x000006fa:     DW_TAG_member
+                  DW_AT_name	("_next")
+                  DW_AT_decl_file	("/usr/include/x86_64-linux-gnu/bits/libio.h")
+                  DW_AT_decl_line	(161)
+                  DW_AT_type	(0x0000071f "_IO_marker *")
+                  DW_AT_data_member_location	(0x00)
+
+0x00000706:     DW_TAG_member
+                  DW_AT_name	("_sbuf")
+                  DW_AT_decl_file	("/usr/include/x86_64-linux-gnu/bits/libio.h")
+                  DW_AT_decl_line	(162)
+                  DW_AT_type	(0x00000725 "_IO_FILE *")
+                  DW_AT_data_member_location	(0x08)
+
+0x00000712:     DW_TAG_member
+                  DW_AT_name	("_pos")
+                  DW_AT_decl_file	("/usr/include/x86_64-linux-gnu/bits/libio.h")
+                  DW_AT_decl_line	(166)
+                  DW_AT_type	(0x0000007c "int")
+                  DW_AT_data_member_location	(0x10)
+
+0x0000071e:     NULL
+
+0x0000071f:   DW_TAG_pointer_type
+                DW_AT_byte_size	(0x08)
+                DW_AT_type	(0x000006ee "_IO_marker")
+
+0x00000725:   DW_TAG_pointer_type
+                DW_AT_byte_size	(0x08)
+                DW_AT_type	(0x00000567 "_IO_FILE")
+
+0x0000072b:   DW_TAG_array_type
+                DW_AT_type	(0x000000b3 "char")
+                DW_AT_sibling	(0x0000073b)
+
+0x00000734:     DW_TAG_subrange_type
+                  DW_AT_type	(0x00000046 "long unsigned int")
+                  DW_AT_upper_bound	(0x00)
+
+0x0000073a:     NULL
+
+0x0000073b:   DW_TAG_pointer_type
+                DW_AT_byte_size	(0x08)
+                DW_AT_type	(0x000006e7 "_IO_lock_t")
+
+0x00000741:   DW_TAG_array_type
+                DW_AT_type	(0x000000b3 "char")
+                DW_AT_sibling	(0x00000751)
+
+0x0000074a:     DW_TAG_subrange_type
+                  DW_AT_type	(0x00000046 "long unsigned int")
+                  DW_AT_upper_bound	(0x13)
+
+0x00000750:     NULL
+
+0x00000751:   DW_TAG_structure_type
+                DW_AT_name	("_IO_FILE_plus")
+                DW_AT_declaration	(true)
+
+0x00000756:   DW_TAG_variable
+                DW_AT_name	("_IO_2_1_stdin_")
+                DW_AT_decl_file	("/usr/include/x86_64-linux-gnu/bits/libio.h")
+                DW_AT_decl_line	(319)
+                DW_AT_type	(0x00000751 "_IO_FILE_plus")
+                DW_AT_external	(true)
+                DW_AT_declaration	(true)
+
+0x00000762:   DW_TAG_variable
+                DW_AT_name	("_IO_2_1_stdout_")
+                DW_AT_decl_file	("/usr/include/x86_64-linux-gnu/bits/libio.h")
+                DW_AT_decl_line	(320)
+                DW_AT_type	(0x00000751 "_IO_FILE_plus")
+                DW_AT_external	(true)
+                DW_AT_declaration	(true)
+
+0x0000076e:   DW_TAG_variable
+                DW_AT_name	("_IO_2_1_stderr_")
+                DW_AT_decl_file	("/usr/include/x86_64-linux-gnu/bits/libio.h")
+                DW_AT_decl_line	(321)
+                DW_AT_type	(0x00000751 "_IO_FILE_plus")
+                DW_AT_external	(true)
+                DW_AT_declaration	(true)
+
+0x0000077a:   DW_TAG_variable
+                DW_AT_name	("stdin")
+                DW_AT_decl_file	("/usr/include/stdio.h")
+                DW_AT_decl_line	(135)
+                DW_AT_type	(0x00000725 "_IO_FILE *")
+                DW_AT_external	(true)
+                DW_AT_declaration	(true)
+
+0x00000785:   DW_TAG_variable
+                DW_AT_name	("stdout")
+                DW_AT_decl_file	("/usr/include/stdio.h")
+                DW_AT_decl_line	(136)
+                DW_AT_type	(0x00000725 "_IO_FILE *")
+                DW_AT_external	(true)
+                DW_AT_declaration	(true)
+
+0x00000790:   DW_TAG_variable
+                DW_AT_name	("stderr")
+                DW_AT_decl_file	("/usr/include/stdio.h")
+                DW_AT_decl_line	(137)
+                DW_AT_type	(0x00000725 "_IO_FILE *")
+                DW_AT_external	(true)
+                DW_AT_declaration	(true)
+
+0x0000079b:   DW_TAG_variable
+                DW_AT_name	("sys_nerr")
+                DW_AT_decl_file	("/usr/include/x86_64-linux-gnu/bits/sys_errlist.h")
+                DW_AT_decl_line	(26)
+                DW_AT_type	(0x0000007c "int")
+                DW_AT_external	(true)
+                DW_AT_declaration	(true)
+
+0x000007a6:   DW_TAG_array_type
+                DW_AT_type	(0x0000015d "const char *const")
+                DW_AT_sibling	(0x000007b1)
+
+0x000007af:     DW_TAG_subrange_type
+
+0x000007b0:     NULL
+
+0x000007b1:   DW_TAG_const_type
+                DW_AT_type	(0x000007a6 "const char *const[]")
+
+0x000007b6:   DW_TAG_variable
+                DW_AT_name	("sys_errlist")
+                DW_AT_decl_file	("/usr/include/x86_64-linux-gnu/bits/sys_errlist.h")
+                DW_AT_decl_line	(27)
+                DW_AT_type	(0x000007b1 "const const char *const[]")
+                DW_AT_external	(true)
+                DW_AT_declaration	(true)
+
+0x000007c1:   DW_TAG_base_type
+                DW_AT_byte_size	(0x04)
+                DW_AT_encoding	(DW_ATE_float)
+                DW_AT_name	("float")
+
+0x000007c8:   DW_TAG_base_type
+                DW_AT_byte_size	(0x08)
+                DW_AT_encoding	(DW_ATE_float)
+                DW_AT_name	("double")
+
+0x000007cf:   DW_TAG_variable
+                DW_AT_name	("signgam")
+                DW_AT_decl_file	("/usr/include/math.h")
+                DW_AT_decl_line	(489)
+                DW_AT_type	(0x0000007c "int")
+                DW_AT_external	(true)
+                DW_AT_declaration	(true)
+
+0x000007db:   DW_TAG_subprogram
+                DW_AT_external	(true)
+                DW_AT_name	("main")
+                DW_AT_decl_file	("/home/christian/Development/Eclipse_Workspace/fan_controller_cli/Debug/../fan_controller_cli.c")
+                DW_AT_decl_line	(134)
+                DW_AT_prototyped	(true)
+                DW_AT_type	(0x0000007c "int")
+                DW_AT_low_pc	(0x00000000004010e5)
+                DW_AT_high_pc	(0x000000000040475f)
+                DW_AT_frame_base	(DW_OP_call_frame_cfa)
+                DW_AT_GNU_all_tail_call_sites	(true)
+                DW_AT_sibling	(0x00000bf3)
+
+0x000007fc:     DW_TAG_formal_parameter
+                  DW_AT_name	("argc")
+                  DW_AT_decl_file	("/home/christian/Development/Eclipse_Workspace/fan_controller_cli/Debug/../fan_controller_cli.c")
+                  DW_AT_decl_line	(134)
+                  DW_AT_type	(0x0000007c "int")
+                  DW_AT_location	(DW_OP_fbreg -612)
+
+0x0000080b:     DW_TAG_formal_parameter
+                  DW_AT_name	("argv")
+                  DW_AT_decl_file	("/home/christian/Development/Eclipse_Workspace/fan_controller_cli/Debug/../fan_controller_cli.c")
+                  DW_AT_decl_line	(134)
+                  DW_AT_type	(0x000000d6 "char **")
+                  DW_AT_location	(DW_OP_fbreg -624)
+
+0x0000081a:     DW_TAG_variable
+                  DW_AT_name	("handle")
+                  DW_AT_decl_file	("/home/christian/Development/Eclipse_Workspace/fan_controller_cli/Debug/../fan_controller_cli.c")
+                  DW_AT_decl_line	(135)
+                  DW_AT_type	(0x00000bf3 "usb_dev_handle *")
+                  DW_AT_location	(DW_OP_fbreg -472)
+
+0x00000829:     DW_TAG_variable
+                  DW_AT_name	("nBytes")
+                  DW_AT_decl_file	("/home/christian/Development/Eclipse_Workspace/fan_controller_cli/Debug/../fan_controller_cli.c")
+                  DW_AT_decl_line	(136)
+                  DW_AT_type	(0x0000007c "int")
+                  DW_AT_location	(DW_OP_fbreg -608)
+
+0x00000838:     DW_TAG_variable
+                  DW_AT_name	("buffer")
+                  DW_AT_decl_file	("/home/christian/Development/Eclipse_Workspace/fan_controller_cli/Debug/../fan_controller_cli.c")
+                  DW_AT_decl_line	(137)
+                  DW_AT_type	(0x00000bf9 "uint8_t[256]")
+                  DW_AT_location	(DW_OP_fbreg -304)
+
+0x00000847:     DW_TAG_variable
+                  DW_AT_name	("fan_no")
+                  DW_AT_decl_file	("/home/christian/Development/Eclipse_Workspace/fan_controller_cli/Debug/../fan_controller_cli.c")
+                  DW_AT_decl_line	(189)
+                  DW_AT_type	(0x0000007c "int")
+                  DW_AT_location	(DW_OP_fbreg -604)
+
+0x00000856:     DW_TAG_variable
+                  DW_AT_name	("default_pwm_no")
+                  DW_AT_decl_file	("/home/christian/Development/Eclipse_Workspace/fan_controller_cli/Debug/../fan_controller_cli.c")
+                  DW_AT_decl_line	(190)
+                  DW_AT_type	(0x0000007c "int")
+                  DW_AT_location	(DW_OP_fbreg -600)
+
+0x00000865:     DW_TAG_variable
+                  DW_AT_name	("max_rpm_no")
+                  DW_AT_decl_file	("/home/christian/Development/Eclipse_Workspace/fan_controller_cli/Debug/../fan_controller_cli.c")
+                  DW_AT_decl_line	(191)
+                  DW_AT_type	(0x0000007c "int")
+                  DW_AT_location	(DW_OP_fbreg -596)
+
+0x00000874:     DW_TAG_variable
+                  DW_AT_name	("led_no")
+                  DW_AT_decl_file	("/home/christian/Development/Eclipse_Workspace/fan_controller_cli/Debug/../fan_controller_cli.c")
+                  DW_AT_decl_line	(192)
+                  DW_AT_type	(0x0000007c "int")
+                  DW_AT_location	(DW_OP_fbreg -592)
+
+0x00000883:     DW_TAG_variable
+                  DW_AT_name	("value")
+                  DW_AT_decl_file	("/home/christian/Development/Eclipse_Workspace/fan_controller_cli/Debug/../fan_controller_cli.c")
+                  DW_AT_decl_line	(193)
+                  DW_AT_type	(0x0000007c "int")
+                  DW_AT_location	(DW_OP_fbreg -588)
+
+0x00000892:     DW_TAG_variable
+                  DW_AT_name	("timeout")
+                  DW_AT_decl_file	("/home/christian/Development/Eclipse_Workspace/fan_controller_cli/Debug/../fan_controller_cli.c")
+                  DW_AT_decl_line	(194)
+                  DW_AT_type	(0x0000007c "int")
+                  DW_AT_location	(DW_OP_fbreg -584)
+
+0x000008a1:     DW_TAG_variable
+                  DW_AT_name	("oled_x")
+                  DW_AT_decl_file	("/home/christian/Development/Eclipse_Workspace/fan_controller_cli/Debug/../fan_controller_cli.c")
+                  DW_AT_decl_line	(195)
+                  DW_AT_type	(0x0000007c "int")
+                  DW_AT_location	(DW_OP_fbreg -580)
+
+0x000008b0:     DW_TAG_variable
+                  DW_AT_name	("oled_y")
+                  DW_AT_decl_file	("/home/christian/Development/Eclipse_Workspace/fan_controller_cli/Debug/../fan_controller_cli.c")
+                  DW_AT_decl_line	(196)
+                  DW_AT_type	(0x0000007c "int")
+                  DW_AT_location	(DW_OP_fbreg -576)
+
+0x000008bf:     DW_TAG_variable
+                  DW_AT_name	("oled_flag")
+                  DW_AT_decl_file	("/home/christian/Development/Eclipse_Workspace/fan_controller_cli/Debug/../fan_controller_cli.c")
+                  DW_AT_decl_line	(197)
+                  DW_AT_type	(0x0000007c "int")
+                  DW_AT_location	(DW_OP_fbreg -572)
+
+0x000008ce:     DW_TAG_variable
+                  DW_AT_name	("rpm")
+                  DW_AT_decl_file	("/home/christian/Development/Eclipse_Workspace/fan_controller_cli/Debug/../fan_controller_cli.c")
+                  DW_AT_decl_line	(198)
+                  DW_AT_type	(0x00000c09 "float[18]")
+                  DW_AT_location	(DW_OP_fbreg -464)
+
+0x000008dd:     DW_TAG_variable
+                  DW_AT_name	("maxrpm")
+                  DW_AT_decl_file	("/home/christian/Development/Eclipse_Workspace/fan_controller_cli/Debug/../fan_controller_cli.c")
+                  DW_AT_decl_line	(199)
+                  DW_AT_type	(0x00000c09 "float[18]")
+                  DW_AT_location	(DW_OP_fbreg -384)
+
+0x000008ec:     DW_TAG_variable
+                  DW_AT_name	("hw_revision")
+                  DW_AT_decl_file	("/home/christian/Development/Eclipse_Workspace/fan_controller_cli/Debug/../fan_controller_cli.c")
+                  DW_AT_decl_line	(200)
+                  DW_AT_type	(0x0000007c "int")
+                  DW_AT_location	(DW_OP_fbreg -488)
+
+0x000008fb:     DW_TAG_variable
+                  DW_AT_name	("num_fans")
+                  DW_AT_decl_file	("/home/christian/Development/Eclipse_Workspace/fan_controller_cli/Debug/../fan_controller_cli.c")
+                  DW_AT_decl_line	(201)
+                  DW_AT_type	(0x0000007c "int")
+                  DW_AT_location	(DW_OP_fbreg -568)
+
+0x0000090a:     DW_TAG_variable
+                  DW_AT_name	("opt")
+                  DW_AT_decl_file	("/home/christian/Development/Eclipse_Workspace/fan_controller_cli/Debug/../fan_controller_cli.c")
+                  DW_AT_decl_line	(203)
+                  DW_AT_type	(0x0000007c "int")
+                  DW_AT_location	(DW_OP_fbreg -484)
+
+0x00000919:     DW_TAG_lexical_block
+                  DW_AT_low_pc	(0x00000000004015ec)
+                  DW_AT_high_pc	(0x000000000040179e)
+                  DW_AT_sibling	(0x0000093c)
+
+0x0000092e:       DW_TAG_variable
+                    DW_AT_name	("i")
+                    DW_AT_decl_file	("/home/christian/Development/Eclipse_Workspace/fan_controller_cli/Debug/../fan_controller_cli.c")
+                    DW_AT_decl_line	(236)
+                    DW_AT_type	(0x0000007c "int")
+                    DW_AT_location	(DW_OP_fbreg -564)
+
+0x0000093b:       NULL
+
+0x0000093c:     DW_TAG_lexical_block
+                  DW_AT_low_pc	(0x0000000000401b0e)
+                  DW_AT_high_pc	(0x0000000000401b95)
+                  DW_AT_sibling	(0x00000960)
+
+0x00000951:       DW_TAG_variable
+                    DW_AT_name	("i")
+                    DW_AT_decl_file	("/home/christian/Development/Eclipse_Workspace/fan_controller_cli/Debug/../fan_controller_cli.c")
+                    DW_AT_decl_line	(295)
+                    DW_AT_type	(0x0000007c "int")
+                    DW_AT_location	(DW_OP_fbreg -560)
+
+0x0000095f:       NULL
+
+0x00000960:     DW_TAG_lexical_block
+                  DW_AT_low_pc	(0x0000000000401b95)
+                  DW_AT_high_pc	(0x0000000000401c31)
+                  DW_AT_sibling	(0x00000984)
+
+0x00000975:       DW_TAG_variable
+                    DW_AT_name	("i")
+                    DW_AT_decl_file	("/home/christian/Development/Eclipse_Workspace/fan_controller_cli/Debug/../fan_controller_cli.c")
+                    DW_AT_decl_line	(301)
+                    DW_AT_type	(0x0000007c "int")
+                    DW_AT_location	(DW_OP_fbreg -556)
+
+0x00000983:       NULL
+
+0x00000984:     DW_TAG_lexical_block
+                  DW_AT_low_pc	(0x0000000000401f4d)
+                  DW_AT_high_pc	(0x000000000040274c)
+                  DW_AT_sibling	(0x000009a8)
+
+0x00000999:       DW_TAG_variable
+                    DW_AT_name	("i")
+                    DW_AT_decl_file	("/home/christian/Development/Eclipse_Workspace/fan_controller_cli/Debug/../fan_controller_cli.c")
+                    DW_AT_decl_line	(329)
+                    DW_AT_type	(0x0000007c "int")
+                    DW_AT_location	(DW_OP_fbreg -552)
+
+0x000009a7:       NULL
+
+0x000009a8:     DW_TAG_lexical_block
+                  DW_AT_low_pc	(0x000000000040274c)
+                  DW_AT_high_pc	(0x000000000040295b)
+                  DW_AT_sibling	(0x000009cc)
+
+0x000009bd:       DW_TAG_variable
+                    DW_AT_name	("i")
+                    DW_AT_decl_file	("/home/christian/Development/Eclipse_Workspace/fan_controller_cli/Debug/../fan_controller_cli.c")
+                    DW_AT_decl_line	(372)
+                    DW_AT_type	(0x0000007c "int")
+                    DW_AT_location	(DW_OP_fbreg -548)
+
+0x000009cb:       NULL
+
+0x000009cc:     DW_TAG_lexical_block
+                  DW_AT_low_pc	(0x000000000040295b)
+                  DW_AT_high_pc	(0x0000000000402a10)
+                  DW_AT_sibling	(0x000009f0)
+
+0x000009e1:       DW_TAG_variable
+                    DW_AT_name	("i")
+                    DW_AT_decl_file	("/home/christian/Development/Eclipse_Workspace/fan_controller_cli/Debug/../fan_controller_cli.c")
+                    DW_AT_decl_line	(388)
+                    DW_AT_type	(0x0000007c "int")
+                    DW_AT_location	(DW_OP_fbreg -544)
+
+0x000009ef:       NULL
+
+0x000009f0:     DW_TAG_lexical_block
+                  DW_AT_low_pc	(0x0000000000402a10)
+                  DW_AT_high_pc	(0x0000000000402a99)
+                  DW_AT_sibling	(0x00000a14)
+
+0x00000a05:       DW_TAG_variable
+                    DW_AT_name	("i")
+                    DW_AT_decl_file	("/home/christian/Development/Eclipse_Workspace/fan_controller_cli/Debug/../fan_controller_cli.c")
+                    DW_AT_decl_line	(394)
+                    DW_AT_type	(0x0000007c "int")
+                    DW_AT_location	(DW_OP_fbreg -540)
+
+0x00000a13:       NULL
+
+0x00000a14:     DW_TAG_lexical_block
+                  DW_AT_low_pc	(0x0000000000402a99)
+                  DW_AT_high_pc	(0x0000000000402b22)
+                  DW_AT_sibling	(0x00000a38)
+
+0x00000a29:       DW_TAG_variable
+                    DW_AT_name	("i")
+                    DW_AT_decl_file	("/home/christian/Development/Eclipse_Workspace/fan_controller_cli/Debug/../fan_controller_cli.c")
+                    DW_AT_decl_line	(399)
+                    DW_AT_type	(0x0000007c "int")
+                    DW_AT_location	(DW_OP_fbreg -536)
+
+0x00000a37:       NULL
+
+0x00000a38:     DW_TAG_lexical_block
+                  DW_AT_low_pc	(0x0000000000402b22)
+                  DW_AT_high_pc	(0x0000000000402bd7)
+                  DW_AT_sibling	(0x00000a5c)
+
+0x00000a4d:       DW_TAG_variable
+                    DW_AT_name	("i")
+                    DW_AT_decl_file	("/home/christian/Development/Eclipse_Workspace/fan_controller_cli/Debug/../fan_controller_cli.c")
+                    DW_AT_decl_line	(404)
+                    DW_AT_type	(0x0000007c "int")
+                    DW_AT_location	(DW_OP_fbreg -532)
+
+0x00000a5b:       NULL
+
+0x00000a5c:     DW_TAG_lexical_block
+                  DW_AT_low_pc	(0x0000000000402bd7)
+                  DW_AT_high_pc	(0x0000000000402c47)
+                  DW_AT_sibling	(0x00000a80)
+
+0x00000a71:       DW_TAG_variable
+                    DW_AT_name	("i")
+                    DW_AT_decl_file	("/home/christian/Development/Eclipse_Workspace/fan_controller_cli/Debug/../fan_controller_cli.c")
+                    DW_AT_decl_line	(410)
+                    DW_AT_type	(0x0000007c "int")
+                    DW_AT_location	(DW_OP_fbreg -528)
+
+0x00000a7f:       NULL
+
+0x00000a80:     DW_TAG_lexical_block
+                  DW_AT_low_pc	(0x0000000000402c6a)
+                  DW_AT_high_pc	(0x0000000000402cd4)
+                  DW_AT_sibling	(0x00000aa4)
+
+0x00000a95:       DW_TAG_variable
+                    DW_AT_name	("i")
+                    DW_AT_decl_file	("/home/christian/Development/Eclipse_Workspace/fan_controller_cli/Debug/../fan_controller_cli.c")
+                    DW_AT_decl_line	(417)
+                    DW_AT_type	(0x0000007c "int")
+                    DW_AT_location	(DW_OP_fbreg -524)
+
+0x00000aa3:       NULL
+
+0x00000aa4:     DW_TAG_lexical_block
+                  DW_AT_low_pc	(0x0000000000402ced)
+                  DW_AT_high_pc	(0x0000000000402d57)
+                  DW_AT_sibling	(0x00000ac8)
+
+0x00000ab9:       DW_TAG_variable
+                    DW_AT_name	("i")
+                    DW_AT_decl_file	("/home/christian/Development/Eclipse_Workspace/fan_controller_cli/Debug/../fan_controller_cli.c")
+                    DW_AT_decl_line	(426)
+                    DW_AT_type	(0x0000007c "int")
+                    DW_AT_location	(DW_OP_fbreg -520)
+
+0x00000ac7:       NULL
+
+0x00000ac8:     DW_TAG_lexical_block
+                  DW_AT_low_pc	(0x0000000000402d70)
+                  DW_AT_high_pc	(0x0000000000402dda)
+                  DW_AT_sibling	(0x00000aec)
+
+0x00000add:       DW_TAG_variable
+                    DW_AT_name	("i")
+                    DW_AT_decl_file	("/home/christian/Development/Eclipse_Workspace/fan_controller_cli/Debug/../fan_controller_cli.c")
+                    DW_AT_decl_line	(435)
+                    DW_AT_type	(0x0000007c "int")
+                    DW_AT_location	(DW_OP_fbreg -516)
+
+0x00000aeb:       NULL
+
+0x00000aec:     DW_TAG_lexical_block
+                  DW_AT_low_pc	(0x000000000040354c)
+                  DW_AT_high_pc	(0x0000000000403899)
+                  DW_AT_sibling	(0x00000b10)
+
+0x00000b01:       DW_TAG_variable
+                    DW_AT_name	("i")
+                    DW_AT_decl_file	("/home/christian/Development/Eclipse_Workspace/fan_controller_cli/Debug/../fan_controller_cli.c")
+                    DW_AT_decl_line	(526)
+                    DW_AT_type	(0x0000007c "int")
+                    DW_AT_location	(DW_OP_fbreg -512)
+
+0x00000b0f:       NULL
+
+0x00000b10:     DW_TAG_lexical_block
+                  DW_AT_low_pc	(0x0000000000403899)
+                  DW_AT_high_pc	(0x0000000000403c99)
+                  DW_AT_sibling	(0x00000b34)
+
+0x00000b25:       DW_TAG_variable
+                    DW_AT_name	("i")
+                    DW_AT_decl_file	("/home/christian/Development/Eclipse_Workspace/fan_controller_cli/Debug/../fan_controller_cli.c")
+                    DW_AT_decl_line	(545)
+                    DW_AT_type	(0x0000007c "int")
+                    DW_AT_location	(DW_OP_fbreg -508)
+
+0x00000b33:       NULL
+
+0x00000b34:     DW_TAG_lexical_block
+                  DW_AT_low_pc	(0x0000000000403caa)
+                  DW_AT_high_pc	(0x0000000000403d29)
+                  DW_AT_sibling	(0x00000b58)
+
+0x00000b49:       DW_TAG_variable
+                    DW_AT_name	("i")
+                    DW_AT_decl_file	("/home/christian/Development/Eclipse_Workspace/fan_controller_cli/Debug/../fan_controller_cli.c")
+                    DW_AT_decl_line	(571)
+                    DW_AT_type	(0x0000007c "int")
+                    DW_AT_location	(DW_OP_fbreg -504)
+
+0x00000b57:       NULL
+
+0x00000b58:     DW_TAG_lexical_block
+                  DW_AT_low_pc	(0x0000000000403d50)
+                  DW_AT_high_pc	(0x0000000000403de1)
+                  DW_AT_sibling	(0x00000b7c)
+
+0x00000b6d:       DW_TAG_variable
+                    DW_AT_name	("i")
+                    DW_AT_decl_file	("/home/christian/Development/Eclipse_Workspace/fan_controller_cli/Debug/../fan_controller_cli.c")
+                    DW_AT_decl_line	(580)
+                    DW_AT_type	(0x0000007c "int")
+                    DW_AT_location	(DW_OP_fbreg -500)
+
+0x00000b7b:       NULL
+
+0x00000b7c:     DW_TAG_lexical_block
+                  DW_AT_low_pc	(0x0000000000403df7)
+                  DW_AT_high_pc	(0x0000000000404006)
+                  DW_AT_sibling	(0x00000ba0)
+
+0x00000b91:       DW_TAG_variable
+                    DW_AT_name	("i")
+                    DW_AT_decl_file	("/home/christian/Development/Eclipse_Workspace/fan_controller_cli/Debug/../fan_controller_cli.c")
+                    DW_AT_decl_line	(589)
+                    DW_AT_type	(0x0000007c "int")
+                    DW_AT_location	(DW_OP_fbreg -496)
+
+0x00000b9f:       NULL
+
+0x00000ba0:     DW_TAG_lexical_block
+                  DW_AT_low_pc	(0x0000000000404012)
+                  DW_AT_high_pc	(0x00000000004042f8)
+
+0x00000bb1:       DW_TAG_variable
+                    DW_AT_name	("i")
+                    DW_AT_decl_file	("/home/christian/Development/Eclipse_Workspace/fan_controller_cli/Debug/../fan_controller_cli.c")
+                    DW_AT_decl_line	(607)
+                    DW_AT_type	(0x0000007c "int")
+                    DW_AT_location	(DW_OP_fbreg -492)
+
+0x00000bbf:       DW_TAG_lexical_block
+                    DW_AT_low_pc	(0x0000000000404021)
+                    DW_AT_high_pc	(0x00000000004042df)
+
+0x00000bd0:         DW_TAG_variable
+                      DW_AT_name	("rpm")
+                      DW_AT_decl_file	("/home/christian/Development/Eclipse_Workspace/fan_controller_cli/Debug/../fan_controller_cli.c")
+                      DW_AT_decl_line	(629)
+                      DW_AT_type	(0x000007c1 "float")
+                      DW_AT_location	(DW_OP_fbreg -480)
+
+0x00000be0:         DW_TAG_variable
+                      DW_AT_name	("maxrpm")
+                      DW_AT_decl_file	("/home/christian/Development/Eclipse_Workspace/fan_controller_cli/Debug/../fan_controller_cli.c")
+                      DW_AT_decl_line	(632)
+                      DW_AT_type	(0x000007c1 "float")
+                      DW_AT_location	(DW_OP_fbreg -476)
+
+0x00000bf0:         NULL
+
+0x00000bf1:       NULL
+
+0x00000bf2:     NULL
+
+0x00000bf3:   DW_TAG_pointer_type
+                DW_AT_byte_size	(0x08)
+                DW_AT_type	(0x0000054a "usb_dev_handle")
+
+0x00000bf9:   DW_TAG_array_type
+                DW_AT_type	(0x00000121 "uint8_t")
+                DW_AT_sibling	(0x00000c09)
+
+0x00000c02:     DW_TAG_subrange_type
+                  DW_AT_type	(0x00000046 "long unsigned int")
+                  DW_AT_upper_bound	(0xff)
+
+0x00000c08:     NULL
+
+0x00000c09:   DW_TAG_array_type
+                DW_AT_type	(0x000007c1 "float")
+                DW_AT_sibling	(0x00000c19)
+
+0x00000c12:     DW_TAG_subrange_type
+                  DW_AT_type	(0x00000046 "long unsigned int")
+                  DW_AT_upper_bound	(0x11)
+
+0x00000c18:     NULL
+
+0x00000c19:   DW_TAG_subprogram
+                DW_AT_external	(true)
+                DW_AT_name	("pmbus_vout")
+                DW_AT_decl_file	("/home/christian/Development/Eclipse_Workspace/fan_controller_cli/Debug/../fan_controller_cli.c")
+                DW_AT_decl_line	(123)
+                DW_AT_prototyped	(true)
+                DW_AT_type	(0x000007c1 "float")
+                DW_AT_low_pc	(0x000000000040107b)
+                DW_AT_high_pc	(0x00000000004010e5)
+                DW_AT_frame_base	(DW_OP_call_frame_cfa)
+                DW_AT_GNU_all_tail_call_sites	(true)
+                DW_AT_sibling	(0x00000c57)
+
+0x00000c3a:     DW_TAG_formal_parameter
+                  DW_AT_name	("input")
+                  DW_AT_decl_file	("/home/christian/Development/Eclipse_Workspace/fan_controller_cli/Debug/../fan_controller_cli.c")
+                  DW_AT_decl_line	(123)
+                  DW_AT_type	(0x0000012c "uint16_t")
+                  DW_AT_location	(DW_OP_fbreg -20)
+
+0x00000c48:     DW_TAG_formal_parameter
+                  DW_AT_name	("model")
+                  DW_AT_decl_file	("/home/christian/Development/Eclipse_Workspace/fan_controller_cli/Debug/../fan_controller_cli.c")
+                  DW_AT_decl_line	(123)
+                  DW_AT_type	(0x000000ad "char *")
+                  DW_AT_location	(DW_OP_fbreg -32)
+
+0x00000c56:     NULL
+
+0x00000c57:   DW_TAG_subprogram
+                DW_AT_external	(true)
+                DW_AT_name	("linear11_to_float")
+                DW_AT_decl_file	("/home/christian/Development/Eclipse_Workspace/fan_controller_cli/Debug/../fan_controller_cli.c")
+                DW_AT_decl_line	(114)
+                DW_AT_prototyped	(true)
+                DW_AT_type	(0x000007c1 "float")
+                DW_AT_low_pc	(0x0000000000401021)
+                DW_AT_high_pc	(0x000000000040107b)
+                DW_AT_frame_base	(DW_OP_call_frame_cfa)
+                DW_AT_GNU_all_tail_call_sites	(true)
+                DW_AT_sibling	(0x00000c87)
+
+0x00000c78:     DW_TAG_formal_parameter
+                  DW_AT_name	("input")
+                  DW_AT_decl_file	("/home/christian/Development/Eclipse_Workspace/fan_controller_cli/Debug/../fan_controller_cli.c")
+                  DW_AT_decl_line	(114)
+                  DW_AT_type	(0x0000012c "uint16_t")
+                  DW_AT_location	(DW_OP_fbreg -20)
+
+0x00000c86:     NULL
+
+0x00000c87:   DW_TAG_subprogram
+                DW_AT_external	(true)
+                DW_AT_name	("usage")
+                DW_AT_decl_file	("/home/christian/Development/Eclipse_Workspace/fan_controller_cli/Debug/../fan_controller_cli.c")
+                DW_AT_decl_line	(84)
+                DW_AT_low_pc	(0x0000000000401007)
+                DW_AT_high_pc	(0x0000000000401021)
+                DW_AT_frame_base	(DW_OP_call_frame_cfa)
+                DW_AT_GNU_all_tail_call_sites	(true)
+
+0x00000ca0:   DW_TAG_subprogram
+                DW_AT_name	("usbOpenDevice")
+                DW_AT_decl_file	("/home/christian/Development/Eclipse_Workspace/fan_controller_cli/Debug/../fan_controller_cli.c")
+                DW_AT_decl_line	(43)
+                DW_AT_prototyped	(true)
+                DW_AT_type	(0x00000bf3 "usb_dev_handle *")
+                DW_AT_low_pc	(0x0000000000400d61)
+                DW_AT_high_pc	(0x0000000000401007)
+                DW_AT_frame_base	(DW_OP_call_frame_cfa)
+                DW_AT_GNU_all_tail_call_sites	(true)
+                DW_AT_sibling	(0x00000d49)
+
+0x00000cc1:     DW_TAG_formal_parameter
+                  DW_AT_name	("vendor")
+                  DW_AT_decl_file	("/home/christian/Development/Eclipse_Workspace/fan_controller_cli/Debug/../fan_controller_cli.c")
+                  DW_AT_decl_line	(43)
+                  DW_AT_type	(0x0000007c "int")
+                  DW_AT_location	(DW_OP_fbreg -580)
+
+0x00000cd0:     DW_TAG_formal_parameter
+                  DW_AT_name	("vendorName")
+                  DW_AT_decl_file	("/home/christian/Development/Eclipse_Workspace/fan_controller_cli/Debug/../fan_controller_cli.c")
+                  DW_AT_decl_line	(43)
+                  DW_AT_type	(0x000000ad "char *")
+                  DW_AT_location	(DW_OP_fbreg -592)
+
+0x00000cdf:     DW_TAG_formal_parameter
+                  DW_AT_name	("product")
+                  DW_AT_decl_file	("/home/christian/Development/Eclipse_Workspace/fan_controller_cli/Debug/../fan_controller_cli.c")
+                  DW_AT_decl_line	(43)
+                  DW_AT_type	(0x0000007c "int")
+                  DW_AT_location	(DW_OP_fbreg -584)
+
+0x00000cee:     DW_TAG_formal_parameter
+                  DW_AT_name	("productName")
+                  DW_AT_decl_file	("/home/christian/Development/Eclipse_Workspace/fan_controller_cli/Debug/../fan_controller_cli.c")
+                  DW_AT_decl_line	(43)
+                  DW_AT_type	(0x000000ad "char *")
+                  DW_AT_location	(DW_OP_fbreg -600)
+
+0x00000cfd:     DW_TAG_variable
+                  DW_AT_name	("bus")
+                  DW_AT_decl_file	("/home/christian/Development/Eclipse_Workspace/fan_controller_cli/Debug/../fan_controller_cli.c")
+                  DW_AT_decl_line	(44)
+                  DW_AT_type	(0x00000538 "usb_bus *")
+                  DW_AT_location	(DW_OP_fbreg -568)
+
+0x00000d0c:     DW_TAG_variable
+                  DW_AT_name	("dev")
+                  DW_AT_decl_file	("/home/christian/Development/Eclipse_Workspace/fan_controller_cli/Debug/../fan_controller_cli.c")
+                  DW_AT_decl_line	(45)
+                  DW_AT_type	(0x000004c1 "usb_device *")
+                  DW_AT_location	(DW_OP_fbreg -560)
+
+0x00000d1b:     DW_TAG_variable
+                  DW_AT_name	("devVendor")
+                  DW_AT_decl_file	("/home/christian/Development/Eclipse_Workspace/fan_controller_cli/Debug/../fan_controller_cli.c")
+                  DW_AT_decl_line	(46)
+                  DW_AT_type	(0x0000017a "char[256]")
+                  DW_AT_location	(DW_OP_fbreg -544)
+
+0x00000d2a:     DW_TAG_variable
+                  DW_AT_name	("devProduct")
+                  DW_AT_decl_file	("/home/christian/Development/Eclipse_Workspace/fan_controller_cli/Debug/../fan_controller_cli.c")
+                  DW_AT_decl_line	(46)
+                  DW_AT_type	(0x0000017a "char[256]")
+                  DW_AT_location	(DW_OP_fbreg -288)
+
+0x00000d39:     DW_TAG_variable
+                  DW_AT_name	("handle")
+                  DW_AT_decl_file	("/home/christian/Development/Eclipse_Workspace/fan_controller_cli/Debug/../fan_controller_cli.c")
+                  DW_AT_decl_line	(48)
+                  DW_AT_type	(0x00000bf3 "usb_dev_handle *")
+                  DW_AT_location	(DW_OP_fbreg -552)
+
+0x00000d48:     NULL
+
+0x00000d49:   DW_TAG_subprogram
+                DW_AT_name	("usbGetDescriptorString")
+                DW_AT_decl_file	("/home/christian/Development/Eclipse_Workspace/fan_controller_cli/Debug/../fan_controller_cli.c")
+                DW_AT_decl_line	(19)
+                DW_AT_prototyped	(true)
+                DW_AT_type	(0x0000007c "int")
+                DW_AT_low_pc	(0x0000000000400bad)
+                DW_AT_high_pc	(0x0000000000400d61)
+                DW_AT_frame_base	(DW_OP_call_frame_cfa)
+                DW_AT_GNU_all_tail_call_sites	(true)
+
+0x00000d66:     DW_TAG_formal_parameter
+                  DW_AT_name	("dev")
+                  DW_AT_decl_file	("/home/christian/Development/Eclipse_Workspace/fan_controller_cli/Debug/../fan_controller_cli.c")
+                  DW_AT_decl_line	(19)
+                  DW_AT_type	(0x00000bf3 "usb_dev_handle *")
+                  DW_AT_location	(DW_OP_fbreg -312)
+
+0x00000d75:     DW_TAG_formal_parameter
+                  DW_AT_name	("index")
+                  DW_AT_decl_file	("/home/christian/Development/Eclipse_Workspace/fan_controller_cli/Debug/../fan_controller_cli.c")
+                  DW_AT_decl_line	(19)
+                  DW_AT_type	(0x0000007c "int")
+                  DW_AT_location	(DW_OP_fbreg -316)
+
+0x00000d84:     DW_TAG_formal_parameter
+                  DW_AT_name	("langid")
+                  DW_AT_decl_file	("/home/christian/Development/Eclipse_Workspace/fan_controller_cli/Debug/../fan_controller_cli.c")
+                  DW_AT_decl_line	(19)
+                  DW_AT_type	(0x0000007c "int")
+                  DW_AT_location	(DW_OP_fbreg -320)
+
+0x00000d93:     DW_TAG_formal_parameter
+                  DW_AT_name	("buf")
+                  DW_AT_decl_file	("/home/christian/Development/Eclipse_Workspace/fan_controller_cli/Debug/../fan_controller_cli.c")
+                  DW_AT_decl_line	(19)
+                  DW_AT_type	(0x000000ad "char *")
+                  DW_AT_location	(DW_OP_fbreg -328)
+
+0x00000da2:     DW_TAG_formal_parameter
+                  DW_AT_name	("buflen")
+                  DW_AT_decl_file	("/home/christian/Development/Eclipse_Workspace/fan_controller_cli/Debug/../fan_controller_cli.c")
+                  DW_AT_decl_line	(19)
+                  DW_AT_type	(0x0000007c "int")
+                  DW_AT_location	(DW_OP_fbreg -332)
+
+0x00000db1:     DW_TAG_variable
+                  DW_AT_name	("buffer")
+                  DW_AT_decl_file	("/home/christian/Development/Eclipse_Workspace/fan_controller_cli/Debug/../fan_controller_cli.c")
+                  DW_AT_decl_line	(20)
+                  DW_AT_type	(0x0000017a "char[256]")
+                  DW_AT_location	(DW_OP_fbreg -288)
+
+0x00000dc0:     DW_TAG_variable
+                  DW_AT_name	("rval")
+                  DW_AT_decl_file	("/home/christian/Development/Eclipse_Workspace/fan_controller_cli/Debug/../fan_controller_cli.c")
+                  DW_AT_decl_line	(21)
+                  DW_AT_type	(0x0000007c "int")
+                  DW_AT_location	(DW_OP_fbreg -296)
+
+0x00000dcf:     DW_TAG_variable
+                  DW_AT_name	("i")
+                  DW_AT_decl_file	("/home/christian/Development/Eclipse_Workspace/fan_controller_cli/Debug/../fan_controller_cli.c")
+                  DW_AT_decl_line	(21)
+                  DW_AT_type	(0x0000007c "int")
+                  DW_AT_location	(DW_OP_fbreg -292)
+
+0x00000ddc:     NULL
+
+0x00000ddd:   NULL

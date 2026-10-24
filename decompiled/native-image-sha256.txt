@@ -1,0 +1,1 @@
+186930d0fe8e4caa6fa2873e151225df6c7d1a6f6c4811a82601b113f65c6ddf  32768bytes; Ghidra project flash memory verified against actual capture

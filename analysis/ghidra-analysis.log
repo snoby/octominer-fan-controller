@@ -1,0 +1,117 @@
+2026-10-23 21:51:54 INFO  (LoggingInitialization) Using log config file: jar:file:/opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml  
+2026-10-23 21:51:54 INFO  (LoggingInitialization) Using log file: /Users/snoby/octominer-re/analysis/ghidra-analysis.log  
+2026-10-23 21:51:54 DEBUG (GhidraObjectInputFilter) Including serial input filter: FileSystem/data/client.rmi.serial.filter  
+2026-10-23 21:51:54 INFO  (Preferences) Loading user preferences: /Users/snoby/Library/ghidra/ghidra_12.2_PUBLIC/preferences  
+2026-10-23 21:51:54 INFO  (ClassSearcher) Searching for classes...  
+2026-10-23 21:51:55 INFO  (ClassSearcher) Class search complete (860 ms)  
+2026-10-23 21:51:55 INFO  (DefaultSSLContextInitializer) Initializing SSL Context  
+2026-10-23 21:51:55 INFO  (SecureRandomFactory) Initializing Random Number Generator...  
+2026-10-23 21:51:55 INFO  (SecureRandomFactory) Random Number Generator initialization complete: NativePRNGNonBlocking  
+2026-10-23 21:51:55 INFO  (DefaultTrustManagerFactory) Loaded 44 trusted CA certificates from the OS trust store.  
+2026-10-23 21:51:55 INFO  (DefaultTrustManagerFactory) Loaded 110 trusted CA certificates from the Java default trust store.  
+2026-10-23 21:51:55 INFO  (FileCacheMaintenanceDaemon) Starting cache cleanup: /var/tmp/snoby-ghidra/fscache2  
+2026-10-23 21:51:55 INFO  (FileCacheMaintenanceDaemon) Finished cache cleanup, estimated storage used: 0  
+2026-10-23 21:51:56 DEBUG (SleighLanguage) Took 238ms (52ms inside lock) to initialize language /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Processors/Atmel/data/languages/avr8.slaspec -> /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Processors/Atmel/data/languages/avr8.sla  
+2026-10-23 21:51:56 INFO  (AnalyzeHeadless) Headless startup complete (3304 ms)  
+2026-10-23 21:51:56 INFO  (ClassSearcher) Class searcher loaded 224 extension points (115 false positives)  
+2026-10-23 21:51:56 INFO  (HeadlessAnalyzer) HEADLESS Script Paths:
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/WildcardAssembler/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/Decompiler/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/SystemEmulation/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/FunctionID/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/FileFormats/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Processors/8051/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/VersionTracking/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Debug/Debugger-rmi-trace/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/BSim/ghidra_scripts
+    /Users/snoby/octominer-re/analysis/ghidra-scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/DecompilerDependent/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Processors/Atmel/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/Swift/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Processors/DATA/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Debug/Debugger/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Processors/JVM/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Processors/PIC/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/GnuDemangler/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/PDB/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/BytePatterns/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/PyGhidra/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/Base/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/MicrosoftCodeAnalyzer/ghidra_scripts  
+2026-10-23 21:51:56 INFO  (HeadlessAnalyzer) HEADLESS: execution starts  
+2026-10-23 21:51:56 INFO  (HeadlessAnalyzer) Creating project: /Users/snoby/octominer-re/ghidra-project/OctominerFW3  
+2026-10-23 21:51:56 DEBUG (DefaultProjectManager) No tools found; Installing default tools  
+2026-10-23 21:51:56 DEBUG (DefaultProjectManager) 	no recent project directories found  
+2026-10-23 21:51:56 INFO  (DefaultProject) Creating project: /Users/snoby/octominer-re/ghidra-project/OctominerFW3  
+2026-10-23 21:51:56 INFO  (HeadlessAnalyzer) REPORT: Processing input files:   
+2026-10-23 21:51:56 INFO  (HeadlessAnalyzer)      project: /Users/snoby/octominer-re/ghidra-project/OctominerFW3  
+2026-10-23 21:51:56 INFO  (HeadlessAnalyzer) IMPORTING: file:///Users/snoby/octominer-re/artifacts/installed-3.0/octominer-fw3.0-hw1.2-flash.bin  
+2026-10-23 21:51:56 INFO  (ProgramLoader) Successfully applied "-loader-baseAddr" to "Base Address" (old: "null", new: "0")  
+2026-10-23 21:51:56 INFO  (ProgramLoader) Using Loader: Raw Binary  
+2026-10-23 21:51:56 INFO  (ProgramLoader) Using Language/Compiler: avr8:LE:16:default:gcc  
+2026-10-23 21:51:56 INFO  (ProgramLoader) Using Library Search Path: [., /System/Library/dyld/dyld_shared_cache_arm64e, /System/Library/dyld/dyld_shared_cache_x86_64, /System/Library/dyld/dyld_shared_cache_x86_64h, /System/Cryptexes/OS/System/Library/dyld/dyld_shared_cache_arm64e, /System/Cryptexes/OS/System/Library/dyld/dyld_shared_cache_x86_64, /System/Cryptexes/OS/System/Library/dyld/dyld_shared_cache_x86_64h, /Users/snoby/Library/Java/Extensions, /Library/Java/Extensions, /Network/Library/Java/Extensions, /System/Library/Java/Extensions, /usr/lib/java]  
+2026-10-23 21:51:57 INFO  (HeadlessAnalyzer) IMPORTING: Loaded 0 additional files  
+2026-10-23 21:51:57 INFO  (HeadlessAnalyzer) REPORT: Execute script: PrepareFirmware.java '/Users/snoby/octominer-re/analysis/ghidra-scripts'   
+2026-10-23 21:51:58 INFO  (HeadlessAnalyzer) SCRIPT: /Users/snoby/octominer-re/analysis/ghidra-scripts/PrepareFirmware.java  
+2026-10-23 21:51:58 INFO  (GhidraScript) PrepareFirmware.java> CODE address unit=2; byte438 -> code:021c  
+2026-10-23 21:51:58 INFO  (GhidraScript) PrepareFirmware.java> Register data note EEARH: Conflicting data exists at address mem:0041 to mem:0042  
+2026-10-23 21:51:58 INFO  (GhidraScript) PrepareFirmware.java> Register data note ADCH: Conflicting data exists at address mem:0078 to mem:0079  
+2026-10-23 21:51:58 INFO  (GhidraScript) PrepareFirmware.java> Register data note TCNT1H: Conflicting data exists at address mem:0084 to mem:0085  
+2026-10-23 21:51:58 INFO  (GhidraScript) PrepareFirmware.java> Register data note ICR1H: Conflicting data exists at address mem:0086 to mem:0087  
+2026-10-23 21:51:58 INFO  (GhidraScript) PrepareFirmware.java> Register data note OCR1AH: Conflicting data exists at address mem:0088 to mem:0089  
+2026-10-23 21:51:58 INFO  (GhidraScript) PrepareFirmware.java> Register data note OCR1BH: Conflicting data exists at address mem:008a to mem:008b  
+2026-10-23 21:51:58 INFO  (GhidraScript) PrepareFirmware.java> Register data note TCNT3H: Conflicting data exists at address mem:0094 to mem:0095  
+2026-10-23 21:51:58 INFO  (GhidraScript) PrepareFirmware.java> Register data note ICR3H: Conflicting data exists at address mem:0096 to mem:0097  
+2026-10-23 21:51:58 INFO  (GhidraScript) PrepareFirmware.java> Register data note OCR3AH: Conflicting data exists at address mem:0098 to mem:0099  
+2026-10-23 21:51:58 INFO  (GhidraScript) PrepareFirmware.java> Register data note OCR3BH: Conflicting data exists at address mem:009a to mem:009b  
+2026-10-23 21:51:58 INFO  (GhidraScript) PrepareFirmware.java> Register data note TCNT4H: Conflicting data exists at address mem:00a4 to mem:00a5  
+2026-10-23 21:51:58 INFO  (GhidraScript) PrepareFirmware.java> Register data note ICR4H: Conflicting data exists at address mem:00a6 to mem:00a7  
+2026-10-23 21:51:58 INFO  (GhidraScript) PrepareFirmware.java> Register data note OCR4AH: Conflicting data exists at address mem:00a8 to mem:00a9  
+2026-10-23 21:51:58 INFO  (GhidraScript) PrepareFirmware.java> Register data note OCR4BH: Conflicting data exists at address mem:00aa to mem:00ab  
+2026-10-23 21:51:58 INFO  (GhidraScript) PrepareFirmware.java> Register data note UBRR0H: Conflicting data exists at address mem:00c4 to mem:00c5  
+2026-10-23 21:51:58 INFO  (GhidraScript) PrepareFirmware.java> Register data note UBRR1H: Conflicting data exists at address mem:00cc to mem:00cd  
+2026-10-23 21:51:58 INFO  (GhidraScript) PrepareFirmware.java> Register data note UBRR2H: Conflicting data exists at address mem:00d4 to mem:00d5  
+2026-10-23 21:51:58 INFO  (GhidraScript) PrepareFirmware.java> Prepared ATmega324PB register labels and51vector entries; removed 127 generic symbols.  
+2026-10-23 21:51:58 INFO  (HeadlessAnalyzer) ANALYZING all memory and code: file:///Users/snoby/octominer-re/artifacts/installed-3.0/octominer-fw3.0-hw1.2-flash.bin  
+2026-10-23 21:51:59 DEBUG (FidAnalyzer) No FID Libraries apply for language avr8:LE:16:default  
+2026-10-23 21:51:59 INFO  (PackedDatabaseCache) Packed database cache: /var/tmp/snoby-ghidra/packed-db-cache  
+2026-10-23 21:51:59 DEBUG (PackedDatabaseCache) Caching packed database: /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/Base/data/typeinfo/generic/generic_clib.gdt  
+2026-10-23 21:51:59 DEBUG (PackedDatabase) Unpacking database /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/Base/data/typeinfo/generic/generic_clib.gdt -> /var/tmp/snoby-ghidra/packed-db-cache/pdb9DBD9609/db.1.gbf  
+2026-10-23 21:51:59 DEBUG (PackedDatabaseCache) Cache update completed: /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/Base/data/typeinfo/generic/generic_clib.gdt  
+2026-10-23 21:51:59 DEBUG (SleighLanguage) Took 218ms (97ms inside lock) to initialize language /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Processors/x86/data/languages/x86.slaspec -> /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Processors/x86/data/languages/x86.sla  
+2026-10-23 21:52:00 INFO  (ApplyDataArchiveAnalyzer) Applied data type archive: generic_clib  
+2026-10-23 21:52:00 INFO  (FormatStringAnalyzer) No functions detected that make variadic function calls with format strings containing format specifiers  
+2026-10-23 21:52:00 INFO  (AutoAnalysisManager) -----------------------------------------------------
+    ASCII Strings                              0.179 secs
+    Apply Data Archives                        0.715 secs
+    Basic Constant Reference Analyzer          0.160 secs
+    Call Convention ID                         0.022 secs
+    Call-Fixup Installer                       0.001 secs
+    Create Function                            0.031 secs
+    Decompiler Switch Analysis                 0.344 secs
+    Demangler GNU                              0.191 secs
+    Disassemble                                0.004 secs
+    Disassemble Entry Points                   0.002 secs
+    Embedded Media                             0.008 secs
+    External Entry References                  0.001 secs
+    Function ID                                0.037 secs
+    Function Start Search                      0.003 secs
+    Non-Returning Functions - Discovered       0.009 secs
+    Shared Return Calls                        0.019 secs
+    Source Language Support                    0.001 secs
+    Stack                                      0.138 secs
+    Subroutine References                      0.007 secs
+    Variadic Function Signature Override       0.009 secs
+-----------------------------------------------------
+     Total Time   1 secs
+-----------------------------------------------------
+  
+2026-10-23 21:52:00 INFO  (HeadlessAnalyzer) REPORT: Analysis succeeded for file: file:///Users/snoby/octominer-re/artifacts/installed-3.0/octominer-fw3.0-hw1.2-flash.bin  
+2026-10-23 21:52:00 INFO  (HeadlessAnalyzer) REPORT: Execute script: ExportFirmware.java '/Users/snoby/octominer-re/decompiled'   
+2026-10-23 21:52:00 INFO  (HeadlessAnalyzer) SCRIPT: /Users/snoby/octominer-re/analysis/ghidra-scripts/ExportFirmware.java  
+2026-10-23 21:52:02 INFO  (GhidraScript) ExportFirmware.java> EXPORT: functions=122 decompiled=122 failed=0 nativeProject=false  
+2026-10-23 21:52:02 INFO  (HeadlessAnalyzer) ANALYZING changes made by post scripts: file:///Users/snoby/octominer-re/artifacts/installed-3.0/octominer-fw3.0-hw1.2-flash.bin  
+2026-10-23 21:52:02 INFO  (HeadlessAnalyzer) REPORT: Post-analysis succeeded for file: file:///Users/snoby/octominer-re/artifacts/installed-3.0/octominer-fw3.0-hw1.2-flash.bin  
+2026-10-23 21:52:02 INFO  (LocalFileSystem) /octominer-fw3.0-hw1.2-flash.bin: file created (snoby)  
+2026-10-23 21:52:02 INFO  (HeadlessAnalyzer) REPORT: Save succeeded for: /octominer-fw3.0-hw1.2-flash.bin (OctominerFW3:/octominer-fw3.0-hw1.2-flash.bin)  
+2026-10-23 21:52:02 INFO  (HeadlessAnalyzer) REPORT: Import succeeded  

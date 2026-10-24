@@ -1,0 +1,29 @@
+{
+  "fan-control": {
+    "completed": true,
+    "verdict": "NEEDS_CORRECTIONS",
+    "session_id": "a0a89cc8-832e-41b0-8fd4-65e4afbd3379",
+    "model_usage": [
+      "claude-opus-5-5"
+    ],
+    "result_file": "fan-control.json"
+  },
+  "watchdog-and-usb": {
+    "completed": true,
+    "verdict": "NEEDS_CORRECTIONS",
+    "session_id": "2d60aebc-6a22-4cea-92f5-66e220e35ef4",
+    "model_usage": [
+      "claude-opus-5-5"
+    ],
+    "result_file": "watchdog-and-usb.json"
+  },
+  "peripherals-and-decompiler-quality": {
+    "completed": true,
+    "verdict": "NEEDS_CORRECTIONS",
+    "session_id": "7f562c0c-dea1-4a88-bbf1-805901c1a354",
+    "model_usage": [
+      "claude-opus-5-5"
+    ],
+    "result_file": "peripherals-followup.json"
+  }
+}

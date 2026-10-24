@@ -1,0 +1,15 @@
+test_compiled_c_matches_captured_helpers_across_valid_addresses (test_eeprom.InstructionTests.test_compiled_c_matches_captured_helpers_across_valid_addresses) ... FAIL
+
+======================================================================
+FAIL: test_compiled_c_matches_captured_helpers_across_valid_addresses (test_eeprom.InstructionTests.test_compiled_c_matches_captured_helpers_across_valid_addresses)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/snoby/octominer-re/reconstruction/test_eeprom.py", line 86, in test_compiled_c_matches_captured_helpers_across_valid_addresses
+    if not write:self.assertEqual(result,cpu.get16(24),where)
+                 ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 0 != 12299 : ee_read_word address=0x0 value=None IRQ=False
+
+----------------------------------------------------------------------
+Ran 1 test in 1.971s
+
+FAILED (failures=1)

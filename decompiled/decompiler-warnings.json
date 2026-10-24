@@ -1,0 +1,82 @@
+[
+  {
+    "file": "byte_3912_terminal_exit_loop.c",
+    "line": 7,
+    "warning": "/* WARNING: Do nothing block with infinite loop */"
+  },
+  {
+    "file": "byte_799a_FUN_code_3ccd.c",
+    "line": 7,
+    "warning": "/* WARNING: Do nothing block with infinite loop */"
+  },
+  {
+    "file": "byte_2352_usb_setup_dispatch.c",
+    "line": 124,
+    "warning": "/* WARNING: Return address prevents inlining here */"
+  },
+  {
+    "file": "byte_2352_usb_setup_dispatch.c",
+    "line": 141,
+    "warning": "/* WARNING: Return address prevents inlining here */"
+  },
+  {
+    "file": "byte_2352_usb_setup_dispatch.c",
+    "line": 182,
+    "warning": "/* WARNING: Return address prevents inlining here */"
+  },
+  {
+    "file": "byte_2352_usb_setup_dispatch.c",
+    "line": 311,
+    "warning": "/* WARNING: Return address prevents inlining here */"
+  },
+  {
+    "file": "byte_2352_usb_setup_dispatch.c",
+    "line": 1537,
+    "warning": "/* WARNING: Do nothing block with infinite loop */"
+  },
+  {
+    "file": "byte_2352_usb_setup_dispatch.c",
+    "line": 1573,
+    "warning": "/* WARNING: Do nothing block with infinite loop */"
+  },
+  {
+    "file": "byte_2056_application_main.c",
+    "line": 118,
+    "warning": "/* WARNING: Do nothing block with infinite loop */"
+  },
+  {
+    "file": "byte_2056_application_main.c",
+    "line": 163,
+    "warning": "/* WARNING: Do nothing block with infinite loop */"
+  },
+  {
+    "file": "byte_2056_application_main.c",
+    "line": 183,
+    "warning": "/* WARNING: Do nothing block with infinite loop */"
+  },
+  {
+    "file": "byte_2056_application_main.c",
+    "line": 229,
+    "warning": "/* WARNING: Do nothing block with infinite loop */"
+  },
+  {
+    "file": "byte_1112_isr_TIMER3_CAPT.c",
+    "line": 3,
+    "warning": "/* WARNING: Restarted to delay deadcode elimination for space: mem */"
+  },
+  {
+    "file": "byte_37c6_gcc_tablejump_helper.c",
+    "line": 3,
+    "warning": "/* WARNING: This is an inlined function */"
+  },
+  {
+    "file": "byte_37c6_gcc_tablejump_helper.c",
+    "line": 14,
+    "warning": "/* WARNING: Could not recover jumptable at 0x1be8. Too many branches */"
+  },
+  {
+    "file": "byte_37c6_gcc_tablejump_helper.c",
+    "line": 15,
+    "warning": "/* WARNING: Treating indirect jump as call */"
+  }
+]

@@ -1,0 +1,11 @@
+HOST: cmp-100
+KERNEL: Linux 6.10.0-hiveos
+idVendor: 16c0
+idProduct: 05dc
+manufacturer: info@octominer.com
+product: Fan-Controller
+bcdDevice: 0100
+CACHED UPDATE LOG:
+Current FW version is: 3.0
+Current HW version is: 1.2
+No firmware updates for your hardware

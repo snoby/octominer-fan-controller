@@ -1,0 +1,11 @@
+
+DIFFERENTIAL_RESULT {"firmware_sha256": "186930d0fe8e4caa6fa2873e151225df6c7d1a6f6c4811a82601b113f65c6ddf", "reference_c_sha256": "697381344ab6a8f018977a5ae903063f7821edf8cbf9b9d27d64123ef3565c8e", "executor_sha256": "c2958c245a8b3957a6750f933f9b92363afbf18c9c0601f6e933d0df0f7d32a0", "cases_by_helper": {"ee_read_byte": 2048, "ee_read_word": 2046, "ee_update_byte": 4096, "ee_update_word": 8184, "ee_write_byte": 4096, "ee_write_word": 8184}, "total_differential_cases": 28654, "interpreted_opcode_steps": 708036, "all_passed": true, "scope": "Sequential selected-helper execution with modeled EEPROM, no interrupts/cycle-accurate hardware or out-of-range wrapping"}
+test_captured_update_byte_skips_equal_and_masks_strobes (test_eeprom.InstructionTests.test_captured_update_byte_skips_equal_and_masks_strobes) ... ok
+test_captured_word_reader_returns_eeprom_via_register_alias (test_eeprom.InstructionTests.test_captured_word_reader_returns_eeprom_via_register_alias) ... ok
+test_compiled_c_matches_captured_helpers_across_valid_addresses (test_eeprom.InstructionTests.test_compiled_c_matches_captured_helpers_across_valid_addresses) ... ok
+test_word_helpers_preserve_distinct_byte_write_orders (test_eeprom.InstructionTests.test_word_helpers_preserve_distinct_byte_write_orders) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 2.203s
+
+OK

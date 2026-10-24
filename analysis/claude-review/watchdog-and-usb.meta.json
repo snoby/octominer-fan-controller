@@ -1,0 +1,14 @@
+{
+  "scope": "watchdog-and-usb",
+  "exit_code": 0,
+  "seconds": 221.9,
+  "subtype": "success",
+  "is_error": false,
+  "num_turns": 27,
+  "session_id": "2d60aebc-6a22-4cea-92f5-66e220e35ef4",
+  "stop_reason": "end_turn",
+  "terminal_reason": "completed",
+  "model_usage": [
+    "claude-opus-5-5"
+  ]
+}

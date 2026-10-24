@@ -1,0 +1,12 @@
+Warning: Permanently added '192.168.2.106' (ED25519) to the list of known hosts.
+{"utc": "2026-10-24T01:35:51.343145+00:00", "event": "before", "version": "1e0c140c", "gpu": [[62.0, 100.0, 110.23], [62.0, 100.0, 76.5], [64.0, 100.0, 110.9], [61.0, 100.0, 120.71], [51.0, 100.0, 84.71]]}
+{"utc": "2026-10-24T01:35:54.413430+00:00", "event": "command", "args": ["/hive/bin/miner", "stop"], "returncode": 0, "output": "Sending Ctrl+C to screen session 4171543\nWaiting 15s for miners to exit. . Done\n"}
+{"utc": "2026-10-24T01:35:54.413741+00:00", "event": "cooldown_started"}
+{"utc": "2026-10-24T01:35:54.467318+00:00", "event": "cooldown_sample", "gpu": [[55.0, 0.0, 29.77], [55.0, 2.0, 18.58], [55.0, 0.0, 33.16], [52.0, 0.0, 33.9], [44.0, 0.0, 24.92]]}
+{"utc": "2026-10-24T01:35:54.471559+00:00", "event": "acquisition_error", "error": "Unexpected controller parent processes: [1036, 3124, 4188284]", "traceback": "Traceback (most recent call last):\n  File \"/home/user/octominer-readback/acquire_installed_flash.py\", line 140, in <module>\n    stop_parents()\n  File \"/home/user/octominer-readback/acquire_installed_flash.py\", line 97, in stop_parents\n    if len(parents)!=2:raise RuntimeError('Unexpected controller parent processes: '+str(parents))\nRuntimeError: Unexpected controller parent processes: [1036, 3124, 4188284]\n"}
+{"utc": "2026-10-24T01:35:54.540053+00:00", "event": "after", "version": "1e0c140c", "gpu": [[55.0, 0.0, 29.77], [55.0, 2.0, 18.57], [55.0, 0.0, 33.16], [52.0, 0.0, 33.89], [44.0, 0.0, 24.97]]}
+{"utc": "2026-10-24T01:35:54.540534+00:00", "event": "original_controller_processes_resumed"}
+{"utc": "2026-10-24T01:36:00.633353+00:00", "event": "restored", "version": "1e0c140c", "gpu": [[53.0, 0.0, 29.37], [54.0, 0.0, 18.27], [53.0, 0.0, 32.85], [50.0, 0.0, 33.25], [42.0, 0.0, 25.0]]}
+{"utc": "2026-10-24T01:36:02.036549+00:00", "event": "command", "args": ["/hive/bin/miner", "start"], "returncode": 0, "output": "Starting \u001b[0;36mcustom\u001b[0m\n"}
+{"utc": "2026-10-24T01:36:02.037002+00:00", "event": "mining_start_requested"}
+CAPTURE_DIRECTORY=/home/user/octominer-readback/capture-20261024T013551Z

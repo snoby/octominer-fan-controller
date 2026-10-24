@@ -1,0 +1,56 @@
+[
+  {
+    "file": "avrdude.conf",
+    "size": 486211,
+    "sha256": "cfd394dd371604a62c52b49d55faf815e3bba45bfe6c5785f3c5b4cff8f6d704",
+    "remote_verified": true
+  },
+  {
+    "file": "fan_controller_cli",
+    "size": 1003736,
+    "sha256": "9f2dbaa9257d133b0c682e70d11ab6c2c6bcf42e98dc8842cdf2b5d1972a1cc5",
+    "remote_verified": true
+  },
+  {
+    "file": "firmware_07.hex",
+    "size": 30197,
+    "sha256": "5d5ee5e049bdefebcbc068df8f24765ae86b951770863db62328dfa19c5d3221",
+    "remote_verified": true
+  },
+  {
+    "file": "firmware_09.hex",
+    "size": 33362,
+    "sha256": "74bfec60bfbf2ef15c51bca0171e95632f0fe2e5df0bc4e272910be4d5a51705",
+    "remote_verified": true
+  },
+  {
+    "file": "fw_update.log",
+    "size": 92,
+    "sha256": "883fa8704f150881e34d7b0b1d4bff21a56f98f724d654b3997ff495cdec2abe",
+    "remote_verified": true
+  },
+  {
+    "file": "octofan",
+    "size": 42347,
+    "sha256": "6d1c90863cb5d76514df0265c28b7380e454ae020f63ece66ea24031e5c5607a",
+    "remote_verified": true
+  },
+  {
+    "file": "rig-intake-temp.sh",
+    "size": 225,
+    "sha256": "5e39fb3bba45544be5a15ffabfa97c74d35b0282ff08b1637d4d2d69c82327f3",
+    "remote_verified": true
+  },
+  {
+    "file": "watchdog-octofan",
+    "size": 1591,
+    "sha256": "e071b4b8268ed55abce10245db532f87b6ff47c98deb7663b3b0a59ffc6297d6",
+    "remote_verified": true
+  },
+  {
+    "file": "watchdog-octofan.sh",
+    "size": 638,
+    "sha256": "f68e381d5fdad6759eca4ea350a7d8686c735436e96f4e0c3e9c04980641c883",
+    "remote_verified": true
+  }
+]

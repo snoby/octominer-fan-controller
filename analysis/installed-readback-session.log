@@ -1,0 +1,23 @@
+Warning: Permanently added '192.168.2.106' (ED25519) to the list of known hosts.
+{"utc": "2026-10-24T01:33:27.474558+00:00", "event": "before", "version": "1e0c140c", "gpu": [[68.0, 100.0, 110.82], [67.0, 100.0, 77.92], [68.0, 100.0, 114.93], [67.0, 100.0, 123.13], [55.0, 100.0, 84.53]]}
+{"utc": "2026-10-24T01:33:30.555571+00:00", "event": "command", "args": ["/hive/bin/miner", "stop"], "returncode": 0, "output": "Sending Ctrl+C to screen session 4040521\nWaiting 15s for miners to exit. . Done\n"}
+{"utc": "2026-10-24T01:33:30.555889+00:00", "event": "cooldown_started"}
+{"utc": "2026-10-24T01:33:30.595527+00:00", "event": "cooldown_sample", "gpu": [[60.0, 3.0, 30.44], [60.0, 2.0, 19.36], [59.0, 3.0, 33.88], [58.0, 3.0, 35.21], [47.0, 0.0, 24.92]]}
+{"utc": "2026-10-24T01:33:35.649603+00:00", "event": "cooldown_sample", "gpu": [[58.0, 0.0, 30.09], [58.0, 0.0, 19.13], [58.0, 0.0, 33.29], [57.0, 0.0, 34.39], [46.0, 0.0, 25.08]]}
+{"utc": "2026-10-24T01:33:40.696043+00:00", "event": "cooldown_sample", "gpu": [[58.0, 0.0, 30.04], [58.0, 0.0, 19.08], [57.0, 0.0, 33.13], [56.0, 0.0, 34.27], [45.0, 0.0, 25.0]]}
+{"utc": "2026-10-24T01:33:45.747629+00:00", "event": "cooldown_sample", "gpu": [[57.0, 0.0, 29.88], [57.0, 0.0, 19.02], [56.0, 0.0, 33.03], [56.0, 0.0, 34.15], [45.0, 0.0, 25.08]]}
+{"utc": "2026-10-24T01:33:50.804853+00:00", "event": "cooldown_sample", "gpu": [[56.0, 0.0, 29.83], [57.0, 0.0, 19.03], [56.0, 0.0, 33.13], [55.0, 0.0, 34.26], [44.0, 0.0, 25.0]]}
+{"utc": "2026-10-24T01:33:55.848088+00:00", "event": "cooldown_sample", "gpu": [[56.0, 0.0, 29.65], [56.0, 0.0, 18.88], [55.0, 0.0, 32.93], [54.0, 0.0, 33.86], [44.0, 0.0, 24.96]]}
+{"utc": "2026-10-24T01:34:00.894728+00:00", "event": "cooldown_sample", "gpu": [[55.0, 0.0, 29.92], [56.0, 0.0, 18.82], [55.0, 0.0, 32.85], [54.0, 0.0, 33.68], [43.0, 0.0, 25.07]]}
+{"utc": "2026-10-24T01:34:05.950376+00:00", "event": "cooldown_sample", "gpu": [[54.0, 0.0, 29.52], [55.0, 0.0, 18.7], [55.0, 0.0, 32.88], [54.0, 0.0, 33.46], [43.0, 0.0, 25.07]]}
+{"utc": "2026-10-24T01:34:05.957561+00:00", "event": "controller_parents_paused", "pids": [1036, 3124]}
+{"utc": "2026-10-24T01:34:05.963858+00:00", "event": "boot_entry_requested"}
+{"utc": "2026-10-24T01:34:05.965286+00:00", "event": "boot_entry_reply", "reply": ""}
+{"utc": "2026-10-24T01:34:21.060346+00:00", "event": "acquisition_error", "error": "USB mode did not become USBasp", "traceback": "Traceback (most recent call last):\n  File \"/home/user/octominer-readback/acquire_installed_flash.py\", line 149, in <module>\n    wait_mode('USBasp',15);boot_time=time.monotonic();log('bootloader_identified')\n  File \"/home/user/octominer-readback/acquire_installed_flash.py\", line 87, in wait_mode\n    raise TimeoutError('USB mode did not become '+product)\nTimeoutError: USB mode did not become USBasp\n"}
+{"utc": "2026-10-24T01:34:21.063829+00:00", "event": "application_reenumerated"}
+{"utc": "2026-10-24T01:34:21.155721+00:00", "event": "after", "version": "1e0c140c", "gpu": [[53.0, 0.0, 29.21], [55.0, 0.0, 18.39], [54.0, 0.0, 32.6], [53.0, 0.0, 33.07], [42.0, 0.0, 25.01]]}
+{"utc": "2026-10-24T01:34:21.156449+00:00", "event": "original_controller_processes_resumed"}
+{"utc": "2026-10-24T01:34:27.232703+00:00", "event": "restored", "version": "1e0c140c", "gpu": [[53.0, 0.0, 29.1], [54.0, 0.0, 18.43], [54.0, 0.0, 32.58], [53.0, 0.0, 33.11], [42.0, 0.0, 25.07]]}
+{"utc": "2026-10-24T01:34:28.629736+00:00", "event": "command", "args": ["/hive/bin/miner", "start"], "returncode": 0, "output": "Starting \u001b[0;36mcustom\u001b[0m\n"}
+{"utc": "2026-10-24T01:34:28.630429+00:00", "event": "mining_start_requested"}
+CAPTURE_DIRECTORY=/home/user/octominer-readback/capture-20261024T013327Z

@@ -1,0 +1,79 @@
+2026-10-23 21:56:13 INFO  (LoggingInitialization) Using log config file: jar:file:/opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml  
+2026-10-23 21:56:13 INFO  (LoggingInitialization) Using log file: /Users/snoby/octominer-re/analysis/ghidra-refinement.log  
+2026-10-23 21:56:13 DEBUG (GhidraObjectInputFilter) Including serial input filter: FileSystem/data/client.rmi.serial.filter  
+2026-10-23 21:56:13 INFO  (Preferences) Loading user preferences: /Users/snoby/Library/ghidra/ghidra_12.2_PUBLIC/preferences  
+2026-10-23 21:56:13 INFO  (ClassSearcher) Searching for classes...  
+2026-10-23 21:56:14 INFO  (ClassSearcher) Class search complete (821 ms)  
+2026-10-23 21:56:14 INFO  (DefaultSSLContextInitializer) Initializing SSL Context  
+2026-10-23 21:56:14 INFO  (SecureRandomFactory) Initializing Random Number Generator...  
+2026-10-23 21:56:14 INFO  (SecureRandomFactory) Random Number Generator initialization complete: NativePRNGNonBlocking  
+2026-10-23 21:56:15 INFO  (DefaultTrustManagerFactory) Loaded 44 trusted CA certificates from the OS trust store.  
+2026-10-23 21:56:15 INFO  (DefaultTrustManagerFactory) Loaded 110 trusted CA certificates from the Java default trust store.  
+2026-10-23 21:56:15 INFO  (AnalyzeHeadless) Headless startup complete (2375 ms)  
+2026-10-23 21:56:15 INFO  (ClassSearcher) Class searcher loaded 60 extension points (19 false positives)  
+2026-10-23 21:56:15 INFO  (HeadlessAnalyzer) HEADLESS Script Paths:
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/WildcardAssembler/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/Decompiler/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/SystemEmulation/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/FunctionID/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/FileFormats/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Processors/8051/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/VersionTracking/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Debug/Debugger-rmi-trace/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/BSim/ghidra_scripts
+    /Users/snoby/octominer-re/analysis/ghidra-scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/DecompilerDependent/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Processors/Atmel/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/Swift/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Processors/DATA/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Debug/Debugger/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Processors/JVM/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Processors/PIC/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/GnuDemangler/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/PDB/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/BytePatterns/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/PyGhidra/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/Base/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/MicrosoftCodeAnalyzer/ghidra_scripts  
+2026-10-23 21:56:15 INFO  (HeadlessAnalyzer) HEADLESS: execution starts  
+2026-10-23 21:56:15 INFO  (HeadlessAnalyzer) Opening existing project: /Users/snoby/octominer-re/ghidra-project/OctominerFW3  
+2026-10-23 21:56:15 INFO  (HeadlessProject) Opening project: /Users/snoby/octominer-re/ghidra-project/OctominerFW3  
+2026-10-23 21:56:17 DEBUG (SleighLanguage) Took 136ms (19ms inside lock) to initialize language /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Processors/Atmel/data/languages/avr8.slaspec -> /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Processors/Atmel/data/languages/avr8.sla  
+2026-10-23 21:56:17 INFO  (HeadlessAnalyzer) REPORT: Processing project file: /octominer-fw3.0-hw1.2-flash.bin  
+2026-10-23 21:56:17 INFO  (HeadlessAnalyzer) REPORT: Execute script: RefineFirmware.java '/Users/snoby/octominer-re/analysis/ghidra-scripts'   
+2026-10-23 21:56:18 INFO  (HeadlessAnalyzer) SCRIPT: /Users/snoby/octominer-re/analysis/ghidra-scripts/RefineFirmware.java  
+2026-10-23 21:56:20 DEBUG (FidAnalyzer) No FID Libraries apply for language avr8:LE:16:default  
+2026-10-23 21:56:20 INFO  (PackedDatabaseCache) Packed database cache: /var/tmp/snoby-ghidra/packed-db-cache  
+2026-10-23 21:56:20 DEBUG (PackedDatabaseCache) Using cached packed database: /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/Base/data/typeinfo/generic/generic_clib.gdt  
+2026-10-23 21:56:20 DEBUG (SleighLanguage) Took 783ms (590ms inside lock) to initialize language /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Processors/x86/data/languages/x86.slaspec -> /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Processors/x86/data/languages/x86.sla  
+2026-10-23 21:56:22 INFO  (ApplyDataArchiveAnalyzer) Applied data type archive: generic_clib  
+2026-10-23 21:56:22 INFO  (FormatStringAnalyzer) No functions detected that make variadic function calls with format strings containing format specifiers  
+2026-10-23 21:56:22 INFO  (AutoAnalysisManager) -----------------------------------------------------
+    ASCII Strings                              0.264 secs
+    Apply Data Archives                        2.051 secs
+    Basic Constant Reference Analyzer          0.245 secs
+    Call Convention ID                         0.003 secs
+    Call-Fixup Installer                       0.002 secs
+    Create Function                            0.000 secs
+    Decompiler Switch Analysis                 0.431 secs
+    Demangler GNU                              0.048 secs
+    Disassemble Entry Points                   0.007 secs
+    Embedded Media                             0.010 secs
+    External Entry References                  0.002 secs
+    Function ID                                0.329 secs
+    Function Start Search                      0.004 secs
+    Non-Returning Functions - Discovered       0.011 secs
+    Shared Return Calls                        0.019 secs
+    Source Language Support                    0.003 secs
+    Stack                                      0.182 secs
+    Subroutine References                      0.013 secs
+    Variadic Function Signature Override       0.038 secs
+-----------------------------------------------------
+     Total Time   3 secs
+-----------------------------------------------------
+  
+2026-10-23 21:56:22 INFO  (GhidraScript) RefineFirmware.java> Verified role labels, explicit EEPROM/USB ABI and jump-table targets applied.  
+2026-10-23 21:56:22 INFO  (HeadlessAnalyzer) REPORT: Execute script: ExportFirmware.java '/Users/snoby/octominer-re/decompiled'   
+2026-10-23 21:56:22 INFO  (HeadlessAnalyzer) SCRIPT: /Users/snoby/octominer-re/analysis/ghidra-scripts/ExportFirmware.java  
+2026-10-23 21:56:25 INFO  (GhidraScript) ExportFirmware.java> EXPORT: functions=122 decompiled=122 failed=0 nativeProject=false  
+2026-10-23 21:56:25 INFO  (HeadlessAnalyzer) REPORT: Save succeeded for processed file: /octominer-fw3.0-hw1.2-flash.bin  

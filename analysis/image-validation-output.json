@@ -1,0 +1,497 @@
+{
+  "files_hash_verified": 9,
+  "images": {
+    "firmware_07": {
+      "record_counts": {
+        "0": 1,
+        "1": 402,
+        "5": 1,
+        "9": 1
+      },
+      "segments_inclusive": [
+        [
+          "0x0",
+          "0x28ab"
+        ],
+        [
+          "0x7000",
+          "0x797b"
+        ]
+      ],
+      "data_bytes": 12840,
+      "linear_size": 31100,
+      "fill": 255,
+      "entry_record": "0x7000",
+      "leading_jmp_vectors": [
+        {
+          "byte_offset": "0x0",
+          "target_byte": "0x468"
+        },
+        {
+          "byte_offset": "0x4",
+          "target_byte": "0x4f8"
+        },
+        {
+          "byte_offset": "0x8",
+          "target_byte": "0x4a2"
+        },
+        {
+          "byte_offset": "0xc",
+          "target_byte": "0x4a2"
+        },
+        {
+          "byte_offset": "0x10",
+          "target_byte": "0xf62"
+        },
+        {
+          "byte_offset": "0x14",
+          "target_byte": "0xff4"
+        },
+        {
+          "byte_offset": "0x18",
+          "target_byte": "0x10b6"
+        },
+        {
+          "byte_offset": "0x1c",
+          "target_byte": "0x10ea"
+        },
+        {
+          "byte_offset": "0x20",
+          "target_byte": "0x4a2"
+        },
+        {
+          "byte_offset": "0x24",
+          "target_byte": "0x4a2"
+        },
+        {
+          "byte_offset": "0x28",
+          "target_byte": "0x4a2"
+        },
+        {
+          "byte_offset": "0x2c",
+          "target_byte": "0x4a2"
+        },
+        {
+          "byte_offset": "0x30",
+          "target_byte": "0x4a2"
+        },
+        {
+          "byte_offset": "0x34",
+          "target_byte": "0x4a2"
+        },
+        {
+          "byte_offset": "0x38",
+          "target_byte": "0x4a2"
+        },
+        {
+          "byte_offset": "0x3c",
+          "target_byte": "0x4a2"
+        },
+        {
+          "byte_offset": "0x40",
+          "target_byte": "0x4a2"
+        },
+        {
+          "byte_offset": "0x44",
+          "target_byte": "0x4a2"
+        },
+        {
+          "byte_offset": "0x48",
+          "target_byte": "0x4a2"
+        },
+        {
+          "byte_offset": "0x4c",
+          "target_byte": "0x4a2"
+        },
+        {
+          "byte_offset": "0x50",
+          "target_byte": "0x4a2"
+        },
+        {
+          "byte_offset": "0x54",
+          "target_byte": "0x4a2"
+        },
+        {
+          "byte_offset": "0x58",
+          "target_byte": "0x4a2"
+        },
+        {
+          "byte_offset": "0x5c",
+          "target_byte": "0x4a2"
+        },
+        {
+          "byte_offset": "0x60",
+          "target_byte": "0x15e2"
+        },
+        {
+          "byte_offset": "0x64",
+          "target_byte": "0x4a2"
+        },
+        {
+          "byte_offset": "0x68",
+          "target_byte": "0x4a2"
+        },
+        {
+          "byte_offset": "0x6c",
+          "target_byte": "0x4a2"
+        },
+        {
+          "byte_offset": "0x70",
+          "target_byte": "0x4a2"
+        },
+        {
+          "byte_offset": "0x74",
+          "target_byte": "0x4a2"
+        },
+        {
+          "byte_offset": "0x78",
+          "target_byte": "0x4a2"
+        },
+        {
+          "byte_offset": "0x7c",
+          "target_byte": "0x11f6"
+        },
+        {
+          "byte_offset": "0x80",
+          "target_byte": "0x1510"
+        },
+        {
+          "byte_offset": "0x84",
+          "target_byte": "0x1582"
+        },
+        {
+          "byte_offset": "0x88",
+          "target_byte": "0x4a2"
+        },
+        {
+          "byte_offset": "0x8c",
+          "target_byte": "0x4a2"
+        },
+        {
+          "byte_offset": "0x90",
+          "target_byte": "0x4a2"
+        },
+        {
+          "byte_offset": "0x94",
+          "target_byte": "0x1164"
+        },
+        {
+          "byte_offset": "0x98",
+          "target_byte": "0x4a2"
+        },
+        {
+          "byte_offset": "0x9c",
+          "target_byte": "0x4a2"
+        },
+        {
+          "byte_offset": "0xa0",
+          "target_byte": "0x4a2"
+        },
+        {
+          "byte_offset": "0xa4",
+          "target_byte": "0x4a2"
+        },
+        {
+          "byte_offset": "0xa8",
+          "target_byte": "0x4a2"
+        },
+        {
+          "byte_offset": "0xac",
+          "target_byte": "0x4a2"
+        },
+        {
+          "byte_offset": "0xb0",
+          "target_byte": "0x4a2"
+        },
+        {
+          "byte_offset": "0xb4",
+          "target_byte": "0x4a2"
+        },
+        {
+          "byte_offset": "0xb8",
+          "target_byte": "0x4a2"
+        },
+        {
+          "byte_offset": "0xbc",
+          "target_byte": "0x4a2"
+        },
+        {
+          "byte_offset": "0xc0",
+          "target_byte": "0x4a2"
+        },
+        {
+          "byte_offset": "0xc4",
+          "target_byte": "0x4a2"
+        },
+        {
+          "byte_offset": "0xc8",
+          "target_byte": "0x4a2"
+        }
+      ],
+      "utf16_usb_string_candidates": [
+        {
+          "address": "0x180",
+          "text": "Fan-Controller"
+        },
+        {
+          "address": "0x19e",
+          "text": "info@octominer.com"
+        },
+        {
+          "address": "0x7110",
+          "text": "USBasp"
+        },
+        {
+          "address": "0x711e",
+          "text": "www.fischl.de"
+        }
+      ]
+    },
+    "firmware_09": {
+      "record_counts": {
+        "0": 1,
+        "1": 445,
+        "5": 1,
+        "9": 1
+      },
+      "segments_inclusive": [
+        [
+          "0x0",
+          "0x2dc5"
+        ],
+        [
+          "0x7000",
+          "0x79a3"
+        ]
+      ],
+      "data_bytes": 14186,
+      "linear_size": 31140,
+      "fill": 255,
+      "entry_record": "0x7000",
+      "leading_jmp_vectors": [
+        {
+          "byte_offset": "0x0",
+          "target_byte": "0x3d8"
+        },
+        {
+          "byte_offset": "0x4",
+          "target_byte": "0x468"
+        },
+        {
+          "byte_offset": "0x8",
+          "target_byte": "0x412"
+        },
+        {
+          "byte_offset": "0xc",
+          "target_byte": "0x412"
+        },
+        {
+          "byte_offset": "0x10",
+          "target_byte": "0xed2"
+        },
+        {
+          "byte_offset": "0x14",
+          "target_byte": "0xf64"
+        },
+        {
+          "byte_offset": "0x18",
+          "target_byte": "0x412"
+        },
+        {
+          "byte_offset": "0x1c",
+          "target_byte": "0x412"
+        },
+        {
+          "byte_offset": "0x20",
+          "target_byte": "0x412"
+        },
+        {
+          "byte_offset": "0x24",
+          "target_byte": "0x412"
+        },
+        {
+          "byte_offset": "0x28",
+          "target_byte": "0x412"
+        },
+        {
+          "byte_offset": "0x2c",
+          "target_byte": "0x412"
+        },
+        {
+          "byte_offset": "0x30",
+          "target_byte": "0x412"
+        },
+        {
+          "byte_offset": "0x34",
+          "target_byte": "0x412"
+        },
+        {
+          "byte_offset": "0x38",
+          "target_byte": "0x412"
+        },
+        {
+          "byte_offset": "0x3c",
+          "target_byte": "0x412"
+        },
+        {
+          "byte_offset": "0x40",
+          "target_byte": "0x412"
+        },
+        {
+          "byte_offset": "0x44",
+          "target_byte": "0x412"
+        },
+        {
+          "byte_offset": "0x48",
+          "target_byte": "0x412"
+        },
+        {
+          "byte_offset": "0x4c",
+          "target_byte": "0x412"
+        },
+        {
+          "byte_offset": "0x50",
+          "target_byte": "0x412"
+        },
+        {
+          "byte_offset": "0x54",
+          "target_byte": "0x412"
+        },
+        {
+          "byte_offset": "0x58",
+          "target_byte": "0x412"
+        },
+        {
+          "byte_offset": "0x5c",
+          "target_byte": "0x412"
+        },
+        {
+          "byte_offset": "0x60",
+          "target_byte": "0x145c"
+        },
+        {
+          "byte_offset": "0x64",
+          "target_byte": "0x412"
+        },
+        {
+          "byte_offset": "0x68",
+          "target_byte": "0x412"
+        },
+        {
+          "byte_offset": "0x6c",
+          "target_byte": "0x412"
+        },
+        {
+          "byte_offset": "0x70",
+          "target_byte": "0x412"
+        },
+        {
+          "byte_offset": "0x74",
+          "target_byte": "0x412"
+        },
+        {
+          "byte_offset": "0x78",
+          "target_byte": "0x412"
+        },
+        {
+          "byte_offset": "0x7c",
+          "target_byte": "0x1040"
+        },
+        {
+          "byte_offset": "0x80",
+          "target_byte": "0x136a"
+        },
+        {
+          "byte_offset": "0x84",
+          "target_byte": "0x13ec"
+        },
+        {
+          "byte_offset": "0x88",
+          "target_byte": "0x412"
+        },
+        {
+          "byte_offset": "0x8c",
+          "target_byte": "0x412"
+        },
+        {
+          "byte_offset": "0x90",
+          "target_byte": "0x412"
+        },
+        {
+          "byte_offset": "0x94",
+          "target_byte": "0xfde"
+        },
+        {
+          "byte_offset": "0x98",
+          "target_byte": "0x412"
+        },
+        {
+          "byte_offset": "0x9c",
+          "target_byte": "0x412"
+        },
+        {
+          "byte_offset": "0xa0",
+          "target_byte": "0x412"
+        },
+        {
+          "byte_offset": "0xa4",
+          "target_byte": "0x412"
+        },
+        {
+          "byte_offset": "0xa8",
+          "target_byte": "0x412"
+        },
+        {
+          "byte_offset": "0xac",
+          "target_byte": "0x412"
+        },
+        {
+          "byte_offset": "0xb0",
+          "target_byte": "0x412"
+        },
+        {
+          "byte_offset": "0xb4",
+          "target_byte": "0x412"
+        },
+        {
+          "byte_offset": "0xb8",
+          "target_byte": "0x412"
+        },
+        {
+          "byte_offset": "0xbc",
+          "target_byte": "0x412"
+        },
+        {
+          "byte_offset": "0xc0",
+          "target_byte": "0x412"
+        },
+        {
+          "byte_offset": "0xc4",
+          "target_byte": "0x412"
+        },
+        {
+          "byte_offset": "0xc8",
+          "target_byte": "0x412"
+        }
+      ],
+      "utf16_usb_string_candidates": [
+        {
+          "address": "0xf0",
+          "text": "Fan-Controller"
+        },
+        {
+          "address": "0x10e",
+          "text": "info@octominer.com"
+        },
+        {
+          "address": "0x7110",
+          "text": "USBasp"
+        },
+        {
+          "address": "0x711e",
+          "text": "www.fischl.de"
+        }
+      ]
+    }
+  }
+}

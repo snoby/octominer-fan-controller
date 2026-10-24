@@ -1,0 +1,14 @@
+{
+  "scope": "peripherals-and-decompiler-quality",
+  "exit_code": 1,
+  "seconds": 116.1,
+  "subtype": "error_max_turns",
+  "is_error": true,
+  "num_turns": 25,
+  "session_id": "7f562c0c-dea1-4a88-bbf1-805901c1a354",
+  "stop_reason": "tool_use",
+  "terminal_reason": "max_turns",
+  "model_usage": [
+    "claude-opus-5-5"
+  ]
+}

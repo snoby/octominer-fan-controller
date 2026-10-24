@@ -1,0 +1,2856 @@
+/Users/snoby/octominer-re/artifacts/192.168.2.106/fan_controller_cli:	file format elf64-x86-64
+
+.debug_macro contents:
+0x00000000:
+macro header: version = 0x0004, flags = 0x02, format = DWARF32, debug_line_offset = 0x00000000
+DW_MACRO_GNU_transparent_include - import offset: 0x0000064d
+DW_MACRO_GNU_start_file - lineno: 0 filenum: 1
+  DW_MACRO_GNU_start_file - lineno: 31 filenum: 14
+    DW_MACRO_GNU_transparent_include - import offset: 0x00000e55
+  DW_MACRO_GNU_end_file
+  DW_MACRO_GNU_start_file - lineno: 8 filenum: 9
+    DW_MACRO_GNU_define_indirect - lineno: 12 macro: __USB_H__ 
+    DW_MACRO_GNU_start_file - lineno: 14 filenum: 4
+      DW_MACRO_GNU_define_indirect - lineno: 23 macro: _UNISTD_H 1
+      DW_MACRO_GNU_start_file - lineno: 25 filenum: 15
+        DW_MACRO_GNU_transparent_include - import offset: 0x00000e77
+        DW_MACRO_GNU_start_file - lineno: 424 filenum: 16
+          DW_MACRO_GNU_transparent_include - import offset: 0x00001015
+          DW_MACRO_GNU_start_file - lineno: 427 filenum: 17
+            DW_MACRO_GNU_transparent_include - import offset: 0x0000117d
+          DW_MACRO_GNU_end_file
+          DW_MACRO_GNU_start_file - lineno: 428 filenum: 18
+          DW_MACRO_GNU_end_file
+          DW_MACRO_GNU_transparent_include - import offset: 0x00001193
+        DW_MACRO_GNU_end_file
+        DW_MACRO_GNU_start_file - lineno: 448 filenum: 19
+          DW_MACRO_GNU_start_file - lineno: 10 filenum: 20
+            DW_MACRO_GNU_transparent_include - import offset: 0x000011dd
+          DW_MACRO_GNU_end_file
+        DW_MACRO_GNU_end_file
+      DW_MACRO_GNU_end_file
+      DW_MACRO_GNU_transparent_include - import offset: 0x00001235
+      DW_MACRO_GNU_start_file - lineno: 205 filenum: 21
+        DW_MACRO_GNU_transparent_include - import offset: 0x0000129f
+      DW_MACRO_GNU_end_file
+      DW_MACRO_GNU_start_file - lineno: 209 filenum: 22
+        DW_MACRO_GNU_start_file - lineno: 22 filenum: 17
+          DW_MACRO_GNU_transparent_include - import offset: 0x0000117d
+        DW_MACRO_GNU_end_file
+        DW_MACRO_GNU_transparent_include - import offset: 0x0000142f
+      DW_MACRO_GNU_end_file
+      DW_MACRO_GNU_transparent_include - import offset: 0x0000147b
+      DW_MACRO_GNU_start_file - lineno: 220 filenum: 2
+        DW_MACRO_GNU_define_indirect - lineno: 24 macro: _BITS_TYPES_H 1
+        DW_MACRO_GNU_start_file - lineno: 27 filenum: 17
+          DW_MACRO_GNU_transparent_include - import offset: 0x0000117d
+        DW_MACRO_GNU_end_file
+        DW_MACRO_GNU_transparent_include - import offset: 0x00001494
+        DW_MACRO_GNU_start_file - lineno: 130 filenum: 23
+          DW_MACRO_GNU_transparent_include - import offset: 0x000014f2
+        DW_MACRO_GNU_end_file
+        DW_MACRO_GNU_undef_indirect - lineno: 204 macro: __STD_TYPE
+      DW_MACRO_GNU_end_file
+      DW_MACRO_GNU_transparent_include - import offset: 0x000015e0
+      DW_MACRO_GNU_start_file - lineno: 229 filenum: 3
+        DW_MACRO_GNU_transparent_include - import offset: 0x000015f9
+      DW_MACRO_GNU_end_file
+      DW_MACRO_GNU_transparent_include - import offset: 0x00001690
+      DW_MACRO_GNU_start_file - lineno: 612 filenum: 24
+        DW_MACRO_GNU_transparent_include - import offset: 0x0000170b
+      DW_MACRO_GNU_end_file
+      DW_MACRO_GNU_start_file - lineno: 872 filenum: 25
+        DW_MACRO_GNU_define_indirect - lineno: 21 macro: _GETOPT_POSIX_H 1
+        DW_MACRO_GNU_start_file - lineno: 27 filenum: 5
+          DW_MACRO_GNU_define_indirect - lineno: 21 macro: _GETOPT_CORE_H 1
+        DW_MACRO_GNU_end_file
+      DW_MACRO_GNU_end_file
+      DW_MACRO_GNU_transparent_include - import offset: 0x00001f2f
+    DW_MACRO_GNU_end_file
+    DW_MACRO_GNU_start_file - lineno: 15 filenum: 26
+      DW_MACRO_GNU_define_indirect - lineno: 24 macro: __GLIBC_INTERNAL_STARTING_HEADER_IMPLEMENTATION 
+      DW_MACRO_GNU_start_file - lineno: 25 filenum: 27
+        DW_MACRO_GNU_transparent_include - import offset: 0x00001f4f
+      DW_MACRO_GNU_end_file
+      DW_MACRO_GNU_transparent_include - import offset: 0x00001f89
+      DW_MACRO_GNU_start_file - lineno: 31 filenum: 3
+        DW_MACRO_GNU_transparent_include - import offset: 0x00001f9f
+      DW_MACRO_GNU_end_file
+      DW_MACRO_GNU_define_indirect - lineno: 35 macro: _STDLIB_H 1
+      DW_MACRO_GNU_start_file - lineno: 39 filenum: 28
+        DW_MACRO_GNU_transparent_include - import offset: 0x00002036
+      DW_MACRO_GNU_end_file
+      DW_MACRO_GNU_start_file - lineno: 40 filenum: 29
+        DW_MACRO_GNU_transparent_include - import offset: 0x00002088
+      DW_MACRO_GNU_end_file
+      DW_MACRO_GNU_transparent_include - import offset: 0x000020d4
+      DW_MACRO_GNU_start_file - lineno: 55 filenum: 30
+        DW_MACRO_GNU_transparent_include - import offset: 0x00002102
+        DW_MACRO_GNU_start_file - lineno: 120 filenum: 31
+          DW_MACRO_GNU_define_indirect - lineno: 21 macro: _BITS_FLOATN_COMMON_H 
+          DW_MACRO_GNU_start_file - lineno: 24 filenum: 18
+          DW_MACRO_GNU_end_file
+          DW_MACRO_GNU_transparent_include - import offset: 0x00002130
+        DW_MACRO_GNU_end_file
+      DW_MACRO_GNU_end_file
+      DW_MACRO_GNU_transparent_include - import offset: 0x000021b0
+      DW_MACRO_GNU_start_file - lineno: 394 filenum: 32
+        DW_MACRO_GNU_transparent_include - import offset: 0x000021d8
+        DW_MACRO_GNU_start_file - lineno: 127 filenum: 33
+          DW_MACRO_GNU_define_indirect - lineno: 2 macro: __clock_t_defined 1
+        DW_MACRO_GNU_end_file
+        DW_MACRO_GNU_start_file - lineno: 129 filenum: 34
+          DW_MACRO_GNU_define_indirect - lineno: 2 macro: __clockid_t_defined 1
+        DW_MACRO_GNU_end_file
+        DW_MACRO_GNU_start_file - lineno: 130 filenum: 35
+          DW_MACRO_GNU_define_indirect - lineno: 2 macro: __time_t_defined 1
+        DW_MACRO_GNU_end_file
+        DW_MACRO_GNU_start_file - lineno: 131 filenum: 36
+          DW_MACRO_GNU_define_indirect - lineno: 2 macro: __timer_t_defined 1
+        DW_MACRO_GNU_end_file
+        DW_MACRO_GNU_define_indirect - lineno: 144 macro: __need_size_t 
+        DW_MACRO_GNU_start_file - lineno: 145 filenum: 3
+          DW_MACRO_GNU_transparent_include - import offset: 0x00002212
+        DW_MACRO_GNU_end_file
+        DW_MACRO_GNU_start_file - lineno: 156 filenum: 6
+          DW_MACRO_GNU_define_indirect - lineno: 20 macro: _BITS_STDINT_INTN_H 1
+        DW_MACRO_GNU_end_file
+        DW_MACRO_GNU_transparent_include - import offset: 0x00002224
+        DW_MACRO_GNU_start_file - lineno: 194 filenum: 37
+          DW_MACRO_GNU_transparent_include - import offset: 0x00002236
+          DW_MACRO_GNU_start_file - lineno: 36 filenum: 38
+            DW_MACRO_GNU_define_indirect - lineno: 7 macro: __BYTE_ORDER __LITTLE_ENDIAN
+          DW_MACRO_GNU_end_file
+          DW_MACRO_GNU_transparent_include - import offset: 0x00002252
+          DW_MACRO_GNU_start_file - lineno: 60 filenum: 39
+            DW_MACRO_GNU_define_indirect - lineno: 24 macro: _BITS_BYTESWAP_H 1
+            DW_MACRO_GNU_start_file - lineno: 28 filenum: 17
+              DW_MACRO_GNU_transparent_include - import offset: 0x0000117d
+            DW_MACRO_GNU_end_file
+            DW_MACRO_GNU_define_indirect - lineno: 31 macro: __bswap_constant_16(x) ((unsigned short int) ((((x) >> 8) & 0xff) | (((x) & 0xff) << 8)))
+            DW_MACRO_GNU_start_file - lineno: 35 filenum: 40
+              DW_MACRO_GNU_define_indirect - lineno: 25 macro: __bswap_16(x) (__extension__ ({ unsigned short int __v, __x = (unsigned short int) (x); if (__builtin_constant_p (__x)) __v = __bswap_constant_16 (__x); else __asm__ ("rorw $8, %w0" : "=r" (__v) : "0" (__x) : "cc"); __v; }))
+            DW_MACRO_GNU_end_file
+            DW_MACRO_GNU_transparent_include - import offset: 0x0000227a
+          DW_MACRO_GNU_end_file
+          DW_MACRO_GNU_start_file - lineno: 61 filenum: 41
+            DW_MACRO_GNU_define_indirect - lineno: 24 macro: _BITS_UINTN_IDENTITY_H 1
+          DW_MACRO_GNU_end_file
+          DW_MACRO_GNU_transparent_include - import offset: 0x0000228a
+        DW_MACRO_GNU_end_file
+        DW_MACRO_GNU_start_file - lineno: 197 filenum: 42
+          DW_MACRO_GNU_define_indirect - lineno: 22 macro: _SYS_SELECT_H 1
+          DW_MACRO_GNU_start_file - lineno: 30 filenum: 43
+            DW_MACRO_GNU_start_file - lineno: 22 filenum: 17
+              DW_MACRO_GNU_transparent_include - import offset: 0x0000117d
+            DW_MACRO_GNU_end_file
+            DW_MACRO_GNU_transparent_include - import offset: 0x000022d6
+          DW_MACRO_GNU_end_file
+          DW_MACRO_GNU_start_file - lineno: 33 filenum: 44
+            DW_MACRO_GNU_define_indirect - lineno: 2 macro: __sigset_t_defined 1
+            DW_MACRO_GNU_start_file - lineno: 4 filenum: 45
+              DW_MACRO_GNU_transparent_include - import offset: 0x000022f8
+            DW_MACRO_GNU_end_file
+          DW_MACRO_GNU_end_file
+          DW_MACRO_GNU_start_file - lineno: 37 filenum: 46
+            DW_MACRO_GNU_define_indirect - lineno: 2 macro: __timeval_defined 1
+          DW_MACRO_GNU_end_file
+          DW_MACRO_GNU_start_file - lineno: 39 filenum: 47
+            DW_MACRO_GNU_define_indirect - lineno: 3 macro: _STRUCT_TIMESPEC 1
+          DW_MACRO_GNU_end_file
+          DW_MACRO_GNU_transparent_include - import offset: 0x00002308
+        DW_MACRO_GNU_end_file
+        DW_MACRO_GNU_define_indirect - lineno: 204 macro: __SYSMACROS_DEPRECATED_INCLUSION 
+        DW_MACRO_GNU_start_file - lineno: 205 filenum: 48
+          DW_MACRO_GNU_transparent_include - import offset: 0x00002354
+          DW_MACRO_GNU_start_file - lineno: 41 filenum: 49
+            DW_MACRO_GNU_transparent_include - import offset: 0x00002370
+          DW_MACRO_GNU_end_file
+          DW_MACRO_GNU_transparent_include - import offset: 0x0000239e
+        DW_MACRO_GNU_end_file
+        DW_MACRO_GNU_transparent_include - import offset: 0x000023fc
+        DW_MACRO_GNU_start_file - lineno: 254 filenum: 50
+          DW_MACRO_GNU_define_indirect - lineno: 20 macro: _BITS_PTHREADTYPES_COMMON_H 1
+          DW_MACRO_GNU_start_file - lineno: 23 filenum: 51
+            DW_MACRO_GNU_define_indirect - lineno: 20 macro: _THREAD_SHARED_TYPES_H 1
+            DW_MACRO_GNU_start_file - lineno: 77 filenum: 52
+              DW_MACRO_GNU_define_indirect - lineno: 19 macro: _BITS_PTHREADTYPES_ARCH_H 1
+              DW_MACRO_GNU_start_file - lineno: 21 filenum: 17
+                DW_MACRO_GNU_transparent_include - import offset: 0x0000117d
+              DW_MACRO_GNU_end_file
+              DW_MACRO_GNU_transparent_include - import offset: 0x00002423
+            DW_MACRO_GNU_end_file
+            DW_MACRO_GNU_transparent_include - import offset: 0x00002499
+          DW_MACRO_GNU_end_file
+          DW_MACRO_GNU_define_indirect - lineno: 63 macro: __have_pthread_attr_t 1
+        DW_MACRO_GNU_end_file
+      DW_MACRO_GNU_end_file
+      DW_MACRO_GNU_start_file - lineno: 566 filenum: 53
+        DW_MACRO_GNU_transparent_include - import offset: 0x000024b0
+        DW_MACRO_GNU_start_file - lineno: 24 filenum: 3
+          DW_MACRO_GNU_transparent_include - import offset: 0x00002212
+        DW_MACRO_GNU_end_file
+        DW_MACRO_GNU_transparent_include - import offset: 0x000024c0
+      DW_MACRO_GNU_end_file
+      DW_MACRO_GNU_define_indirect - lineno: 804 macro: __COMPAR_FN_T 
+      DW_MACRO_GNU_start_file - lineno: 1016 filenum: 54
+      DW_MACRO_GNU_end_file
+    DW_MACRO_GNU_end_file
+    DW_MACRO_GNU_start_file - lineno: 16 filenum: 55
+      DW_MACRO_GNU_start_file - lineno: 9 filenum: 56
+        DW_MACRO_GNU_transparent_include - import offset: 0x000024d0
+        DW_MACRO_GNU_start_file - lineno: 26 filenum: 27
+          DW_MACRO_GNU_transparent_include - import offset: 0x00001f4f
+        DW_MACRO_GNU_end_file
+        DW_MACRO_GNU_start_file - lineno: 28 filenum: 57
+          DW_MACRO_GNU_transparent_include - import offset: 0x000024e0
+        DW_MACRO_GNU_end_file
+        DW_MACRO_GNU_start_file - lineno: 29 filenum: 17
+          DW_MACRO_GNU_transparent_include - import offset: 0x0000117d
+        DW_MACRO_GNU_end_file
+        DW_MACRO_GNU_start_file - lineno: 37 filenum: 7
+          DW_MACRO_GNU_define_indirect - lineno: 20 macro: _BITS_STDINT_UINTN_H 1
+        DW_MACRO_GNU_end_file
+        DW_MACRO_GNU_transparent_include - import offset: 0x000024f6
+      DW_MACRO_GNU_end_file
+      DW_MACRO_GNU_define_indirect - lineno: 13 macro: _GCC_WRAP_STDINT_H 
+    DW_MACRO_GNU_end_file
+    DW_MACRO_GNU_start_file - lineno: 17 filenum: 58
+      DW_MACRO_GNU_define_indirect - lineno: 30 macro: _GCC_LIMITS_H_ 
+      DW_MACRO_GNU_start_file - lineno: 34 filenum: 59
+        DW_MACRO_GNU_define_indirect - lineno: 6 macro: _GCC_NEXT_LIMITS_H 
+        DW_MACRO_GNU_start_file - lineno: 7 filenum: 58
+          DW_MACRO_GNU_start_file - lineno: 194 filenum: 60
+            DW_MACRO_GNU_transparent_include - import offset: 0x000026af
+            DW_MACRO_GNU_start_file - lineno: 26 filenum: 27
+              DW_MACRO_GNU_transparent_include - import offset: 0x00001f4f
+            DW_MACRO_GNU_end_file
+            DW_MACRO_GNU_transparent_include - import offset: 0x000026bf
+            DW_MACRO_GNU_start_file - lineno: 183 filenum: 61
+              DW_MACRO_GNU_transparent_include - import offset: 0x000026de
+              DW_MACRO_GNU_start_file - lineno: 160 filenum: 62
+                DW_MACRO_GNU_transparent_include - import offset: 0x000027a1
+                DW_MACRO_GNU_start_file - lineno: 38 filenum: 63
+                  DW_MACRO_GNU_transparent_include - import offset: 0x000027bd
+                DW_MACRO_GNU_end_file
+                DW_MACRO_GNU_transparent_include - import offset: 0x00002815
+              DW_MACRO_GNU_end_file
+              DW_MACRO_GNU_define_indirect - lineno: 164 macro: SSIZE_MAX LONG_MAX
+            DW_MACRO_GNU_end_file
+            DW_MACRO_GNU_start_file - lineno: 187 filenum: 64
+              DW_MACRO_GNU_transparent_include - import offset: 0x0000289d
+            DW_MACRO_GNU_end_file
+          DW_MACRO_GNU_end_file
+        DW_MACRO_GNU_end_file
+        DW_MACRO_GNU_undef_indirect - lineno: 8 macro: _GCC_NEXT_LIMITS_H
+      DW_MACRO_GNU_end_file
+      DW_MACRO_GNU_transparent_include - import offset: 0x00002913
+    DW_MACRO_GNU_end_file
+    DW_MACRO_GNU_start_file - lineno: 19 filenum: 65
+      DW_MACRO_GNU_transparent_include - import offset: 0x00002a01
+      DW_MACRO_GNU_start_file - lineno: 23 filenum: 3
+        DW_MACRO_GNU_transparent_include - import offset: 0x00002a11
+      DW_MACRO_GNU_end_file
+      DW_MACRO_GNU_start_file - lineno: 26 filenum: 58
+      DW_MACRO_GNU_end_file
+      DW_MACRO_GNU_start_file - lineno: 28 filenum: 8
+        DW_MACRO_GNU_define_indirect - lineno: 23 macro: _SIGNAL_H 
+        DW_MACRO_GNU_start_file - lineno: 30 filenum: 66
+          DW_MACRO_GNU_define_indirect - lineno: 20 macro: _BITS_SIGNUM_H 1
+          DW_MACRO_GNU_start_file - lineno: 26 filenum: 67
+            DW_MACRO_GNU_transparent_include - import offset: 0x00002a2a
+          DW_MACRO_GNU_end_file
+          DW_MACRO_GNU_transparent_include - import offset: 0x00002b18
+        DW_MACRO_GNU_end_file
+        DW_MACRO_GNU_start_file - lineno: 32 filenum: 68
+          DW_MACRO_GNU_define_indirect - lineno: 2 macro: __sig_atomic_t_defined 1
+        DW_MACRO_GNU_end_file
+        DW_MACRO_GNU_start_file - lineno: 57 filenum: 69
+          DW_MACRO_GNU_define_indirect - lineno: 2 macro: __siginfo_t_defined 1
+          DW_MACRO_GNU_start_file - lineno: 4 filenum: 17
+            DW_MACRO_GNU_transparent_include - import offset: 0x0000117d
+          DW_MACRO_GNU_end_file
+          DW_MACRO_GNU_start_file - lineno: 6 filenum: 70
+            DW_MACRO_GNU_define_indirect - lineno: 20 macro: ____sigval_t_defined 
+          DW_MACRO_GNU_end_file
+          DW_MACRO_GNU_transparent_include - import offset: 0x00002bac
+          DW_MACRO_GNU_start_file - lineno: 16 filenum: 71
+            DW_MACRO_GNU_define_indirect - lineno: 3 macro: _BITS_SIGINFO_ARCH_H 1
+          DW_MACRO_GNU_end_file
+          DW_MACRO_GNU_transparent_include - import offset: 0x00002bbc
+        DW_MACRO_GNU_end_file
+        DW_MACRO_GNU_start_file - lineno: 58 filenum: 72
+          DW_MACRO_GNU_transparent_include - import offset: 0x00002c70
+        DW_MACRO_GNU_end_file
+        DW_MACRO_GNU_start_file - lineno: 62 filenum: 73
+          DW_MACRO_GNU_define_indirect - lineno: 2 macro: __sigval_t_defined 
+        DW_MACRO_GNU_end_file
+        DW_MACRO_GNU_start_file - lineno: 66 filenum: 74
+          DW_MACRO_GNU_define_indirect - lineno: 2 macro: __sigevent_t_defined 1
+          DW_MACRO_GNU_start_file - lineno: 4 filenum: 17
+            DW_MACRO_GNU_transparent_include - import offset: 0x0000117d
+          DW_MACRO_GNU_end_file
+          DW_MACRO_GNU_transparent_include - import offset: 0x00002daa
+        DW_MACRO_GNU_end_file
+        DW_MACRO_GNU_start_file - lineno: 67 filenum: 75
+          DW_MACRO_GNU_transparent_include - import offset: 0x00002dc6
+        DW_MACRO_GNU_end_file
+        DW_MACRO_GNU_transparent_include - import offset: 0x00002de8
+        DW_MACRO_GNU_start_file - lineno: 226 filenum: 76
+          DW_MACRO_GNU_transparent_include - import offset: 0x00002dfa
+        DW_MACRO_GNU_end_file
+        DW_MACRO_GNU_start_file - lineno: 291 filenum: 77
+          DW_MACRO_GNU_transparent_include - import offset: 0x00002e5e
+        DW_MACRO_GNU_end_file
+        DW_MACRO_GNU_define_indirect - lineno: 300 macro: __need_size_t 
+        DW_MACRO_GNU_start_file - lineno: 301 filenum: 3
+          DW_MACRO_GNU_transparent_include - import offset: 0x00002212
+        DW_MACRO_GNU_end_file
+        DW_MACRO_GNU_start_file - lineno: 303 filenum: 78
+          DW_MACRO_GNU_transparent_include - import offset: 0x00002e7a
+          DW_MACRO_GNU_start_file - lineno: 23 filenum: 3
+            DW_MACRO_GNU_transparent_include - import offset: 0x00002212
+          DW_MACRO_GNU_end_file
+        DW_MACRO_GNU_end_file
+        DW_MACRO_GNU_start_file - lineno: 306 filenum: 79
+          DW_MACRO_GNU_transparent_include - import offset: 0x00002e8a
+        DW_MACRO_GNU_end_file
+        DW_MACRO_GNU_start_file - lineno: 316 filenum: 80
+          DW_MACRO_GNU_transparent_include - import offset: 0x00002ead
+        DW_MACRO_GNU_end_file
+        DW_MACRO_GNU_start_file - lineno: 317 filenum: 81
+          DW_MACRO_GNU_transparent_include - import offset: 0x00002ec3
+        DW_MACRO_GNU_end_file
+        DW_MACRO_GNU_start_file - lineno: 327 filenum: 82
+          DW_MACRO_GNU_define_indirect - lineno: 20 macro: __sigstack_defined 1
+        DW_MACRO_GNU_end_file
+        DW_MACRO_GNU_start_file - lineno: 359 filenum: 83
+          DW_MACRO_GNU_define_indirect - lineno: 20 macro: _BITS_SIGTHREAD_H 1
+        DW_MACRO_GNU_end_file
+        DW_MACRO_GNU_transparent_include - import offset: 0x00002ed9
+      DW_MACRO_GNU_end_file
+      DW_MACRO_GNU_start_file - lineno: 31 filenum: 84
+        DW_MACRO_GNU_define_indirect - lineno: 24 macro: __undef_ARG_MAX 
+        DW_MACRO_GNU_start_file - lineno: 28 filenum: 85
+          DW_MACRO_GNU_define_indirect - lineno: 3 macro: _LINUX_PARAM_H 
+          DW_MACRO_GNU_start_file - lineno: 5 filenum: 86
+            DW_MACRO_GNU_start_file - lineno: 1 filenum: 87
+              DW_MACRO_GNU_transparent_include - import offset: 0x00002eeb
+            DW_MACRO_GNU_end_file
+          DW_MACRO_GNU_end_file
+        DW_MACRO_GNU_end_file
+        DW_MACRO_GNU_transparent_include - import offset: 0x00002f0d
+      DW_MACRO_GNU_end_file
+      DW_MACRO_GNU_transparent_include - import offset: 0x00002f2f
+    DW_MACRO_GNU_end_file
+    DW_MACRO_GNU_start_file - lineno: 20 filenum: 88
+      DW_MACRO_GNU_define_indirect - lineno: 23 macro: _DIRENT_H 1
+      DW_MACRO_GNU_start_file - lineno: 61 filenum: 89
+        DW_MACRO_GNU_transparent_include - import offset: 0x00002f8d
+      DW_MACRO_GNU_end_file
+      DW_MACRO_GNU_transparent_include - import offset: 0x00002fb5
+      DW_MACRO_GNU_start_file - lineno: 245 filenum: 3
+        DW_MACRO_GNU_transparent_include - import offset: 0x00002212
+      DW_MACRO_GNU_end_file
+    DW_MACRO_GNU_end_file
+    DW_MACRO_GNU_transparent_include - import offset: 0x00003015
+  DW_MACRO_GNU_end_file
+  DW_MACRO_GNU_start_file - lineno: 9 filenum: 11
+    DW_MACRO_GNU_transparent_include - import offset: 0x000031a9
+    DW_MACRO_GNU_start_file - lineno: 27 filenum: 27
+      DW_MACRO_GNU_transparent_include - import offset: 0x00001f4f
+    DW_MACRO_GNU_end_file
+    DW_MACRO_GNU_transparent_include - import offset: 0x000031b9
+    DW_MACRO_GNU_start_file - lineno: 33 filenum: 3
+      DW_MACRO_GNU_transparent_include - import offset: 0x000031c9
+    DW_MACRO_GNU_end_file
+    DW_MACRO_GNU_start_file - lineno: 36 filenum: 90
+      DW_MACRO_GNU_define_indirect - lineno: 2 macro: ____FILE_defined 1
+    DW_MACRO_GNU_end_file
+    DW_MACRO_GNU_start_file - lineno: 37 filenum: 91
+      DW_MACRO_GNU_define_indirect - lineno: 2 macro: __FILE_defined 1
+    DW_MACRO_GNU_end_file
+    DW_MACRO_GNU_define_indirect - lineno: 39 macro: _STDIO_USES_IOSTREAM 
+    DW_MACRO_GNU_start_file - lineno: 41 filenum: 10
+      DW_MACRO_GNU_define_indirect - lineno: 29 macro: _BITS_LIBIO_H 1
+      DW_MACRO_GNU_start_file - lineno: 35 filenum: 92
+        DW_MACRO_GNU_transparent_include - import offset: 0x000031e9
+        DW_MACRO_GNU_start_file - lineno: 19 filenum: 3
+          DW_MACRO_GNU_transparent_include - import offset: 0x000031c9
+        DW_MACRO_GNU_end_file
+        DW_MACRO_GNU_start_file - lineno: 21 filenum: 93
+          DW_MACRO_GNU_define_indirect - lineno: 2 macro: ____mbstate_t_defined 1
+        DW_MACRO_GNU_end_file
+        DW_MACRO_GNU_transparent_include - import offset: 0x000031ff
+      DW_MACRO_GNU_end_file
+      DW_MACRO_GNU_transparent_include - import offset: 0x00003227
+      DW_MACRO_GNU_start_file - lineno: 53 filenum: 94
+        DW_MACRO_GNU_transparent_include - import offset: 0x0000327f
+      DW_MACRO_GNU_end_file
+      DW_MACRO_GNU_transparent_include - import offset: 0x0000328f
+    DW_MACRO_GNU_end_file
+    DW_MACRO_GNU_transparent_include - import offset: 0x0000345b
+    DW_MACRO_GNU_start_file - lineno: 131 filenum: 95
+      DW_MACRO_GNU_transparent_include - import offset: 0x00003495
+    DW_MACRO_GNU_end_file
+    DW_MACRO_GNU_transparent_include - import offset: 0x000034c3
+    DW_MACRO_GNU_start_file - lineno: 781 filenum: 12
+    DW_MACRO_GNU_end_file
+  DW_MACRO_GNU_end_file
+  DW_MACRO_GNU_start_file - lineno: 11 filenum: 96
+    DW_MACRO_GNU_transparent_include - import offset: 0x000034ea
+    DW_MACRO_GNU_start_file - lineno: 26 filenum: 27
+      DW_MACRO_GNU_transparent_include - import offset: 0x00001f4f
+    DW_MACRO_GNU_end_file
+    DW_MACRO_GNU_transparent_include - import offset: 0x000034fa
+    DW_MACRO_GNU_start_file - lineno: 33 filenum: 3
+      DW_MACRO_GNU_transparent_include - import offset: 0x000031c9
+    DW_MACRO_GNU_end_file
+    DW_MACRO_GNU_start_file - lineno: 152 filenum: 97
+      DW_MACRO_GNU_define_indirect - lineno: 20 macro: _BITS_TYPES_LOCALE_T_H 1
+      DW_MACRO_GNU_start_file - lineno: 22 filenum: 98
+        DW_MACRO_GNU_define_indirect - lineno: 21 macro: _BITS_TYPES___LOCALE_T_H 1
+      DW_MACRO_GNU_end_file
+    DW_MACRO_GNU_end_file
+    DW_MACRO_GNU_start_file - lineno: 431 filenum: 99
+      DW_MACRO_GNU_transparent_include - import offset: 0x0000350a
+      DW_MACRO_GNU_start_file - lineno: 23 filenum: 3
+        DW_MACRO_GNU_transparent_include - import offset: 0x00002212
+      DW_MACRO_GNU_end_file
+    DW_MACRO_GNU_end_file
+  DW_MACRO_GNU_end_file
+  DW_MACRO_GNU_start_file - lineno: 12 filenum: 100
+    DW_MACRO_GNU_transparent_include - import offset: 0x0000351a
+    DW_MACRO_GNU_start_file - lineno: 36 filenum: 101
+      DW_MACRO_GNU_transparent_include - import offset: 0x0000352a
+    DW_MACRO_GNU_end_file
+  DW_MACRO_GNU_end_file
+  DW_MACRO_GNU_start_file - lineno: 13 filenum: 13
+    DW_MACRO_GNU_transparent_include - import offset: 0x00003546
+    DW_MACRO_GNU_start_file - lineno: 27 filenum: 27
+      DW_MACRO_GNU_transparent_include - import offset: 0x00001f4f
+    DW_MACRO_GNU_end_file
+    DW_MACRO_GNU_start_file - lineno: 40 filenum: 102
+      DW_MACRO_GNU_start_file - lineno: 25 filenum: 103
+        DW_MACRO_GNU_transparent_include - import offset: 0x00003556
+      DW_MACRO_GNU_end_file
+    DW_MACRO_GNU_end_file
+    DW_MACRO_GNU_transparent_include - import offset: 0x000036c8
+    DW_MACRO_GNU_start_file - lineno: 138 filenum: 104
+      DW_MACRO_GNU_define_indirect - lineno: 27 macro: __GLIBC_FLT_EVAL_METHOD __FLT_EVAL_METHOD__
+    DW_MACRO_GNU_end_file
+    DW_MACRO_GNU_start_file - lineno: 190 filenum: 105
+      DW_MACRO_GNU_transparent_include - import offset: 0x000036ea
+    DW_MACRO_GNU_end_file
+    DW_MACRO_GNU_transparent_include - import offset: 0x000036fa
+    DW_MACRO_GNU_start_file - lineno: 233 filenum: 106
+    DW_MACRO_GNU_end_file
+    DW_MACRO_GNU_transparent_include - import offset: 0x0000370c
+    DW_MACRO_GNU_start_file - lineno: 289 filenum: 107
+    DW_MACRO_GNU_end_file
+    DW_MACRO_GNU_start_file - lineno: 290 filenum: 108
+    DW_MACRO_GNU_end_file
+    DW_MACRO_GNU_transparent_include - import offset: 0x00003764
+    DW_MACRO_GNU_start_file - lineno: 306 filenum: 107
+    DW_MACRO_GNU_end_file
+    DW_MACRO_GNU_start_file - lineno: 307 filenum: 108
+    DW_MACRO_GNU_end_file
+    DW_MACRO_GNU_transparent_include - import offset: 0x000037a0
+    DW_MACRO_GNU_start_file - lineno: 349 filenum: 107
+    DW_MACRO_GNU_end_file
+    DW_MACRO_GNU_start_file - lineno: 350 filenum: 108
+    DW_MACRO_GNU_end_file
+    DW_MACRO_GNU_transparent_include - import offset: 0x000037e3
+    DW_MACRO_GNU_start_file - lineno: 420 filenum: 107
+    DW_MACRO_GNU_end_file
+    DW_MACRO_GNU_transparent_include - import offset: 0x0000388f
+  DW_MACRO_GNU_end_file
+  DW_MACRO_GNU_start_file - lineno: 14 filenum: 109
+    DW_MACRO_GNU_transparent_include - import offset: 0x00003a30
+  DW_MACRO_GNU_end_file
+  DW_MACRO_GNU_define_indirect - lineno: 16 macro: CLI_REV 31
+DW_MACRO_GNU_end_file
+
+0x0000064d:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __STDC__ 1
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __STDC_VERSION__ 201112L
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __STDC_UTF_16__ 1
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __STDC_UTF_32__ 1
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __STDC_HOSTED__ 1
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __GNUC__ 7
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __GNUC_MINOR__ 5
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __GNUC_PATCHLEVEL__ 0
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __VERSION__ "7.5.0"
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __ATOMIC_RELAXED 0
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __ATOMIC_SEQ_CST 5
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __ATOMIC_ACQUIRE 2
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __ATOMIC_RELEASE 3
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __ATOMIC_ACQ_REL 4
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __ATOMIC_CONSUME 1
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __pic__ 2
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __PIC__ 2
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __pie__ 2
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __PIE__ 2
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FINITE_MATH_ONLY__ 0
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: _LP64 1
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __LP64__ 1
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __SIZEOF_INT__ 4
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __SIZEOF_LONG__ 8
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __SIZEOF_LONG_LONG__ 8
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __SIZEOF_SHORT__ 2
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __SIZEOF_FLOAT__ 4
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __SIZEOF_DOUBLE__ 8
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __SIZEOF_LONG_DOUBLE__ 16
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __SIZEOF_SIZE_T__ 8
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __CHAR_BIT__ 8
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __BIGGEST_ALIGNMENT__ 16
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __ORDER_LITTLE_ENDIAN__ 1234
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __ORDER_BIG_ENDIAN__ 4321
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __ORDER_PDP_ENDIAN__ 3412
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __BYTE_ORDER__ __ORDER_LITTLE_ENDIAN__
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLOAT_WORD_ORDER__ __ORDER_LITTLE_ENDIAN__
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __SIZEOF_POINTER__ 8
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __SIZE_TYPE__ long unsigned int
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __PTRDIFF_TYPE__ long int
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __WCHAR_TYPE__ int
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __WINT_TYPE__ unsigned int
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __INTMAX_TYPE__ long int
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __UINTMAX_TYPE__ long unsigned int
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __CHAR16_TYPE__ short unsigned int
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __CHAR32_TYPE__ unsigned int
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __SIG_ATOMIC_TYPE__ int
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __INT8_TYPE__ signed char
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __INT16_TYPE__ short int
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __INT32_TYPE__ int
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __INT64_TYPE__ long int
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __UINT8_TYPE__ unsigned char
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __UINT16_TYPE__ short unsigned int
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __UINT32_TYPE__ unsigned int
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __UINT64_TYPE__ long unsigned int
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __INT_LEAST8_TYPE__ signed char
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __INT_LEAST16_TYPE__ short int
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __INT_LEAST32_TYPE__ int
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __INT_LEAST64_TYPE__ long int
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __UINT_LEAST8_TYPE__ unsigned char
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __UINT_LEAST16_TYPE__ short unsigned int
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __UINT_LEAST32_TYPE__ unsigned int
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __UINT_LEAST64_TYPE__ long unsigned int
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __INT_FAST8_TYPE__ signed char
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __INT_FAST16_TYPE__ long int
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __INT_FAST32_TYPE__ long int
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __INT_FAST64_TYPE__ long int
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __UINT_FAST8_TYPE__ unsigned char
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __UINT_FAST16_TYPE__ long unsigned int
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __UINT_FAST32_TYPE__ long unsigned int
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __UINT_FAST64_TYPE__ long unsigned int
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __INTPTR_TYPE__ long int
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __UINTPTR_TYPE__ long unsigned int
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __has_include(STR) __has_include__(STR)
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __has_include_next(STR) __has_include_next__(STR)
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __GXX_ABI_VERSION 1011
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __SCHAR_MAX__ 0x7f
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __SHRT_MAX__ 0x7fff
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __INT_MAX__ 0x7fffffff
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __LONG_MAX__ 0x7fffffffffffffffL
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __LONG_LONG_MAX__ 0x7fffffffffffffffLL
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __WCHAR_MAX__ 0x7fffffff
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __WCHAR_MIN__ (-__WCHAR_MAX__ - 1)
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __WINT_MAX__ 0xffffffffU
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __WINT_MIN__ 0U
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __PTRDIFF_MAX__ 0x7fffffffffffffffL
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __SIZE_MAX__ 0xffffffffffffffffUL
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __SCHAR_WIDTH__ 8
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __SHRT_WIDTH__ 16
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __INT_WIDTH__ 32
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __LONG_WIDTH__ 64
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __LONG_LONG_WIDTH__ 64
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __WCHAR_WIDTH__ 32
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __WINT_WIDTH__ 32
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __PTRDIFF_WIDTH__ 64
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __SIZE_WIDTH__ 64
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __INTMAX_MAX__ 0x7fffffffffffffffL
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __INTMAX_C(c) c ## L
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __UINTMAX_MAX__ 0xffffffffffffffffUL
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __UINTMAX_C(c) c ## UL
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __INTMAX_WIDTH__ 64
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __SIG_ATOMIC_MAX__ 0x7fffffff
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __SIG_ATOMIC_MIN__ (-__SIG_ATOMIC_MAX__ - 1)
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __SIG_ATOMIC_WIDTH__ 32
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __INT8_MAX__ 0x7f
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __INT16_MAX__ 0x7fff
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __INT32_MAX__ 0x7fffffff
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __INT64_MAX__ 0x7fffffffffffffffL
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __UINT8_MAX__ 0xff
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __UINT16_MAX__ 0xffff
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __UINT32_MAX__ 0xffffffffU
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __UINT64_MAX__ 0xffffffffffffffffUL
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __INT_LEAST8_MAX__ 0x7f
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __INT8_C(c) c
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __INT_LEAST8_WIDTH__ 8
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __INT_LEAST16_MAX__ 0x7fff
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __INT16_C(c) c
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __INT_LEAST16_WIDTH__ 16
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __INT_LEAST32_MAX__ 0x7fffffff
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __INT32_C(c) c
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __INT_LEAST32_WIDTH__ 32
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __INT_LEAST64_MAX__ 0x7fffffffffffffffL
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __INT64_C(c) c ## L
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __INT_LEAST64_WIDTH__ 64
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __UINT_LEAST8_MAX__ 0xff
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __UINT8_C(c) c
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __UINT_LEAST16_MAX__ 0xffff
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __UINT16_C(c) c
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __UINT_LEAST32_MAX__ 0xffffffffU
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __UINT32_C(c) c ## U
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __UINT_LEAST64_MAX__ 0xffffffffffffffffUL
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __UINT64_C(c) c ## UL
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __INT_FAST8_MAX__ 0x7f
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __INT_FAST8_WIDTH__ 8
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __INT_FAST16_MAX__ 0x7fffffffffffffffL
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __INT_FAST16_WIDTH__ 64
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __INT_FAST32_MAX__ 0x7fffffffffffffffL
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __INT_FAST32_WIDTH__ 64
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __INT_FAST64_MAX__ 0x7fffffffffffffffL
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __INT_FAST64_WIDTH__ 64
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __UINT_FAST8_MAX__ 0xff
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __UINT_FAST16_MAX__ 0xffffffffffffffffUL
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __UINT_FAST32_MAX__ 0xffffffffffffffffUL
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __UINT_FAST64_MAX__ 0xffffffffffffffffUL
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __INTPTR_MAX__ 0x7fffffffffffffffL
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __INTPTR_WIDTH__ 64
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __UINTPTR_MAX__ 0xffffffffffffffffUL
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __GCC_IEC_559 2
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __GCC_IEC_559_COMPLEX 2
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT_EVAL_METHOD__ 0
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT_EVAL_METHOD_TS_18661_3__ 0
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __DEC_EVAL_METHOD__ 2
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT_RADIX__ 2
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT_MANT_DIG__ 24
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT_DIG__ 6
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT_MIN_EXP__ (-125)
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT_MIN_10_EXP__ (-37)
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT_MAX_EXP__ 128
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT_MAX_10_EXP__ 38
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT_DECIMAL_DIG__ 9
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT_MAX__ 3.40282346638528859811704183484516925e+38F
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT_MIN__ 1.17549435082228750796873653722224568e-38F
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT_EPSILON__ 1.19209289550781250000000000000000000e-7F
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT_DENORM_MIN__ 1.40129846432481707092372958328991613e-45F
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT_HAS_DENORM__ 1
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT_HAS_INFINITY__ 1
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT_HAS_QUIET_NAN__ 1
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __DBL_MANT_DIG__ 53
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __DBL_DIG__ 15
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __DBL_MIN_EXP__ (-1021)
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __DBL_MIN_10_EXP__ (-307)
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __DBL_MAX_EXP__ 1024
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __DBL_MAX_10_EXP__ 308
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __DBL_DECIMAL_DIG__ 17
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __DBL_MAX__ ((double)1.79769313486231570814527423731704357e+308L)
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __DBL_MIN__ ((double)2.22507385850720138309023271733240406e-308L)
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __DBL_EPSILON__ ((double)2.22044604925031308084726333618164062e-16L)
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __DBL_DENORM_MIN__ ((double)4.94065645841246544176568792868221372e-324L)
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __DBL_HAS_DENORM__ 1
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __DBL_HAS_INFINITY__ 1
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __DBL_HAS_QUIET_NAN__ 1
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __LDBL_MANT_DIG__ 64
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __LDBL_DIG__ 18
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __LDBL_MIN_EXP__ (-16381)
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __LDBL_MIN_10_EXP__ (-4931)
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __LDBL_MAX_EXP__ 16384
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __LDBL_MAX_10_EXP__ 4932
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __DECIMAL_DIG__ 21
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __LDBL_DECIMAL_DIG__ 21
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __LDBL_MAX__ 1.18973149535723176502126385303097021e+4932L
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __LDBL_MIN__ 3.36210314311209350626267781732175260e-4932L
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __LDBL_EPSILON__ 1.08420217248550443400745280086994171e-19L
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __LDBL_DENORM_MIN__ 3.64519953188247460252840593361941982e-4951L
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __LDBL_HAS_DENORM__ 1
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __LDBL_HAS_INFINITY__ 1
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __LDBL_HAS_QUIET_NAN__ 1
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT32_MANT_DIG__ 24
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT32_DIG__ 6
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT32_MIN_EXP__ (-125)
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT32_MIN_10_EXP__ (-37)
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT32_MAX_EXP__ 128
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT32_MAX_10_EXP__ 38
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT32_DECIMAL_DIG__ 9
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT32_MAX__ 3.40282346638528859811704183484516925e+38F32
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT32_MIN__ 1.17549435082228750796873653722224568e-38F32
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT32_EPSILON__ 1.19209289550781250000000000000000000e-7F32
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT32_DENORM_MIN__ 1.40129846432481707092372958328991613e-45F32
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT32_HAS_DENORM__ 1
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT32_HAS_INFINITY__ 1
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT32_HAS_QUIET_NAN__ 1
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT64_MANT_DIG__ 53
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT64_DIG__ 15
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT64_MIN_EXP__ (-1021)
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT64_MIN_10_EXP__ (-307)
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT64_MAX_EXP__ 1024
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT64_MAX_10_EXP__ 308
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT64_DECIMAL_DIG__ 17
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT64_MAX__ 1.79769313486231570814527423731704357e+308F64
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT64_MIN__ 2.22507385850720138309023271733240406e-308F64
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT64_EPSILON__ 2.22044604925031308084726333618164062e-16F64
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT64_DENORM_MIN__ 4.94065645841246544176568792868221372e-324F64
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT64_HAS_DENORM__ 1
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT64_HAS_INFINITY__ 1
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT64_HAS_QUIET_NAN__ 1
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT128_MANT_DIG__ 113
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT128_DIG__ 33
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT128_MIN_EXP__ (-16381)
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT128_MIN_10_EXP__ (-4931)
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT128_MAX_EXP__ 16384
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT128_MAX_10_EXP__ 4932
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT128_DECIMAL_DIG__ 36
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT128_MAX__ 1.18973149535723176508575932662800702e+4932F128
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT128_MIN__ 3.36210314311209350626267781732175260e-4932F128
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT128_EPSILON__ 1.92592994438723585305597794258492732e-34F128
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT128_DENORM_MIN__ 6.47517511943802511092443895822764655e-4966F128
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT128_HAS_DENORM__ 1
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT128_HAS_INFINITY__ 1
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT128_HAS_QUIET_NAN__ 1
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT32X_MANT_DIG__ 53
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT32X_DIG__ 15
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT32X_MIN_EXP__ (-1021)
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT32X_MIN_10_EXP__ (-307)
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT32X_MAX_EXP__ 1024
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT32X_MAX_10_EXP__ 308
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT32X_DECIMAL_DIG__ 17
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT32X_MAX__ 1.79769313486231570814527423731704357e+308F32x
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT32X_MIN__ 2.22507385850720138309023271733240406e-308F32x
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT32X_EPSILON__ 2.22044604925031308084726333618164062e-16F32x
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT32X_DENORM_MIN__ 4.94065645841246544176568792868221372e-324F32x
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT32X_HAS_DENORM__ 1
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT32X_HAS_INFINITY__ 1
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT32X_HAS_QUIET_NAN__ 1
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT64X_MANT_DIG__ 64
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT64X_DIG__ 18
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT64X_MIN_EXP__ (-16381)
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT64X_MIN_10_EXP__ (-4931)
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT64X_MAX_EXP__ 16384
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT64X_MAX_10_EXP__ 4932
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT64X_DECIMAL_DIG__ 21
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT64X_MAX__ 1.18973149535723176502126385303097021e+4932F64x
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT64X_MIN__ 3.36210314311209350626267781732175260e-4932F64x
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT64X_EPSILON__ 1.08420217248550443400745280086994171e-19F64x
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT64X_DENORM_MIN__ 3.64519953188247460252840593361941982e-4951F64x
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT64X_HAS_DENORM__ 1
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT64X_HAS_INFINITY__ 1
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FLT64X_HAS_QUIET_NAN__ 1
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __DEC32_MANT_DIG__ 7
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __DEC32_MIN_EXP__ (-94)
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __DEC32_MAX_EXP__ 97
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __DEC32_MIN__ 1E-95DF
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __DEC32_MAX__ 9.999999E96DF
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __DEC32_EPSILON__ 1E-6DF
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __DEC32_SUBNORMAL_MIN__ 0.000001E-95DF
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __DEC64_MANT_DIG__ 16
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __DEC64_MIN_EXP__ (-382)
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __DEC64_MAX_EXP__ 385
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __DEC64_MIN__ 1E-383DD
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __DEC64_MAX__ 9.999999999999999E384DD
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __DEC64_EPSILON__ 1E-15DD
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __DEC64_SUBNORMAL_MIN__ 0.000000000000001E-383DD
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __DEC128_MANT_DIG__ 34
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __DEC128_MIN_EXP__ (-6142)
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __DEC128_MAX_EXP__ 6145
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __DEC128_MIN__ 1E-6143DL
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __DEC128_MAX__ 9.999999999999999999999999999999999E6144DL
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __DEC128_EPSILON__ 1E-33DL
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __DEC128_SUBNORMAL_MIN__ 0.000000000000000000000000000000001E-6143DL
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __REGISTER_PREFIX__ 
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __USER_LABEL_PREFIX__ 
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __GNUC_STDC_INLINE__ 1
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __NO_INLINE__ 1
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __GCC_HAVE_SYNC_COMPARE_AND_SWAP_1 1
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __GCC_HAVE_SYNC_COMPARE_AND_SWAP_2 1
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __GCC_HAVE_SYNC_COMPARE_AND_SWAP_4 1
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __GCC_HAVE_SYNC_COMPARE_AND_SWAP_8 1
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __GCC_ATOMIC_BOOL_LOCK_FREE 2
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __GCC_ATOMIC_CHAR_LOCK_FREE 2
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __GCC_ATOMIC_CHAR16_T_LOCK_FREE 2
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __GCC_ATOMIC_CHAR32_T_LOCK_FREE 2
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __GCC_ATOMIC_WCHAR_T_LOCK_FREE 2
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __GCC_ATOMIC_SHORT_LOCK_FREE 2
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __GCC_ATOMIC_INT_LOCK_FREE 2
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __GCC_ATOMIC_LONG_LOCK_FREE 2
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __GCC_ATOMIC_LLONG_LOCK_FREE 2
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __GCC_ATOMIC_TEST_AND_SET_TRUEVAL 1
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __GCC_ATOMIC_POINTER_LOCK_FREE 2
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __GCC_HAVE_DWARF2_CFI_ASM 1
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __PRAGMA_REDEFINE_EXTNAME 1
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __SSP_STRONG__ 3
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __SIZEOF_INT128__ 16
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __SIZEOF_WCHAR_T__ 4
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __SIZEOF_WINT_T__ 4
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __SIZEOF_PTRDIFF_T__ 8
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __amd64 1
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __amd64__ 1
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __x86_64 1
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __x86_64__ 1
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __SIZEOF_FLOAT80__ 16
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __SIZEOF_FLOAT128__ 16
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __ATOMIC_HLE_ACQUIRE 65536
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __ATOMIC_HLE_RELEASE 131072
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __GCC_ASM_FLAG_OUTPUTS__ 1
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __k8 1
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __k8__ 1
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __code_model_small__ 1
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __MMX__ 1
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __SSE__ 1
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __SSE2__ 1
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __FXSR__ 1
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __SSE_MATH__ 1
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __SSE2_MATH__ 1
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __SEG_FS 1
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __SEG_GS 1
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __gnu_linux__ 1
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __linux 1
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __linux__ 1
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: linux 1
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __unix 1
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __unix__ 1
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: unix 1
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __ELF__ 1
+DW_MACRO_GNU_define_indirect - lineno: 0 macro: __DECIMAL_BID_FORMAT__ 1
+
+0x00000e55:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 19 macro: _STDC_PREDEF_H 1
+DW_MACRO_GNU_define_indirect - lineno: 38 macro: __STDC_IEC_559__ 1
+DW_MACRO_GNU_define_indirect - lineno: 46 macro: __STDC_IEC_559_COMPLEX__ 1
+DW_MACRO_GNU_define_indirect - lineno: 58 macro: __STDC_ISO_10646__ 201706L
+DW_MACRO_GNU_define_indirect - lineno: 61 macro: __STDC_NO_THREADS__ 1
+
+0x00000e77:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 19 macro: _FEATURES_H 1
+DW_MACRO_GNU_undef_indirect - lineno: 119 macro: __USE_ISOC11
+DW_MACRO_GNU_undef_indirect - lineno: 120 macro: __USE_ISOC99
+DW_MACRO_GNU_undef_indirect - lineno: 121 macro: __USE_ISOC95
+DW_MACRO_GNU_undef_indirect - lineno: 122 macro: __USE_ISOCXX11
+DW_MACRO_GNU_undef_indirect - lineno: 123 macro: __USE_POSIX
+DW_MACRO_GNU_undef_indirect - lineno: 124 macro: __USE_POSIX2
+DW_MACRO_GNU_undef_indirect - lineno: 125 macro: __USE_POSIX199309
+DW_MACRO_GNU_undef_indirect - lineno: 126 macro: __USE_POSIX199506
+DW_MACRO_GNU_undef_indirect - lineno: 127 macro: __USE_XOPEN
+DW_MACRO_GNU_undef_indirect - lineno: 128 macro: __USE_XOPEN_EXTENDED
+DW_MACRO_GNU_undef_indirect - lineno: 129 macro: __USE_UNIX98
+DW_MACRO_GNU_undef_indirect - lineno: 130 macro: __USE_XOPEN2K
+DW_MACRO_GNU_undef_indirect - lineno: 131 macro: __USE_XOPEN2KXSI
+DW_MACRO_GNU_undef_indirect - lineno: 132 macro: __USE_XOPEN2K8
+DW_MACRO_GNU_undef_indirect - lineno: 133 macro: __USE_XOPEN2K8XSI
+DW_MACRO_GNU_undef_indirect - lineno: 134 macro: __USE_LARGEFILE
+DW_MACRO_GNU_undef_indirect - lineno: 135 macro: __USE_LARGEFILE64
+DW_MACRO_GNU_undef_indirect - lineno: 136 macro: __USE_FILE_OFFSET64
+DW_MACRO_GNU_undef_indirect - lineno: 137 macro: __USE_MISC
+DW_MACRO_GNU_undef_indirect - lineno: 138 macro: __USE_ATFILE
+DW_MACRO_GNU_undef_indirect - lineno: 139 macro: __USE_GNU
+DW_MACRO_GNU_undef_indirect - lineno: 140 macro: __USE_FORTIFY_LEVEL
+DW_MACRO_GNU_undef_indirect - lineno: 141 macro: __KERNEL_STRICT_NAMES
+DW_MACRO_GNU_undef_indirect - lineno: 142 macro: __GLIBC_USE_DEPRECATED_GETS
+DW_MACRO_GNU_define_indirect - lineno: 147 macro: __KERNEL_STRICT_NAMES 
+DW_MACRO_GNU_define_indirect - lineno: 158 macro: __GNUC_PREREQ(maj,min) ((__GNUC__ << 16) + __GNUC_MINOR__ >= ((maj) << 16) + (min))
+DW_MACRO_GNU_define_indirect - lineno: 172 macro: __glibc_clang_prereq(maj,min) 0
+DW_MACRO_GNU_define_indirect - lineno: 176 macro: __GLIBC_USE(F) __GLIBC_USE_ ## F
+DW_MACRO_GNU_undef_indirect - lineno: 220 macro: _DEFAULT_SOURCE
+DW_MACRO_GNU_define_indirect - lineno: 221 macro: _DEFAULT_SOURCE 1
+DW_MACRO_GNU_define_indirect - lineno: 227 macro: __USE_ISOC11 1
+DW_MACRO_GNU_define_indirect - lineno: 233 macro: __USE_ISOC99 1
+DW_MACRO_GNU_define_indirect - lineno: 239 macro: __USE_ISOC95 1
+DW_MACRO_GNU_define_indirect - lineno: 260 macro: __USE_POSIX_IMPLICITLY 1
+DW_MACRO_GNU_undef_indirect - lineno: 262 macro: _POSIX_SOURCE
+DW_MACRO_GNU_define_indirect - lineno: 263 macro: _POSIX_SOURCE 1
+DW_MACRO_GNU_undef_indirect - lineno: 264 macro: _POSIX_C_SOURCE
+DW_MACRO_GNU_define_indirect - lineno: 265 macro: _POSIX_C_SOURCE 200809L
+DW_MACRO_GNU_define_indirect - lineno: 300 macro: __USE_POSIX 1
+DW_MACRO_GNU_define_indirect - lineno: 304 macro: __USE_POSIX2 1
+DW_MACRO_GNU_define_indirect - lineno: 308 macro: __USE_POSIX199309 1
+DW_MACRO_GNU_define_indirect - lineno: 312 macro: __USE_POSIX199506 1
+DW_MACRO_GNU_define_indirect - lineno: 316 macro: __USE_XOPEN2K 1
+DW_MACRO_GNU_undef_indirect - lineno: 317 macro: __USE_ISOC95
+DW_MACRO_GNU_define_indirect - lineno: 318 macro: __USE_ISOC95 1
+DW_MACRO_GNU_undef_indirect - lineno: 319 macro: __USE_ISOC99
+DW_MACRO_GNU_define_indirect - lineno: 320 macro: __USE_ISOC99 1
+DW_MACRO_GNU_define_indirect - lineno: 324 macro: __USE_XOPEN2K8 1
+DW_MACRO_GNU_undef_indirect - lineno: 325 macro: _ATFILE_SOURCE
+DW_MACRO_GNU_define_indirect - lineno: 326 macro: _ATFILE_SOURCE 1
+DW_MACRO_GNU_define_indirect - lineno: 368 macro: __USE_MISC 1
+DW_MACRO_GNU_define_indirect - lineno: 372 macro: __USE_ATFILE 1
+DW_MACRO_GNU_define_indirect - lineno: 387 macro: __USE_FORTIFY_LEVEL 0
+DW_MACRO_GNU_define_indirect - lineno: 395 macro: __GLIBC_USE_DEPRECATED_GETS 0
+DW_MACRO_GNU_undef_indirect - lineno: 410 macro: __GNU_LIBRARY__
+DW_MACRO_GNU_define_indirect - lineno: 411 macro: __GNU_LIBRARY__ 6
+DW_MACRO_GNU_define_indirect - lineno: 415 macro: __GLIBC__ 2
+DW_MACRO_GNU_define_indirect - lineno: 416 macro: __GLIBC_MINOR__ 27
+DW_MACRO_GNU_define_indirect - lineno: 418 macro: __GLIBC_PREREQ(maj,min) ((__GLIBC__ << 16) + __GLIBC_MINOR__ >= ((maj) << 16) + (min))
+
+0x00001015:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 19 macro: _SYS_CDEFS_H 1
+DW_MACRO_GNU_undef - lineno: 34 macro: __P
+DW_MACRO_GNU_undef_indirect - lineno: 35 macro: __PMT
+DW_MACRO_GNU_define_indirect - lineno: 42 macro: __LEAF , __leaf__
+DW_MACRO_GNU_define_indirect - lineno: 43 macro: __LEAF_ATTR __attribute__ ((__leaf__))
+DW_MACRO_GNU_define_indirect - lineno: 55 macro: __THROW __attribute__ ((__nothrow__ __LEAF))
+DW_MACRO_GNU_define_indirect - lineno: 56 macro: __THROWNL __attribute__ ((__nothrow__))
+DW_MACRO_GNU_define_indirect - lineno: 57 macro: __NTH(fct) __attribute__ ((__nothrow__ __LEAF)) fct
+DW_MACRO_GNU_define_indirect - lineno: 58 macro: __NTHNL(fct) __attribute__ ((__nothrow__)) fct
+DW_MACRO_GNU_define_indirect - lineno: 89 macro: __glibc_clang_has_extension(ext) 0
+DW_MACRO_GNU_define_indirect - lineno: 94 macro: __P(args) args
+DW_MACRO_GNU_define_indirect - lineno: 95 macro: __PMT(args) args
+DW_MACRO_GNU_define_indirect - lineno: 100 macro: __CONCAT(x,y) x ## y
+DW_MACRO_GNU_define_indirect - lineno: 101 macro: __STRING(x) #x
+DW_MACRO_GNU_define_indirect - lineno: 104 macro: __ptr_t void *
+DW_MACRO_GNU_define_indirect - lineno: 112 macro: __BEGIN_DECLS 
+DW_MACRO_GNU_define_indirect - lineno: 113 macro: __END_DECLS 
+DW_MACRO_GNU_define_indirect - lineno: 118 macro: __bos(ptr) __builtin_object_size (ptr, __USE_FORTIFY_LEVEL > 1)
+DW_MACRO_GNU_define_indirect - lineno: 119 macro: __bos0(ptr) __builtin_object_size (ptr, 0)
+DW_MACRO_GNU_define_indirect - lineno: 122 macro: __warndecl(name,msg) extern void name (void) __attribute__((__warning__ (msg)))
+DW_MACRO_GNU_define_indirect - lineno: 124 macro: __warnattr(msg) __attribute__((__warning__ (msg)))
+DW_MACRO_GNU_define_indirect - lineno: 125 macro: __errordecl(name,msg) extern void name (void) __attribute__((__error__ (msg)))
+DW_MACRO_GNU_define_indirect - lineno: 138 macro: __flexarr []
+DW_MACRO_GNU_define_indirect - lineno: 139 macro: __glibc_c99_flexarr_available 1
+DW_MACRO_GNU_define_indirect - lineno: 169 macro: __REDIRECT(name,proto,alias) name proto __asm__ (__ASMNAME (#alias))
+DW_MACRO_GNU_define_indirect - lineno: 176 macro: __REDIRECT_NTH(name,proto,alias) name proto __asm__ (__ASMNAME (#alias)) __THROW
+DW_MACRO_GNU_define_indirect - lineno: 178 macro: __REDIRECT_NTHNL(name,proto,alias) name proto __asm__ (__ASMNAME (#alias)) __THROWNL
+DW_MACRO_GNU_define_indirect - lineno: 181 macro: __ASMNAME(cname) __ASMNAME2 (__USER_LABEL_PREFIX__, cname)
+DW_MACRO_GNU_define_indirect - lineno: 182 macro: __ASMNAME2(prefix,cname) __STRING (prefix) cname
+DW_MACRO_GNU_define_indirect - lineno: 203 macro: __attribute_malloc__ __attribute__ ((__malloc__))
+DW_MACRO_GNU_define_indirect - lineno: 211 macro: __attribute_alloc_size__(params) __attribute__ ((__alloc_size__ params))
+DW_MACRO_GNU_define_indirect - lineno: 221 macro: __attribute_pure__ __attribute__ ((__pure__))
+DW_MACRO_GNU_define_indirect - lineno: 228 macro: __attribute_const__ __attribute__ ((__const__))
+DW_MACRO_GNU_define_indirect - lineno: 237 macro: __attribute_used__ __attribute__ ((__used__))
+DW_MACRO_GNU_define_indirect - lineno: 238 macro: __attribute_noinline__ __attribute__ ((__noinline__))
+DW_MACRO_GNU_define_indirect - lineno: 246 macro: __attribute_deprecated__ __attribute__ ((__deprecated__))
+DW_MACRO_GNU_define_indirect - lineno: 256 macro: __attribute_deprecated_msg__(msg) __attribute__ ((__deprecated__ (msg)))
+DW_MACRO_GNU_define_indirect - lineno: 269 macro: __attribute_format_arg__(x) __attribute__ ((__format_arg__ (x)))
+DW_MACRO_GNU_define_indirect - lineno: 279 macro: __attribute_format_strfmon__(a,b) __attribute__ ((__format__ (__strfmon__, a, b)))
+DW_MACRO_GNU_define_indirect - lineno: 288 macro: __nonnull(params) __attribute__ ((__nonnull__ params))
+DW_MACRO_GNU_define_indirect - lineno: 296 macro: __attribute_warn_unused_result__ __attribute__ ((__warn_unused_result__))
+DW_MACRO_GNU_define_indirect - lineno: 305 macro: __wur 
+DW_MACRO_GNU_undef_indirect - lineno: 313 macro: __always_inline
+DW_MACRO_GNU_define_indirect - lineno: 314 macro: __always_inline __inline __attribute__ ((__always_inline__))
+DW_MACRO_GNU_define_indirect - lineno: 323 macro: __attribute_artificial__ __attribute__ ((__artificial__))
+DW_MACRO_GNU_define_indirect - lineno: 341 macro: __extern_inline extern __inline __attribute__ ((__gnu_inline__))
+DW_MACRO_GNU_define_indirect - lineno: 342 macro: __extern_always_inline extern __always_inline __attribute__ ((__gnu_inline__))
+DW_MACRO_GNU_define_indirect - lineno: 351 macro: __fortify_function __extern_always_inline __attribute_artificial__
+DW_MACRO_GNU_define_indirect - lineno: 357 macro: __va_arg_pack() __builtin_va_arg_pack ()
+DW_MACRO_GNU_define_indirect - lineno: 358 macro: __va_arg_pack_len() __builtin_va_arg_pack_len ()
+DW_MACRO_GNU_define_indirect - lineno: 378 macro: __restrict_arr __restrict
+DW_MACRO_GNU_define_indirect - lineno: 393 macro: __glibc_unlikely(cond) __builtin_expect ((cond), 0)
+DW_MACRO_GNU_define_indirect - lineno: 394 macro: __glibc_likely(cond) __builtin_expect ((cond), 1)
+DW_MACRO_GNU_define_indirect - lineno: 416 macro: __attribute_nonstring__ 
+
+0x0000117d:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 4 macro: __WORDSIZE 64
+DW_MACRO_GNU_define_indirect - lineno: 12 macro: __WORDSIZE_TIME64_COMPAT32 1
+DW_MACRO_GNU_define_indirect - lineno: 14 macro: __SYSCALL_WORDSIZE 64
+
+0x00001193:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 450 macro: __LDBL_REDIR1(name,proto,alias) name proto
+DW_MACRO_GNU_define_indirect - lineno: 451 macro: __LDBL_REDIR(name,proto) name proto
+DW_MACRO_GNU_define_indirect - lineno: 452 macro: __LDBL_REDIR1_NTH(name,proto,alias) name proto __THROW
+DW_MACRO_GNU_define_indirect - lineno: 453 macro: __LDBL_REDIR_NTH(name,proto) name proto __THROW
+DW_MACRO_GNU_define_indirect - lineno: 454 macro: __LDBL_REDIR_DECL(name) 
+DW_MACRO_GNU_define_indirect - lineno: 456 macro: __REDIRECT_LDBL(name,proto,alias) __REDIRECT (name, proto, alias)
+DW_MACRO_GNU_define_indirect - lineno: 457 macro: __REDIRECT_NTH_LDBL(name,proto,alias) __REDIRECT_NTH (name, proto, alias)
+DW_MACRO_GNU_define_indirect - lineno: 468 macro: __glibc_macro_warning1(message) _Pragma (#message)
+DW_MACRO_GNU_define_indirect - lineno: 469 macro: __glibc_macro_warning(message) __glibc_macro_warning1 (GCC warning message)
+DW_MACRO_GNU_define_indirect - lineno: 487 macro: __HAVE_GENERIC_SELECTION 1
+
+0x000011dd:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 10 macro: __stub___compat_bdflush 
+DW_MACRO_GNU_define_indirect - lineno: 11 macro: __stub_chflags 
+DW_MACRO_GNU_define_indirect - lineno: 12 macro: __stub_fattach 
+DW_MACRO_GNU_define_indirect - lineno: 13 macro: __stub_fchflags 
+DW_MACRO_GNU_define_indirect - lineno: 14 macro: __stub_fdetach 
+DW_MACRO_GNU_define_indirect - lineno: 15 macro: __stub_getmsg 
+DW_MACRO_GNU_define_indirect - lineno: 16 macro: __stub_gtty 
+DW_MACRO_GNU_define_indirect - lineno: 17 macro: __stub_lchmod 
+DW_MACRO_GNU_define_indirect - lineno: 18 macro: __stub_putmsg 
+DW_MACRO_GNU_define_indirect - lineno: 19 macro: __stub_revoke 
+DW_MACRO_GNU_define_indirect - lineno: 20 macro: __stub_setlogin 
+DW_MACRO_GNU_define_indirect - lineno: 21 macro: __stub_sigreturn 
+DW_MACRO_GNU_define_indirect - lineno: 22 macro: __stub_sstk 
+DW_MACRO_GNU_define_indirect - lineno: 23 macro: __stub_stty 
+
+0x00001235:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 34 macro: _POSIX_VERSION 200809L
+DW_MACRO_GNU_define_indirect - lineno: 53 macro: __POSIX2_THIS_VERSION 200809L
+DW_MACRO_GNU_define_indirect - lineno: 67 macro: _POSIX2_VERSION __POSIX2_THIS_VERSION
+DW_MACRO_GNU_define_indirect - lineno: 70 macro: _POSIX2_C_VERSION __POSIX2_THIS_VERSION
+DW_MACRO_GNU_define_indirect - lineno: 74 macro: _POSIX2_C_BIND __POSIX2_THIS_VERSION
+DW_MACRO_GNU_define_indirect - lineno: 78 macro: _POSIX2_C_DEV __POSIX2_THIS_VERSION
+DW_MACRO_GNU_define_indirect - lineno: 82 macro: _POSIX2_SW_DEV __POSIX2_THIS_VERSION
+DW_MACRO_GNU_define_indirect - lineno: 86 macro: _POSIX2_LOCALEDEF __POSIX2_THIS_VERSION
+DW_MACRO_GNU_define_indirect - lineno: 90 macro: _XOPEN_VERSION 700
+DW_MACRO_GNU_define_indirect - lineno: 100 macro: _XOPEN_XCU_VERSION 4
+DW_MACRO_GNU_define_indirect - lineno: 103 macro: _XOPEN_XPG2 1
+DW_MACRO_GNU_define_indirect - lineno: 104 macro: _XOPEN_XPG3 1
+DW_MACRO_GNU_define_indirect - lineno: 105 macro: _XOPEN_XPG4 1
+DW_MACRO_GNU_define_indirect - lineno: 108 macro: _XOPEN_UNIX 1
+DW_MACRO_GNU_define_indirect - lineno: 111 macro: _XOPEN_CRYPT 1
+DW_MACRO_GNU_define_indirect - lineno: 115 macro: _XOPEN_ENH_I18N 1
+DW_MACRO_GNU_define_indirect - lineno: 118 macro: _XOPEN_LEGACY 1
+
+0x0000129f:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 20 macro: _BITS_POSIX_OPT_H 1
+DW_MACRO_GNU_define_indirect - lineno: 23 macro: _POSIX_JOB_CONTROL 1
+DW_MACRO_GNU_define_indirect - lineno: 26 macro: _POSIX_SAVED_IDS 1
+DW_MACRO_GNU_define_indirect - lineno: 29 macro: _POSIX_PRIORITY_SCHEDULING 200809L
+DW_MACRO_GNU_define_indirect - lineno: 32 macro: _POSIX_SYNCHRONIZED_IO 200809L
+DW_MACRO_GNU_define_indirect - lineno: 35 macro: _POSIX_FSYNC 200809L
+DW_MACRO_GNU_define_indirect - lineno: 38 macro: _POSIX_MAPPED_FILES 200809L
+DW_MACRO_GNU_define_indirect - lineno: 41 macro: _POSIX_MEMLOCK 200809L
+DW_MACRO_GNU_define_indirect - lineno: 44 macro: _POSIX_MEMLOCK_RANGE 200809L
+DW_MACRO_GNU_define_indirect - lineno: 47 macro: _POSIX_MEMORY_PROTECTION 200809L
+DW_MACRO_GNU_define_indirect - lineno: 50 macro: _POSIX_CHOWN_RESTRICTED 0
+DW_MACRO_GNU_define_indirect - lineno: 54 macro: _POSIX_VDISABLE '\0'
+DW_MACRO_GNU_define_indirect - lineno: 57 macro: _POSIX_NO_TRUNC 1
+DW_MACRO_GNU_define_indirect - lineno: 60 macro: _XOPEN_REALTIME 1
+DW_MACRO_GNU_define_indirect - lineno: 63 macro: _XOPEN_REALTIME_THREADS 1
+DW_MACRO_GNU_define_indirect - lineno: 66 macro: _XOPEN_SHM 1
+DW_MACRO_GNU_define_indirect - lineno: 69 macro: _POSIX_THREADS 200809L
+DW_MACRO_GNU_define_indirect - lineno: 72 macro: _POSIX_REENTRANT_FUNCTIONS 1
+DW_MACRO_GNU_define_indirect - lineno: 73 macro: _POSIX_THREAD_SAFE_FUNCTIONS 200809L
+DW_MACRO_GNU_define_indirect - lineno: 76 macro: _POSIX_THREAD_PRIORITY_SCHEDULING 200809L
+DW_MACRO_GNU_define_indirect - lineno: 79 macro: _POSIX_THREAD_ATTR_STACKSIZE 200809L
+DW_MACRO_GNU_define_indirect - lineno: 82 macro: _POSIX_THREAD_ATTR_STACKADDR 200809L
+DW_MACRO_GNU_define_indirect - lineno: 85 macro: _POSIX_THREAD_PRIO_INHERIT 200809L
+DW_MACRO_GNU_define_indirect - lineno: 89 macro: _POSIX_THREAD_PRIO_PROTECT 200809L
+DW_MACRO_GNU_define_indirect - lineno: 93 macro: _POSIX_THREAD_ROBUST_PRIO_INHERIT 200809L
+DW_MACRO_GNU_define_indirect - lineno: 96 macro: _POSIX_THREAD_ROBUST_PRIO_PROTECT -1
+DW_MACRO_GNU_define_indirect - lineno: 100 macro: _POSIX_SEMAPHORES 200809L
+DW_MACRO_GNU_define_indirect - lineno: 103 macro: _POSIX_REALTIME_SIGNALS 200809L
+DW_MACRO_GNU_define_indirect - lineno: 106 macro: _POSIX_ASYNCHRONOUS_IO 200809L
+DW_MACRO_GNU_define_indirect - lineno: 107 macro: _POSIX_ASYNC_IO 1
+DW_MACRO_GNU_define_indirect - lineno: 109 macro: _LFS_ASYNCHRONOUS_IO 1
+DW_MACRO_GNU_define_indirect - lineno: 111 macro: _POSIX_PRIORITIZED_IO 200809L
+DW_MACRO_GNU_define_indirect - lineno: 114 macro: _LFS64_ASYNCHRONOUS_IO 1
+DW_MACRO_GNU_define_indirect - lineno: 117 macro: _LFS_LARGEFILE 1
+DW_MACRO_GNU_define_indirect - lineno: 118 macro: _LFS64_LARGEFILE 1
+DW_MACRO_GNU_define_indirect - lineno: 119 macro: _LFS64_STDIO 1
+DW_MACRO_GNU_define_indirect - lineno: 122 macro: _POSIX_SHARED_MEMORY_OBJECTS 200809L
+DW_MACRO_GNU_define_indirect - lineno: 125 macro: _POSIX_CPUTIME 0
+DW_MACRO_GNU_define_indirect - lineno: 128 macro: _POSIX_THREAD_CPUTIME 0
+DW_MACRO_GNU_define_indirect - lineno: 131 macro: _POSIX_REGEXP 1
+DW_MACRO_GNU_define_indirect - lineno: 134 macro: _POSIX_READER_WRITER_LOCKS 200809L
+DW_MACRO_GNU_define_indirect - lineno: 137 macro: _POSIX_SHELL 1
+DW_MACRO_GNU_define_indirect - lineno: 140 macro: _POSIX_TIMEOUTS 200809L
+DW_MACRO_GNU_define_indirect - lineno: 143 macro: _POSIX_SPIN_LOCKS 200809L
+DW_MACRO_GNU_define_indirect - lineno: 146 macro: _POSIX_SPAWN 200809L
+DW_MACRO_GNU_define_indirect - lineno: 149 macro: _POSIX_TIMERS 200809L
+DW_MACRO_GNU_define_indirect - lineno: 152 macro: _POSIX_BARRIERS 200809L
+DW_MACRO_GNU_define_indirect - lineno: 155 macro: _POSIX_MESSAGE_PASSING 200809L
+DW_MACRO_GNU_define_indirect - lineno: 158 macro: _POSIX_THREAD_PROCESS_SHARED 200809L
+DW_MACRO_GNU_define_indirect - lineno: 161 macro: _POSIX_MONOTONIC_CLOCK 0
+DW_MACRO_GNU_define_indirect - lineno: 164 macro: _POSIX_CLOCK_SELECTION 200809L
+DW_MACRO_GNU_define_indirect - lineno: 167 macro: _POSIX_ADVISORY_INFO 200809L
+DW_MACRO_GNU_define_indirect - lineno: 170 macro: _POSIX_IPV6 200809L
+DW_MACRO_GNU_define_indirect - lineno: 173 macro: _POSIX_RAW_SOCKETS 200809L
+DW_MACRO_GNU_define_indirect - lineno: 176 macro: _POSIX2_CHAR_TERM 200809L
+DW_MACRO_GNU_define_indirect - lineno: 179 macro: _POSIX_SPORADIC_SERVER -1
+DW_MACRO_GNU_define_indirect - lineno: 180 macro: _POSIX_THREAD_SPORADIC_SERVER -1
+DW_MACRO_GNU_define_indirect - lineno: 183 macro: _POSIX_TRACE -1
+DW_MACRO_GNU_define_indirect - lineno: 184 macro: _POSIX_TRACE_EVENT_FILTER -1
+DW_MACRO_GNU_define_indirect - lineno: 185 macro: _POSIX_TRACE_INHERIT -1
+DW_MACRO_GNU_define_indirect - lineno: 186 macro: _POSIX_TRACE_LOG -1
+DW_MACRO_GNU_define_indirect - lineno: 189 macro: _POSIX_TYPED_MEMORY_OBJECTS -1
+
+0x0000142f:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 56 macro: _POSIX_V7_LPBIG_OFFBIG -1
+DW_MACRO_GNU_define_indirect - lineno: 57 macro: _POSIX_V6_LPBIG_OFFBIG -1
+DW_MACRO_GNU_define_indirect - lineno: 58 macro: _XBS5_LPBIG_OFFBIG -1
+DW_MACRO_GNU_define_indirect - lineno: 61 macro: _POSIX_V7_LP64_OFF64 1
+DW_MACRO_GNU_define_indirect - lineno: 62 macro: _POSIX_V6_LP64_OFF64 1
+DW_MACRO_GNU_define_indirect - lineno: 63 macro: _XBS5_LP64_OFF64 1
+DW_MACRO_GNU_define_indirect - lineno: 95 macro: __ILP32_OFF32_CFLAGS "-m32"
+DW_MACRO_GNU_define_indirect - lineno: 96 macro: __ILP32_OFF32_LDFLAGS "-m32"
+DW_MACRO_GNU_define_indirect - lineno: 101 macro: __ILP32_OFFBIG_CFLAGS "-m32 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64"
+DW_MACRO_GNU_define_indirect - lineno: 102 macro: __ILP32_OFFBIG_LDFLAGS "-m32"
+DW_MACRO_GNU_define_indirect - lineno: 104 macro: __LP64_OFF64_CFLAGS "-m64"
+DW_MACRO_GNU_define_indirect - lineno: 105 macro: __LP64_OFF64_LDFLAGS "-m64"
+
+0x0000147b:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 213 macro: STDIN_FILENO 0
+DW_MACRO_GNU_define_indirect - lineno: 214 macro: STDOUT_FILENO 1
+DW_MACRO_GNU_define_indirect - lineno: 215 macro: STDERR_FILENO 2
+
+0x00001494:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 98 macro: __S16_TYPE short int
+DW_MACRO_GNU_define_indirect - lineno: 99 macro: __U16_TYPE unsigned short int
+DW_MACRO_GNU_define_indirect - lineno: 100 macro: __S32_TYPE int
+DW_MACRO_GNU_define_indirect - lineno: 101 macro: __U32_TYPE unsigned int
+DW_MACRO_GNU_define_indirect - lineno: 102 macro: __SLONGWORD_TYPE long int
+DW_MACRO_GNU_define_indirect - lineno: 103 macro: __ULONGWORD_TYPE unsigned long int
+DW_MACRO_GNU_define_indirect - lineno: 117 macro: __SQUAD_TYPE long int
+DW_MACRO_GNU_define_indirect - lineno: 118 macro: __UQUAD_TYPE unsigned long int
+DW_MACRO_GNU_define_indirect - lineno: 119 macro: __SWORD_TYPE long int
+DW_MACRO_GNU_define_indirect - lineno: 120 macro: __UWORD_TYPE unsigned long int
+DW_MACRO_GNU_define_indirect - lineno: 121 macro: __SLONG32_TYPE int
+DW_MACRO_GNU_define_indirect - lineno: 122 macro: __ULONG32_TYPE unsigned int
+DW_MACRO_GNU_define_indirect - lineno: 123 macro: __S64_TYPE long int
+DW_MACRO_GNU_define_indirect - lineno: 124 macro: __U64_TYPE unsigned long int
+DW_MACRO_GNU_define_indirect - lineno: 126 macro: __STD_TYPE typedef
+
+0x000014f2:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 24 macro: _BITS_TYPESIZES_H 1
+DW_MACRO_GNU_define_indirect - lineno: 34 macro: __SYSCALL_SLONG_TYPE __SLONGWORD_TYPE
+DW_MACRO_GNU_define_indirect - lineno: 35 macro: __SYSCALL_ULONG_TYPE __ULONGWORD_TYPE
+DW_MACRO_GNU_define_indirect - lineno: 38 macro: __DEV_T_TYPE __UQUAD_TYPE
+DW_MACRO_GNU_define_indirect - lineno: 39 macro: __UID_T_TYPE __U32_TYPE
+DW_MACRO_GNU_define_indirect - lineno: 40 macro: __GID_T_TYPE __U32_TYPE
+DW_MACRO_GNU_define_indirect - lineno: 41 macro: __INO_T_TYPE __SYSCALL_ULONG_TYPE
+DW_MACRO_GNU_define_indirect - lineno: 42 macro: __INO64_T_TYPE __UQUAD_TYPE
+DW_MACRO_GNU_define_indirect - lineno: 43 macro: __MODE_T_TYPE __U32_TYPE
+DW_MACRO_GNU_define_indirect - lineno: 45 macro: __NLINK_T_TYPE __SYSCALL_ULONG_TYPE
+DW_MACRO_GNU_define_indirect - lineno: 46 macro: __FSWORD_T_TYPE __SYSCALL_SLONG_TYPE
+DW_MACRO_GNU_define_indirect - lineno: 51 macro: __OFF_T_TYPE __SYSCALL_SLONG_TYPE
+DW_MACRO_GNU_define_indirect - lineno: 52 macro: __OFF64_T_TYPE __SQUAD_TYPE
+DW_MACRO_GNU_define_indirect - lineno: 53 macro: __PID_T_TYPE __S32_TYPE
+DW_MACRO_GNU_define_indirect - lineno: 54 macro: __RLIM_T_TYPE __SYSCALL_ULONG_TYPE
+DW_MACRO_GNU_define_indirect - lineno: 55 macro: __RLIM64_T_TYPE __UQUAD_TYPE
+DW_MACRO_GNU_define_indirect - lineno: 56 macro: __BLKCNT_T_TYPE __SYSCALL_SLONG_TYPE
+DW_MACRO_GNU_define_indirect - lineno: 57 macro: __BLKCNT64_T_TYPE __SQUAD_TYPE
+DW_MACRO_GNU_define_indirect - lineno: 58 macro: __FSBLKCNT_T_TYPE __SYSCALL_ULONG_TYPE
+DW_MACRO_GNU_define_indirect - lineno: 59 macro: __FSBLKCNT64_T_TYPE __UQUAD_TYPE
+DW_MACRO_GNU_define_indirect - lineno: 60 macro: __FSFILCNT_T_TYPE __SYSCALL_ULONG_TYPE
+DW_MACRO_GNU_define_indirect - lineno: 61 macro: __FSFILCNT64_T_TYPE __UQUAD_TYPE
+DW_MACRO_GNU_define_indirect - lineno: 62 macro: __ID_T_TYPE __U32_TYPE
+DW_MACRO_GNU_define_indirect - lineno: 63 macro: __CLOCK_T_TYPE __SYSCALL_SLONG_TYPE
+DW_MACRO_GNU_define_indirect - lineno: 64 macro: __TIME_T_TYPE __SYSCALL_SLONG_TYPE
+DW_MACRO_GNU_define_indirect - lineno: 65 macro: __USECONDS_T_TYPE __U32_TYPE
+DW_MACRO_GNU_define_indirect - lineno: 66 macro: __SUSECONDS_T_TYPE __SYSCALL_SLONG_TYPE
+DW_MACRO_GNU_define_indirect - lineno: 67 macro: __DADDR_T_TYPE __S32_TYPE
+DW_MACRO_GNU_define_indirect - lineno: 68 macro: __KEY_T_TYPE __S32_TYPE
+DW_MACRO_GNU_define_indirect - lineno: 69 macro: __CLOCKID_T_TYPE __S32_TYPE
+DW_MACRO_GNU_define_indirect - lineno: 70 macro: __TIMER_T_TYPE void *
+DW_MACRO_GNU_define_indirect - lineno: 71 macro: __BLKSIZE_T_TYPE __SYSCALL_SLONG_TYPE
+DW_MACRO_GNU_define_indirect - lineno: 72 macro: __FSID_T_TYPE struct { int __val[2]; }
+DW_MACRO_GNU_define_indirect - lineno: 73 macro: __SSIZE_T_TYPE __SWORD_TYPE
+DW_MACRO_GNU_define_indirect - lineno: 74 macro: __CPU_MASK_TYPE __SYSCALL_ULONG_TYPE
+DW_MACRO_GNU_define_indirect - lineno: 80 macro: __OFF_T_MATCHES_OFF64_T 1
+DW_MACRO_GNU_define_indirect - lineno: 83 macro: __INO_T_MATCHES_INO64_T 1
+DW_MACRO_GNU_define_indirect - lineno: 86 macro: __RLIM_T_MATCHES_RLIM64_T 1
+DW_MACRO_GNU_define_indirect - lineno: 92 macro: __FD_SETSIZE 1024
+
+0x000015e0:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 224 macro: __ssize_t_defined 
+DW_MACRO_GNU_define_indirect - lineno: 227 macro: __need_size_t 
+DW_MACRO_GNU_define_indirect - lineno: 228 macro: __need_NULL 
+
+0x000015f9:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 187 macro: __size_t__ 
+DW_MACRO_GNU_define_indirect - lineno: 188 macro: __SIZE_T__ 
+DW_MACRO_GNU_define_indirect - lineno: 189 macro: _SIZE_T 
+DW_MACRO_GNU_define_indirect - lineno: 190 macro: _SYS_SIZE_T_H 
+DW_MACRO_GNU_define_indirect - lineno: 191 macro: _T_SIZE_ 
+DW_MACRO_GNU_define_indirect - lineno: 192 macro: _T_SIZE 
+DW_MACRO_GNU_define_indirect - lineno: 193 macro: __SIZE_T 
+DW_MACRO_GNU_define_indirect - lineno: 194 macro: _SIZE_T_ 
+DW_MACRO_GNU_define_indirect - lineno: 195 macro: _BSD_SIZE_T_ 
+DW_MACRO_GNU_define_indirect - lineno: 196 macro: _SIZE_T_DEFINED_ 
+DW_MACRO_GNU_define_indirect - lineno: 197 macro: _SIZE_T_DEFINED 
+DW_MACRO_GNU_define_indirect - lineno: 198 macro: _BSD_SIZE_T_DEFINED_ 
+DW_MACRO_GNU_define_indirect - lineno: 199 macro: _SIZE_T_DECLARED 
+DW_MACRO_GNU_define_indirect - lineno: 200 macro: ___int_size_t_h 
+DW_MACRO_GNU_define_indirect - lineno: 201 macro: _GCC_SIZE_T 
+DW_MACRO_GNU_define_indirect - lineno: 202 macro: _SIZET_ 
+DW_MACRO_GNU_define_indirect - lineno: 210 macro: __size_t 
+DW_MACRO_GNU_undef_indirect - lineno: 238 macro: __need_size_t
+DW_MACRO_GNU_undef_indirect - lineno: 401 macro: NULL
+DW_MACRO_GNU_define_indirect - lineno: 406 macro: NULL ((void *)0)
+DW_MACRO_GNU_undef_indirect - lineno: 412 macro: __need_NULL
+
+0x00001690:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 236 macro: __gid_t_defined 
+DW_MACRO_GNU_define_indirect - lineno: 241 macro: __uid_t_defined 
+DW_MACRO_GNU_define_indirect - lineno: 250 macro: __off_t_defined 
+DW_MACRO_GNU_define_indirect - lineno: 259 macro: __useconds_t_defined 
+DW_MACRO_GNU_define_indirect - lineno: 264 macro: __pid_t_defined 
+DW_MACRO_GNU_define_indirect - lineno: 271 macro: __intptr_t_defined 
+DW_MACRO_GNU_define_indirect - lineno: 278 macro: __socklen_t_defined 
+DW_MACRO_GNU_define_indirect - lineno: 284 macro: R_OK 4
+DW_MACRO_GNU_define_indirect - lineno: 285 macro: W_OK 2
+DW_MACRO_GNU_define_indirect - lineno: 286 macro: X_OK 1
+DW_MACRO_GNU_define_indirect - lineno: 287 macro: F_OK 0
+DW_MACRO_GNU_define_indirect - lineno: 314 macro: SEEK_SET 0
+DW_MACRO_GNU_define_indirect - lineno: 315 macro: SEEK_CUR 1
+DW_MACRO_GNU_define_indirect - lineno: 316 macro: SEEK_END 2
+DW_MACRO_GNU_define_indirect - lineno: 325 macro: L_SET SEEK_SET
+DW_MACRO_GNU_define_indirect - lineno: 326 macro: L_INCR SEEK_CUR
+DW_MACRO_GNU_define_indirect - lineno: 327 macro: L_XTND SEEK_END
+
+0x0000170b:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 27 macro: _PC_LINK_MAX _PC_LINK_MAX
+DW_MACRO_GNU_define_indirect - lineno: 29 macro: _PC_MAX_CANON _PC_MAX_CANON
+DW_MACRO_GNU_define_indirect - lineno: 31 macro: _PC_MAX_INPUT _PC_MAX_INPUT
+DW_MACRO_GNU_define_indirect - lineno: 33 macro: _PC_NAME_MAX _PC_NAME_MAX
+DW_MACRO_GNU_define_indirect - lineno: 35 macro: _PC_PATH_MAX _PC_PATH_MAX
+DW_MACRO_GNU_define_indirect - lineno: 37 macro: _PC_PIPE_BUF _PC_PIPE_BUF
+DW_MACRO_GNU_define_indirect - lineno: 39 macro: _PC_CHOWN_RESTRICTED _PC_CHOWN_RESTRICTED
+DW_MACRO_GNU_define_indirect - lineno: 41 macro: _PC_NO_TRUNC _PC_NO_TRUNC
+DW_MACRO_GNU_define_indirect - lineno: 43 macro: _PC_VDISABLE _PC_VDISABLE
+DW_MACRO_GNU_define_indirect - lineno: 45 macro: _PC_SYNC_IO _PC_SYNC_IO
+DW_MACRO_GNU_define_indirect - lineno: 47 macro: _PC_ASYNC_IO _PC_ASYNC_IO
+DW_MACRO_GNU_define_indirect - lineno: 49 macro: _PC_PRIO_IO _PC_PRIO_IO
+DW_MACRO_GNU_define_indirect - lineno: 51 macro: _PC_SOCK_MAXBUF _PC_SOCK_MAXBUF
+DW_MACRO_GNU_define_indirect - lineno: 53 macro: _PC_FILESIZEBITS _PC_FILESIZEBITS
+DW_MACRO_GNU_define_indirect - lineno: 55 macro: _PC_REC_INCR_XFER_SIZE _PC_REC_INCR_XFER_SIZE
+DW_MACRO_GNU_define_indirect - lineno: 57 macro: _PC_REC_MAX_XFER_SIZE _PC_REC_MAX_XFER_SIZE
+DW_MACRO_GNU_define_indirect - lineno: 59 macro: _PC_REC_MIN_XFER_SIZE _PC_REC_MIN_XFER_SIZE
+DW_MACRO_GNU_define_indirect - lineno: 61 macro: _PC_REC_XFER_ALIGN _PC_REC_XFER_ALIGN
+DW_MACRO_GNU_define_indirect - lineno: 63 macro: _PC_ALLOC_SIZE_MIN _PC_ALLOC_SIZE_MIN
+DW_MACRO_GNU_define_indirect - lineno: 65 macro: _PC_SYMLINK_MAX _PC_SYMLINK_MAX
+DW_MACRO_GNU_define_indirect - lineno: 67 macro: _PC_2_SYMLINKS _PC_2_SYMLINKS
+DW_MACRO_GNU_define_indirect - lineno: 74 macro: _SC_ARG_MAX _SC_ARG_MAX
+DW_MACRO_GNU_define_indirect - lineno: 76 macro: _SC_CHILD_MAX _SC_CHILD_MAX
+DW_MACRO_GNU_define_indirect - lineno: 78 macro: _SC_CLK_TCK _SC_CLK_TCK
+DW_MACRO_GNU_define_indirect - lineno: 80 macro: _SC_NGROUPS_MAX _SC_NGROUPS_MAX
+DW_MACRO_GNU_define_indirect - lineno: 82 macro: _SC_OPEN_MAX _SC_OPEN_MAX
+DW_MACRO_GNU_define_indirect - lineno: 84 macro: _SC_STREAM_MAX _SC_STREAM_MAX
+DW_MACRO_GNU_define_indirect - lineno: 86 macro: _SC_TZNAME_MAX _SC_TZNAME_MAX
+DW_MACRO_GNU_define_indirect - lineno: 88 macro: _SC_JOB_CONTROL _SC_JOB_CONTROL
+DW_MACRO_GNU_define_indirect - lineno: 90 macro: _SC_SAVED_IDS _SC_SAVED_IDS
+DW_MACRO_GNU_define_indirect - lineno: 92 macro: _SC_REALTIME_SIGNALS _SC_REALTIME_SIGNALS
+DW_MACRO_GNU_define_indirect - lineno: 94 macro: _SC_PRIORITY_SCHEDULING _SC_PRIORITY_SCHEDULING
+DW_MACRO_GNU_define_indirect - lineno: 96 macro: _SC_TIMERS _SC_TIMERS
+DW_MACRO_GNU_define_indirect - lineno: 98 macro: _SC_ASYNCHRONOUS_IO _SC_ASYNCHRONOUS_IO
+DW_MACRO_GNU_define_indirect - lineno: 100 macro: _SC_PRIORITIZED_IO _SC_PRIORITIZED_IO
+DW_MACRO_GNU_define_indirect - lineno: 102 macro: _SC_SYNCHRONIZED_IO _SC_SYNCHRONIZED_IO
+DW_MACRO_GNU_define_indirect - lineno: 104 macro: _SC_FSYNC _SC_FSYNC
+DW_MACRO_GNU_define_indirect - lineno: 106 macro: _SC_MAPPED_FILES _SC_MAPPED_FILES
+DW_MACRO_GNU_define_indirect - lineno: 108 macro: _SC_MEMLOCK _SC_MEMLOCK
+DW_MACRO_GNU_define_indirect - lineno: 110 macro: _SC_MEMLOCK_RANGE _SC_MEMLOCK_RANGE
+DW_MACRO_GNU_define_indirect - lineno: 112 macro: _SC_MEMORY_PROTECTION _SC_MEMORY_PROTECTION
+DW_MACRO_GNU_define_indirect - lineno: 114 macro: _SC_MESSAGE_PASSING _SC_MESSAGE_PASSING
+DW_MACRO_GNU_define_indirect - lineno: 116 macro: _SC_SEMAPHORES _SC_SEMAPHORES
+DW_MACRO_GNU_define_indirect - lineno: 118 macro: _SC_SHARED_MEMORY_OBJECTS _SC_SHARED_MEMORY_OBJECTS
+DW_MACRO_GNU_define_indirect - lineno: 120 macro: _SC_AIO_LISTIO_MAX _SC_AIO_LISTIO_MAX
+DW_MACRO_GNU_define_indirect - lineno: 122 macro: _SC_AIO_MAX _SC_AIO_MAX
+DW_MACRO_GNU_define_indirect - lineno: 124 macro: _SC_AIO_PRIO_DELTA_MAX _SC_AIO_PRIO_DELTA_MAX
+DW_MACRO_GNU_define_indirect - lineno: 126 macro: _SC_DELAYTIMER_MAX _SC_DELAYTIMER_MAX
+DW_MACRO_GNU_define_indirect - lineno: 128 macro: _SC_MQ_OPEN_MAX _SC_MQ_OPEN_MAX
+DW_MACRO_GNU_define_indirect - lineno: 130 macro: _SC_MQ_PRIO_MAX _SC_MQ_PRIO_MAX
+DW_MACRO_GNU_define_indirect - lineno: 132 macro: _SC_VERSION _SC_VERSION
+DW_MACRO_GNU_define_indirect - lineno: 134 macro: _SC_PAGESIZE _SC_PAGESIZE
+DW_MACRO_GNU_define_indirect - lineno: 135 macro: _SC_PAGE_SIZE _SC_PAGESIZE
+DW_MACRO_GNU_define_indirect - lineno: 137 macro: _SC_RTSIG_MAX _SC_RTSIG_MAX
+DW_MACRO_GNU_define_indirect - lineno: 139 macro: _SC_SEM_NSEMS_MAX _SC_SEM_NSEMS_MAX
+DW_MACRO_GNU_define_indirect - lineno: 141 macro: _SC_SEM_VALUE_MAX _SC_SEM_VALUE_MAX
+DW_MACRO_GNU_define_indirect - lineno: 143 macro: _SC_SIGQUEUE_MAX _SC_SIGQUEUE_MAX
+DW_MACRO_GNU_define_indirect - lineno: 145 macro: _SC_TIMER_MAX _SC_TIMER_MAX
+DW_MACRO_GNU_define_indirect - lineno: 150 macro: _SC_BC_BASE_MAX _SC_BC_BASE_MAX
+DW_MACRO_GNU_define_indirect - lineno: 152 macro: _SC_BC_DIM_MAX _SC_BC_DIM_MAX
+DW_MACRO_GNU_define_indirect - lineno: 154 macro: _SC_BC_SCALE_MAX _SC_BC_SCALE_MAX
+DW_MACRO_GNU_define_indirect - lineno: 156 macro: _SC_BC_STRING_MAX _SC_BC_STRING_MAX
+DW_MACRO_GNU_define_indirect - lineno: 158 macro: _SC_COLL_WEIGHTS_MAX _SC_COLL_WEIGHTS_MAX
+DW_MACRO_GNU_define_indirect - lineno: 160 macro: _SC_EQUIV_CLASS_MAX _SC_EQUIV_CLASS_MAX
+DW_MACRO_GNU_define_indirect - lineno: 162 macro: _SC_EXPR_NEST_MAX _SC_EXPR_NEST_MAX
+DW_MACRO_GNU_define_indirect - lineno: 164 macro: _SC_LINE_MAX _SC_LINE_MAX
+DW_MACRO_GNU_define_indirect - lineno: 166 macro: _SC_RE_DUP_MAX _SC_RE_DUP_MAX
+DW_MACRO_GNU_define_indirect - lineno: 168 macro: _SC_CHARCLASS_NAME_MAX _SC_CHARCLASS_NAME_MAX
+DW_MACRO_GNU_define_indirect - lineno: 171 macro: _SC_2_VERSION _SC_2_VERSION
+DW_MACRO_GNU_define_indirect - lineno: 173 macro: _SC_2_C_BIND _SC_2_C_BIND
+DW_MACRO_GNU_define_indirect - lineno: 175 macro: _SC_2_C_DEV _SC_2_C_DEV
+DW_MACRO_GNU_define_indirect - lineno: 177 macro: _SC_2_FORT_DEV _SC_2_FORT_DEV
+DW_MACRO_GNU_define_indirect - lineno: 179 macro: _SC_2_FORT_RUN _SC_2_FORT_RUN
+DW_MACRO_GNU_define_indirect - lineno: 181 macro: _SC_2_SW_DEV _SC_2_SW_DEV
+DW_MACRO_GNU_define_indirect - lineno: 183 macro: _SC_2_LOCALEDEF _SC_2_LOCALEDEF
+DW_MACRO_GNU_define_indirect - lineno: 186 macro: _SC_PII _SC_PII
+DW_MACRO_GNU_define_indirect - lineno: 188 macro: _SC_PII_XTI _SC_PII_XTI
+DW_MACRO_GNU_define_indirect - lineno: 190 macro: _SC_PII_SOCKET _SC_PII_SOCKET
+DW_MACRO_GNU_define_indirect - lineno: 192 macro: _SC_PII_INTERNET _SC_PII_INTERNET
+DW_MACRO_GNU_define_indirect - lineno: 194 macro: _SC_PII_OSI _SC_PII_OSI
+DW_MACRO_GNU_define_indirect - lineno: 196 macro: _SC_POLL _SC_POLL
+DW_MACRO_GNU_define_indirect - lineno: 198 macro: _SC_SELECT _SC_SELECT
+DW_MACRO_GNU_define_indirect - lineno: 200 macro: _SC_UIO_MAXIOV _SC_UIO_MAXIOV
+DW_MACRO_GNU_define_indirect - lineno: 202 macro: _SC_IOV_MAX _SC_IOV_MAX
+DW_MACRO_GNU_define_indirect - lineno: 204 macro: _SC_PII_INTERNET_STREAM _SC_PII_INTERNET_STREAM
+DW_MACRO_GNU_define_indirect - lineno: 206 macro: _SC_PII_INTERNET_DGRAM _SC_PII_INTERNET_DGRAM
+DW_MACRO_GNU_define_indirect - lineno: 208 macro: _SC_PII_OSI_COTS _SC_PII_OSI_COTS
+DW_MACRO_GNU_define_indirect - lineno: 210 macro: _SC_PII_OSI_CLTS _SC_PII_OSI_CLTS
+DW_MACRO_GNU_define_indirect - lineno: 212 macro: _SC_PII_OSI_M _SC_PII_OSI_M
+DW_MACRO_GNU_define_indirect - lineno: 214 macro: _SC_T_IOV_MAX _SC_T_IOV_MAX
+DW_MACRO_GNU_define_indirect - lineno: 218 macro: _SC_THREADS _SC_THREADS
+DW_MACRO_GNU_define_indirect - lineno: 220 macro: _SC_THREAD_SAFE_FUNCTIONS _SC_THREAD_SAFE_FUNCTIONS
+DW_MACRO_GNU_define_indirect - lineno: 222 macro: _SC_GETGR_R_SIZE_MAX _SC_GETGR_R_SIZE_MAX
+DW_MACRO_GNU_define_indirect - lineno: 224 macro: _SC_GETPW_R_SIZE_MAX _SC_GETPW_R_SIZE_MAX
+DW_MACRO_GNU_define_indirect - lineno: 226 macro: _SC_LOGIN_NAME_MAX _SC_LOGIN_NAME_MAX
+DW_MACRO_GNU_define_indirect - lineno: 228 macro: _SC_TTY_NAME_MAX _SC_TTY_NAME_MAX
+DW_MACRO_GNU_define_indirect - lineno: 230 macro: _SC_THREAD_DESTRUCTOR_ITERATIONS _SC_THREAD_DESTRUCTOR_ITERATIONS
+DW_MACRO_GNU_define_indirect - lineno: 232 macro: _SC_THREAD_KEYS_MAX _SC_THREAD_KEYS_MAX
+DW_MACRO_GNU_define_indirect - lineno: 234 macro: _SC_THREAD_STACK_MIN _SC_THREAD_STACK_MIN
+DW_MACRO_GNU_define_indirect - lineno: 236 macro: _SC_THREAD_THREADS_MAX _SC_THREAD_THREADS_MAX
+DW_MACRO_GNU_define_indirect - lineno: 238 macro: _SC_THREAD_ATTR_STACKADDR _SC_THREAD_ATTR_STACKADDR
+DW_MACRO_GNU_define_indirect - lineno: 240 macro: _SC_THREAD_ATTR_STACKSIZE _SC_THREAD_ATTR_STACKSIZE
+DW_MACRO_GNU_define_indirect - lineno: 242 macro: _SC_THREAD_PRIORITY_SCHEDULING _SC_THREAD_PRIORITY_SCHEDULING
+DW_MACRO_GNU_define_indirect - lineno: 244 macro: _SC_THREAD_PRIO_INHERIT _SC_THREAD_PRIO_INHERIT
+DW_MACRO_GNU_define_indirect - lineno: 246 macro: _SC_THREAD_PRIO_PROTECT _SC_THREAD_PRIO_PROTECT
+DW_MACRO_GNU_define_indirect - lineno: 248 macro: _SC_THREAD_PROCESS_SHARED _SC_THREAD_PROCESS_SHARED
+DW_MACRO_GNU_define_indirect - lineno: 251 macro: _SC_NPROCESSORS_CONF _SC_NPROCESSORS_CONF
+DW_MACRO_GNU_define_indirect - lineno: 253 macro: _SC_NPROCESSORS_ONLN _SC_NPROCESSORS_ONLN
+DW_MACRO_GNU_define_indirect - lineno: 255 macro: _SC_PHYS_PAGES _SC_PHYS_PAGES
+DW_MACRO_GNU_define_indirect - lineno: 257 macro: _SC_AVPHYS_PAGES _SC_AVPHYS_PAGES
+DW_MACRO_GNU_define_indirect - lineno: 259 macro: _SC_ATEXIT_MAX _SC_ATEXIT_MAX
+DW_MACRO_GNU_define_indirect - lineno: 261 macro: _SC_PASS_MAX _SC_PASS_MAX
+DW_MACRO_GNU_define_indirect - lineno: 264 macro: _SC_XOPEN_VERSION _SC_XOPEN_VERSION
+DW_MACRO_GNU_define_indirect - lineno: 266 macro: _SC_XOPEN_XCU_VERSION _SC_XOPEN_XCU_VERSION
+DW_MACRO_GNU_define_indirect - lineno: 268 macro: _SC_XOPEN_UNIX _SC_XOPEN_UNIX
+DW_MACRO_GNU_define_indirect - lineno: 270 macro: _SC_XOPEN_CRYPT _SC_XOPEN_CRYPT
+DW_MACRO_GNU_define_indirect - lineno: 272 macro: _SC_XOPEN_ENH_I18N _SC_XOPEN_ENH_I18N
+DW_MACRO_GNU_define_indirect - lineno: 274 macro: _SC_XOPEN_SHM _SC_XOPEN_SHM
+DW_MACRO_GNU_define_indirect - lineno: 277 macro: _SC_2_CHAR_TERM _SC_2_CHAR_TERM
+DW_MACRO_GNU_define_indirect - lineno: 279 macro: _SC_2_C_VERSION _SC_2_C_VERSION
+DW_MACRO_GNU_define_indirect - lineno: 281 macro: _SC_2_UPE _SC_2_UPE
+DW_MACRO_GNU_define_indirect - lineno: 284 macro: _SC_XOPEN_XPG2 _SC_XOPEN_XPG2
+DW_MACRO_GNU_define_indirect - lineno: 286 macro: _SC_XOPEN_XPG3 _SC_XOPEN_XPG3
+DW_MACRO_GNU_define_indirect - lineno: 288 macro: _SC_XOPEN_XPG4 _SC_XOPEN_XPG4
+DW_MACRO_GNU_define_indirect - lineno: 291 macro: _SC_CHAR_BIT _SC_CHAR_BIT
+DW_MACRO_GNU_define_indirect - lineno: 293 macro: _SC_CHAR_MAX _SC_CHAR_MAX
+DW_MACRO_GNU_define_indirect - lineno: 295 macro: _SC_CHAR_MIN _SC_CHAR_MIN
+DW_MACRO_GNU_define_indirect - lineno: 297 macro: _SC_INT_MAX _SC_INT_MAX
+DW_MACRO_GNU_define_indirect - lineno: 299 macro: _SC_INT_MIN _SC_INT_MIN
+DW_MACRO_GNU_define_indirect - lineno: 301 macro: _SC_LONG_BIT _SC_LONG_BIT
+DW_MACRO_GNU_define_indirect - lineno: 303 macro: _SC_WORD_BIT _SC_WORD_BIT
+DW_MACRO_GNU_define_indirect - lineno: 305 macro: _SC_MB_LEN_MAX _SC_MB_LEN_MAX
+DW_MACRO_GNU_define_indirect - lineno: 307 macro: _SC_NZERO _SC_NZERO
+DW_MACRO_GNU_define_indirect - lineno: 309 macro: _SC_SSIZE_MAX _SC_SSIZE_MAX
+DW_MACRO_GNU_define_indirect - lineno: 311 macro: _SC_SCHAR_MAX _SC_SCHAR_MAX
+DW_MACRO_GNU_define_indirect - lineno: 313 macro: _SC_SCHAR_MIN _SC_SCHAR_MIN
+DW_MACRO_GNU_define_indirect - lineno: 315 macro: _SC_SHRT_MAX _SC_SHRT_MAX
+DW_MACRO_GNU_define_indirect - lineno: 317 macro: _SC_SHRT_MIN _SC_SHRT_MIN
+DW_MACRO_GNU_define_indirect - lineno: 319 macro: _SC_UCHAR_MAX _SC_UCHAR_MAX
+DW_MACRO_GNU_define_indirect - lineno: 321 macro: _SC_UINT_MAX _SC_UINT_MAX
+DW_MACRO_GNU_define_indirect - lineno: 323 macro: _SC_ULONG_MAX _SC_ULONG_MAX
+DW_MACRO_GNU_define_indirect - lineno: 325 macro: _SC_USHRT_MAX _SC_USHRT_MAX
+DW_MACRO_GNU_define_indirect - lineno: 328 macro: _SC_NL_ARGMAX _SC_NL_ARGMAX
+DW_MACRO_GNU_define_indirect - lineno: 330 macro: _SC_NL_LANGMAX _SC_NL_LANGMAX
+DW_MACRO_GNU_define_indirect - lineno: 332 macro: _SC_NL_MSGMAX _SC_NL_MSGMAX
+DW_MACRO_GNU_define_indirect - lineno: 334 macro: _SC_NL_NMAX _SC_NL_NMAX
+DW_MACRO_GNU_define_indirect - lineno: 336 macro: _SC_NL_SETMAX _SC_NL_SETMAX
+DW_MACRO_GNU_define_indirect - lineno: 338 macro: _SC_NL_TEXTMAX _SC_NL_TEXTMAX
+DW_MACRO_GNU_define_indirect - lineno: 341 macro: _SC_XBS5_ILP32_OFF32 _SC_XBS5_ILP32_OFF32
+DW_MACRO_GNU_define_indirect - lineno: 343 macro: _SC_XBS5_ILP32_OFFBIG _SC_XBS5_ILP32_OFFBIG
+DW_MACRO_GNU_define_indirect - lineno: 345 macro: _SC_XBS5_LP64_OFF64 _SC_XBS5_LP64_OFF64
+DW_MACRO_GNU_define_indirect - lineno: 347 macro: _SC_XBS5_LPBIG_OFFBIG _SC_XBS5_LPBIG_OFFBIG
+DW_MACRO_GNU_define_indirect - lineno: 350 macro: _SC_XOPEN_LEGACY _SC_XOPEN_LEGACY
+DW_MACRO_GNU_define_indirect - lineno: 352 macro: _SC_XOPEN_REALTIME _SC_XOPEN_REALTIME
+DW_MACRO_GNU_define_indirect - lineno: 354 macro: _SC_XOPEN_REALTIME_THREADS _SC_XOPEN_REALTIME_THREADS
+DW_MACRO_GNU_define_indirect - lineno: 357 macro: _SC_ADVISORY_INFO _SC_ADVISORY_INFO
+DW_MACRO_GNU_define_indirect - lineno: 359 macro: _SC_BARRIERS _SC_BARRIERS
+DW_MACRO_GNU_define_indirect - lineno: 361 macro: _SC_BASE _SC_BASE
+DW_MACRO_GNU_define_indirect - lineno: 363 macro: _SC_C_LANG_SUPPORT _SC_C_LANG_SUPPORT
+DW_MACRO_GNU_define_indirect - lineno: 365 macro: _SC_C_LANG_SUPPORT_R _SC_C_LANG_SUPPORT_R
+DW_MACRO_GNU_define_indirect - lineno: 367 macro: _SC_CLOCK_SELECTION _SC_CLOCK_SELECTION
+DW_MACRO_GNU_define_indirect - lineno: 369 macro: _SC_CPUTIME _SC_CPUTIME
+DW_MACRO_GNU_define_indirect - lineno: 371 macro: _SC_THREAD_CPUTIME _SC_THREAD_CPUTIME
+DW_MACRO_GNU_define_indirect - lineno: 373 macro: _SC_DEVICE_IO _SC_DEVICE_IO
+DW_MACRO_GNU_define_indirect - lineno: 375 macro: _SC_DEVICE_SPECIFIC _SC_DEVICE_SPECIFIC
+DW_MACRO_GNU_define_indirect - lineno: 377 macro: _SC_DEVICE_SPECIFIC_R _SC_DEVICE_SPECIFIC_R
+DW_MACRO_GNU_define_indirect - lineno: 379 macro: _SC_FD_MGMT _SC_FD_MGMT
+DW_MACRO_GNU_define_indirect - lineno: 381 macro: _SC_FIFO _SC_FIFO
+DW_MACRO_GNU_define_indirect - lineno: 383 macro: _SC_PIPE _SC_PIPE
+DW_MACRO_GNU_define_indirect - lineno: 385 macro: _SC_FILE_ATTRIBUTES _SC_FILE_ATTRIBUTES
+DW_MACRO_GNU_define_indirect - lineno: 387 macro: _SC_FILE_LOCKING _SC_FILE_LOCKING
+DW_MACRO_GNU_define_indirect - lineno: 389 macro: _SC_FILE_SYSTEM _SC_FILE_SYSTEM
+DW_MACRO_GNU_define_indirect - lineno: 391 macro: _SC_MONOTONIC_CLOCK _SC_MONOTONIC_CLOCK
+DW_MACRO_GNU_define_indirect - lineno: 393 macro: _SC_MULTI_PROCESS _SC_MULTI_PROCESS
+DW_MACRO_GNU_define_indirect - lineno: 395 macro: _SC_SINGLE_PROCESS _SC_SINGLE_PROCESS
+DW_MACRO_GNU_define_indirect - lineno: 397 macro: _SC_NETWORKING _SC_NETWORKING
+DW_MACRO_GNU_define_indirect - lineno: 399 macro: _SC_READER_WRITER_LOCKS _SC_READER_WRITER_LOCKS
+DW_MACRO_GNU_define_indirect - lineno: 401 macro: _SC_SPIN_LOCKS _SC_SPIN_LOCKS
+DW_MACRO_GNU_define_indirect - lineno: 403 macro: _SC_REGEXP _SC_REGEXP
+DW_MACRO_GNU_define_indirect - lineno: 405 macro: _SC_REGEX_VERSION _SC_REGEX_VERSION
+DW_MACRO_GNU_define_indirect - lineno: 407 macro: _SC_SHELL _SC_SHELL
+DW_MACRO_GNU_define_indirect - lineno: 409 macro: _SC_SIGNALS _SC_SIGNALS
+DW_MACRO_GNU_define_indirect - lineno: 411 macro: _SC_SPAWN _SC_SPAWN
+DW_MACRO_GNU_define_indirect - lineno: 413 macro: _SC_SPORADIC_SERVER _SC_SPORADIC_SERVER
+DW_MACRO_GNU_define_indirect - lineno: 415 macro: _SC_THREAD_SPORADIC_SERVER _SC_THREAD_SPORADIC_SERVER
+DW_MACRO_GNU_define_indirect - lineno: 417 macro: _SC_SYSTEM_DATABASE _SC_SYSTEM_DATABASE
+DW_MACRO_GNU_define_indirect - lineno: 419 macro: _SC_SYSTEM_DATABASE_R _SC_SYSTEM_DATABASE_R
+DW_MACRO_GNU_define_indirect - lineno: 421 macro: _SC_TIMEOUTS _SC_TIMEOUTS
+DW_MACRO_GNU_define_indirect - lineno: 423 macro: _SC_TYPED_MEMORY_OBJECTS _SC_TYPED_MEMORY_OBJECTS
+DW_MACRO_GNU_define_indirect - lineno: 425 macro: _SC_USER_GROUPS _SC_USER_GROUPS
+DW_MACRO_GNU_define_indirect - lineno: 427 macro: _SC_USER_GROUPS_R _SC_USER_GROUPS_R
+DW_MACRO_GNU_define_indirect - lineno: 429 macro: _SC_2_PBS _SC_2_PBS
+DW_MACRO_GNU_define_indirect - lineno: 431 macro: _SC_2_PBS_ACCOUNTING _SC_2_PBS_ACCOUNTING
+DW_MACRO_GNU_define_indirect - lineno: 433 macro: _SC_2_PBS_LOCATE _SC_2_PBS_LOCATE
+DW_MACRO_GNU_define_indirect - lineno: 435 macro: _SC_2_PBS_MESSAGE _SC_2_PBS_MESSAGE
+DW_MACRO_GNU_define_indirect - lineno: 437 macro: _SC_2_PBS_TRACK _SC_2_PBS_TRACK
+DW_MACRO_GNU_define_indirect - lineno: 439 macro: _SC_SYMLOOP_MAX _SC_SYMLOOP_MAX
+DW_MACRO_GNU_define_indirect - lineno: 441 macro: _SC_STREAMS _SC_STREAMS
+DW_MACRO_GNU_define_indirect - lineno: 443 macro: _SC_2_PBS_CHECKPOINT _SC_2_PBS_CHECKPOINT
+DW_MACRO_GNU_define_indirect - lineno: 446 macro: _SC_V6_ILP32_OFF32 _SC_V6_ILP32_OFF32
+DW_MACRO_GNU_define_indirect - lineno: 448 macro: _SC_V6_ILP32_OFFBIG _SC_V6_ILP32_OFFBIG
+DW_MACRO_GNU_define_indirect - lineno: 450 macro: _SC_V6_LP64_OFF64 _SC_V6_LP64_OFF64
+DW_MACRO_GNU_define_indirect - lineno: 452 macro: _SC_V6_LPBIG_OFFBIG _SC_V6_LPBIG_OFFBIG
+DW_MACRO_GNU_define_indirect - lineno: 455 macro: _SC_HOST_NAME_MAX _SC_HOST_NAME_MAX
+DW_MACRO_GNU_define_indirect - lineno: 457 macro: _SC_TRACE _SC_TRACE
+DW_MACRO_GNU_define_indirect - lineno: 459 macro: _SC_TRACE_EVENT_FILTER _SC_TRACE_EVENT_FILTER
+DW_MACRO_GNU_define_indirect - lineno: 461 macro: _SC_TRACE_INHERIT _SC_TRACE_INHERIT
+DW_MACRO_GNU_define_indirect - lineno: 463 macro: _SC_TRACE_LOG _SC_TRACE_LOG
+DW_MACRO_GNU_define_indirect - lineno: 466 macro: _SC_LEVEL1_ICACHE_SIZE _SC_LEVEL1_ICACHE_SIZE
+DW_MACRO_GNU_define_indirect - lineno: 468 macro: _SC_LEVEL1_ICACHE_ASSOC _SC_LEVEL1_ICACHE_ASSOC
+DW_MACRO_GNU_define_indirect - lineno: 470 macro: _SC_LEVEL1_ICACHE_LINESIZE _SC_LEVEL1_ICACHE_LINESIZE
+DW_MACRO_GNU_define_indirect - lineno: 472 macro: _SC_LEVEL1_DCACHE_SIZE _SC_LEVEL1_DCACHE_SIZE
+DW_MACRO_GNU_define_indirect - lineno: 474 macro: _SC_LEVEL1_DCACHE_ASSOC _SC_LEVEL1_DCACHE_ASSOC
+DW_MACRO_GNU_define_indirect - lineno: 476 macro: _SC_LEVEL1_DCACHE_LINESIZE _SC_LEVEL1_DCACHE_LINESIZE
+DW_MACRO_GNU_define_indirect - lineno: 478 macro: _SC_LEVEL2_CACHE_SIZE _SC_LEVEL2_CACHE_SIZE
+DW_MACRO_GNU_define_indirect - lineno: 480 macro: _SC_LEVEL2_CACHE_ASSOC _SC_LEVEL2_CACHE_ASSOC
+DW_MACRO_GNU_define_indirect - lineno: 482 macro: _SC_LEVEL2_CACHE_LINESIZE _SC_LEVEL2_CACHE_LINESIZE
+DW_MACRO_GNU_define_indirect - lineno: 484 macro: _SC_LEVEL3_CACHE_SIZE _SC_LEVEL3_CACHE_SIZE
+DW_MACRO_GNU_define_indirect - lineno: 486 macro: _SC_LEVEL3_CACHE_ASSOC _SC_LEVEL3_CACHE_ASSOC
+DW_MACRO_GNU_define_indirect - lineno: 488 macro: _SC_LEVEL3_CACHE_LINESIZE _SC_LEVEL3_CACHE_LINESIZE
+DW_MACRO_GNU_define_indirect - lineno: 490 macro: _SC_LEVEL4_CACHE_SIZE _SC_LEVEL4_CACHE_SIZE
+DW_MACRO_GNU_define_indirect - lineno: 492 macro: _SC_LEVEL4_CACHE_ASSOC _SC_LEVEL4_CACHE_ASSOC
+DW_MACRO_GNU_define_indirect - lineno: 494 macro: _SC_LEVEL4_CACHE_LINESIZE _SC_LEVEL4_CACHE_LINESIZE
+DW_MACRO_GNU_define_indirect - lineno: 498 macro: _SC_IPV6 _SC_IPV6
+DW_MACRO_GNU_define_indirect - lineno: 500 macro: _SC_RAW_SOCKETS _SC_RAW_SOCKETS
+DW_MACRO_GNU_define_indirect - lineno: 503 macro: _SC_V7_ILP32_OFF32 _SC_V7_ILP32_OFF32
+DW_MACRO_GNU_define_indirect - lineno: 505 macro: _SC_V7_ILP32_OFFBIG _SC_V7_ILP32_OFFBIG
+DW_MACRO_GNU_define_indirect - lineno: 507 macro: _SC_V7_LP64_OFF64 _SC_V7_LP64_OFF64
+DW_MACRO_GNU_define_indirect - lineno: 509 macro: _SC_V7_LPBIG_OFFBIG _SC_V7_LPBIG_OFFBIG
+DW_MACRO_GNU_define_indirect - lineno: 512 macro: _SC_SS_REPL_MAX _SC_SS_REPL_MAX
+DW_MACRO_GNU_define_indirect - lineno: 515 macro: _SC_TRACE_EVENT_NAME_MAX _SC_TRACE_EVENT_NAME_MAX
+DW_MACRO_GNU_define_indirect - lineno: 517 macro: _SC_TRACE_NAME_MAX _SC_TRACE_NAME_MAX
+DW_MACRO_GNU_define_indirect - lineno: 519 macro: _SC_TRACE_SYS_MAX _SC_TRACE_SYS_MAX
+DW_MACRO_GNU_define_indirect - lineno: 521 macro: _SC_TRACE_USER_EVENT_MAX _SC_TRACE_USER_EVENT_MAX
+DW_MACRO_GNU_define_indirect - lineno: 524 macro: _SC_XOPEN_STREAMS _SC_XOPEN_STREAMS
+DW_MACRO_GNU_define_indirect - lineno: 527 macro: _SC_THREAD_ROBUST_PRIO_INHERIT _SC_THREAD_ROBUST_PRIO_INHERIT
+DW_MACRO_GNU_define_indirect - lineno: 529 macro: _SC_THREAD_ROBUST_PRIO_PROTECT _SC_THREAD_ROBUST_PRIO_PROTECT
+DW_MACRO_GNU_define_indirect - lineno: 536 macro: _CS_PATH _CS_PATH
+DW_MACRO_GNU_define_indirect - lineno: 539 macro: _CS_V6_WIDTH_RESTRICTED_ENVS _CS_V6_WIDTH_RESTRICTED_ENVS
+DW_MACRO_GNU_define_indirect - lineno: 540 macro: _CS_POSIX_V6_WIDTH_RESTRICTED_ENVS _CS_V6_WIDTH_RESTRICTED_ENVS
+DW_MACRO_GNU_define_indirect - lineno: 543 macro: _CS_GNU_LIBC_VERSION _CS_GNU_LIBC_VERSION
+DW_MACRO_GNU_define_indirect - lineno: 545 macro: _CS_GNU_LIBPTHREAD_VERSION _CS_GNU_LIBPTHREAD_VERSION
+DW_MACRO_GNU_define_indirect - lineno: 548 macro: _CS_V5_WIDTH_RESTRICTED_ENVS _CS_V5_WIDTH_RESTRICTED_ENVS
+DW_MACRO_GNU_define_indirect - lineno: 549 macro: _CS_POSIX_V5_WIDTH_RESTRICTED_ENVS _CS_V5_WIDTH_RESTRICTED_ENVS
+DW_MACRO_GNU_define_indirect - lineno: 552 macro: _CS_V7_WIDTH_RESTRICTED_ENVS _CS_V7_WIDTH_RESTRICTED_ENVS
+DW_MACRO_GNU_define_indirect - lineno: 553 macro: _CS_POSIX_V7_WIDTH_RESTRICTED_ENVS _CS_V7_WIDTH_RESTRICTED_ENVS
+DW_MACRO_GNU_define_indirect - lineno: 556 macro: _CS_LFS_CFLAGS _CS_LFS_CFLAGS
+DW_MACRO_GNU_define_indirect - lineno: 558 macro: _CS_LFS_LDFLAGS _CS_LFS_LDFLAGS
+DW_MACRO_GNU_define_indirect - lineno: 560 macro: _CS_LFS_LIBS _CS_LFS_LIBS
+DW_MACRO_GNU_define_indirect - lineno: 562 macro: _CS_LFS_LINTFLAGS _CS_LFS_LINTFLAGS
+DW_MACRO_GNU_define_indirect - lineno: 564 macro: _CS_LFS64_CFLAGS _CS_LFS64_CFLAGS
+DW_MACRO_GNU_define_indirect - lineno: 566 macro: _CS_LFS64_LDFLAGS _CS_LFS64_LDFLAGS
+DW_MACRO_GNU_define_indirect - lineno: 568 macro: _CS_LFS64_LIBS _CS_LFS64_LIBS
+DW_MACRO_GNU_define_indirect - lineno: 570 macro: _CS_LFS64_LINTFLAGS _CS_LFS64_LINTFLAGS
+DW_MACRO_GNU_define_indirect - lineno: 573 macro: _CS_XBS5_ILP32_OFF32_CFLAGS _CS_XBS5_ILP32_OFF32_CFLAGS
+DW_MACRO_GNU_define_indirect - lineno: 575 macro: _CS_XBS5_ILP32_OFF32_LDFLAGS _CS_XBS5_ILP32_OFF32_LDFLAGS
+DW_MACRO_GNU_define_indirect - lineno: 577 macro: _CS_XBS5_ILP32_OFF32_LIBS _CS_XBS5_ILP32_OFF32_LIBS
+DW_MACRO_GNU_define_indirect - lineno: 579 macro: _CS_XBS5_ILP32_OFF32_LINTFLAGS _CS_XBS5_ILP32_OFF32_LINTFLAGS
+DW_MACRO_GNU_define_indirect - lineno: 581 macro: _CS_XBS5_ILP32_OFFBIG_CFLAGS _CS_XBS5_ILP32_OFFBIG_CFLAGS
+DW_MACRO_GNU_define_indirect - lineno: 583 macro: _CS_XBS5_ILP32_OFFBIG_LDFLAGS _CS_XBS5_ILP32_OFFBIG_LDFLAGS
+DW_MACRO_GNU_define_indirect - lineno: 585 macro: _CS_XBS5_ILP32_OFFBIG_LIBS _CS_XBS5_ILP32_OFFBIG_LIBS
+DW_MACRO_GNU_define_indirect - lineno: 587 macro: _CS_XBS5_ILP32_OFFBIG_LINTFLAGS _CS_XBS5_ILP32_OFFBIG_LINTFLAGS
+DW_MACRO_GNU_define_indirect - lineno: 589 macro: _CS_XBS5_LP64_OFF64_CFLAGS _CS_XBS5_LP64_OFF64_CFLAGS
+DW_MACRO_GNU_define_indirect - lineno: 591 macro: _CS_XBS5_LP64_OFF64_LDFLAGS _CS_XBS5_LP64_OFF64_LDFLAGS
+DW_MACRO_GNU_define_indirect - lineno: 593 macro: _CS_XBS5_LP64_OFF64_LIBS _CS_XBS5_LP64_OFF64_LIBS
+DW_MACRO_GNU_define_indirect - lineno: 595 macro: _CS_XBS5_LP64_OFF64_LINTFLAGS _CS_XBS5_LP64_OFF64_LINTFLAGS
+DW_MACRO_GNU_define_indirect - lineno: 597 macro: _CS_XBS5_LPBIG_OFFBIG_CFLAGS _CS_XBS5_LPBIG_OFFBIG_CFLAGS
+DW_MACRO_GNU_define_indirect - lineno: 599 macro: _CS_XBS5_LPBIG_OFFBIG_LDFLAGS _CS_XBS5_LPBIG_OFFBIG_LDFLAGS
+DW_MACRO_GNU_define_indirect - lineno: 601 macro: _CS_XBS5_LPBIG_OFFBIG_LIBS _CS_XBS5_LPBIG_OFFBIG_LIBS
+DW_MACRO_GNU_define_indirect - lineno: 603 macro: _CS_XBS5_LPBIG_OFFBIG_LINTFLAGS _CS_XBS5_LPBIG_OFFBIG_LINTFLAGS
+DW_MACRO_GNU_define_indirect - lineno: 606 macro: _CS_POSIX_V6_ILP32_OFF32_CFLAGS _CS_POSIX_V6_ILP32_OFF32_CFLAGS
+DW_MACRO_GNU_define_indirect - lineno: 608 macro: _CS_POSIX_V6_ILP32_OFF32_LDFLAGS _CS_POSIX_V6_ILP32_OFF32_LDFLAGS
+DW_MACRO_GNU_define_indirect - lineno: 610 macro: _CS_POSIX_V6_ILP32_OFF32_LIBS _CS_POSIX_V6_ILP32_OFF32_LIBS
+DW_MACRO_GNU_define_indirect - lineno: 612 macro: _CS_POSIX_V6_ILP32_OFF32_LINTFLAGS _CS_POSIX_V6_ILP32_OFF32_LINTFLAGS
+DW_MACRO_GNU_define_indirect - lineno: 614 macro: _CS_POSIX_V6_ILP32_OFFBIG_CFLAGS _CS_POSIX_V6_ILP32_OFFBIG_CFLAGS
+DW_MACRO_GNU_define_indirect - lineno: 616 macro: _CS_POSIX_V6_ILP32_OFFBIG_LDFLAGS _CS_POSIX_V6_ILP32_OFFBIG_LDFLAGS
+DW_MACRO_GNU_define_indirect - lineno: 618 macro: _CS_POSIX_V6_ILP32_OFFBIG_LIBS _CS_POSIX_V6_ILP32_OFFBIG_LIBS
+DW_MACRO_GNU_define_indirect - lineno: 620 macro: _CS_POSIX_V6_ILP32_OFFBIG_LINTFLAGS _CS_POSIX_V6_ILP32_OFFBIG_LINTFLAGS
+DW_MACRO_GNU_define_indirect - lineno: 622 macro: _CS_POSIX_V6_LP64_OFF64_CFLAGS _CS_POSIX_V6_LP64_OFF64_CFLAGS
+DW_MACRO_GNU_define_indirect - lineno: 624 macro: _CS_POSIX_V6_LP64_OFF64_LDFLAGS _CS_POSIX_V6_LP64_OFF64_LDFLAGS
+DW_MACRO_GNU_define_indirect - lineno: 626 macro: _CS_POSIX_V6_LP64_OFF64_LIBS _CS_POSIX_V6_LP64_OFF64_LIBS
+DW_MACRO_GNU_define_indirect - lineno: 628 macro: _CS_POSIX_V6_LP64_OFF64_LINTFLAGS _CS_POSIX_V6_LP64_OFF64_LINTFLAGS
+DW_MACRO_GNU_define_indirect - lineno: 630 macro: _CS_POSIX_V6_LPBIG_OFFBIG_CFLAGS _CS_POSIX_V6_LPBIG_OFFBIG_CFLAGS
+DW_MACRO_GNU_define_indirect - lineno: 632 macro: _CS_POSIX_V6_LPBIG_OFFBIG_LDFLAGS _CS_POSIX_V6_LPBIG_OFFBIG_LDFLAGS
+DW_MACRO_GNU_define_indirect - lineno: 634 macro: _CS_POSIX_V6_LPBIG_OFFBIG_LIBS _CS_POSIX_V6_LPBIG_OFFBIG_LIBS
+DW_MACRO_GNU_define_indirect - lineno: 636 macro: _CS_POSIX_V6_LPBIG_OFFBIG_LINTFLAGS _CS_POSIX_V6_LPBIG_OFFBIG_LINTFLAGS
+DW_MACRO_GNU_define_indirect - lineno: 639 macro: _CS_POSIX_V7_ILP32_OFF32_CFLAGS _CS_POSIX_V7_ILP32_OFF32_CFLAGS
+DW_MACRO_GNU_define_indirect - lineno: 641 macro: _CS_POSIX_V7_ILP32_OFF32_LDFLAGS _CS_POSIX_V7_ILP32_OFF32_LDFLAGS
+DW_MACRO_GNU_define_indirect - lineno: 643 macro: _CS_POSIX_V7_ILP32_OFF32_LIBS _CS_POSIX_V7_ILP32_OFF32_LIBS
+DW_MACRO_GNU_define_indirect - lineno: 645 macro: _CS_POSIX_V7_ILP32_OFF32_LINTFLAGS _CS_POSIX_V7_ILP32_OFF32_LINTFLAGS
+DW_MACRO_GNU_define_indirect - lineno: 647 macro: _CS_POSIX_V7_ILP32_OFFBIG_CFLAGS _CS_POSIX_V7_ILP32_OFFBIG_CFLAGS
+DW_MACRO_GNU_define_indirect - lineno: 649 macro: _CS_POSIX_V7_ILP32_OFFBIG_LDFLAGS _CS_POSIX_V7_ILP32_OFFBIG_LDFLAGS
+DW_MACRO_GNU_define_indirect - lineno: 651 macro: _CS_POSIX_V7_ILP32_OFFBIG_LIBS _CS_POSIX_V7_ILP32_OFFBIG_LIBS
+DW_MACRO_GNU_define_indirect - lineno: 653 macro: _CS_POSIX_V7_ILP32_OFFBIG_LINTFLAGS _CS_POSIX_V7_ILP32_OFFBIG_LINTFLAGS
+DW_MACRO_GNU_define_indirect - lineno: 655 macro: _CS_POSIX_V7_LP64_OFF64_CFLAGS _CS_POSIX_V7_LP64_OFF64_CFLAGS
+DW_MACRO_GNU_define_indirect - lineno: 657 macro: _CS_POSIX_V7_LP64_OFF64_LDFLAGS _CS_POSIX_V7_LP64_OFF64_LDFLAGS
+DW_MACRO_GNU_define_indirect - lineno: 659 macro: _CS_POSIX_V7_LP64_OFF64_LIBS _CS_POSIX_V7_LP64_OFF64_LIBS
+DW_MACRO_GNU_define_indirect - lineno: 661 macro: _CS_POSIX_V7_LP64_OFF64_LINTFLAGS _CS_POSIX_V7_LP64_OFF64_LINTFLAGS
+DW_MACRO_GNU_define_indirect - lineno: 663 macro: _CS_POSIX_V7_LPBIG_OFFBIG_CFLAGS _CS_POSIX_V7_LPBIG_OFFBIG_CFLAGS
+DW_MACRO_GNU_define_indirect - lineno: 665 macro: _CS_POSIX_V7_LPBIG_OFFBIG_LDFLAGS _CS_POSIX_V7_LPBIG_OFFBIG_LDFLAGS
+DW_MACRO_GNU_define_indirect - lineno: 667 macro: _CS_POSIX_V7_LPBIG_OFFBIG_LIBS _CS_POSIX_V7_LPBIG_OFFBIG_LIBS
+DW_MACRO_GNU_define_indirect - lineno: 669 macro: _CS_POSIX_V7_LPBIG_OFFBIG_LINTFLAGS _CS_POSIX_V7_LPBIG_OFFBIG_LINTFLAGS
+DW_MACRO_GNU_define_indirect - lineno: 672 macro: _CS_V6_ENV _CS_V6_ENV
+DW_MACRO_GNU_define_indirect - lineno: 674 macro: _CS_V7_ENV _CS_V7_ENV
+
+0x00001f2f:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 1076 macro: F_ULOCK 0
+DW_MACRO_GNU_define_indirect - lineno: 1077 macro: F_LOCK 1
+DW_MACRO_GNU_define_indirect - lineno: 1078 macro: F_TLOCK 2
+DW_MACRO_GNU_define_indirect - lineno: 1079 macro: F_TEST 3
+
+0x00001f4f:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_undef_indirect - lineno: 31 macro: __GLIBC_INTERNAL_STARTING_HEADER_IMPLEMENTATION
+DW_MACRO_GNU_undef_indirect - lineno: 37 macro: __GLIBC_USE_LIB_EXT2
+DW_MACRO_GNU_define_indirect - lineno: 42 macro: __GLIBC_USE_LIB_EXT2 0
+DW_MACRO_GNU_undef_indirect - lineno: 47 macro: __GLIBC_USE_IEC_60559_BFP_EXT
+DW_MACRO_GNU_define_indirect - lineno: 51 macro: __GLIBC_USE_IEC_60559_BFP_EXT 0
+DW_MACRO_GNU_undef_indirect - lineno: 56 macro: __GLIBC_USE_IEC_60559_FUNCS_EXT
+DW_MACRO_GNU_define_indirect - lineno: 60 macro: __GLIBC_USE_IEC_60559_FUNCS_EXT 0
+DW_MACRO_GNU_undef_indirect - lineno: 65 macro: __GLIBC_USE_IEC_60559_TYPES_EXT
+DW_MACRO_GNU_define_indirect - lineno: 69 macro: __GLIBC_USE_IEC_60559_TYPES_EXT 0
+
+0x00001f89:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 28 macro: __need_size_t 
+DW_MACRO_GNU_define_indirect - lineno: 29 macro: __need_wchar_t 
+DW_MACRO_GNU_define_indirect - lineno: 30 macro: __need_NULL 
+
+0x00001f9f:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_undef_indirect - lineno: 238 macro: __need_size_t
+DW_MACRO_GNU_define_indirect - lineno: 267 macro: __wchar_t__ 
+DW_MACRO_GNU_define_indirect - lineno: 268 macro: __WCHAR_T__ 
+DW_MACRO_GNU_define_indirect - lineno: 269 macro: _WCHAR_T 
+DW_MACRO_GNU_define_indirect - lineno: 270 macro: _T_WCHAR_ 
+DW_MACRO_GNU_define_indirect - lineno: 271 macro: _T_WCHAR 
+DW_MACRO_GNU_define_indirect - lineno: 272 macro: __WCHAR_T 
+DW_MACRO_GNU_define_indirect - lineno: 273 macro: _WCHAR_T_ 
+DW_MACRO_GNU_define_indirect - lineno: 274 macro: _BSD_WCHAR_T_ 
+DW_MACRO_GNU_define_indirect - lineno: 275 macro: _WCHAR_T_DEFINED_ 
+DW_MACRO_GNU_define_indirect - lineno: 276 macro: _WCHAR_T_DEFINED 
+DW_MACRO_GNU_define_indirect - lineno: 277 macro: _WCHAR_T_H 
+DW_MACRO_GNU_define_indirect - lineno: 278 macro: ___int_wchar_t_h 
+DW_MACRO_GNU_define_indirect - lineno: 279 macro: __INT_WCHAR_T_H 
+DW_MACRO_GNU_define_indirect - lineno: 280 macro: _GCC_WCHAR_T 
+DW_MACRO_GNU_define_indirect - lineno: 281 macro: _WCHAR_T_DECLARED 
+DW_MACRO_GNU_undef_indirect - lineno: 294 macro: _BSD_WCHAR_T_
+DW_MACRO_GNU_undef_indirect - lineno: 347 macro: __need_wchar_t
+DW_MACRO_GNU_undef_indirect - lineno: 401 macro: NULL
+DW_MACRO_GNU_define_indirect - lineno: 406 macro: NULL ((void *)0)
+DW_MACRO_GNU_undef_indirect - lineno: 412 macro: __need_NULL
+
+0x00002036:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 25 macro: WNOHANG 1
+DW_MACRO_GNU_define_indirect - lineno: 26 macro: WUNTRACED 2
+DW_MACRO_GNU_define_indirect - lineno: 30 macro: WSTOPPED 2
+DW_MACRO_GNU_define_indirect - lineno: 31 macro: WEXITED 4
+DW_MACRO_GNU_define_indirect - lineno: 32 macro: WCONTINUED 8
+DW_MACRO_GNU_define_indirect - lineno: 33 macro: WNOWAIT 0x01000000
+DW_MACRO_GNU_define_indirect - lineno: 36 macro: __WNOTHREAD 0x20000000
+DW_MACRO_GNU_define_indirect - lineno: 38 macro: __WALL 0x40000000
+DW_MACRO_GNU_define_indirect - lineno: 39 macro: __WCLONE 0x80000000
+DW_MACRO_GNU_define_indirect - lineno: 44 macro: __ENUM_IDTYPE_T 1
+DW_MACRO_GNU_undef_indirect - lineno: 48 macro: P_ALL
+DW_MACRO_GNU_undef_indirect - lineno: 49 macro: P_PID
+DW_MACRO_GNU_undef_indirect - lineno: 50 macro: P_PGID
+
+0x00002088:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 28 macro: __WEXITSTATUS(status) (((status) & 0xff00) >> 8)
+DW_MACRO_GNU_define_indirect - lineno: 31 macro: __WTERMSIG(status) ((status) & 0x7f)
+DW_MACRO_GNU_define_indirect - lineno: 34 macro: __WSTOPSIG(status) __WEXITSTATUS(status)
+DW_MACRO_GNU_define_indirect - lineno: 37 macro: __WIFEXITED(status) (__WTERMSIG(status) == 0)
+DW_MACRO_GNU_define_indirect - lineno: 40 macro: __WIFSIGNALED(status) (((signed char) (((status) & 0x7f) + 1) >> 1) > 0)
+DW_MACRO_GNU_define_indirect - lineno: 44 macro: __WIFSTOPPED(status) (((status) & 0xff) == 0x7f)
+DW_MACRO_GNU_define_indirect - lineno: 49 macro: __WIFCONTINUED(status) ((status) == __W_CONTINUED)
+DW_MACRO_GNU_define_indirect - lineno: 53 macro: __WCOREDUMP(status) ((status) & __WCOREFLAG)
+DW_MACRO_GNU_define_indirect - lineno: 56 macro: __W_EXITCODE(ret,sig) ((ret) << 8 | (sig))
+DW_MACRO_GNU_define_indirect - lineno: 57 macro: __W_STOPCODE(sig) ((sig) << 8 | 0x7f)
+DW_MACRO_GNU_define_indirect - lineno: 58 macro: __W_CONTINUED 0xffff
+DW_MACRO_GNU_define_indirect - lineno: 59 macro: __WCOREFLAG 0x80
+
+0x000020d4:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 43 macro: WEXITSTATUS(status) __WEXITSTATUS (status)
+DW_MACRO_GNU_define_indirect - lineno: 44 macro: WTERMSIG(status) __WTERMSIG (status)
+DW_MACRO_GNU_define_indirect - lineno: 45 macro: WSTOPSIG(status) __WSTOPSIG (status)
+DW_MACRO_GNU_define_indirect - lineno: 46 macro: WIFEXITED(status) __WIFEXITED (status)
+DW_MACRO_GNU_define_indirect - lineno: 47 macro: WIFSIGNALED(status) __WIFSIGNALED (status)
+DW_MACRO_GNU_define_indirect - lineno: 48 macro: WIFSTOPPED(status) __WIFSTOPPED (status)
+DW_MACRO_GNU_define_indirect - lineno: 50 macro: WIFCONTINUED(status) __WIFCONTINUED (status)
+
+0x00002102:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 20 macro: _BITS_FLOATN_H 
+DW_MACRO_GNU_define_indirect - lineno: 33 macro: __HAVE_FLOAT128 1
+DW_MACRO_GNU_define_indirect - lineno: 41 macro: __HAVE_DISTINCT_FLOAT128 1
+DW_MACRO_GNU_define_indirect - lineno: 49 macro: __HAVE_FLOAT64X 1
+DW_MACRO_GNU_define_indirect - lineno: 55 macro: __HAVE_FLOAT64X_LONG_DOUBLE 1
+DW_MACRO_GNU_define_indirect - lineno: 66 macro: __f128(x) x ##f128
+DW_MACRO_GNU_define_indirect - lineno: 78 macro: __CFLOAT128 _Complex _Float128
+
+0x00002130:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 34 macro: __HAVE_FLOAT16 0
+DW_MACRO_GNU_define_indirect - lineno: 35 macro: __HAVE_FLOAT32 1
+DW_MACRO_GNU_define_indirect - lineno: 36 macro: __HAVE_FLOAT64 1
+DW_MACRO_GNU_define_indirect - lineno: 37 macro: __HAVE_FLOAT32X 1
+DW_MACRO_GNU_define_indirect - lineno: 38 macro: __HAVE_FLOAT128X 0
+DW_MACRO_GNU_define_indirect - lineno: 52 macro: __HAVE_DISTINCT_FLOAT16 __HAVE_FLOAT16
+DW_MACRO_GNU_define_indirect - lineno: 53 macro: __HAVE_DISTINCT_FLOAT32 0
+DW_MACRO_GNU_define_indirect - lineno: 54 macro: __HAVE_DISTINCT_FLOAT64 0
+DW_MACRO_GNU_define_indirect - lineno: 55 macro: __HAVE_DISTINCT_FLOAT32X 0
+DW_MACRO_GNU_define_indirect - lineno: 56 macro: __HAVE_DISTINCT_FLOAT64X 0
+DW_MACRO_GNU_define_indirect - lineno: 57 macro: __HAVE_DISTINCT_FLOAT128X __HAVE_FLOAT128X
+DW_MACRO_GNU_define_indirect - lineno: 63 macro: __HAVE_FLOATN_NOT_TYPEDEF 1
+DW_MACRO_GNU_define_indirect - lineno: 86 macro: __f32(x) x ##f32
+DW_MACRO_GNU_define_indirect - lineno: 98 macro: __f64(x) x ##f64
+DW_MACRO_GNU_define_indirect - lineno: 106 macro: __f32x(x) x ##f32x
+DW_MACRO_GNU_define_indirect - lineno: 118 macro: __f64x(x) x ##f64x
+DW_MACRO_GNU_define_indirect - lineno: 144 macro: __CFLOAT32 _Complex _Float32
+DW_MACRO_GNU_define_indirect - lineno: 156 macro: __CFLOAT64 _Complex _Float64
+DW_MACRO_GNU_define_indirect - lineno: 164 macro: __CFLOAT32X _Complex _Float32x
+DW_MACRO_GNU_define_indirect - lineno: 176 macro: __CFLOAT64X _Complex _Float64x
+
+0x000021b0:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 71 macro: __ldiv_t_defined 1
+DW_MACRO_GNU_define_indirect - lineno: 81 macro: __lldiv_t_defined 1
+DW_MACRO_GNU_define_indirect - lineno: 86 macro: RAND_MAX 2147483647
+DW_MACRO_GNU_define_indirect - lineno: 91 macro: EXIT_FAILURE 1
+DW_MACRO_GNU_define_indirect - lineno: 92 macro: EXIT_SUCCESS 0
+DW_MACRO_GNU_define_indirect - lineno: 96 macro: MB_CUR_MAX (__ctype_get_mb_cur_max ())
+
+0x000021d8:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 23 macro: _SYS_TYPES_H 1
+DW_MACRO_GNU_define_indirect - lineno: 40 macro: __u_char_defined 
+DW_MACRO_GNU_define_indirect - lineno: 52 macro: __ino_t_defined 
+DW_MACRO_GNU_define_indirect - lineno: 61 macro: __dev_t_defined 
+DW_MACRO_GNU_define_indirect - lineno: 71 macro: __mode_t_defined 
+DW_MACRO_GNU_define_indirect - lineno: 76 macro: __nlink_t_defined 
+DW_MACRO_GNU_define_indirect - lineno: 105 macro: __id_t_defined 
+DW_MACRO_GNU_define_indirect - lineno: 117 macro: __daddr_t_defined 
+DW_MACRO_GNU_define_indirect - lineno: 123 macro: __key_t_defined 
+
+0x00002212:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_undef_indirect - lineno: 238 macro: __need_size_t
+DW_MACRO_GNU_undef_indirect - lineno: 412 macro: __need_NULL
+
+0x00002224:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 175 macro: __u_intN_t(N,MODE) typedef unsigned int u_int ##N ##_t __attribute__ ((__mode__ (MODE)))
+DW_MACRO_GNU_define_indirect - lineno: 189 macro: __BIT_TYPES_DEFINED__ 1
+
+0x00002236:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 19 macro: _ENDIAN_H 1
+DW_MACRO_GNU_define_indirect - lineno: 31 macro: __LITTLE_ENDIAN 1234
+DW_MACRO_GNU_define_indirect - lineno: 32 macro: __BIG_ENDIAN 4321
+DW_MACRO_GNU_define_indirect - lineno: 33 macro: __PDP_ENDIAN 3412
+
+0x00002252:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 41 macro: __FLOAT_WORD_ORDER __BYTE_ORDER
+DW_MACRO_GNU_define_indirect - lineno: 45 macro: LITTLE_ENDIAN __LITTLE_ENDIAN
+DW_MACRO_GNU_define_indirect - lineno: 46 macro: BIG_ENDIAN __BIG_ENDIAN
+DW_MACRO_GNU_define_indirect - lineno: 47 macro: PDP_ENDIAN __PDP_ENDIAN
+DW_MACRO_GNU_define_indirect - lineno: 48 macro: BYTE_ORDER __BYTE_ORDER
+DW_MACRO_GNU_define_indirect - lineno: 52 macro: __LONG_LONG_PAIR(HI,LO) LO, HI
+
+0x0000227a:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 38 macro: __bswap_constant_32(x) ((((x) & 0xff000000) >> 24) | (((x) & 0x00ff0000) >> 8) | (((x) & 0x0000ff00) << 8) | (((x) & 0x000000ff) << 24))
+DW_MACRO_GNU_define_indirect - lineno: 97 macro: __bswap_constant_64(x) (__extension__ ((((x) & 0xff00000000000000ull) >> 56) | (((x) & 0x00ff000000000000ull) >> 40) | (((x) & 0x0000ff0000000000ull) >> 24) | (((x) & 0x000000ff00000000ull) >> 8) | (((x) & 0x00000000ff000000ull) << 8) | (((x) & 0x0000000000ff0000ull) << 24) | (((x) & 0x000000000000ff00ull) << 40) | (((x) & 0x00000000000000ffull) << 56)))
+
+0x0000228a:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 64 macro: htobe16(x) __bswap_16 (x)
+DW_MACRO_GNU_define_indirect - lineno: 65 macro: htole16(x) __uint16_identity (x)
+DW_MACRO_GNU_define_indirect - lineno: 66 macro: be16toh(x) __bswap_16 (x)
+DW_MACRO_GNU_define_indirect - lineno: 67 macro: le16toh(x) __uint16_identity (x)
+DW_MACRO_GNU_define_indirect - lineno: 69 macro: htobe32(x) __bswap_32 (x)
+DW_MACRO_GNU_define_indirect - lineno: 70 macro: htole32(x) __uint32_identity (x)
+DW_MACRO_GNU_define_indirect - lineno: 71 macro: be32toh(x) __bswap_32 (x)
+DW_MACRO_GNU_define_indirect - lineno: 72 macro: le32toh(x) __uint32_identity (x)
+DW_MACRO_GNU_define_indirect - lineno: 74 macro: htobe64(x) __bswap_64 (x)
+DW_MACRO_GNU_define_indirect - lineno: 75 macro: htole64(x) __uint64_identity (x)
+DW_MACRO_GNU_define_indirect - lineno: 76 macro: be64toh(x) __bswap_64 (x)
+DW_MACRO_GNU_define_indirect - lineno: 77 macro: le64toh(x) __uint64_identity (x)
+
+0x000022d6:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 28 macro: __FD_ZERO_STOS "stosq"
+DW_MACRO_GNU_define_indirect - lineno: 33 macro: __FD_ZERO(fdsp) do { int __d0, __d1; __asm__ __volatile__ ("cld; rep; " __FD_ZERO_STOS : "=c" (__d0), "=D" (__d1) : "a" (0), "0" (sizeof (fd_set) / sizeof (__fd_mask)), "1" (&__FDS_BITS (fdsp)[0]) : "memory"); } while (0)
+DW_MACRO_GNU_define_indirect - lineno: 58 macro: __FD_SET(d,set) ((void) (__FDS_BITS (set)[__FD_ELT (d)] |= __FD_MASK (d)))
+DW_MACRO_GNU_define_indirect - lineno: 60 macro: __FD_CLR(d,set) ((void) (__FDS_BITS (set)[__FD_ELT (d)] &= ~__FD_MASK (d)))
+DW_MACRO_GNU_define_indirect - lineno: 62 macro: __FD_ISSET(d,set) ((__FDS_BITS (set)[__FD_ELT (d)] & __FD_MASK (d)) != 0)
+
+0x000022f8:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 2 macro: ____sigset_t_defined 
+DW_MACRO_GNU_define_indirect - lineno: 4 macro: _SIGSET_NWORDS (1024 / (8 * sizeof (unsigned long int)))
+
+0x00002308:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 44 macro: __suseconds_t_defined 
+DW_MACRO_GNU_undef_indirect - lineno: 52 macro: __NFDBITS
+DW_MACRO_GNU_define_indirect - lineno: 54 macro: __NFDBITS (8 * (int) sizeof (__fd_mask))
+DW_MACRO_GNU_define_indirect - lineno: 55 macro: __FD_ELT(d) ((d) / __NFDBITS)
+DW_MACRO_GNU_define_indirect - lineno: 56 macro: __FD_MASK(d) ((__fd_mask) (1UL << ((d) % __NFDBITS)))
+DW_MACRO_GNU_define_indirect - lineno: 68 macro: __FDS_BITS(set) ((set)->__fds_bits)
+DW_MACRO_GNU_define_indirect - lineno: 73 macro: FD_SETSIZE __FD_SETSIZE
+DW_MACRO_GNU_define_indirect - lineno: 80 macro: NFDBITS __NFDBITS
+DW_MACRO_GNU_define_indirect - lineno: 85 macro: FD_SET(fd,fdsetp) __FD_SET (fd, fdsetp)
+DW_MACRO_GNU_define_indirect - lineno: 86 macro: FD_CLR(fd,fdsetp) __FD_CLR (fd, fdsetp)
+DW_MACRO_GNU_define_indirect - lineno: 87 macro: FD_ISSET(fd,fdsetp) __FD_ISSET (fd, fdsetp)
+DW_MACRO_GNU_define_indirect - lineno: 88 macro: FD_ZERO(fdsetp) __FD_ZERO (fdsetp)
+
+0x00002354:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_undef_indirect - lineno: 30 macro: major
+DW_MACRO_GNU_undef_indirect - lineno: 31 macro: minor
+DW_MACRO_GNU_undef_indirect - lineno: 32 macro: makedev
+DW_MACRO_GNU_define_indirect - lineno: 37 macro: _SYS_SYSMACROS_H 1
+
+0x00002370:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 20 macro: _BITS_SYSMACROS_H 1
+DW_MACRO_GNU_define_indirect - lineno: 36 macro: __SYSMACROS_DECLARE_MAJOR(DECL_TEMPL) DECL_TEMPL(unsigned int, major, (__dev_t __dev))
+DW_MACRO_GNU_define_indirect - lineno: 39 macro: __SYSMACROS_DEFINE_MAJOR(DECL_TEMPL) __SYSMACROS_DECLARE_MAJOR (DECL_TEMPL) { unsigned int __major; __major = ((__dev & (__dev_t) 0x00000000000fff00u) >> 8); __major |= ((__dev & (__dev_t) 0xfffff00000000000u) >> 32); return __major; }
+DW_MACRO_GNU_define_indirect - lineno: 48 macro: __SYSMACROS_DECLARE_MINOR(DECL_TEMPL) DECL_TEMPL(unsigned int, minor, (__dev_t __dev))
+DW_MACRO_GNU_define_indirect - lineno: 51 macro: __SYSMACROS_DEFINE_MINOR(DECL_TEMPL) __SYSMACROS_DECLARE_MINOR (DECL_TEMPL) { unsigned int __minor; __minor = ((__dev & (__dev_t) 0x00000000000000ffu) >> 0); __minor |= ((__dev & (__dev_t) 0x00000ffffff00000u) >> 12); return __minor; }
+DW_MACRO_GNU_define_indirect - lineno: 60 macro: __SYSMACROS_DECLARE_MAKEDEV(DECL_TEMPL) DECL_TEMPL(__dev_t, makedev, (unsigned int __major, unsigned int __minor))
+DW_MACRO_GNU_define_indirect - lineno: 63 macro: __SYSMACROS_DEFINE_MAKEDEV(DECL_TEMPL) __SYSMACROS_DECLARE_MAKEDEV (DECL_TEMPL) { __dev_t __dev; __dev = (((__dev_t) (__major & 0x00000fffu)) << 8); __dev |= (((__dev_t) (__major & 0xfffff000u)) << 32); __dev |= (((__dev_t) (__minor & 0x000000ffu)) << 0); __dev |= (((__dev_t) (__minor & 0xffffff00u)) << 12); return __dev; }
+
+0x0000239e:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 52 macro: __SYSMACROS_DM(symbol) __SYSMACROS_DM1 (In the GNU C Library, #symbol is defined\n by <sys/sysmacros.h>. For historical compatibility, it is\n currently defined by <sys/types.h> as well, but we plan to\n remove this soon. To use #symbol, include <sys/sysmacros.h>\n directly. If you did not intend to use a system-defined macro\n #symbol, you should undefine it after including <sys/types.h>.)
+DW_MACRO_GNU_define_indirect - lineno: 62 macro: __SYSMACROS_DM1(...) __glibc_macro_warning (#__VA_ARGS__)
+DW_MACRO_GNU_define_indirect - lineno: 64 macro: __SYSMACROS_DECL_TEMPL(rtype,name,proto) extern rtype gnu_dev_ ##name proto __THROW __attribute_const__;
+DW_MACRO_GNU_define_indirect - lineno: 67 macro: __SYSMACROS_IMPL_TEMPL(rtype,name,proto) __extension__ __extern_inline __attribute_const__ rtype __NTH (gnu_dev_ ##name proto)
+DW_MACRO_GNU_undef_indirect - lineno: 90 macro: __SYSMACROS_DECL_TEMPL
+DW_MACRO_GNU_undef_indirect - lineno: 91 macro: __SYSMACROS_IMPL_TEMPL
+DW_MACRO_GNU_undef_indirect - lineno: 92 macro: __SYSMACROS_DECLARE_MAJOR
+DW_MACRO_GNU_undef_indirect - lineno: 93 macro: __SYSMACROS_DECLARE_MINOR
+DW_MACRO_GNU_undef_indirect - lineno: 94 macro: __SYSMACROS_DECLARE_MAKEDEV
+DW_MACRO_GNU_undef_indirect - lineno: 95 macro: __SYSMACROS_DEFINE_MAJOR
+DW_MACRO_GNU_undef_indirect - lineno: 96 macro: __SYSMACROS_DEFINE_MINOR
+DW_MACRO_GNU_undef_indirect - lineno: 97 macro: __SYSMACROS_DEFINE_MAKEDEV
+DW_MACRO_GNU_define_indirect - lineno: 101 macro: major(dev) __SYSMACROS_DM (major) gnu_dev_major (dev)
+DW_MACRO_GNU_define_indirect - lineno: 102 macro: minor(dev) __SYSMACROS_DM (minor) gnu_dev_minor (dev)
+DW_MACRO_GNU_define_indirect - lineno: 103 macro: makedev(maj,min) __SYSMACROS_DM (makedev) gnu_dev_makedev (maj, min)
+
+0x000023fc:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_undef_indirect - lineno: 206 macro: __SYSMACROS_DEPRECATED_INCLUSION
+DW_MACRO_GNU_define_indirect - lineno: 213 macro: __blksize_t_defined 
+DW_MACRO_GNU_define_indirect - lineno: 220 macro: __blkcnt_t_defined 
+DW_MACRO_GNU_define_indirect - lineno: 224 macro: __fsblkcnt_t_defined 
+DW_MACRO_GNU_define_indirect - lineno: 228 macro: __fsfilcnt_t_defined 
+
+0x00002423:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 25 macro: __SIZEOF_PTHREAD_MUTEX_T 40
+DW_MACRO_GNU_define_indirect - lineno: 26 macro: __SIZEOF_PTHREAD_ATTR_T 56
+DW_MACRO_GNU_define_indirect - lineno: 27 macro: __SIZEOF_PTHREAD_MUTEX_T 40
+DW_MACRO_GNU_define_indirect - lineno: 28 macro: __SIZEOF_PTHREAD_RWLOCK_T 56
+DW_MACRO_GNU_define_indirect - lineno: 29 macro: __SIZEOF_PTHREAD_BARRIER_T 32
+DW_MACRO_GNU_define_indirect - lineno: 44 macro: __SIZEOF_PTHREAD_MUTEXATTR_T 4
+DW_MACRO_GNU_define_indirect - lineno: 45 macro: __SIZEOF_PTHREAD_COND_T 48
+DW_MACRO_GNU_define_indirect - lineno: 46 macro: __SIZEOF_PTHREAD_CONDATTR_T 4
+DW_MACRO_GNU_define_indirect - lineno: 47 macro: __SIZEOF_PTHREAD_RWLOCKATTR_T 8
+DW_MACRO_GNU_define_indirect - lineno: 48 macro: __SIZEOF_PTHREAD_BARRIERATTR_T 4
+DW_MACRO_GNU_define_indirect - lineno: 51 macro: __PTHREAD_COMPAT_PADDING_MID 
+DW_MACRO_GNU_define_indirect - lineno: 52 macro: __PTHREAD_COMPAT_PADDING_END 
+DW_MACRO_GNU_define_indirect - lineno: 53 macro: __PTHREAD_MUTEX_LOCK_ELISION 1
+DW_MACRO_GNU_define_indirect - lineno: 55 macro: __PTHREAD_MUTEX_NUSERS_AFTER_KIND 0
+DW_MACRO_GNU_define_indirect - lineno: 56 macro: __PTHREAD_MUTEX_USE_UNION 0
+DW_MACRO_GNU_define_indirect - lineno: 62 macro: __LOCK_ALIGNMENT 
+DW_MACRO_GNU_define_indirect - lineno: 63 macro: __ONCE_ALIGNMENT 
+DW_MACRO_GNU_define_indirect - lineno: 82 macro: __PTHREAD_RWLOCK_ELISION_EXTRA 0, { 0, 0, 0, 0, 0, 0, 0 }
+DW_MACRO_GNU_define_indirect - lineno: 88 macro: __PTHREAD_RWLOCK_INT_FLAGS_SHARED 1
+
+0x00002499:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 97 macro: __PTHREAD_SPINS_DATA short __spins; short __elision
+DW_MACRO_GNU_define_indirect - lineno: 100 macro: __PTHREAD_SPINS 0, 0
+DW_MACRO_GNU_define_indirect - lineno: 156 macro: __PTHREAD_MUTEX_HAVE_PREV 1
+
+0x000024b0:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 19 macro: _ALLOCA_H 1
+DW_MACRO_GNU_define_indirect - lineno: 23 macro: __need_size_t 
+
+0x000024c0:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_undef_indirect - lineno: 29 macro: alloca
+DW_MACRO_GNU_define_indirect - lineno: 35 macro: alloca(size) __builtin_alloca (size)
+
+0x000024d0:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 23 macro: _STDINT_H 1
+DW_MACRO_GNU_define_indirect - lineno: 25 macro: __GLIBC_INTERNAL_STARTING_HEADER_IMPLEMENTATION 
+
+0x000024e0:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 20 macro: _BITS_WCHAR_H 1
+DW_MACRO_GNU_define_indirect - lineno: 34 macro: __WCHAR_MAX __WCHAR_MAX__
+DW_MACRO_GNU_define_indirect - lineno: 42 macro: __WCHAR_MIN __WCHAR_MIN__
+
+0x000024f6:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 116 macro: __INT64_C(c) c ## L
+DW_MACRO_GNU_define_indirect - lineno: 117 macro: __UINT64_C(c) c ## UL
+DW_MACRO_GNU_define_indirect - lineno: 126 macro: INT8_MIN (-128)
+DW_MACRO_GNU_define_indirect - lineno: 127 macro: INT16_MIN (-32767-1)
+DW_MACRO_GNU_define_indirect - lineno: 128 macro: INT32_MIN (-2147483647-1)
+DW_MACRO_GNU_define_indirect - lineno: 129 macro: INT64_MIN (-__INT64_C(9223372036854775807)-1)
+DW_MACRO_GNU_define_indirect - lineno: 131 macro: INT8_MAX (127)
+DW_MACRO_GNU_define_indirect - lineno: 132 macro: INT16_MAX (32767)
+DW_MACRO_GNU_define_indirect - lineno: 133 macro: INT32_MAX (2147483647)
+DW_MACRO_GNU_define_indirect - lineno: 134 macro: INT64_MAX (__INT64_C(9223372036854775807))
+DW_MACRO_GNU_define_indirect - lineno: 137 macro: UINT8_MAX (255)
+DW_MACRO_GNU_define_indirect - lineno: 138 macro: UINT16_MAX (65535)
+DW_MACRO_GNU_define_indirect - lineno: 139 macro: UINT32_MAX (4294967295U)
+DW_MACRO_GNU_define_indirect - lineno: 140 macro: UINT64_MAX (__UINT64_C(18446744073709551615))
+DW_MACRO_GNU_define_indirect - lineno: 144 macro: INT_LEAST8_MIN (-128)
+DW_MACRO_GNU_define_indirect - lineno: 145 macro: INT_LEAST16_MIN (-32767-1)
+DW_MACRO_GNU_define_indirect - lineno: 146 macro: INT_LEAST32_MIN (-2147483647-1)
+DW_MACRO_GNU_define_indirect - lineno: 147 macro: INT_LEAST64_MIN (-__INT64_C(9223372036854775807)-1)
+DW_MACRO_GNU_define_indirect - lineno: 149 macro: INT_LEAST8_MAX (127)
+DW_MACRO_GNU_define_indirect - lineno: 150 macro: INT_LEAST16_MAX (32767)
+DW_MACRO_GNU_define_indirect - lineno: 151 macro: INT_LEAST32_MAX (2147483647)
+DW_MACRO_GNU_define_indirect - lineno: 152 macro: INT_LEAST64_MAX (__INT64_C(9223372036854775807))
+DW_MACRO_GNU_define_indirect - lineno: 155 macro: UINT_LEAST8_MAX (255)
+DW_MACRO_GNU_define_indirect - lineno: 156 macro: UINT_LEAST16_MAX (65535)
+DW_MACRO_GNU_define_indirect - lineno: 157 macro: UINT_LEAST32_MAX (4294967295U)
+DW_MACRO_GNU_define_indirect - lineno: 158 macro: UINT_LEAST64_MAX (__UINT64_C(18446744073709551615))
+DW_MACRO_GNU_define_indirect - lineno: 162 macro: INT_FAST8_MIN (-128)
+DW_MACRO_GNU_define_indirect - lineno: 164 macro: INT_FAST16_MIN (-9223372036854775807L-1)
+DW_MACRO_GNU_define_indirect - lineno: 165 macro: INT_FAST32_MIN (-9223372036854775807L-1)
+DW_MACRO_GNU_define_indirect - lineno: 170 macro: INT_FAST64_MIN (-__INT64_C(9223372036854775807)-1)
+DW_MACRO_GNU_define_indirect - lineno: 172 macro: INT_FAST8_MAX (127)
+DW_MACRO_GNU_define_indirect - lineno: 174 macro: INT_FAST16_MAX (9223372036854775807L)
+DW_MACRO_GNU_define_indirect - lineno: 175 macro: INT_FAST32_MAX (9223372036854775807L)
+DW_MACRO_GNU_define_indirect - lineno: 180 macro: INT_FAST64_MAX (__INT64_C(9223372036854775807))
+DW_MACRO_GNU_define_indirect - lineno: 183 macro: UINT_FAST8_MAX (255)
+DW_MACRO_GNU_define_indirect - lineno: 185 macro: UINT_FAST16_MAX (18446744073709551615UL)
+DW_MACRO_GNU_define_indirect - lineno: 186 macro: UINT_FAST32_MAX (18446744073709551615UL)
+DW_MACRO_GNU_define_indirect - lineno: 191 macro: UINT_FAST64_MAX (__UINT64_C(18446744073709551615))
+DW_MACRO_GNU_define_indirect - lineno: 196 macro: INTPTR_MIN (-9223372036854775807L-1)
+DW_MACRO_GNU_define_indirect - lineno: 197 macro: INTPTR_MAX (9223372036854775807L)
+DW_MACRO_GNU_define_indirect - lineno: 198 macro: UINTPTR_MAX (18446744073709551615UL)
+DW_MACRO_GNU_define_indirect - lineno: 207 macro: INTMAX_MIN (-__INT64_C(9223372036854775807)-1)
+DW_MACRO_GNU_define_indirect - lineno: 209 macro: INTMAX_MAX (__INT64_C(9223372036854775807))
+DW_MACRO_GNU_define_indirect - lineno: 212 macro: UINTMAX_MAX (__UINT64_C(18446744073709551615))
+DW_MACRO_GNU_define_indirect - lineno: 219 macro: PTRDIFF_MIN (-9223372036854775807L-1)
+DW_MACRO_GNU_define_indirect - lineno: 220 macro: PTRDIFF_MAX (9223372036854775807L)
+DW_MACRO_GNU_define_indirect - lineno: 232 macro: SIG_ATOMIC_MIN (-2147483647-1)
+DW_MACRO_GNU_define_indirect - lineno: 233 macro: SIG_ATOMIC_MAX (2147483647)
+DW_MACRO_GNU_define_indirect - lineno: 237 macro: SIZE_MAX (18446744073709551615UL)
+DW_MACRO_GNU_define_indirect - lineno: 249 macro: WCHAR_MIN __WCHAR_MIN
+DW_MACRO_GNU_define_indirect - lineno: 250 macro: WCHAR_MAX __WCHAR_MAX
+DW_MACRO_GNU_define_indirect - lineno: 254 macro: WINT_MIN (0u)
+DW_MACRO_GNU_define_indirect - lineno: 255 macro: WINT_MAX (4294967295u)
+DW_MACRO_GNU_define_indirect - lineno: 258 macro: INT8_C(c) c
+DW_MACRO_GNU_define_indirect - lineno: 259 macro: INT16_C(c) c
+DW_MACRO_GNU_define_indirect - lineno: 260 macro: INT32_C(c) c
+DW_MACRO_GNU_define_indirect - lineno: 262 macro: INT64_C(c) c ## L
+DW_MACRO_GNU_define_indirect - lineno: 268 macro: UINT8_C(c) c
+DW_MACRO_GNU_define_indirect - lineno: 269 macro: UINT16_C(c) c
+DW_MACRO_GNU_define_indirect - lineno: 270 macro: UINT32_C(c) c ## U
+DW_MACRO_GNU_define_indirect - lineno: 272 macro: UINT64_C(c) c ## UL
+DW_MACRO_GNU_define_indirect - lineno: 279 macro: INTMAX_C(c) c ## L
+DW_MACRO_GNU_define_indirect - lineno: 280 macro: UINTMAX_C(c) c ## UL
+
+0x000026af:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 23 macro: _LIBC_LIMITS_H_ 1
+DW_MACRO_GNU_define_indirect - lineno: 25 macro: __GLIBC_INTERNAL_STARTING_HEADER_IMPLEMENTATION 
+
+0x000026bf:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 32 macro: MB_LEN_MAX 16
+DW_MACRO_GNU_define_indirect - lineno: 132 macro: LLONG_MIN (-LLONG_MAX-1)
+DW_MACRO_GNU_define_indirect - lineno: 135 macro: LLONG_MAX __LONG_LONG_MAX__
+DW_MACRO_GNU_define_indirect - lineno: 138 macro: ULLONG_MAX (LLONG_MAX * 2ULL + 1)
+
+0x000026de:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 25 macro: _BITS_POSIX1_LIM_H 1
+DW_MACRO_GNU_define_indirect - lineno: 31 macro: _POSIX_AIO_LISTIO_MAX 2
+DW_MACRO_GNU_define_indirect - lineno: 34 macro: _POSIX_AIO_MAX 1
+DW_MACRO_GNU_define_indirect - lineno: 37 macro: _POSIX_ARG_MAX 4096
+DW_MACRO_GNU_define_indirect - lineno: 41 macro: _POSIX_CHILD_MAX 25
+DW_MACRO_GNU_define_indirect - lineno: 47 macro: _POSIX_DELAYTIMER_MAX 32
+DW_MACRO_GNU_define_indirect - lineno: 51 macro: _POSIX_HOST_NAME_MAX 255
+DW_MACRO_GNU_define_indirect - lineno: 54 macro: _POSIX_LINK_MAX 8
+DW_MACRO_GNU_define_indirect - lineno: 57 macro: _POSIX_LOGIN_NAME_MAX 9
+DW_MACRO_GNU_define_indirect - lineno: 60 macro: _POSIX_MAX_CANON 255
+DW_MACRO_GNU_define_indirect - lineno: 64 macro: _POSIX_MAX_INPUT 255
+DW_MACRO_GNU_define_indirect - lineno: 67 macro: _POSIX_MQ_OPEN_MAX 8
+DW_MACRO_GNU_define_indirect - lineno: 70 macro: _POSIX_MQ_PRIO_MAX 32
+DW_MACRO_GNU_define_indirect - lineno: 73 macro: _POSIX_NAME_MAX 14
+DW_MACRO_GNU_define_indirect - lineno: 77 macro: _POSIX_NGROUPS_MAX 8
+DW_MACRO_GNU_define_indirect - lineno: 84 macro: _POSIX_OPEN_MAX 20
+DW_MACRO_GNU_define_indirect - lineno: 96 macro: _POSIX_PATH_MAX 256
+DW_MACRO_GNU_define_indirect - lineno: 99 macro: _POSIX_PIPE_BUF 512
+DW_MACRO_GNU_define_indirect - lineno: 103 macro: _POSIX_RE_DUP_MAX 255
+DW_MACRO_GNU_define_indirect - lineno: 106 macro: _POSIX_RTSIG_MAX 8
+DW_MACRO_GNU_define_indirect - lineno: 109 macro: _POSIX_SEM_NSEMS_MAX 256
+DW_MACRO_GNU_define_indirect - lineno: 112 macro: _POSIX_SEM_VALUE_MAX 32767
+DW_MACRO_GNU_define_indirect - lineno: 115 macro: _POSIX_SIGQUEUE_MAX 32
+DW_MACRO_GNU_define_indirect - lineno: 118 macro: _POSIX_SSIZE_MAX 32767
+DW_MACRO_GNU_define_indirect - lineno: 121 macro: _POSIX_STREAM_MAX 8
+DW_MACRO_GNU_define_indirect - lineno: 124 macro: _POSIX_SYMLINK_MAX 255
+DW_MACRO_GNU_define_indirect - lineno: 128 macro: _POSIX_SYMLOOP_MAX 8
+DW_MACRO_GNU_define_indirect - lineno: 131 macro: _POSIX_TIMER_MAX 32
+DW_MACRO_GNU_define_indirect - lineno: 134 macro: _POSIX_TTY_NAME_MAX 9
+DW_MACRO_GNU_define_indirect - lineno: 138 macro: _POSIX_TZNAME_MAX 6
+DW_MACRO_GNU_define_indirect - lineno: 156 macro: _POSIX_CLOCKRES_MIN 20000000
+
+0x000027a1:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 25 macro: __undef_NR_OPEN 
+DW_MACRO_GNU_define_indirect - lineno: 28 macro: __undef_LINK_MAX 
+DW_MACRO_GNU_define_indirect - lineno: 31 macro: __undef_OPEN_MAX 
+DW_MACRO_GNU_define_indirect - lineno: 34 macro: __undef_ARG_MAX 
+
+0x000027bd:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 3 macro: _LINUX_LIMITS_H 
+DW_MACRO_GNU_define_indirect - lineno: 5 macro: NR_OPEN 1024
+DW_MACRO_GNU_define_indirect - lineno: 7 macro: NGROUPS_MAX 65536
+DW_MACRO_GNU_define_indirect - lineno: 8 macro: ARG_MAX 131072
+DW_MACRO_GNU_define_indirect - lineno: 9 macro: LINK_MAX 127
+DW_MACRO_GNU_define_indirect - lineno: 10 macro: MAX_CANON 255
+DW_MACRO_GNU_define_indirect - lineno: 11 macro: MAX_INPUT 255
+DW_MACRO_GNU_define_indirect - lineno: 12 macro: NAME_MAX 255
+DW_MACRO_GNU_define_indirect - lineno: 13 macro: PATH_MAX 4096
+DW_MACRO_GNU_define_indirect - lineno: 14 macro: PIPE_BUF 4096
+DW_MACRO_GNU_define_indirect - lineno: 15 macro: XATTR_NAME_MAX 255
+DW_MACRO_GNU_define_indirect - lineno: 16 macro: XATTR_SIZE_MAX 65536
+DW_MACRO_GNU_define_indirect - lineno: 17 macro: XATTR_LIST_MAX 65536
+DW_MACRO_GNU_define_indirect - lineno: 19 macro: RTSIG_MAX 32
+
+0x00002815:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_undef_indirect - lineno: 42 macro: NR_OPEN
+DW_MACRO_GNU_undef_indirect - lineno: 43 macro: __undef_NR_OPEN
+DW_MACRO_GNU_undef_indirect - lineno: 47 macro: LINK_MAX
+DW_MACRO_GNU_undef_indirect - lineno: 48 macro: __undef_LINK_MAX
+DW_MACRO_GNU_undef_indirect - lineno: 52 macro: OPEN_MAX
+DW_MACRO_GNU_undef_indirect - lineno: 53 macro: __undef_OPEN_MAX
+DW_MACRO_GNU_undef_indirect - lineno: 57 macro: ARG_MAX
+DW_MACRO_GNU_undef_indirect - lineno: 58 macro: __undef_ARG_MAX
+DW_MACRO_GNU_define_indirect - lineno: 62 macro: _POSIX_THREAD_KEYS_MAX 128
+DW_MACRO_GNU_define_indirect - lineno: 64 macro: PTHREAD_KEYS_MAX 1024
+DW_MACRO_GNU_define_indirect - lineno: 67 macro: _POSIX_THREAD_DESTRUCTOR_ITERATIONS 4
+DW_MACRO_GNU_define_indirect - lineno: 69 macro: PTHREAD_DESTRUCTOR_ITERATIONS _POSIX_THREAD_DESTRUCTOR_ITERATIONS
+DW_MACRO_GNU_define_indirect - lineno: 72 macro: _POSIX_THREAD_THREADS_MAX 64
+DW_MACRO_GNU_undef_indirect - lineno: 74 macro: PTHREAD_THREADS_MAX
+DW_MACRO_GNU_define_indirect - lineno: 78 macro: AIO_PRIO_DELTA_MAX 20
+DW_MACRO_GNU_define_indirect - lineno: 81 macro: PTHREAD_STACK_MIN 16384
+DW_MACRO_GNU_define_indirect - lineno: 84 macro: DELAYTIMER_MAX 2147483647
+DW_MACRO_GNU_define_indirect - lineno: 87 macro: TTY_NAME_MAX 32
+DW_MACRO_GNU_define_indirect - lineno: 90 macro: LOGIN_NAME_MAX 256
+DW_MACRO_GNU_define_indirect - lineno: 93 macro: HOST_NAME_MAX 64
+DW_MACRO_GNU_define_indirect - lineno: 96 macro: MQ_PRIO_MAX 32768
+DW_MACRO_GNU_define_indirect - lineno: 99 macro: SEM_VALUE_MAX (2147483647)
+
+0x0000289d:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 23 macro: _BITS_POSIX2_LIM_H 1
+DW_MACRO_GNU_define_indirect - lineno: 27 macro: _POSIX2_BC_BASE_MAX 99
+DW_MACRO_GNU_define_indirect - lineno: 30 macro: _POSIX2_BC_DIM_MAX 2048
+DW_MACRO_GNU_define_indirect - lineno: 33 macro: _POSIX2_BC_SCALE_MAX 99
+DW_MACRO_GNU_define_indirect - lineno: 36 macro: _POSIX2_BC_STRING_MAX 1000
+DW_MACRO_GNU_define_indirect - lineno: 40 macro: _POSIX2_COLL_WEIGHTS_MAX 2
+DW_MACRO_GNU_define_indirect - lineno: 44 macro: _POSIX2_EXPR_NEST_MAX 32
+DW_MACRO_GNU_define_indirect - lineno: 47 macro: _POSIX2_LINE_MAX 2048
+DW_MACRO_GNU_define_indirect - lineno: 51 macro: _POSIX2_RE_DUP_MAX 255
+DW_MACRO_GNU_define_indirect - lineno: 55 macro: _POSIX2_CHARCLASS_NAME_MAX 14
+DW_MACRO_GNU_define_indirect - lineno: 63 macro: BC_BASE_MAX _POSIX2_BC_BASE_MAX
+DW_MACRO_GNU_define_indirect - lineno: 66 macro: BC_DIM_MAX _POSIX2_BC_DIM_MAX
+DW_MACRO_GNU_define_indirect - lineno: 69 macro: BC_SCALE_MAX _POSIX2_BC_SCALE_MAX
+DW_MACRO_GNU_define_indirect - lineno: 72 macro: BC_STRING_MAX _POSIX2_BC_STRING_MAX
+DW_MACRO_GNU_define_indirect - lineno: 75 macro: COLL_WEIGHTS_MAX 255
+DW_MACRO_GNU_define_indirect - lineno: 78 macro: EXPR_NEST_MAX _POSIX2_EXPR_NEST_MAX
+DW_MACRO_GNU_define_indirect - lineno: 81 macro: LINE_MAX _POSIX2_LINE_MAX
+DW_MACRO_GNU_define_indirect - lineno: 84 macro: CHARCLASS_NAME_MAX 2048
+DW_MACRO_GNU_define_indirect - lineno: 88 macro: RE_DUP_MAX (0x7fff)
+
+0x00002913:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 60 macro: _LIMITS_H___ 
+DW_MACRO_GNU_undef_indirect - lineno: 63 macro: CHAR_BIT
+DW_MACRO_GNU_define_indirect - lineno: 64 macro: CHAR_BIT __CHAR_BIT__
+DW_MACRO_GNU_undef_indirect - lineno: 72 macro: SCHAR_MIN
+DW_MACRO_GNU_define_indirect - lineno: 73 macro: SCHAR_MIN (-SCHAR_MAX - 1)
+DW_MACRO_GNU_undef_indirect - lineno: 74 macro: SCHAR_MAX
+DW_MACRO_GNU_define_indirect - lineno: 75 macro: SCHAR_MAX __SCHAR_MAX__
+DW_MACRO_GNU_undef_indirect - lineno: 78 macro: UCHAR_MAX
+DW_MACRO_GNU_define_indirect - lineno: 82 macro: UCHAR_MAX (SCHAR_MAX * 2 + 1)
+DW_MACRO_GNU_undef_indirect - lineno: 96 macro: CHAR_MIN
+DW_MACRO_GNU_define_indirect - lineno: 97 macro: CHAR_MIN SCHAR_MIN
+DW_MACRO_GNU_undef_indirect - lineno: 98 macro: CHAR_MAX
+DW_MACRO_GNU_define_indirect - lineno: 99 macro: CHAR_MAX SCHAR_MAX
+DW_MACRO_GNU_undef_indirect - lineno: 103 macro: SHRT_MIN
+DW_MACRO_GNU_define_indirect - lineno: 104 macro: SHRT_MIN (-SHRT_MAX - 1)
+DW_MACRO_GNU_undef_indirect - lineno: 105 macro: SHRT_MAX
+DW_MACRO_GNU_define_indirect - lineno: 106 macro: SHRT_MAX __SHRT_MAX__
+DW_MACRO_GNU_undef_indirect - lineno: 109 macro: USHRT_MAX
+DW_MACRO_GNU_define_indirect - lineno: 113 macro: USHRT_MAX (SHRT_MAX * 2 + 1)
+DW_MACRO_GNU_undef_indirect - lineno: 117 macro: INT_MIN
+DW_MACRO_GNU_define_indirect - lineno: 118 macro: INT_MIN (-INT_MAX - 1)
+DW_MACRO_GNU_undef_indirect - lineno: 119 macro: INT_MAX
+DW_MACRO_GNU_define_indirect - lineno: 120 macro: INT_MAX __INT_MAX__
+DW_MACRO_GNU_undef_indirect - lineno: 123 macro: UINT_MAX
+DW_MACRO_GNU_define_indirect - lineno: 124 macro: UINT_MAX (INT_MAX * 2U + 1U)
+DW_MACRO_GNU_undef_indirect - lineno: 128 macro: LONG_MIN
+DW_MACRO_GNU_define_indirect - lineno: 129 macro: LONG_MIN (-LONG_MAX - 1L)
+DW_MACRO_GNU_undef_indirect - lineno: 130 macro: LONG_MAX
+DW_MACRO_GNU_define_indirect - lineno: 131 macro: LONG_MAX __LONG_MAX__
+DW_MACRO_GNU_undef_indirect - lineno: 134 macro: ULONG_MAX
+DW_MACRO_GNU_define_indirect - lineno: 135 macro: ULONG_MAX (LONG_MAX * 2UL + 1UL)
+DW_MACRO_GNU_undef_indirect - lineno: 139 macro: LLONG_MIN
+DW_MACRO_GNU_define_indirect - lineno: 140 macro: LLONG_MIN (-LLONG_MAX - 1LL)
+DW_MACRO_GNU_undef_indirect - lineno: 141 macro: LLONG_MAX
+DW_MACRO_GNU_define_indirect - lineno: 142 macro: LLONG_MAX __LONG_LONG_MAX__
+DW_MACRO_GNU_undef_indirect - lineno: 145 macro: ULLONG_MAX
+DW_MACRO_GNU_define_indirect - lineno: 146 macro: ULLONG_MAX (LLONG_MAX * 2ULL + 1ULL)
+
+0x00002a01:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 20 macro: _SYS_PARAM_H 1
+DW_MACRO_GNU_define_indirect - lineno: 22 macro: __need_NULL 
+
+0x00002a11:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_undef_indirect - lineno: 401 macro: NULL
+DW_MACRO_GNU_define_indirect - lineno: 406 macro: NULL ((void *)0)
+DW_MACRO_GNU_undef_indirect - lineno: 412 macro: __need_NULL
+
+0x00002a2a:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 20 macro: _BITS_SIGNUM_GENERIC_H 1
+DW_MACRO_GNU_define_indirect - lineno: 28 macro: SIG_ERR ((__sighandler_t) -1)
+DW_MACRO_GNU_define_indirect - lineno: 29 macro: SIG_DFL ((__sighandler_t) 0)
+DW_MACRO_GNU_define_indirect - lineno: 30 macro: SIG_IGN ((__sighandler_t) 1)
+DW_MACRO_GNU_define_indirect - lineno: 48 macro: SIGINT 2
+DW_MACRO_GNU_define_indirect - lineno: 49 macro: SIGILL 4
+DW_MACRO_GNU_define_indirect - lineno: 50 macro: SIGABRT 6
+DW_MACRO_GNU_define_indirect - lineno: 51 macro: SIGFPE 8
+DW_MACRO_GNU_define_indirect - lineno: 52 macro: SIGSEGV 11
+DW_MACRO_GNU_define_indirect - lineno: 53 macro: SIGTERM 15
+DW_MACRO_GNU_define_indirect - lineno: 56 macro: SIGHUP 1
+DW_MACRO_GNU_define_indirect - lineno: 57 macro: SIGQUIT 3
+DW_MACRO_GNU_define_indirect - lineno: 58 macro: SIGTRAP 5
+DW_MACRO_GNU_define_indirect - lineno: 59 macro: SIGKILL 9
+DW_MACRO_GNU_define_indirect - lineno: 60 macro: SIGBUS 10
+DW_MACRO_GNU_define_indirect - lineno: 61 macro: SIGSYS 12
+DW_MACRO_GNU_define_indirect - lineno: 62 macro: SIGPIPE 13
+DW_MACRO_GNU_define_indirect - lineno: 63 macro: SIGALRM 14
+DW_MACRO_GNU_define_indirect - lineno: 66 macro: SIGURG 16
+DW_MACRO_GNU_define_indirect - lineno: 67 macro: SIGSTOP 17
+DW_MACRO_GNU_define_indirect - lineno: 68 macro: SIGTSTP 18
+DW_MACRO_GNU_define_indirect - lineno: 69 macro: SIGCONT 19
+DW_MACRO_GNU_define_indirect - lineno: 70 macro: SIGCHLD 20
+DW_MACRO_GNU_define_indirect - lineno: 71 macro: SIGTTIN 21
+DW_MACRO_GNU_define_indirect - lineno: 72 macro: SIGTTOU 22
+DW_MACRO_GNU_define_indirect - lineno: 73 macro: SIGPOLL 23
+DW_MACRO_GNU_define_indirect - lineno: 74 macro: SIGXCPU 24
+DW_MACRO_GNU_define_indirect - lineno: 75 macro: SIGXFSZ 25
+DW_MACRO_GNU_define_indirect - lineno: 76 macro: SIGVTALRM 26
+DW_MACRO_GNU_define_indirect - lineno: 77 macro: SIGPROF 27
+DW_MACRO_GNU_define_indirect - lineno: 78 macro: SIGUSR1 30
+DW_MACRO_GNU_define_indirect - lineno: 79 macro: SIGUSR2 31
+DW_MACRO_GNU_define_indirect - lineno: 83 macro: SIGWINCH 28
+DW_MACRO_GNU_define_indirect - lineno: 86 macro: SIGIO SIGPOLL
+DW_MACRO_GNU_define_indirect - lineno: 87 macro: SIGIOT SIGABRT
+DW_MACRO_GNU_define_indirect - lineno: 88 macro: SIGCLD SIGCHLD
+DW_MACRO_GNU_define_indirect - lineno: 96 macro: __SIGRTMIN 32
+DW_MACRO_GNU_define_indirect - lineno: 97 macro: __SIGRTMAX __SIGRTMIN
+DW_MACRO_GNU_define_indirect - lineno: 100 macro: _NSIG (__SIGRTMAX + 1)
+
+0x00002b18:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 31 macro: SIGSTKFLT 16
+DW_MACRO_GNU_define_indirect - lineno: 32 macro: SIGPWR 30
+DW_MACRO_GNU_undef_indirect - lineno: 34 macro: SIGBUS
+DW_MACRO_GNU_define_indirect - lineno: 35 macro: SIGBUS 7
+DW_MACRO_GNU_undef_indirect - lineno: 36 macro: SIGUSR1
+DW_MACRO_GNU_define_indirect - lineno: 37 macro: SIGUSR1 10
+DW_MACRO_GNU_undef_indirect - lineno: 38 macro: SIGUSR2
+DW_MACRO_GNU_define_indirect - lineno: 39 macro: SIGUSR2 12
+DW_MACRO_GNU_undef_indirect - lineno: 40 macro: SIGCHLD
+DW_MACRO_GNU_define_indirect - lineno: 41 macro: SIGCHLD 17
+DW_MACRO_GNU_undef_indirect - lineno: 42 macro: SIGCONT
+DW_MACRO_GNU_define_indirect - lineno: 43 macro: SIGCONT 18
+DW_MACRO_GNU_undef_indirect - lineno: 44 macro: SIGSTOP
+DW_MACRO_GNU_define_indirect - lineno: 45 macro: SIGSTOP 19
+DW_MACRO_GNU_undef_indirect - lineno: 46 macro: SIGTSTP
+DW_MACRO_GNU_define_indirect - lineno: 47 macro: SIGTSTP 20
+DW_MACRO_GNU_undef_indirect - lineno: 48 macro: SIGURG
+DW_MACRO_GNU_define_indirect - lineno: 49 macro: SIGURG 23
+DW_MACRO_GNU_undef_indirect - lineno: 50 macro: SIGPOLL
+DW_MACRO_GNU_define_indirect - lineno: 51 macro: SIGPOLL 29
+DW_MACRO_GNU_undef_indirect - lineno: 52 macro: SIGSYS
+DW_MACRO_GNU_define_indirect - lineno: 53 macro: SIGSYS 31
+DW_MACRO_GNU_undef_indirect - lineno: 55 macro: __SIGRTMAX
+DW_MACRO_GNU_define_indirect - lineno: 56 macro: __SIGRTMAX 64
+
+0x00002bac:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 8 macro: __SI_MAX_SIZE 128
+DW_MACRO_GNU_define_indirect - lineno: 10 macro: __SI_PAD_SIZE ((__SI_MAX_SIZE / sizeof (int)) - 4)
+
+0x00002bbc:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 18 macro: __SI_ALIGNMENT 
+DW_MACRO_GNU_define_indirect - lineno: 21 macro: __SI_BAND_TYPE long int
+DW_MACRO_GNU_define_indirect - lineno: 24 macro: __SI_CLOCK_T __clock_t
+DW_MACRO_GNU_define_indirect - lineno: 27 macro: __SI_ERRNO_THEN_CODE 1
+DW_MACRO_GNU_define_indirect - lineno: 30 macro: __SI_HAVE_SIGSYS 1
+DW_MACRO_GNU_define_indirect - lineno: 33 macro: __SI_SIGFAULT_ADDL 
+DW_MACRO_GNU_define_indirect - lineno: 128 macro: si_pid _sifields._kill.si_pid
+DW_MACRO_GNU_define_indirect - lineno: 129 macro: si_uid _sifields._kill.si_uid
+DW_MACRO_GNU_define_indirect - lineno: 130 macro: si_timerid _sifields._timer.si_tid
+DW_MACRO_GNU_define_indirect - lineno: 131 macro: si_overrun _sifields._timer.si_overrun
+DW_MACRO_GNU_define_indirect - lineno: 132 macro: si_status _sifields._sigchld.si_status
+DW_MACRO_GNU_define_indirect - lineno: 133 macro: si_utime _sifields._sigchld.si_utime
+DW_MACRO_GNU_define_indirect - lineno: 134 macro: si_stime _sifields._sigchld.si_stime
+DW_MACRO_GNU_define_indirect - lineno: 135 macro: si_value _sifields._rt.si_sigval
+DW_MACRO_GNU_define_indirect - lineno: 136 macro: si_int _sifields._rt.si_sigval.sival_int
+DW_MACRO_GNU_define_indirect - lineno: 137 macro: si_ptr _sifields._rt.si_sigval.sival_ptr
+DW_MACRO_GNU_define_indirect - lineno: 138 macro: si_addr _sifields._sigfault.si_addr
+DW_MACRO_GNU_define_indirect - lineno: 139 macro: si_addr_lsb _sifields._sigfault.si_addr_lsb
+DW_MACRO_GNU_define_indirect - lineno: 140 macro: si_lower _sifields._sigfault._bounds._addr_bnd._lower
+DW_MACRO_GNU_define_indirect - lineno: 141 macro: si_upper _sifields._sigfault._bounds._addr_bnd._upper
+DW_MACRO_GNU_define_indirect - lineno: 142 macro: si_pkey _sifields._sigfault._bounds._pkey
+DW_MACRO_GNU_define_indirect - lineno: 143 macro: si_band _sifields._sigpoll.si_band
+DW_MACRO_GNU_define_indirect - lineno: 144 macro: si_fd _sifields._sigpoll.si_fd
+DW_MACRO_GNU_define_indirect - lineno: 146 macro: si_call_addr _sifields._sigsys._call_addr
+DW_MACRO_GNU_define_indirect - lineno: 147 macro: si_syscall _sifields._sigsys._syscall
+DW_MACRO_GNU_define_indirect - lineno: 148 macro: si_arch _sifields._sigsys._arch
+
+0x00002c70:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 20 macro: _BITS_SIGINFO_CONSTS_H 1
+DW_MACRO_GNU_define_indirect - lineno: 30 macro: __SI_ASYNCIO_AFTER_SIGIO 1
+DW_MACRO_GNU_define_indirect - lineno: 53 macro: SI_ASYNCNL SI_ASYNCNL
+DW_MACRO_GNU_define_indirect - lineno: 54 macro: SI_TKILL SI_TKILL
+DW_MACRO_GNU_define_indirect - lineno: 55 macro: SI_SIGIO SI_SIGIO
+DW_MACRO_GNU_define_indirect - lineno: 56 macro: SI_ASYNCIO SI_ASYNCIO
+DW_MACRO_GNU_define_indirect - lineno: 57 macro: SI_MESGQ SI_MESGQ
+DW_MACRO_GNU_define_indirect - lineno: 58 macro: SI_TIMER SI_TIMER
+DW_MACRO_GNU_define_indirect - lineno: 59 macro: SI_ASYNCIO SI_ASYNCIO
+DW_MACRO_GNU_define_indirect - lineno: 60 macro: SI_QUEUE SI_QUEUE
+DW_MACRO_GNU_define_indirect - lineno: 61 macro: SI_USER SI_USER
+DW_MACRO_GNU_define_indirect - lineno: 62 macro: SI_KERNEL SI_KERNEL
+DW_MACRO_GNU_define_indirect - lineno: 71 macro: ILL_ILLOPC ILL_ILLOPC
+DW_MACRO_GNU_define_indirect - lineno: 73 macro: ILL_ILLOPN ILL_ILLOPN
+DW_MACRO_GNU_define_indirect - lineno: 75 macro: ILL_ILLADR ILL_ILLADR
+DW_MACRO_GNU_define_indirect - lineno: 77 macro: ILL_ILLTRP ILL_ILLTRP
+DW_MACRO_GNU_define_indirect - lineno: 79 macro: ILL_PRVOPC ILL_PRVOPC
+DW_MACRO_GNU_define_indirect - lineno: 81 macro: ILL_PRVREG ILL_PRVREG
+DW_MACRO_GNU_define_indirect - lineno: 83 macro: ILL_COPROC ILL_COPROC
+DW_MACRO_GNU_define_indirect - lineno: 85 macro: ILL_BADSTK ILL_BADSTK
+DW_MACRO_GNU_define_indirect - lineno: 92 macro: FPE_INTDIV FPE_INTDIV
+DW_MACRO_GNU_define_indirect - lineno: 94 macro: FPE_INTOVF FPE_INTOVF
+DW_MACRO_GNU_define_indirect - lineno: 96 macro: FPE_FLTDIV FPE_FLTDIV
+DW_MACRO_GNU_define_indirect - lineno: 98 macro: FPE_FLTOVF FPE_FLTOVF
+DW_MACRO_GNU_define_indirect - lineno: 100 macro: FPE_FLTUND FPE_FLTUND
+DW_MACRO_GNU_define_indirect - lineno: 102 macro: FPE_FLTRES FPE_FLTRES
+DW_MACRO_GNU_define_indirect - lineno: 104 macro: FPE_FLTINV FPE_FLTINV
+DW_MACRO_GNU_define_indirect - lineno: 106 macro: FPE_FLTSUB FPE_FLTSUB
+DW_MACRO_GNU_define_indirect - lineno: 113 macro: SEGV_MAPERR SEGV_MAPERR
+DW_MACRO_GNU_define_indirect - lineno: 115 macro: SEGV_ACCERR SEGV_ACCERR
+DW_MACRO_GNU_define_indirect - lineno: 117 macro: SEGV_BNDERR SEGV_BNDERR
+DW_MACRO_GNU_define_indirect - lineno: 119 macro: SEGV_PKUERR SEGV_PKUERR
+DW_MACRO_GNU_define_indirect - lineno: 126 macro: BUS_ADRALN BUS_ADRALN
+DW_MACRO_GNU_define_indirect - lineno: 128 macro: BUS_ADRERR BUS_ADRERR
+DW_MACRO_GNU_define_indirect - lineno: 130 macro: BUS_OBJERR BUS_OBJERR
+DW_MACRO_GNU_define_indirect - lineno: 132 macro: BUS_MCEERR_AR BUS_MCEERR_AR
+DW_MACRO_GNU_define_indirect - lineno: 134 macro: BUS_MCEERR_AO BUS_MCEERR_AO
+DW_MACRO_GNU_define_indirect - lineno: 154 macro: CLD_EXITED CLD_EXITED
+DW_MACRO_GNU_define_indirect - lineno: 156 macro: CLD_KILLED CLD_KILLED
+DW_MACRO_GNU_define_indirect - lineno: 158 macro: CLD_DUMPED CLD_DUMPED
+DW_MACRO_GNU_define_indirect - lineno: 160 macro: CLD_TRAPPED CLD_TRAPPED
+DW_MACRO_GNU_define_indirect - lineno: 162 macro: CLD_STOPPED CLD_STOPPED
+DW_MACRO_GNU_define_indirect - lineno: 164 macro: CLD_CONTINUED CLD_CONTINUED
+DW_MACRO_GNU_define_indirect - lineno: 171 macro: POLL_IN POLL_IN
+DW_MACRO_GNU_define_indirect - lineno: 173 macro: POLL_OUT POLL_OUT
+DW_MACRO_GNU_define_indirect - lineno: 175 macro: POLL_MSG POLL_MSG
+DW_MACRO_GNU_define_indirect - lineno: 177 macro: POLL_ERR POLL_ERR
+DW_MACRO_GNU_define_indirect - lineno: 179 macro: POLL_PRI POLL_PRI
+DW_MACRO_GNU_define_indirect - lineno: 181 macro: POLL_HUP POLL_HUP
+
+0x00002daa:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 8 macro: __SIGEV_MAX_SIZE 64
+DW_MACRO_GNU_define_indirect - lineno: 10 macro: __SIGEV_PAD_SIZE ((__SIGEV_MAX_SIZE / sizeof (int)) - 4)
+DW_MACRO_GNU_define_indirect - lineno: 45 macro: sigev_notify_function _sigev_un._sigev_thread._function
+DW_MACRO_GNU_define_indirect - lineno: 46 macro: sigev_notify_attributes _sigev_un._sigev_thread._attribute
+
+0x00002dc6:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 20 macro: _BITS_SIGEVENT_CONSTS_H 1
+DW_MACRO_GNU_define_indirect - lineno: 30 macro: SIGEV_SIGNAL SIGEV_SIGNAL
+DW_MACRO_GNU_define_indirect - lineno: 32 macro: SIGEV_NONE SIGEV_NONE
+DW_MACRO_GNU_define_indirect - lineno: 34 macro: SIGEV_THREAD SIGEV_THREAD
+DW_MACRO_GNU_define_indirect - lineno: 38 macro: SIGEV_THREAD_ID SIGEV_THREAD_ID
+
+0x00002de8:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 167 macro: sigmask(sig) ((int)(1u << ((sig) - 1)))
+DW_MACRO_GNU_define_indirect - lineno: 181 macro: NSIG _NSIG
+
+0x00002dfa:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 36 macro: sa_handler __sigaction_handler.sa_handler
+DW_MACRO_GNU_define_indirect - lineno: 37 macro: sa_sigaction __sigaction_handler.sa_sigaction
+DW_MACRO_GNU_define_indirect - lineno: 53 macro: SA_NOCLDSTOP 1
+DW_MACRO_GNU_define_indirect - lineno: 54 macro: SA_NOCLDWAIT 2
+DW_MACRO_GNU_define_indirect - lineno: 55 macro: SA_SIGINFO 4
+DW_MACRO_GNU_define_indirect - lineno: 58 macro: SA_ONSTACK 0x08000000
+DW_MACRO_GNU_define_indirect - lineno: 61 macro: SA_RESTART 0x10000000
+DW_MACRO_GNU_define_indirect - lineno: 62 macro: SA_NODEFER 0x40000000
+DW_MACRO_GNU_define_indirect - lineno: 64 macro: SA_RESETHAND 0x80000000
+DW_MACRO_GNU_define_indirect - lineno: 67 macro: SA_INTERRUPT 0x20000000
+DW_MACRO_GNU_define_indirect - lineno: 70 macro: SA_NOMASK SA_NODEFER
+DW_MACRO_GNU_define_indirect - lineno: 71 macro: SA_ONESHOT SA_RESETHAND
+DW_MACRO_GNU_define_indirect - lineno: 72 macro: SA_STACK SA_ONSTACK
+DW_MACRO_GNU_define_indirect - lineno: 76 macro: SIG_BLOCK 0
+DW_MACRO_GNU_define_indirect - lineno: 77 macro: SIG_UNBLOCK 1
+DW_MACRO_GNU_define_indirect - lineno: 78 macro: SIG_SETMASK 2
+
+0x00002e5e:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 19 macro: _BITS_SIGCONTEXT_H 1
+DW_MACRO_GNU_define_indirect - lineno: 27 macro: FP_XSTATE_MAGIC1 0x46505853U
+DW_MACRO_GNU_define_indirect - lineno: 28 macro: FP_XSTATE_MAGIC2 0x46505845U
+DW_MACRO_GNU_define_indirect - lineno: 29 macro: FP_XSTATE_MAGIC2_SIZE sizeof(FP_XSTATE_MAGIC2)
+
+0x00002e7a:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 20 macro: __stack_t_defined 1
+DW_MACRO_GNU_define_indirect - lineno: 22 macro: __need_size_t 
+
+0x00002e8a:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 19 macro: _SYS_UCONTEXT_H 1
+DW_MACRO_GNU_define_indirect - lineno: 29 macro: __ctx(fld) fld
+DW_MACRO_GNU_define_indirect - lineno: 40 macro: __NGREG 23
+DW_MACRO_GNU_define_indirect - lineno: 42 macro: NGREG __NGREG
+DW_MACRO_GNU_undef_indirect - lineno: 258 macro: __ctx
+
+0x00002ead:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 20 macro: _BITS_SIGSTACK_H 1
+DW_MACRO_GNU_define_indirect - lineno: 27 macro: MINSIGSTKSZ 2048
+DW_MACRO_GNU_define_indirect - lineno: 30 macro: SIGSTKSZ 8192
+
+0x00002ec3:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 20 macro: _BITS_SS_FLAGS_H 1
+DW_MACRO_GNU_define_indirect - lineno: 30 macro: SS_ONSTACK SS_ONSTACK
+DW_MACRO_GNU_define_indirect - lineno: 32 macro: SS_DISABLE SS_DISABLE
+
+0x00002ed9:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 370 macro: SIGRTMIN (__libc_current_sigrtmin ())
+DW_MACRO_GNU_define_indirect - lineno: 371 macro: SIGRTMAX (__libc_current_sigrtmax ())
+
+0x00002eeb:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 3 macro: __ASM_GENERIC_PARAM_H 
+DW_MACRO_GNU_define_indirect - lineno: 6 macro: HZ 100
+DW_MACRO_GNU_define_indirect - lineno: 10 macro: EXEC_PAGESIZE 4096
+DW_MACRO_GNU_define_indirect - lineno: 14 macro: NOGROUP (-1)
+DW_MACRO_GNU_define_indirect - lineno: 17 macro: MAXHOSTNAMELEN 64
+
+0x00002f0d:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_undef_indirect - lineno: 32 macro: ARG_MAX
+DW_MACRO_GNU_undef_indirect - lineno: 33 macro: __undef_ARG_MAX
+DW_MACRO_GNU_define_indirect - lineno: 36 macro: MAXSYMLINKS 20
+DW_MACRO_GNU_define_indirect - lineno: 41 macro: NOFILE 256
+DW_MACRO_GNU_define_indirect - lineno: 42 macro: NCARGS 131072
+
+0x00002f2f:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 36 macro: NBBY CHAR_BIT
+DW_MACRO_GNU_define_indirect - lineno: 39 macro: NGROUPS NGROUPS_MAX
+DW_MACRO_GNU_define_indirect - lineno: 45 macro: CANBSIZ MAX_CANON
+DW_MACRO_GNU_define_indirect - lineno: 48 macro: MAXPATHLEN PATH_MAX
+DW_MACRO_GNU_define_indirect - lineno: 72 macro: NODEV ((dev_t) -1)
+DW_MACRO_GNU_define_indirect - lineno: 78 macro: DEV_BSIZE 512
+DW_MACRO_GNU_define_indirect - lineno: 83 macro: setbit(a,i) ((a)[(i)/NBBY] |= 1<<((i)%NBBY))
+DW_MACRO_GNU_define_indirect - lineno: 84 macro: clrbit(a,i) ((a)[(i)/NBBY] &= ~(1<<((i)%NBBY)))
+DW_MACRO_GNU_define_indirect - lineno: 85 macro: isset(a,i) ((a)[(i)/NBBY] & (1<<((i)%NBBY)))
+DW_MACRO_GNU_define_indirect - lineno: 86 macro: isclr(a,i) (((a)[(i)/NBBY] & (1<<((i)%NBBY))) == 0)
+DW_MACRO_GNU_define_indirect - lineno: 90 macro: howmany(x,y) (((x) + ((y) - 1)) / (y))
+DW_MACRO_GNU_define_indirect - lineno: 93 macro: roundup(x,y) (__builtin_constant_p (y) && powerof2 (y) ? (((x) + (y) - 1) & ~((y) - 1)) : ((((x) + ((y) - 1)) / (y)) * (y)))
+DW_MACRO_GNU_define_indirect - lineno: 99 macro: powerof2(x) ((((x) - 1) & (x)) == 0)
+DW_MACRO_GNU_define_indirect - lineno: 102 macro: MIN(a,b) (((a)<(b))?(a):(b))
+DW_MACRO_GNU_define_indirect - lineno: 103 macro: MAX(a,b) (((a)>(b))?(a):(b))
+
+0x00002f8d:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 47 macro: d_fileno d_ino
+DW_MACRO_GNU_undef_indirect - lineno: 49 macro: _DIRENT_HAVE_D_NAMLEN
+DW_MACRO_GNU_define_indirect - lineno: 50 macro: _DIRENT_HAVE_D_RECLEN 
+DW_MACRO_GNU_define_indirect - lineno: 51 macro: _DIRENT_HAVE_D_OFF 
+DW_MACRO_GNU_define_indirect - lineno: 52 macro: _DIRENT_HAVE_D_TYPE 
+DW_MACRO_GNU_define_indirect - lineno: 56 macro: _DIRENT_MATCHES_DIRENT64 1
+
+0x00002fb5:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 85 macro: _D_EXACT_NAMLEN(d) (strlen ((d)->d_name))
+DW_MACRO_GNU_define_indirect - lineno: 87 macro: _D_ALLOC_NAMLEN(d) (((char *) (d) + (d)->d_reclen) - &(d)->d_name[0])
+DW_MACRO_GNU_define_indirect - lineno: 100 macro: DT_UNKNOWN DT_UNKNOWN
+DW_MACRO_GNU_define_indirect - lineno: 102 macro: DT_FIFO DT_FIFO
+DW_MACRO_GNU_define_indirect - lineno: 104 macro: DT_CHR DT_CHR
+DW_MACRO_GNU_define_indirect - lineno: 106 macro: DT_DIR DT_DIR
+DW_MACRO_GNU_define_indirect - lineno: 108 macro: DT_BLK DT_BLK
+DW_MACRO_GNU_define_indirect - lineno: 110 macro: DT_REG DT_REG
+DW_MACRO_GNU_define_indirect - lineno: 112 macro: DT_LNK DT_LNK
+DW_MACRO_GNU_define_indirect - lineno: 114 macro: DT_SOCK DT_SOCK
+DW_MACRO_GNU_define_indirect - lineno: 116 macro: DT_WHT DT_WHT
+DW_MACRO_GNU_define_indirect - lineno: 120 macro: IFTODT(mode) (((mode) & 0170000) >> 12)
+DW_MACRO_GNU_define_indirect - lineno: 121 macro: DTTOIF(dirtype) ((dirtype) << 12)
+DW_MACRO_GNU_define_indirect - lineno: 237 macro: MAXNAMLEN NAME_MAX
+DW_MACRO_GNU_define_indirect - lineno: 244 macro: __need_size_t 
+
+0x00003015:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 32 macro: USB_CLASS_PER_INTERFACE 0
+DW_MACRO_GNU_define_indirect - lineno: 33 macro: USB_CLASS_AUDIO 1
+DW_MACRO_GNU_define_indirect - lineno: 34 macro: USB_CLASS_COMM 2
+DW_MACRO_GNU_define_indirect - lineno: 35 macro: USB_CLASS_HID 3
+DW_MACRO_GNU_define_indirect - lineno: 36 macro: USB_CLASS_PRINTER 7
+DW_MACRO_GNU_define_indirect - lineno: 37 macro: USB_CLASS_PTP 6
+DW_MACRO_GNU_define_indirect - lineno: 38 macro: USB_CLASS_MASS_STORAGE 8
+DW_MACRO_GNU_define_indirect - lineno: 39 macro: USB_CLASS_HUB 9
+DW_MACRO_GNU_define_indirect - lineno: 40 macro: USB_CLASS_DATA 10
+DW_MACRO_GNU_define_indirect - lineno: 41 macro: USB_CLASS_VENDOR_SPEC 0xff
+DW_MACRO_GNU_define_indirect - lineno: 46 macro: USB_DT_DEVICE 0x01
+DW_MACRO_GNU_define_indirect - lineno: 47 macro: USB_DT_CONFIG 0x02
+DW_MACRO_GNU_define_indirect - lineno: 48 macro: USB_DT_STRING 0x03
+DW_MACRO_GNU_define_indirect - lineno: 49 macro: USB_DT_INTERFACE 0x04
+DW_MACRO_GNU_define_indirect - lineno: 50 macro: USB_DT_ENDPOINT 0x05
+DW_MACRO_GNU_define_indirect - lineno: 52 macro: USB_DT_HID 0x21
+DW_MACRO_GNU_define_indirect - lineno: 53 macro: USB_DT_REPORT 0x22
+DW_MACRO_GNU_define_indirect - lineno: 54 macro: USB_DT_PHYSICAL 0x23
+DW_MACRO_GNU_define_indirect - lineno: 55 macro: USB_DT_HUB 0x29
+DW_MACRO_GNU_define_indirect - lineno: 60 macro: USB_DT_DEVICE_SIZE 18
+DW_MACRO_GNU_define_indirect - lineno: 61 macro: USB_DT_CONFIG_SIZE 9
+DW_MACRO_GNU_define_indirect - lineno: 62 macro: USB_DT_INTERFACE_SIZE 9
+DW_MACRO_GNU_define_indirect - lineno: 63 macro: USB_DT_ENDPOINT_SIZE 7
+DW_MACRO_GNU_define_indirect - lineno: 64 macro: USB_DT_ENDPOINT_AUDIO_SIZE 9
+DW_MACRO_GNU_define_indirect - lineno: 65 macro: USB_DT_HUB_NONVAR_SIZE 7
+DW_MACRO_GNU_define_indirect - lineno: 93 macro: USB_MAXENDPOINTS 32
+DW_MACRO_GNU_define_indirect - lineno: 108 macro: USB_ENDPOINT_ADDRESS_MASK 0x0f
+DW_MACRO_GNU_define_indirect - lineno: 109 macro: USB_ENDPOINT_DIR_MASK 0x80
+DW_MACRO_GNU_define_indirect - lineno: 111 macro: USB_ENDPOINT_TYPE_MASK 0x03
+DW_MACRO_GNU_define_indirect - lineno: 112 macro: USB_ENDPOINT_TYPE_CONTROL 0
+DW_MACRO_GNU_define_indirect - lineno: 113 macro: USB_ENDPOINT_TYPE_ISOCHRONOUS 1
+DW_MACRO_GNU_define_indirect - lineno: 114 macro: USB_ENDPOINT_TYPE_BULK 2
+DW_MACRO_GNU_define_indirect - lineno: 115 macro: USB_ENDPOINT_TYPE_INTERRUPT 3
+DW_MACRO_GNU_define_indirect - lineno: 118 macro: USB_MAXINTERFACES 32
+DW_MACRO_GNU_define_indirect - lineno: 136 macro: USB_MAXALTSETTING 128
+DW_MACRO_GNU_define_indirect - lineno: 144 macro: USB_MAXCONFIG 8
+DW_MACRO_GNU_define_indirect - lineno: 190 macro: USB_REQ_GET_STATUS 0x00
+DW_MACRO_GNU_define_indirect - lineno: 191 macro: USB_REQ_CLEAR_FEATURE 0x01
+DW_MACRO_GNU_define_indirect - lineno: 193 macro: USB_REQ_SET_FEATURE 0x03
+DW_MACRO_GNU_define_indirect - lineno: 195 macro: USB_REQ_SET_ADDRESS 0x05
+DW_MACRO_GNU_define_indirect - lineno: 196 macro: USB_REQ_GET_DESCRIPTOR 0x06
+DW_MACRO_GNU_define_indirect - lineno: 197 macro: USB_REQ_SET_DESCRIPTOR 0x07
+DW_MACRO_GNU_define_indirect - lineno: 198 macro: USB_REQ_GET_CONFIGURATION 0x08
+DW_MACRO_GNU_define_indirect - lineno: 199 macro: USB_REQ_SET_CONFIGURATION 0x09
+DW_MACRO_GNU_define_indirect - lineno: 200 macro: USB_REQ_GET_INTERFACE 0x0A
+DW_MACRO_GNU_define_indirect - lineno: 201 macro: USB_REQ_SET_INTERFACE 0x0B
+DW_MACRO_GNU_define_indirect - lineno: 202 macro: USB_REQ_SYNCH_FRAME 0x0C
+DW_MACRO_GNU_define_indirect - lineno: 204 macro: USB_TYPE_STANDARD (0x00 << 5)
+DW_MACRO_GNU_define_indirect - lineno: 205 macro: USB_TYPE_CLASS (0x01 << 5)
+DW_MACRO_GNU_define_indirect - lineno: 206 macro: USB_TYPE_VENDOR (0x02 << 5)
+DW_MACRO_GNU_define_indirect - lineno: 207 macro: USB_TYPE_RESERVED (0x03 << 5)
+DW_MACRO_GNU_define_indirect - lineno: 209 macro: USB_RECIP_DEVICE 0x00
+DW_MACRO_GNU_define_indirect - lineno: 210 macro: USB_RECIP_INTERFACE 0x01
+DW_MACRO_GNU_define_indirect - lineno: 211 macro: USB_RECIP_ENDPOINT 0x02
+DW_MACRO_GNU_define_indirect - lineno: 212 macro: USB_RECIP_OTHER 0x03
+DW_MACRO_GNU_define_indirect - lineno: 218 macro: USB_ENDPOINT_IN 0x80
+DW_MACRO_GNU_define_indirect - lineno: 219 macro: USB_ENDPOINT_OUT 0x00
+DW_MACRO_GNU_define_indirect - lineno: 222 macro: USB_ERROR_BEGIN 500000
+DW_MACRO_GNU_define_indirect - lineno: 231 macro: USB_LE16_TO_CPU(x) 
+DW_MACRO_GNU_define_indirect - lineno: 244 macro: LIBUSB_PATH_MAX PATH_MAX
+DW_MACRO_GNU_define_indirect - lineno: 323 macro: LIBUSB_HAS_GET_DRIVER_NP 1
+DW_MACRO_GNU_define_indirect - lineno: 326 macro: LIBUSB_HAS_DETACH_KERNEL_DRIVER_NP 1
+
+0x000031a9:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 24 macro: _STDIO_H 1
+DW_MACRO_GNU_define_indirect - lineno: 26 macro: __GLIBC_INTERNAL_STARTING_HEADER_IMPLEMENTATION 
+
+0x000031b9:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 31 macro: __need_size_t 
+DW_MACRO_GNU_define_indirect - lineno: 32 macro: __need_NULL 
+
+0x000031c9:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_undef_indirect - lineno: 238 macro: __need_size_t
+DW_MACRO_GNU_undef_indirect - lineno: 401 macro: NULL
+DW_MACRO_GNU_define_indirect - lineno: 406 macro: NULL ((void *)0)
+DW_MACRO_GNU_undef_indirect - lineno: 412 macro: __need_NULL
+
+0x000031e9:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 5 macro: _BITS_G_CONFIG_H 1
+DW_MACRO_GNU_define_indirect - lineno: 14 macro: __need_size_t 
+DW_MACRO_GNU_define_indirect - lineno: 18 macro: __need_NULL 
+
+0x000031ff:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 51 macro: _G_va_list __gnuc_va_list
+DW_MACRO_GNU_define_indirect - lineno: 53 macro: _G_HAVE_MMAP 1
+DW_MACRO_GNU_define_indirect - lineno: 54 macro: _G_HAVE_MREMAP 1
+DW_MACRO_GNU_define_indirect - lineno: 56 macro: _G_IO_IO_FILE_VERSION 0x20001
+DW_MACRO_GNU_define_indirect - lineno: 59 macro: _G_HAVE_ST_BLKSIZE defined (_STATBUF_ST_BLKSIZE)
+DW_MACRO_GNU_define_indirect - lineno: 61 macro: _G_BUFSIZ 8192
+
+0x00003227:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 37 macro: _IO_fpos_t _G_fpos_t
+DW_MACRO_GNU_define_indirect - lineno: 38 macro: _IO_fpos64_t _G_fpos64_t
+DW_MACRO_GNU_define_indirect - lineno: 39 macro: _IO_size_t size_t
+DW_MACRO_GNU_define_indirect - lineno: 40 macro: _IO_ssize_t __ssize_t
+DW_MACRO_GNU_define_indirect - lineno: 41 macro: _IO_off_t __off_t
+DW_MACRO_GNU_define_indirect - lineno: 42 macro: _IO_off64_t __off64_t
+DW_MACRO_GNU_define_indirect - lineno: 43 macro: _IO_pid_t __pid_t
+DW_MACRO_GNU_define_indirect - lineno: 44 macro: _IO_uid_t __uid_t
+DW_MACRO_GNU_define_indirect - lineno: 45 macro: _IO_iconv_t _G_iconv_t
+DW_MACRO_GNU_define_indirect - lineno: 46 macro: _IO_HAVE_ST_BLKSIZE _G_HAVE_ST_BLKSIZE
+DW_MACRO_GNU_define_indirect - lineno: 47 macro: _IO_BUFSIZ _G_BUFSIZ
+DW_MACRO_GNU_define_indirect - lineno: 48 macro: _IO_va_list _G_va_list
+DW_MACRO_GNU_define_indirect - lineno: 49 macro: _IO_wint_t wint_t
+DW_MACRO_GNU_define_indirect - lineno: 52 macro: __need___va_list 
+
+0x0000327f:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_undef_indirect - lineno: 34 macro: __need___va_list
+DW_MACRO_GNU_define_indirect - lineno: 39 macro: __GNUC_VA_LIST 
+
+0x0000328f:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_undef_indirect - lineno: 55 macro: _IO_va_list
+DW_MACRO_GNU_define_indirect - lineno: 56 macro: _IO_va_list __gnuc_va_list
+DW_MACRO_GNU_define_indirect - lineno: 63 macro: _IO_UNIFIED_JUMPTABLES 1
+DW_MACRO_GNU_define_indirect - lineno: 66 macro: EOF (-1)
+DW_MACRO_GNU_define_indirect - lineno: 81 macro: _IOS_INPUT 1
+DW_MACRO_GNU_define_indirect - lineno: 82 macro: _IOS_OUTPUT 2
+DW_MACRO_GNU_define_indirect - lineno: 83 macro: _IOS_ATEND 4
+DW_MACRO_GNU_define_indirect - lineno: 84 macro: _IOS_APPEND 8
+DW_MACRO_GNU_define_indirect - lineno: 85 macro: _IOS_TRUNC 16
+DW_MACRO_GNU_define_indirect - lineno: 86 macro: _IOS_NOCREATE 32
+DW_MACRO_GNU_define_indirect - lineno: 87 macro: _IOS_NOREPLACE 64
+DW_MACRO_GNU_define_indirect - lineno: 88 macro: _IOS_BIN 128
+DW_MACRO_GNU_define_indirect - lineno: 96 macro: _IO_MAGIC 0xFBAD0000
+DW_MACRO_GNU_define_indirect - lineno: 97 macro: _OLD_STDIO_MAGIC 0xFABC0000
+DW_MACRO_GNU_define_indirect - lineno: 98 macro: _IO_MAGIC_MASK 0xFFFF0000
+DW_MACRO_GNU_define_indirect - lineno: 99 macro: _IO_USER_BUF 1
+DW_MACRO_GNU_define_indirect - lineno: 100 macro: _IO_UNBUFFERED 2
+DW_MACRO_GNU_define_indirect - lineno: 101 macro: _IO_NO_READS 4
+DW_MACRO_GNU_define_indirect - lineno: 102 macro: _IO_NO_WRITES 8
+DW_MACRO_GNU_define_indirect - lineno: 103 macro: _IO_EOF_SEEN 0x10
+DW_MACRO_GNU_define_indirect - lineno: 104 macro: _IO_ERR_SEEN 0x20
+DW_MACRO_GNU_define_indirect - lineno: 105 macro: _IO_DELETE_DONT_CLOSE 0x40
+DW_MACRO_GNU_define_indirect - lineno: 106 macro: _IO_LINKED 0x80
+DW_MACRO_GNU_define_indirect - lineno: 107 macro: _IO_IN_BACKUP 0x100
+DW_MACRO_GNU_define_indirect - lineno: 108 macro: _IO_LINE_BUF 0x200
+DW_MACRO_GNU_define_indirect - lineno: 109 macro: _IO_TIED_PUT_GET 0x400
+DW_MACRO_GNU_define_indirect - lineno: 110 macro: _IO_CURRENTLY_PUTTING 0x800
+DW_MACRO_GNU_define_indirect - lineno: 111 macro: _IO_IS_APPENDING 0x1000
+DW_MACRO_GNU_define_indirect - lineno: 112 macro: _IO_IS_FILEBUF 0x2000
+DW_MACRO_GNU_define_indirect - lineno: 113 macro: _IO_BAD_SEEN 0x4000
+DW_MACRO_GNU_define_indirect - lineno: 114 macro: _IO_USER_LOCK 0x8000
+DW_MACRO_GNU_define_indirect - lineno: 116 macro: _IO_FLAGS2_MMAP 1
+DW_MACRO_GNU_define_indirect - lineno: 117 macro: _IO_FLAGS2_NOTCANCEL 2
+DW_MACRO_GNU_define_indirect - lineno: 121 macro: _IO_FLAGS2_USER_WBUF 8
+DW_MACRO_GNU_define_indirect - lineno: 130 macro: _IO_SKIPWS 01
+DW_MACRO_GNU_define_indirect - lineno: 131 macro: _IO_LEFT 02
+DW_MACRO_GNU_define_indirect - lineno: 132 macro: _IO_RIGHT 04
+DW_MACRO_GNU_define_indirect - lineno: 133 macro: _IO_INTERNAL 010
+DW_MACRO_GNU_define_indirect - lineno: 134 macro: _IO_DEC 020
+DW_MACRO_GNU_define_indirect - lineno: 135 macro: _IO_OCT 040
+DW_MACRO_GNU_define_indirect - lineno: 136 macro: _IO_HEX 0100
+DW_MACRO_GNU_define_indirect - lineno: 137 macro: _IO_SHOWBASE 0200
+DW_MACRO_GNU_define_indirect - lineno: 138 macro: _IO_SHOWPOINT 0400
+DW_MACRO_GNU_define_indirect - lineno: 139 macro: _IO_UPPERCASE 01000
+DW_MACRO_GNU_define_indirect - lineno: 140 macro: _IO_SHOWPOS 02000
+DW_MACRO_GNU_define_indirect - lineno: 141 macro: _IO_SCIENTIFIC 04000
+DW_MACRO_GNU_define_indirect - lineno: 142 macro: _IO_FIXED 010000
+DW_MACRO_GNU_define_indirect - lineno: 143 macro: _IO_UNITBUF 020000
+DW_MACRO_GNU_define_indirect - lineno: 144 macro: _IO_STDIO 040000
+DW_MACRO_GNU_define_indirect - lineno: 145 macro: _IO_DONT_CLOSE 0100000
+DW_MACRO_GNU_define_indirect - lineno: 146 macro: _IO_BOOLALPHA 0200000
+DW_MACRO_GNU_define_indirect - lineno: 247 macro: _IO_file_flags _flags
+DW_MACRO_GNU_define_indirect - lineno: 276 macro: __HAVE_COLUMN 
+DW_MACRO_GNU_define_indirect - lineno: 323 macro: _IO_stdin ((_IO_FILE*)(&_IO_2_1_stdin_))
+DW_MACRO_GNU_define_indirect - lineno: 324 macro: _IO_stdout ((_IO_FILE*)(&_IO_2_1_stdout_))
+DW_MACRO_GNU_define_indirect - lineno: 325 macro: _IO_stderr ((_IO_FILE*)(&_IO_2_1_stderr_))
+DW_MACRO_GNU_define_indirect - lineno: 399 macro: _IO_BE(expr,res) __builtin_expect ((expr), res)
+DW_MACRO_GNU_define_indirect - lineno: 404 macro: _IO_getc_unlocked(_fp) (_IO_BE ((_fp)->_IO_read_ptr >= (_fp)->_IO_read_end, 0) ? __uflow (_fp) : *(unsigned char *) (_fp)->_IO_read_ptr++)
+DW_MACRO_GNU_define_indirect - lineno: 407 macro: _IO_peekc_unlocked(_fp) (_IO_BE ((_fp)->_IO_read_ptr >= (_fp)->_IO_read_end, 0) && __underflow (_fp) == EOF ? EOF : *(unsigned char *) (_fp)->_IO_read_ptr)
+DW_MACRO_GNU_define_indirect - lineno: 411 macro: _IO_putc_unlocked(_ch,_fp) (_IO_BE ((_fp)->_IO_write_ptr >= (_fp)->_IO_write_end, 0) ? __overflow (_fp, (unsigned char) (_ch)) : (unsigned char) (*(_fp)->_IO_write_ptr++ = (_ch)))
+DW_MACRO_GNU_define_indirect - lineno: 430 macro: _IO_feof_unlocked(__fp) (((__fp)->_flags & _IO_EOF_SEEN) != 0)
+DW_MACRO_GNU_define_indirect - lineno: 431 macro: _IO_ferror_unlocked(__fp) (((__fp)->_flags & _IO_ERR_SEEN) != 0)
+DW_MACRO_GNU_define_indirect - lineno: 441 macro: _IO_PENDING_OUTPUT_COUNT(_fp) ((_fp)->_IO_write_ptr - (_fp)->_IO_write_base)
+DW_MACRO_GNU_define_indirect - lineno: 448 macro: _IO_peekc(_fp) _IO_peekc_unlocked (_fp)
+DW_MACRO_GNU_define_indirect - lineno: 449 macro: _IO_flockfile(_fp) 
+DW_MACRO_GNU_define_indirect - lineno: 450 macro: _IO_funlockfile(_fp) 
+DW_MACRO_GNU_define_indirect - lineno: 451 macro: _IO_ftrylockfile(_fp) 
+DW_MACRO_GNU_define_indirect - lineno: 453 macro: _IO_cleanup_region_start(_fct,_fp) 
+DW_MACRO_GNU_define_indirect - lineno: 456 macro: _IO_cleanup_region_end(_Doit) 
+DW_MACRO_GNU_define_indirect - lineno: 459 macro: _IO_need_lock(_fp) (((_fp)->_flags2 & _IO_FLAGS2_NEED_LOCK) != 0)
+
+0x0000345b:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 47 macro: _VA_LIST_DEFINED 
+DW_MACRO_GNU_define_indirect - lineno: 87 macro: _IOFBF 0
+DW_MACRO_GNU_define_indirect - lineno: 88 macro: _IOLBF 1
+DW_MACRO_GNU_define_indirect - lineno: 89 macro: _IONBF 2
+DW_MACRO_GNU_define_indirect - lineno: 94 macro: BUFSIZ _IO_BUFSIZ
+DW_MACRO_GNU_define_indirect - lineno: 107 macro: SEEK_SET 0
+DW_MACRO_GNU_define_indirect - lineno: 108 macro: SEEK_CUR 1
+DW_MACRO_GNU_define_indirect - lineno: 109 macro: SEEK_END 2
+DW_MACRO_GNU_define_indirect - lineno: 118 macro: P_tmpdir "/tmp"
+
+0x00003495:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 19 macro: _BITS_STDIO_LIM_H 1
+DW_MACRO_GNU_define_indirect - lineno: 25 macro: L_tmpnam 20
+DW_MACRO_GNU_define_indirect - lineno: 26 macro: TMP_MAX 238328
+DW_MACRO_GNU_define_indirect - lineno: 27 macro: FILENAME_MAX 4096
+DW_MACRO_GNU_define_indirect - lineno: 30 macro: L_ctermid 9
+DW_MACRO_GNU_undef_indirect - lineno: 36 macro: FOPEN_MAX
+DW_MACRO_GNU_define_indirect - lineno: 37 macro: FOPEN_MAX 16
+
+0x000034c3:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 139 macro: stdin stdin
+DW_MACRO_GNU_define_indirect - lineno: 140 macro: stdout stdout
+DW_MACRO_GNU_define_indirect - lineno: 141 macro: stderr stderr
+DW_MACRO_GNU_define_indirect - lineno: 488 macro: getc(_fp) _IO_getc (_fp)
+DW_MACRO_GNU_define_indirect - lineno: 528 macro: putc(_ch,_fp) _IO_putc (_ch, _fp)
+
+0x000034ea:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 23 macro: _STRING_H 1
+DW_MACRO_GNU_define_indirect - lineno: 25 macro: __GLIBC_INTERNAL_STARTING_HEADER_IMPLEMENTATION 
+
+0x000034fa:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 31 macro: __need_size_t 
+DW_MACRO_GNU_define_indirect - lineno: 32 macro: __need_NULL 
+
+0x0000350a:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 19 macro: _STRINGS_H 1
+DW_MACRO_GNU_define_indirect - lineno: 22 macro: __need_size_t 
+
+0x0000351a:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 22 macro: _GETOPT_H 1
+DW_MACRO_GNU_define_indirect - lineno: 32 macro: __getopt_argv_const const
+
+0x0000352a:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 21 macro: _GETOPT_EXT_H 1
+DW_MACRO_GNU_define_indirect - lineno: 62 macro: no_argument 0
+DW_MACRO_GNU_define_indirect - lineno: 63 macro: required_argument 1
+DW_MACRO_GNU_define_indirect - lineno: 64 macro: optional_argument 2
+
+0x00003546:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 24 macro: _MATH_H 1
+DW_MACRO_GNU_define_indirect - lineno: 26 macro: __GLIBC_INTERNAL_STARTING_HEADER_IMPLEMENTATION 
+
+0x00003556:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 34 macro: _BITS_LIBM_SIMD_DECL_STUBS_H 1
+DW_MACRO_GNU_define_indirect - lineno: 36 macro: __DECL_SIMD_cos 
+DW_MACRO_GNU_define_indirect - lineno: 37 macro: __DECL_SIMD_cosf 
+DW_MACRO_GNU_define_indirect - lineno: 38 macro: __DECL_SIMD_cosl 
+DW_MACRO_GNU_define_indirect - lineno: 39 macro: __DECL_SIMD_cosf16 
+DW_MACRO_GNU_define_indirect - lineno: 40 macro: __DECL_SIMD_cosf32 
+DW_MACRO_GNU_define_indirect - lineno: 41 macro: __DECL_SIMD_cosf64 
+DW_MACRO_GNU_define_indirect - lineno: 42 macro: __DECL_SIMD_cosf128 
+DW_MACRO_GNU_define_indirect - lineno: 43 macro: __DECL_SIMD_cosf32x 
+DW_MACRO_GNU_define_indirect - lineno: 44 macro: __DECL_SIMD_cosf64x 
+DW_MACRO_GNU_define_indirect - lineno: 45 macro: __DECL_SIMD_cosf128x 
+DW_MACRO_GNU_define_indirect - lineno: 47 macro: __DECL_SIMD_sin 
+DW_MACRO_GNU_define_indirect - lineno: 48 macro: __DECL_SIMD_sinf 
+DW_MACRO_GNU_define_indirect - lineno: 49 macro: __DECL_SIMD_sinl 
+DW_MACRO_GNU_define_indirect - lineno: 50 macro: __DECL_SIMD_sinf16 
+DW_MACRO_GNU_define_indirect - lineno: 51 macro: __DECL_SIMD_sinf32 
+DW_MACRO_GNU_define_indirect - lineno: 52 macro: __DECL_SIMD_sinf64 
+DW_MACRO_GNU_define_indirect - lineno: 53 macro: __DECL_SIMD_sinf128 
+DW_MACRO_GNU_define_indirect - lineno: 54 macro: __DECL_SIMD_sinf32x 
+DW_MACRO_GNU_define_indirect - lineno: 55 macro: __DECL_SIMD_sinf64x 
+DW_MACRO_GNU_define_indirect - lineno: 56 macro: __DECL_SIMD_sinf128x 
+DW_MACRO_GNU_define_indirect - lineno: 58 macro: __DECL_SIMD_sincos 
+DW_MACRO_GNU_define_indirect - lineno: 59 macro: __DECL_SIMD_sincosf 
+DW_MACRO_GNU_define_indirect - lineno: 60 macro: __DECL_SIMD_sincosl 
+DW_MACRO_GNU_define_indirect - lineno: 61 macro: __DECL_SIMD_sincosf16 
+DW_MACRO_GNU_define_indirect - lineno: 62 macro: __DECL_SIMD_sincosf32 
+DW_MACRO_GNU_define_indirect - lineno: 63 macro: __DECL_SIMD_sincosf64 
+DW_MACRO_GNU_define_indirect - lineno: 64 macro: __DECL_SIMD_sincosf128 
+DW_MACRO_GNU_define_indirect - lineno: 65 macro: __DECL_SIMD_sincosf32x 
+DW_MACRO_GNU_define_indirect - lineno: 66 macro: __DECL_SIMD_sincosf64x 
+DW_MACRO_GNU_define_indirect - lineno: 67 macro: __DECL_SIMD_sincosf128x 
+DW_MACRO_GNU_define_indirect - lineno: 69 macro: __DECL_SIMD_log 
+DW_MACRO_GNU_define_indirect - lineno: 70 macro: __DECL_SIMD_logf 
+DW_MACRO_GNU_define_indirect - lineno: 71 macro: __DECL_SIMD_logl 
+DW_MACRO_GNU_define_indirect - lineno: 72 macro: __DECL_SIMD_logf16 
+DW_MACRO_GNU_define_indirect - lineno: 73 macro: __DECL_SIMD_logf32 
+DW_MACRO_GNU_define_indirect - lineno: 74 macro: __DECL_SIMD_logf64 
+DW_MACRO_GNU_define_indirect - lineno: 75 macro: __DECL_SIMD_logf128 
+DW_MACRO_GNU_define_indirect - lineno: 76 macro: __DECL_SIMD_logf32x 
+DW_MACRO_GNU_define_indirect - lineno: 77 macro: __DECL_SIMD_logf64x 
+DW_MACRO_GNU_define_indirect - lineno: 78 macro: __DECL_SIMD_logf128x 
+DW_MACRO_GNU_define_indirect - lineno: 80 macro: __DECL_SIMD_exp 
+DW_MACRO_GNU_define_indirect - lineno: 81 macro: __DECL_SIMD_expf 
+DW_MACRO_GNU_define_indirect - lineno: 82 macro: __DECL_SIMD_expl 
+DW_MACRO_GNU_define_indirect - lineno: 83 macro: __DECL_SIMD_expf16 
+DW_MACRO_GNU_define_indirect - lineno: 84 macro: __DECL_SIMD_expf32 
+DW_MACRO_GNU_define_indirect - lineno: 85 macro: __DECL_SIMD_expf64 
+DW_MACRO_GNU_define_indirect - lineno: 86 macro: __DECL_SIMD_expf128 
+DW_MACRO_GNU_define_indirect - lineno: 87 macro: __DECL_SIMD_expf32x 
+DW_MACRO_GNU_define_indirect - lineno: 88 macro: __DECL_SIMD_expf64x 
+DW_MACRO_GNU_define_indirect - lineno: 89 macro: __DECL_SIMD_expf128x 
+DW_MACRO_GNU_define_indirect - lineno: 91 macro: __DECL_SIMD_pow 
+DW_MACRO_GNU_define_indirect - lineno: 92 macro: __DECL_SIMD_powf 
+DW_MACRO_GNU_define_indirect - lineno: 93 macro: __DECL_SIMD_powl 
+DW_MACRO_GNU_define_indirect - lineno: 94 macro: __DECL_SIMD_powf16 
+DW_MACRO_GNU_define_indirect - lineno: 95 macro: __DECL_SIMD_powf32 
+DW_MACRO_GNU_define_indirect - lineno: 96 macro: __DECL_SIMD_powf64 
+DW_MACRO_GNU_define_indirect - lineno: 97 macro: __DECL_SIMD_powf128 
+DW_MACRO_GNU_define_indirect - lineno: 98 macro: __DECL_SIMD_powf32x 
+DW_MACRO_GNU_define_indirect - lineno: 99 macro: __DECL_SIMD_powf64x 
+DW_MACRO_GNU_define_indirect - lineno: 100 macro: __DECL_SIMD_powf128x 
+
+0x000036c8:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 48 macro: HUGE_VAL (__builtin_huge_val ())
+DW_MACRO_GNU_define_indirect - lineno: 59 macro: HUGE_VALF (__builtin_huge_valf ())
+DW_MACRO_GNU_define_indirect - lineno: 60 macro: HUGE_VALL (__builtin_huge_vall ())
+DW_MACRO_GNU_define_indirect - lineno: 91 macro: INFINITY (__builtin_inff ())
+DW_MACRO_GNU_define_indirect - lineno: 98 macro: NAN (__builtin_nanf (""))
+
+0x000036ea:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 23 macro: __FP_LOGB0_IS_MIN 1
+DW_MACRO_GNU_define_indirect - lineno: 24 macro: __FP_LOGBNAN_IS_MIN 1
+
+0x000036fa:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 193 macro: FP_ILOGB0 (-2147483647 - 1)
+DW_MACRO_GNU_define_indirect - lineno: 198 macro: FP_ILOGBNAN (-2147483647 - 1)
+
+0x0000370c:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 262 macro: __SIMD_DECL(function) __CONCAT (__DECL_SIMD_, function)
+DW_MACRO_GNU_define_indirect - lineno: 264 macro: __MATHCALL_VEC(function,suffix,args) __SIMD_DECL (__MATH_PRECNAME (function, suffix)) __MATHCALL (function, suffix, args)
+DW_MACRO_GNU_define_indirect - lineno: 268 macro: __MATHDECL_VEC(type,function,suffix,args) __SIMD_DECL (__MATH_PRECNAME (function, suffix)) __MATHDECL(type, function,suffix, args)
+DW_MACRO_GNU_define_indirect - lineno: 272 macro: __MATHCALL(function,suffix,args) __MATHDECL (_Mdouble_,function,suffix, args)
+DW_MACRO_GNU_define_indirect - lineno: 274 macro: __MATHDECL(type,function,suffix,args) __MATHDECL_1(type, function,suffix, args); __MATHDECL_1(type, __CONCAT(__,function),suffix, args)
+DW_MACRO_GNU_define_indirect - lineno: 277 macro: __MATHCALLX(function,suffix,args,attrib) __MATHDECLX (_Mdouble_,function,suffix, args, attrib)
+DW_MACRO_GNU_define_indirect - lineno: 279 macro: __MATHDECLX(type,function,suffix,args,attrib) __MATHDECL_1(type, function,suffix, args) __attribute__ (attrib); __MATHDECL_1(type, __CONCAT(__,function),suffix, args) __attribute__ (attrib)
+DW_MACRO_GNU_define_indirect - lineno: 282 macro: __MATHDECL_1(type,function,suffix,args) extern type __MATH_PRECNAME(function,suffix) args __THROW
+DW_MACRO_GNU_define_indirect - lineno: 285 macro: _Mdouble_ double
+DW_MACRO_GNU_define_indirect - lineno: 286 macro: __MATH_PRECNAME(name,r) __CONCAT(name,r)
+DW_MACRO_GNU_define_indirect - lineno: 287 macro: __MATH_DECLARING_DOUBLE 1
+DW_MACRO_GNU_define_indirect - lineno: 288 macro: __MATH_DECLARING_FLOATN 0
+
+0x00003764:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_undef_indirect - lineno: 291 macro: _Mdouble_
+DW_MACRO_GNU_undef_indirect - lineno: 292 macro: __MATH_PRECNAME
+DW_MACRO_GNU_undef_indirect - lineno: 293 macro: __MATH_DECLARING_DOUBLE
+DW_MACRO_GNU_undef_indirect - lineno: 294 macro: __MATH_DECLARING_FLOATN
+DW_MACRO_GNU_define_indirect - lineno: 302 macro: _Mdouble_ float
+DW_MACRO_GNU_define_indirect - lineno: 303 macro: __MATH_PRECNAME(name,r) name ##f ##r
+DW_MACRO_GNU_define_indirect - lineno: 304 macro: __MATH_DECLARING_DOUBLE 0
+DW_MACRO_GNU_define_indirect - lineno: 305 macro: __MATH_DECLARING_FLOATN 0
+
+0x000037a0:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_undef_indirect - lineno: 308 macro: _Mdouble_
+DW_MACRO_GNU_undef_indirect - lineno: 309 macro: __MATH_PRECNAME
+DW_MACRO_GNU_undef_indirect - lineno: 310 macro: __MATH_DECLARING_DOUBLE
+DW_MACRO_GNU_undef_indirect - lineno: 311 macro: __MATH_DECLARING_FLOATN
+DW_MACRO_GNU_define_indirect - lineno: 344 macro: _Mdouble_ long double
+DW_MACRO_GNU_define_indirect - lineno: 345 macro: __MATH_PRECNAME(name,r) name ##l ##r
+DW_MACRO_GNU_define_indirect - lineno: 346 macro: __MATH_DECLARING_DOUBLE 0
+DW_MACRO_GNU_define_indirect - lineno: 347 macro: __MATH_DECLARING_FLOATN 0
+DW_MACRO_GNU_define_indirect - lineno: 348 macro: __MATH_DECLARE_LDOUBLE 1
+
+0x000037e3:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_undef_indirect - lineno: 351 macro: _Mdouble_
+DW_MACRO_GNU_undef_indirect - lineno: 352 macro: __MATH_PRECNAME
+DW_MACRO_GNU_undef_indirect - lineno: 353 macro: __MATH_DECLARING_DOUBLE
+DW_MACRO_GNU_undef_indirect - lineno: 354 macro: __MATH_DECLARING_FLOATN
+DW_MACRO_GNU_define_indirect - lineno: 381 macro: _Mdouble_ _Float32
+DW_MACRO_GNU_define_indirect - lineno: 382 macro: __MATH_PRECNAME(name,r) name ##f32 ##r
+DW_MACRO_GNU_define_indirect - lineno: 383 macro: __MATH_DECLARING_DOUBLE 0
+DW_MACRO_GNU_define_indirect - lineno: 384 macro: __MATH_DECLARING_FLOATN 1
+DW_MACRO_GNU_undef_indirect - lineno: 391 macro: _Mdouble_
+DW_MACRO_GNU_undef_indirect - lineno: 392 macro: __MATH_PRECNAME
+DW_MACRO_GNU_undef_indirect - lineno: 393 macro: __MATH_DECLARING_DOUBLE
+DW_MACRO_GNU_undef_indirect - lineno: 394 macro: __MATH_DECLARING_FLOATN
+DW_MACRO_GNU_define_indirect - lineno: 398 macro: _Mdouble_ _Float64
+DW_MACRO_GNU_define_indirect - lineno: 399 macro: __MATH_PRECNAME(name,r) name ##f64 ##r
+DW_MACRO_GNU_define_indirect - lineno: 400 macro: __MATH_DECLARING_DOUBLE 0
+DW_MACRO_GNU_define_indirect - lineno: 401 macro: __MATH_DECLARING_FLOATN 1
+DW_MACRO_GNU_undef_indirect - lineno: 408 macro: _Mdouble_
+DW_MACRO_GNU_undef_indirect - lineno: 409 macro: __MATH_PRECNAME
+DW_MACRO_GNU_undef_indirect - lineno: 410 macro: __MATH_DECLARING_DOUBLE
+DW_MACRO_GNU_undef_indirect - lineno: 411 macro: __MATH_DECLARING_FLOATN
+DW_MACRO_GNU_define_indirect - lineno: 415 macro: _Mdouble_ _Float128
+DW_MACRO_GNU_define_indirect - lineno: 416 macro: __MATH_PRECNAME(name,r) name ##f128 ##r
+DW_MACRO_GNU_define_indirect - lineno: 417 macro: __MATH_DECLARING_DOUBLE 0
+DW_MACRO_GNU_define_indirect - lineno: 418 macro: __MATH_DECLARING_FLOATN 1
+
+0x0000388f:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_undef_indirect - lineno: 425 macro: _Mdouble_
+DW_MACRO_GNU_undef_indirect - lineno: 426 macro: __MATH_PRECNAME
+DW_MACRO_GNU_undef_indirect - lineno: 427 macro: __MATH_DECLARING_DOUBLE
+DW_MACRO_GNU_undef_indirect - lineno: 428 macro: __MATH_DECLARING_FLOATN
+DW_MACRO_GNU_define_indirect - lineno: 432 macro: _Mdouble_ _Float32x
+DW_MACRO_GNU_define_indirect - lineno: 433 macro: __MATH_PRECNAME(name,r) name ##f32x ##r
+DW_MACRO_GNU_define_indirect - lineno: 434 macro: __MATH_DECLARING_DOUBLE 0
+DW_MACRO_GNU_define_indirect - lineno: 435 macro: __MATH_DECLARING_FLOATN 1
+DW_MACRO_GNU_undef_indirect - lineno: 442 macro: _Mdouble_
+DW_MACRO_GNU_undef_indirect - lineno: 443 macro: __MATH_PRECNAME
+DW_MACRO_GNU_undef_indirect - lineno: 444 macro: __MATH_DECLARING_DOUBLE
+DW_MACRO_GNU_undef_indirect - lineno: 445 macro: __MATH_DECLARING_FLOATN
+DW_MACRO_GNU_define_indirect - lineno: 449 macro: _Mdouble_ _Float64x
+DW_MACRO_GNU_define_indirect - lineno: 450 macro: __MATH_PRECNAME(name,r) name ##f64x ##r
+DW_MACRO_GNU_define_indirect - lineno: 451 macro: __MATH_DECLARING_DOUBLE 0
+DW_MACRO_GNU_define_indirect - lineno: 452 macro: __MATH_DECLARING_FLOATN 1
+DW_MACRO_GNU_undef_indirect - lineno: 459 macro: _Mdouble_
+DW_MACRO_GNU_undef_indirect - lineno: 460 macro: __MATH_PRECNAME
+DW_MACRO_GNU_undef_indirect - lineno: 461 macro: __MATH_DECLARING_DOUBLE
+DW_MACRO_GNU_undef_indirect - lineno: 462 macro: __MATH_DECLARING_FLOATN
+DW_MACRO_GNU_undef_indirect - lineno: 482 macro: __MATHDECL_1
+DW_MACRO_GNU_undef_indirect - lineno: 483 macro: __MATHDECL
+DW_MACRO_GNU_undef_indirect - lineno: 484 macro: __MATHCALL
+DW_MACRO_GNU_define_indirect - lineno: 519 macro: __MATH_TG_F32(FUNC,ARGS) _Float32: FUNC ## f ARGS,
+DW_MACRO_GNU_define_indirect - lineno: 525 macro: __MATH_TG_F64X(FUNC,ARGS) _Float64x: FUNC ## l ARGS,
+DW_MACRO_GNU_define_indirect - lineno: 532 macro: __MATH_TG(TG_ARG,FUNC,ARGS) _Generic ((TG_ARG), float: FUNC ## f ARGS, __MATH_TG_F32 (FUNC, ARGS) default: FUNC ARGS, long double: FUNC ## l ARGS, __MATH_TG_F64X (FUNC, ARGS) _Float128: FUNC ## f128 ARGS)
+DW_MACRO_GNU_define_indirect - lineno: 572 macro: FP_NAN 0
+DW_MACRO_GNU_define_indirect - lineno: 575 macro: FP_INFINITE 1
+DW_MACRO_GNU_define_indirect - lineno: 578 macro: FP_ZERO 2
+DW_MACRO_GNU_define_indirect - lineno: 581 macro: FP_SUBNORMAL 3
+DW_MACRO_GNU_define_indirect - lineno: 584 macro: FP_NORMAL 4
+DW_MACRO_GNU_define_indirect - lineno: 601 macro: fpclassify(x) __builtin_fpclassify (FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, x)
+DW_MACRO_GNU_define_indirect - lineno: 609 macro: signbit(x) __builtin_signbit (x)
+DW_MACRO_GNU_define_indirect - lineno: 627 macro: isfinite(x) __builtin_isfinite (x)
+DW_MACRO_GNU_define_indirect - lineno: 634 macro: isnormal(x) __builtin_isnormal (x)
+DW_MACRO_GNU_define_indirect - lineno: 642 macro: isnan(x) __builtin_isnan (x)
+DW_MACRO_GNU_define_indirect - lineno: 659 macro: isinf(x) __builtin_isinf_sign (x)
+DW_MACRO_GNU_define_indirect - lineno: 665 macro: MATH_ERRNO 1
+DW_MACRO_GNU_define_indirect - lineno: 666 macro: MATH_ERREXCEPT 2
+DW_MACRO_GNU_define_indirect - lineno: 678 macro: math_errhandling (MATH_ERRNO | MATH_ERREXCEPT)
+DW_MACRO_GNU_define_indirect - lineno: 772 macro: M_E 2.7182818284590452354
+DW_MACRO_GNU_define_indirect - lineno: 773 macro: M_LOG2E 1.4426950408889634074
+DW_MACRO_GNU_define_indirect - lineno: 774 macro: M_LOG10E 0.43429448190325182765
+DW_MACRO_GNU_define_indirect - lineno: 775 macro: M_LN2 0.69314718055994530942
+DW_MACRO_GNU_define_indirect - lineno: 776 macro: M_LN10 2.30258509299404568402
+DW_MACRO_GNU_define_indirect - lineno: 777 macro: M_PI 3.14159265358979323846
+DW_MACRO_GNU_define_indirect - lineno: 778 macro: M_PI_2 1.57079632679489661923
+DW_MACRO_GNU_define_indirect - lineno: 779 macro: M_PI_4 0.78539816339744830962
+DW_MACRO_GNU_define_indirect - lineno: 780 macro: M_1_PI 0.31830988618379067154
+DW_MACRO_GNU_define_indirect - lineno: 781 macro: M_2_PI 0.63661977236758134308
+DW_MACRO_GNU_define_indirect - lineno: 782 macro: M_2_SQRTPI 1.12837916709551257390
+DW_MACRO_GNU_define_indirect - lineno: 783 macro: M_SQRT2 1.41421356237309504880
+DW_MACRO_GNU_define_indirect - lineno: 784 macro: M_SQRT1_2 0.70710678118654752440
+DW_MACRO_GNU_define_indirect - lineno: 921 macro: isgreater(x,y) __builtin_isgreater(x, y)
+DW_MACRO_GNU_define_indirect - lineno: 922 macro: isgreaterequal(x,y) __builtin_isgreaterequal(x, y)
+DW_MACRO_GNU_define_indirect - lineno: 923 macro: isless(x,y) __builtin_isless(x, y)
+DW_MACRO_GNU_define_indirect - lineno: 924 macro: islessequal(x,y) __builtin_islessequal(x, y)
+DW_MACRO_GNU_define_indirect - lineno: 925 macro: islessgreater(x,y) __builtin_islessgreater(x, y)
+DW_MACRO_GNU_define_indirect - lineno: 926 macro: isunordered(x,y) __builtin_isunordered(x, y)
+
+0x00003a30:
+macro header: version = 0x0004, flags = 0x00, format = DWARF32
+DW_MACRO_GNU_define_indirect - lineno: 9 macro: USBREQUESTS_H_ 
+DW_MACRO_GNU_define_indirect - lineno: 11 macro: USB_RESET_WATCHDOG 0
+DW_MACRO_GNU_define_indirect - lineno: 12 macro: USB_READ_FAN_DEFAULT 1
+DW_MACRO_GNU_define_indirect - lineno: 13 macro: USB_WRITE_FAN_DEFAULT 2
+DW_MACRO_GNU_define_indirect - lineno: 14 macro: USB_READ_FAN_RPM 3
+DW_MACRO_GNU_define_indirect - lineno: 15 macro: USB_WRITE_FAN_PWM 4
+DW_MACRO_GNU_define_indirect - lineno: 16 macro: USB_WRITE_LED 5
+DW_MACRO_GNU_define_indirect - lineno: 17 macro: USB_READ_WATCHDOG 6
+DW_MACRO_GNU_define_indirect - lineno: 18 macro: USB_WRITE_WATCHDOG 7
+DW_MACRO_GNU_define_indirect - lineno: 19 macro: USB_READ_TEMPERATURE 8
+DW_MACRO_GNU_define_indirect - lineno: 20 macro: USB_READ_FAN_PWM 9
+DW_MACRO_GNU_define_indirect - lineno: 21 macro: USB_READ_VERSION 10
+DW_MACRO_GNU_define_indirect - lineno: 22 macro: USB_READ_SERIAL_NUMBER 11
+DW_MACRO_GNU_define_indirect - lineno: 23 macro: USB_AUTHENTICATE_DEVICE 12
+DW_MACRO_GNU_define_indirect - lineno: 24 macro: USB_TEST_NEW_FANS 13
+DW_MACRO_GNU_define_indirect - lineno: 25 macro: USB_READ_FAN_MAX_RPM 14
+DW_MACRO_GNU_define_indirect - lineno: 26 macro: USB_WRITE_FAN_MAX_RPM 15
+DW_MACRO_GNU_define_indirect - lineno: 27 macro: USB_READ_2000W_METRICS 16
+DW_MACRO_GNU_define_indirect - lineno: 28 macro: USB_WRITE_OLED_CHAR 17
+DW_MACRO_GNU_define_indirect - lineno: 29 macro: USB_READ_PSMI_METRICS 18
+DW_MACRO_GNU_define_indirect - lineno: 30 macro: USB_READ_BME280 19
+DW_MACRO_GNU_define_indirect - lineno: 31 macro: USB_READ_VOLTAGE 20
+DW_MACRO_GNU_define_indirect - lineno: 32 macro: USB_READ_PMBUS_METRICS 21
+DW_MACRO_GNU_define_indirect - lineno: 34 macro: USB_RESET_RIG 145
+DW_MACRO_GNU_define_indirect - lineno: 35 macro: USB_POWERDOWN_RIG 146
+DW_MACRO_GNU_define_indirect - lineno: 36 macro: USB_ENTER_BOOTLOADER 147
+DW_MACRO_GNU_define_indirect - lineno: 38 macro: USBASP_FUNC_CONNECT 1
+DW_MACRO_GNU_define_indirect - lineno: 39 macro: USBASP_FUNC_DISCONNECT 2
+DW_MACRO_GNU_define_indirect - lineno: 40 macro: USBASP_FUNC_TRANSMIT 3
+DW_MACRO_GNU_define_indirect - lineno: 41 macro: USBASP_FUNC_READFLASH 4
+DW_MACRO_GNU_define_indirect - lineno: 42 macro: USBASP_FUNC_ENABLEPROG 5
+DW_MACRO_GNU_define_indirect - lineno: 43 macro: USBASP_FUNC_WRITEFLASH 6
+DW_MACRO_GNU_define_indirect - lineno: 44 macro: USBASP_FUNC_READEEPROM 7
+DW_MACRO_GNU_define_indirect - lineno: 45 macro: USBASP_FUNC_WRITEEEPROM 8
+DW_MACRO_GNU_define_indirect - lineno: 46 macro: USBASP_FUNC_SETLONGADDRESS 9
+DW_MACRO_GNU_define_indirect - lineno: 47 macro: USBASP_FUNC_SETISPSCK 10
+DW_MACRO_GNU_define_indirect - lineno: 48 macro: USBASP_FUNC_TPI_CONNECT 11
+DW_MACRO_GNU_define_indirect - lineno: 49 macro: USBASP_FUNC_TPI_DISCONNECT 12
+DW_MACRO_GNU_define_indirect - lineno: 50 macro: USBASP_FUNC_TPI_RAWREAD 13
+DW_MACRO_GNU_define_indirect - lineno: 51 macro: USBASP_FUNC_TPI_RAWWRITE 14
+DW_MACRO_GNU_define_indirect - lineno: 52 macro: USBASP_FUNC_TPI_READBLOCK 15
+DW_MACRO_GNU_define_indirect - lineno: 53 macro: USBASP_FUNC_TPI_WRITEBLOCK 16
+DW_MACRO_GNU_define_indirect - lineno: 54 macro: USBASP_FUNC_GETCAPABILITIES 127
+
+
+.debug_macro.dwo contents:
+
+.debug_macinfo contents:
+
+.debug_macinfo.dwo contents:

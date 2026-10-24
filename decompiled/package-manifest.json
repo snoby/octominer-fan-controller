@@ -1,0 +1,590 @@
+{
+  "FUNCTIONS.md": {
+    "bytes": 10924,
+    "sha256": "db84fd21b2417b7d4828d9b835a21f15d55165ed44b65e84a6bcf64b8d4d5690"
+  },
+  "INSTALLED-3.0-READBACK.md": {
+    "bytes": 4828,
+    "sha256": "06843ac85b17f8451523283d32e6bca766a1fbda5b92eed147e681f0cdb88126"
+  },
+  "artifacts/installed-3.0/octominer-fw3.0-hw1.2-flash.bin": {
+    "bytes": 32768,
+    "sha256": "186930d0fe8e4caa6fa2873e151225df6c7d1a6f6c4811a82601b113f65c6ddf"
+  },
+  "decompiled/calls.tsv": {
+    "bytes": 7918,
+    "sha256": "e6001a264b8ff0fbbf167c5d027d3e0fbaf2a94a0e2f51d7724573257a6bb981"
+  },
+  "decompiled/decompiler-warnings.json": {
+    "bytes": 2260,
+    "sha256": "dc0dc45f951f7189d76fd9c24ce59c8b681cf0f103f4ba186d1b3d37b021b6ca"
+  },
+  "decompiled/firmware-3.0-ghidra.c": {
+    "bytes": 199904,
+    "sha256": "17fae1923d65990a7387ffd7b9cffeadffc4e0aa405be8ba6bf6e7994dc1c490"
+  },
+  "decompiled/functions/byte_0000_vector_RESET.c": {
+    "bytes": 907,
+    "sha256": "19de59f7ca9f1928b29f6e1473f84885ea2bb448494fa6d05738663877bc82f7"
+  },
+  "decompiled/functions/byte_0004_vector_INT0.c": {
+    "bytes": 109,
+    "sha256": "6fd6212bbea7032866d2d425beba195edd696501dc9ba463cf18ed8bdb710d84"
+  },
+  "decompiled/functions/byte_0008_vector_INT1.c": {
+    "bytes": 127,
+    "sha256": "ac4bb55a838395869b826f2886fbf2eeff87ba6534204ccfca02b9fb38b2eafe"
+  },
+  "decompiled/functions/byte_000c_vector_INT2.c": {
+    "bytes": 127,
+    "sha256": "1cae549c654bfc662aaf2354b995125937e4680e5d1b140ac9bc7b7ca5109aec"
+  },
+  "decompiled/functions/byte_0010_vector_PCINT0.c": {
+    "bytes": 115,
+    "sha256": "92da5b2ad26f5a2587e4860d42c62b956a283dae0de2bc16fa63690d489024c2"
+  },
+  "decompiled/functions/byte_0014_vector_PCINT1.c": {
+    "bytes": 115,
+    "sha256": "d7f1acb24f54748ba8ad3b316da535b061135218a018dca6e6a249f2bc6eeabf"
+  },
+  "decompiled/functions/byte_0018_vector_PCINT2.c": {
+    "bytes": 131,
+    "sha256": "8fed0a77b1c1e1fdc24794e345cce13d48cf99c02f39e967225fdce159ef329c"
+  },
+  "decompiled/functions/byte_001c_vector_PCINT3.c": {
+    "bytes": 115,
+    "sha256": "c81c6622a227319374eb0546d5c928d113abab9fc8e3621652d5425cb2e01356"
+  },
+  "decompiled/functions/byte_0020_vector_WDT.c": {
+    "bytes": 125,
+    "sha256": "3c55c51f9ba04523a93279afebd80671bb6513691adf9bfa3cea6f9bba9d0324"
+  },
+  "decompiled/functions/byte_0024_vector_TIMER2_COMPA.c": {
+    "bytes": 143,
+    "sha256": "d2007145a964257ece15873e61205608bca08281b652f57fa300b60cf40a1969"
+  },
+  "decompiled/functions/byte_0028_vector_TIMER2_COMPB.c": {
+    "bytes": 143,
+    "sha256": "562d1f7596eb73ae01a4b9b3a29ba8d5a489ce5b2445b953bdbbb88ff6568f96"
+  },
+  "decompiled/functions/byte_002c_vector_TIMER2_OVF.c": {
+    "bytes": 139,
+    "sha256": "eb1dbd00a1bebd0632e7a72aa80c5d6f0a93b83185fcce52bb152bfcdff6563b"
+  },
+  "decompiled/functions/byte_0030_vector_TIMER1_CAPT.c": {
+    "bytes": 141,
+    "sha256": "982589d4eda45968960988b5be728f63eb8067952ea6454743e7e1e679780aa3"
+  },
+  "decompiled/functions/byte_0034_vector_TIMER1_COMPA.c": {
+    "bytes": 143,
+    "sha256": "0301ec7f495057d1b0228c913da1bf7bb3cb21f3f46a558b56d83fef101f4611"
+  },
+  "decompiled/functions/byte_0038_vector_TIMER1_COMPB.c": {
+    "bytes": 143,
+    "sha256": "83e9f95442f3e3770b6c0892bc32c212add4d5c59c23f8eece76a8d417697be4"
+  },
+  "decompiled/functions/byte_003c_vector_TIMER1_OVF.c": {
+    "bytes": 139,
+    "sha256": "4901886ac369012b673ae3846cd2cd0a8c900aaccbff61c49f439234447377d0"
+  },
+  "decompiled/functions/byte_0040_vector_TIMER0_COMPA.c": {
+    "bytes": 143,
+    "sha256": "3a4a1f0aab169c9788123ccbbf21932148949faa1fdef941da6f958ae8e5e8df"
+  },
+  "decompiled/functions/byte_0044_vector_TIMER0_COMPB.c": {
+    "bytes": 143,
+    "sha256": "718017ade397415c965da8e5a0a06ffca9520aca120e410eb4c3cbb28bb94d26"
+  },
+  "decompiled/functions/byte_0048_vector_TIMER0_OVF.c": {
+    "bytes": 139,
+    "sha256": "bd557318e0bfd0aba83dc243eccd0a1d2f810af8e1fac50a42c243e910cf1945"
+  },
+  "decompiled/functions/byte_004c_vector_SPI0_STC.c": {
+    "bytes": 135,
+    "sha256": "885ec15afc94ed32bd65c5549f750890b56112a06e2d9d6df043685064fb2824"
+  },
+  "decompiled/functions/byte_0050_vector_USART0_RX.c": {
+    "bytes": 137,
+    "sha256": "a3b71b13446e3eacc8a5dfe639fa11419182ad9785dd43570ff61e79d621940c"
+  },
+  "decompiled/functions/byte_0054_vector_USART0_UDRE.c": {
+    "bytes": 141,
+    "sha256": "5045eb3b74eb7917d0412051d7a0b5a8dac1c693e8c38b63872439dbe5c6ea3c"
+  },
+  "decompiled/functions/byte_0058_vector_USART0_TX.c": {
+    "bytes": 137,
+    "sha256": "e706b5f4b3c9ade22de9948394422ad5fe2825fd22eb5e648f4cff5cdae57982"
+  },
+  "decompiled/functions/byte_005c_vector_ANALOG_COMP.c": {
+    "bytes": 141,
+    "sha256": "28fb29644bcc83b1370d330d5e9fa426189519ceaf42d9b8237456b79b97bb4e"
+  },
+  "decompiled/functions/byte_0060_vector_ADC.c": {
+    "bytes": 106,
+    "sha256": "bf3b0d5477268c4d0c4e971bce60c8717e6b6079553deea8e2bb025c848146d1"
+  },
+  "decompiled/functions/byte_0064_vector_EE_READY.c": {
+    "bytes": 135,
+    "sha256": "0164f984920164a71360f76e2b249e821e3a223cdc1c8d3583b299a9b20ee70e"
+  },
+  "decompiled/functions/byte_0068_vector_TWI0.c": {
+    "bytes": 127,
+    "sha256": "4aba6984cdb37c9c491d87ed3e94b714a5a1fe72ff377256de5619cbd72d72c5"
+  },
+  "decompiled/functions/byte_006c_vector_SPM_READY.c": {
+    "bytes": 137,
+    "sha256": "a315721c4f3b57e4c215201b2ab1c159b2eac6995dc902356f5dcbdbf3ea0780"
+  },
+  "decompiled/functions/byte_0070_vector_USART1_RX.c": {
+    "bytes": 137,
+    "sha256": "398ffc0e4e90f58bb10a4d94ef6e55d9ea83f496eff146cf45231a3cb0b0448f"
+  },
+  "decompiled/functions/byte_0074_vector_USART1_UDRE.c": {
+    "bytes": 141,
+    "sha256": "8731a9c6b51f23d9603f6279482f66d87d521bcf6af4b0688c4754f07f5eb4d7"
+  },
+  "decompiled/functions/byte_0078_vector_USART1_TX.c": {
+    "bytes": 137,
+    "sha256": "bbac75ec85aa8ef13660185b55adca494d87462fd9ea96900c58895a8f063024"
+  },
+  "decompiled/functions/byte_007c_vector_TIMER3_CAPT.c": {
+    "bytes": 130,
+    "sha256": "f6749c0277c3346223a98907a0fd0f2b51f46a8c379c14e8b896ca6d27f09dde"
+  },
+  "decompiled/functions/byte_0080_vector_TIMER3_COMPA.c": {
+    "bytes": 133,
+    "sha256": "e7675ca0fb01495a9926f5c9eef793a7dd6f3e9a37eb3f1dcc4372e45f1209f9"
+  },
+  "decompiled/functions/byte_0084_vector_TIMER3_COMPB.c": {
+    "bytes": 133,
+    "sha256": "cae80a637db3d4a7e0d515a84246d8c4ca4a4743ac18860c0aaa21bdcbf378b6"
+  },
+  "decompiled/functions/byte_0088_vector_TIMER3_OVF.c": {
+    "bytes": 139,
+    "sha256": "d4ec3f7bc048c5939cc4b5e7b5ff98385490d5793cdc0d6ae282c5fe03ef6fe8"
+  },
+  "decompiled/functions/byte_008c_vector_USART0_START.c": {
+    "bytes": 143,
+    "sha256": "64f7ac9fd0995b44cead98c6f2acb6a4f1c2eaab05f5a0cdd51d81ed71d11edf"
+  },
+  "decompiled/functions/byte_0090_vector_USART1_START.c": {
+    "bytes": 143,
+    "sha256": "0de0ad509e509d931d68c2aa0bee36c127098f24b6985f392484b6ba77bf9554"
+  },
+  "decompiled/functions/byte_0094_vector_PCINT4.c": {
+    "bytes": 115,
+    "sha256": "fb14bb6e8d9ffd5b22f80bdfa2fcf69891ebbc79a32b6049cd4df70913f22ed3"
+  },
+  "decompiled/functions/byte_0098_vector_CFD.c": {
+    "bytes": 125,
+    "sha256": "aa91bc66d5f4ba882e9859274d407faf2a21fe67737cf9a0f2597e27912ad21c"
+  },
+  "decompiled/functions/byte_009c_vector_PTC_EOC.c": {
+    "bytes": 133,
+    "sha256": "2e27955ea467aa39c68e7e9e8cbe21b40fb39abe8a5add311dbf2b1ac1566e97"
+  },
+  "decompiled/functions/byte_00a0_vector_PTC_WCOMP.c": {
+    "bytes": 137,
+    "sha256": "84875da8498936407c3b5d39d3d85945e10a5cd3310208cc5e2e9bc3d68dc9c0"
+  },
+  "decompiled/functions/byte_00a4_vector_SPI1_STC.c": {
+    "bytes": 135,
+    "sha256": "e6c32e11354f6dfdf95b2a0fe492c1bc3768cf2842a5b7da683aaed2308a4689"
+  },
+  "decompiled/functions/byte_00a8_vector_TWI1.c": {
+    "bytes": 127,
+    "sha256": "4e889dfff465b2833d28fefe0b90a251ad39b88a841265a1c19f910f490239a4"
+  },
+  "decompiled/functions/byte_00ac_vector_TIMER4_CAPT.c": {
+    "bytes": 141,
+    "sha256": "17fbb139b65c693747b304628ef19835c5a2235a97b7d195237e0a0cf12c428f"
+  },
+  "decompiled/functions/byte_00b0_vector_TIMER4_COMPA.c": {
+    "bytes": 143,
+    "sha256": "cc2d83ff46d041327d372c308932d3badca385757e436201df6adb6083e1c878"
+  },
+  "decompiled/functions/byte_00b4_vector_TIMER4_COMPB.c": {
+    "bytes": 143,
+    "sha256": "67d51fadabf7e1765de3828430dafc09b4eed0e05834b571c22e35db873fc36d"
+  },
+  "decompiled/functions/byte_00b8_vector_TIMER4_OVF.c": {
+    "bytes": 139,
+    "sha256": "1733bd0ec315f830ba35a0dba1731f525ca0420d2225aca0de2c178de32048d3"
+  },
+  "decompiled/functions/byte_00bc_vector_USART2_RX.c": {
+    "bytes": 137,
+    "sha256": "386e9f0df8f0901dce1d47083b3ed7cc2ff53488132d5f990d66cb072ce99a7b"
+  },
+  "decompiled/functions/byte_00c0_vector_USART2_UDRE.c": {
+    "bytes": 141,
+    "sha256": "2bc116e52c30c6ad4549c974ce0e4171a970fd63824b432586736062da76f628"
+  },
+  "decompiled/functions/byte_00c4_vector_USART2_TX.c": {
+    "bytes": 137,
+    "sha256": "2a2cbfb29038c6c97c64494d8acd2b21ed973af3ea1b89238946e840638e6bd3"
+  },
+  "decompiled/functions/byte_00c8_vector_USART2_START.c": {
+    "bytes": 143,
+    "sha256": "d5f767e1d19f0e66779bf4da823d806c03a84d4ce1c9187d4aa254a143d72ad8"
+  },
+  "decompiled/functions/byte_0438_reset_startup.c": {
+    "bytes": 603,
+    "sha256": "876aedcc00da0582cb677e6882403bbbc79e12a9f4d4f6e619bfb3648166c51f"
+  },
+  "decompiled/functions/byte_0472_unexpected_interrupt_reset.c": {
+    "bytes": 629,
+    "sha256": "2bf7ebc1a1bef93431647fa54239a12f66e628ee9d052dcc84ae4408cb5ee44e"
+  },
+  "decompiled/functions/byte_0476_FUN_code_023b.c": {
+    "bytes": 852,
+    "sha256": "7278157f8f34f28e276fbbf056a9148450525093a43f384abf1ac9ad4e5704d2"
+  },
+  "decompiled/functions/byte_04c0_FUN_code_0260.c": {
+    "bytes": 241,
+    "sha256": "d3fd7ef2781d57912b16574faeec2318febe4fc9565300e8357c7d07e48766c8"
+  },
+  "decompiled/functions/byte_04c8_isr_INT0.c": {
+    "bytes": 7069,
+    "sha256": "25f941954735ab76cfa388a64e9ebf66dc39f78d3acde61d324479bd88f741eb"
+  },
+  "decompiled/functions/byte_0722_usb_poll.c": {
+    "bytes": 5229,
+    "sha256": "c544f7a20206167c82e6291e06185d305c75639764b821bcd98481e6d59d2d51"
+  },
+  "decompiled/functions/byte_08fe_FUN_code_047f.c": {
+    "bytes": 213,
+    "sha256": "a28e966baf8561b9cffb6354666efde31766e077e6e1c97171b2c8d0a1769235"
+  },
+  "decompiled/functions/byte_090c_twi_init.c": {
+    "bytes": 142,
+    "sha256": "627f45d3e9f6083f8c991ffa456b24a61e0ca64b053a0c66b7c216283768b236"
+  },
+  "decompiled/functions/byte_091e_twi_start_address_bounded.c": {
+    "bytes": 740,
+    "sha256": "c3698877c3ce578a05d27677dde6c54a560cd334c610053dfc993bba99442beb"
+  },
+  "decompiled/functions/byte_0966_twi_stop.c": {
+    "bytes": 119,
+    "sha256": "3299627311b003bbc583be7264d0742fd74d97b9cf6a34c2dd3ab33a6dd909c5"
+  },
+  "decompiled/functions/byte_096e_twi_send_byte_bounded.c": {
+    "bytes": 357,
+    "sha256": "aaffa8ca6c4766348d297e1de53fbc670ef3d17f482c106f9f0344f5d61b01bc"
+  },
+  "decompiled/functions/byte_09ea_oled_send_commands.c": {
+    "bytes": 663,
+    "sha256": "acd83d26164a183d5616edf2dc1bc695539644785089bbacf6ed35439c581dd7"
+  },
+  "decompiled/functions/byte_0a2e_oled_send_pixel_data.c": {
+    "bytes": 672,
+    "sha256": "a5f11d3474b305d360dcc5059deff809b852285322285a6b73c161404f2c78c3"
+  },
+  "decompiled/functions/byte_0a6e_oled_set_text_cursor.c": {
+    "bytes": 789,
+    "sha256": "23f362bfb183a286175bfc30083d30cff0a15a331db1aa8cf8dd4088668f47c6"
+  },
+  "decompiled/functions/byte_0ab8_oled_reset_cursor.c": {
+    "bytes": 692,
+    "sha256": "b73dc46a43a3212b3a3016f72a8901904c90f0db555b3be559d517718c58016a"
+  },
+  "decompiled/functions/byte_0af2_oled_clear.c": {
+    "bytes": 2109,
+    "sha256": "9437e27c0e1dbb6bf83ce9176bdefbb013ed6472930426368f69ad6650b58485"
+  },
+  "decompiled/functions/byte_0b56_oled_init_ssd1306_family.c": {
+    "bytes": 1764,
+    "sha256": "f7689e98a7f92eb39043289e6b83c291c8d59c655580f174ab6320414722cb47"
+  },
+  "decompiled/functions/byte_0bae_oled_set_inverse.c": {
+    "bytes": 627,
+    "sha256": "25e9ba737dc911546485e03a2c7c4417630268c182d61f7aef3e99da86c307f2"
+  },
+  "decompiled/functions/byte_0be2_oled_set_enabled.c": {
+    "bytes": 627,
+    "sha256": "dcad504b7d0d1f71716dfb1b7425a0d1cc94de258e8851dd66d7bd927338a6fd"
+  },
+  "decompiled/functions/byte_0c16_oled_set_contrast.c": {
+    "bytes": 527,
+    "sha256": "d720a42f11dd71d4deb6bf6fa661968bd7f200f27972eee57f0eedd92f72c0d9"
+  },
+  "decompiled/functions/byte_0c3a_oled_render_character.c": {
+    "bytes": 10999,
+    "sha256": "09021c9cc9bd8970447ec2b27fd4ffc9588046fdba813b3311d89d4635be98c1"
+  },
+  "decompiled/functions/byte_0ef6_oled_set_scale.c": {
+    "bytes": 152,
+    "sha256": "fdf73b58a3705fa555b3c8846df7410c49abec8b6fa34bc9e7ebb3e408a8ee5f"
+  },
+  "decompiled/functions/byte_0efc_oled_print_ram_string.c": {
+    "bytes": 397,
+    "sha256": "2bea4f2a087becf1ffa00d0448a22ee47f632542d035da53c96b96e96ad39af0"
+  },
+  "decompiled/functions/byte_0f14_oled_print_flash_string.c": {
+    "bytes": 375,
+    "sha256": "1b30f2d545b91676ea1f1db63a6668abe4e3b386ec5bf916d95454cbadb702d4"
+  },
+  "decompiled/functions/byte_0f32_isr_PCINT0.c": {
+    "bytes": 1518,
+    "sha256": "7b84c9ffdda1d32e3a1e453b0c15a71064934a64dfaf959228ed89976022cda3"
+  },
+  "decompiled/functions/byte_0fc4_isr_PCINT1.c": {
+    "bytes": 1753,
+    "sha256": "a24d401e31494353e94bc7b39d948fb0ae755338db26010c5b0920a5cdfe65bc"
+  },
+  "decompiled/functions/byte_106e_isr_PCINT3.c": {
+    "bytes": 882,
+    "sha256": "790d0c2166d518ca5342bf5258a1f30f0640e2447af1ab55d32d1751d44db825"
+  },
+  "decompiled/functions/byte_10b0_isr_PCINT4.c": {
+    "bytes": 1100,
+    "sha256": "6331f7f297dc9a845b07ab603c99b844209a585ae0c48f1c965fc69cac3a113d"
+  },
+  "decompiled/functions/byte_1112_isr_TIMER3_CAPT.c": {
+    "bytes": 8889,
+    "sha256": "3b146cc5c5b3107aa11a3508e70fbe800667606ab69c0a956bf9578ef08ab8c7"
+  },
+  "decompiled/functions/byte_145c_isr_TIMER3_COMPA.c": {
+    "bytes": 1221,
+    "sha256": "e3b3b25bf4eddf80c56ae7b9959246543794b59a8208df9ccf0bda9704c6f0e2"
+  },
+  "decompiled/functions/byte_14de_isr_TIMER3_COMPB.c": {
+    "bytes": 1083,
+    "sha256": "e06e8497d17db1dbd35dede512f88bdcd7e90483a5a532cc641ea91b8c53468b"
+  },
+  "decompiled/functions/byte_154e_isr_ADC.c": {
+    "bytes": 4486,
+    "sha256": "d1623f354137dd59bf02f5f3bd1e09fdfa4669b46601518db8383b1db3a79d4e"
+  },
+  "decompiled/functions/byte_1710_gpio_input_init.c": {
+    "bytes": 1463,
+    "sha256": "d0ed035f0609e95871efe67da18106e968df9a51de988674e02ff30b16661347"
+  },
+  "decompiled/functions/byte_177c_pwm_timer_init_from_eeprom.c": {
+    "bytes": 1638,
+    "sha256": "d2e47cde6a0bfc7bc3428600b6e52b810126d5d73940dcb6b8fc1daf02b819f3"
+  },
+  "decompiled/functions/byte_183e_twi_read_length_prefixed_block.c": {
+    "bytes": 3253,
+    "sha256": "4effeadb10a5cdc6a32d512e13cf00b9d057621e61ffda86d9b9e6a480a98719"
+  },
+  "decompiled/functions/byte_197c_twi_write_read_transaction.c": {
+    "bytes": 2208,
+    "sha256": "9da2b0950a0b5ab5fca66ef0e4d7619eb871e6a2848b7ca6cd64d642b5394ac3"
+  },
+  "decompiled/functions/byte_1a80_startup_display_and_eeprom_text.c": {
+    "bytes": 3572,
+    "sha256": "aa14dc81521af16a12d1474fe4b7264ab42e060cb92be4befe799858c13936a3"
+  },
+  "decompiled/functions/byte_1c10_bme280_discovery_and_calibration.c": {
+    "bytes": 9806,
+    "sha256": "485c3a74d423a90cc653893717032254d2c0542378e33489cf2ca5a2581d48dc"
+  },
+  "decompiled/functions/byte_2056_application_main.c": {
+    "bytes": 9178,
+    "sha256": "dfa358c1922027165acd468c5bd86fc651e8829f026c800c928985733543d564"
+  },
+  "decompiled/functions/byte_2352_usb_setup_dispatch.c": {
+    "bytes": 67097,
+    "sha256": "91b9f1aab2a9cf1867bdafcace67864c10ce515bd21d31aaa9db02fe1745e281"
+  },
+  "decompiled/functions/byte_3712_avr_multiply_32bit.c": {
+    "bytes": 555,
+    "sha256": "d5a87d4e7325d19eda554ba16bd0696cd2d5017fb77b3d5ad27c9aff9d6af646"
+  },
+  "decompiled/functions/byte_3732_avr_unsigned_divide_16bit.c": {
+    "bytes": 1216,
+    "sha256": "e22e956c666f81c5abee5806aec35ddefc0fdb8cabfdfbf096351c196d273d5c"
+  },
+  "decompiled/functions/byte_375a_avr_signed_divide_16bit.c": {
+    "bytes": 519,
+    "sha256": "2e9d06ec60013bef34575667df6bda3b3cc01277dd7c49e8b529e195157ed51c"
+  },
+  "decompiled/functions/byte_3772_FUN_code_1bb9.c": {
+    "bytes": 200,
+    "sha256": "869151aa31fa6bc583cd00f5e9f5e8336af9769194599caa1146c217db335e62"
+  },
+  "decompiled/functions/byte_377a_FUN_code_1bbd.c": {
+    "bytes": 214,
+    "sha256": "3c389c5202f46fceab46c3abf9ea5f74178dc2a675c86dc7bc39e68826966f4e"
+  },
+  "decompiled/functions/byte_3782_avr_unsigned_divide_32bit.c": {
+    "bytes": 2255,
+    "sha256": "8a61ba0a36ea7df42d2de1fe16370e74745b07c4bd28985509452144feb464ec"
+  },
+  "decompiled/functions/byte_37c6_gcc_tablejump_helper.c": {
+    "bytes": 661,
+    "sha256": "229f5913aa760999c3ffd4a40962a4877112c5817854773c423c949055acab98"
+  },
+  "decompiled/functions/byte_37d2_FUN_code_1be9.c": {
+    "bytes": 381,
+    "sha256": "160b84e953bbb14416ae567b52e46c7e71d7060bf10d1d0927249ee84a8fde47"
+  },
+  "decompiled/functions/byte_37e8_FUN_code_1bf4.c": {
+    "bytes": 563,
+    "sha256": "c1f7fd5467b5a41c75504ce611275b9cd7a525cebaab35dddcea116cd405504f"
+  },
+  "decompiled/functions/byte_37ee_FUN_code_1bf7.c": {
+    "bytes": 261,
+    "sha256": "01489f642e8f9a95713b68b02f476769ac0ea6c3e913f812a7f731151d2f2642"
+  },
+  "decompiled/functions/byte_37f8_FUN_code_1bfc.c": {
+    "bytes": 1053,
+    "sha256": "293c509c4ee29fb94a507508e411d20e9ed49ff72fed942d02f5a27000318fea"
+  },
+  "decompiled/functions/byte_3816_integer_to_string.c": {
+    "bytes": 1698,
+    "sha256": "07ef2d657696e90b3ac5bcdf14182d96347145dd0524c4938338d436c2e8b041"
+  },
+  "decompiled/functions/byte_3880_eeprom_read_byte.c": {
+    "bytes": 492,
+    "sha256": "1fe8d8e2dd4bf30755dea6ccbe480c25a0abdacaf878519e513edb49acb6c762"
+  },
+  "decompiled/functions/byte_3890_eeprom_read_word.c": {
+    "bytes": 158,
+    "sha256": "ef7cf74978d4ce5da1315cd2ed01b71d8aefef43d8a58ac51d6f3c7c11531858"
+  },
+  "decompiled/functions/byte_389c_eeprom_update_byte.c": {
+    "bytes": 747,
+    "sha256": "caef48ebdf35a96145f7e8bb768fb3dfdf0ce694f907b809a8781723b1c12fcf"
+  },
+  "decompiled/functions/byte_389e_FUN_code_1c4f.c": {
+    "bytes": 724,
+    "sha256": "ee0624887f12f9601ed358b8e7abeaa4dfac16ba9508a098859f76a2a258bbbf"
+  },
+  "decompiled/functions/byte_38c0_eeprom_update_word.c": {
+    "bytes": 152,
+    "sha256": "6076ace226a78d0b63edfdb84b8ef3ba3fb5b0f267bf6d3a7908612a93f5ae07"
+  },
+  "decompiled/functions/byte_38cc_eeprom_write_word.c": {
+    "bytes": 783,
+    "sha256": "619b4bf3c109f9b0309b958242ebacc0bf8e6e1f8fa6dd669ba03be57635212f"
+  },
+  "decompiled/functions/byte_38da_FUN_code_1c6d.c": {
+    "bytes": 595,
+    "sha256": "17ddc915616762701754d97b572f65168b8845eeab2577cff01ecb19c8d00104"
+  },
+  "decompiled/functions/byte_38f6_eeprom_write_byte.c": {
+    "bytes": 760,
+    "sha256": "cbc28d30de6c519d076d939c29e378afa5c01a7bc674b04804834552af57e4d5"
+  },
+  "decompiled/functions/byte_3912_terminal_exit_loop.c": {
+    "bytes": 186,
+    "sha256": "22a86c76db53d5d08f3f7148539cff04dcd3e6a0546f115014a097841c4ba754"
+  },
+  "decompiled/functions/byte_7000_bootloader_entry.c": {
+    "bytes": 137,
+    "sha256": "baa6712440c5f91fb27c09b78aa852eb0a97a2adf116f82a60477fa1afdebe38"
+  },
+  "decompiled/functions/byte_713e_bootloader_runtime_startup.c": {
+    "bytes": 739,
+    "sha256": "0c2ba6c14b958b1d695aca40cafe5cabcaa653fedd1a1ebfc69331ca6b941575"
+  },
+  "decompiled/functions/byte_718e_FUN_code_38c7.c": {
+    "bytes": 821,
+    "sha256": "904179717fbb6ec70f7c2d56f2bddd4a0a721d7fd4249975034569ac82081458"
+  },
+  "decompiled/functions/byte_71b8_FUN_code_38dc.c": {
+    "bytes": 241,
+    "sha256": "4b9d30c4a70215f277fff9a8a00a56d86155e616ac1c7ab111190cce76e0dd39"
+  },
+  "decompiled/functions/byte_741a_bootloader_isp_command.c": {
+    "bytes": 1735,
+    "sha256": "836c9883db2eca212c09b917601d4654f666ec2847ff177e5c4e4687236e3c6d"
+  },
+  "decompiled/functions/byte_74b6_bootloader_usb_main.c": {
+    "bytes": 16369,
+    "sha256": "12efbcc7f217d3530f921382e67f8b9b0bf9d171146a33e654950d2d4e25faad"
+  },
+  "decompiled/functions/byte_794a_FUN_code_3ca5.c": {
+    "bytes": 305,
+    "sha256": "122ed64885f8ea1e09f183a8a2dd8432ad0a4c1fd62f28fcc9a43da9f5cb69c0"
+  },
+  "decompiled/functions/byte_795a_FUN_code_3cad.c": {
+    "bytes": 737,
+    "sha256": "746d103385f684461b5be21acb886b7bf4da8a5ee0aa3b0e9b5f0e59b861d1b5"
+  },
+  "decompiled/functions/byte_797e_FUN_code_3cbf.c": {
+    "bytes": 752,
+    "sha256": "2ed0ee5658ce15af99a9d0be8e305aaebbbce4a6a9ea7cca4aa6f0a89bc32e4d"
+  },
+  "decompiled/functions/byte_799a_FUN_code_3ccd.c": {
+    "bytes": 176,
+    "sha256": "65cbc97923aef61401cad159913f38443ee4a13146c2724457376db2d2fd4007"
+  },
+  "decompiled/functions.tsv": {
+    "bytes": 5322,
+    "sha256": "b495997fc23ee7ba1d5db7bbc18b7f095e247642e7cc9512d64d3f78cea69018"
+  },
+  "decompiled/ghidra-listing.tsv": {
+    "bytes": 201463,
+    "sha256": "55800305394a9d5a2b72df899aeafd0dcb3fca9488199279032ab073f406e5bc"
+  },
+  "decompiled/native-image-sha256.txt": {
+    "bytes": 138,
+    "sha256": "ff6f9b2cc85175cd00f3e5fb308d402b3c229075583d05caa6f73dc0297af678"
+  },
+  "decompiled/octominer-fw3.0.gzf": {
+    "bytes": 145767,
+    "sha256": "b243c23f49334f1e13998bb68889046410545fbc5e50edd193875c0a6aca6b48"
+  },
+  "decompiled/run-summary.txt": {
+    "bytes": 123,
+    "sha256": "3e93875f2c4001fb1e023449141411165a13120bdb5508f372cc157e9e35fc89"
+  },
+  "decompiled/verification.json": {
+    "bytes": 598,
+    "sha256": "3effe4b35ac1c125e10d7bc76577c2a3a6879a01f525d2258e075e0ddd6e1265"
+  },
+  "analysis/FW3-USB.md": {
+    "bytes": 19839,
+    "sha256": "3074ec703f1f69bc3d2db64eb65fd15e727ac1c2bbcdf22e2eb4c469dd2bac34"
+  },
+  "analysis/FW3-CONTROL.md": {
+    "bytes": 16827,
+    "sha256": "9c9dcfaf64fd83ec5a38da421528a5777f6160318b3b5fd30fe789ee47bae9fa"
+  },
+  "analysis/FW3-PERIPHERALS.md": {
+    "bytes": 20822,
+    "sha256": "fe6c02ecf5694ea637c028a2388011d58d7883112899eb1030ab32a852cf25f7"
+  },
+  "analysis/installed-3.0-disassembly.txt": {
+    "bytes": 400668,
+    "sha256": "cf4e4b6e7c8494ee7f1e47fc9069d391c82564a40bbe4bc0e62145d36f1b6802"
+  },
+  "analysis/iom324pb.h": {
+    "bytes": 29753,
+    "sha256": "4d5d7f220ac0ecef0928814892ac2635cb4af6637819c4502190b218d2669e55"
+  },
+  "analysis/ghidra-scripts/ExportFirmware.java": {
+    "bytes": 4596,
+    "sha256": "c777a13ba93d1c046515f2a0b72e224b783e5ba433aa5c6106b87ea18a62ef92"
+  },
+  "analysis/ghidra-scripts/ExportSaved.java": {
+    "bytes": 1450,
+    "sha256": "62d65bb8adb9eee9b0db5466bb8eeb9e7b9a2efef3e40310f399f028a05476ef"
+  },
+  "analysis/ghidra-scripts/PrepareFirmware.java": {
+    "bytes": 4517,
+    "sha256": "ea9a30cc6cc423f5543a5db4c08b54f95cd8a44f2fb5db094f0320e2339a6893"
+  },
+  "analysis/ghidra-scripts/RefineFirmware.java": {
+    "bytes": 6225,
+    "sha256": "fd7e87632b9ae6908a5e0835a68b751c3ab9aa2cf68d3b906189229435bc6564"
+  },
+  "analysis/ghidra-scripts/jump-tables.json": {
+    "bytes": 1041,
+    "sha256": "ad3bce4ed24e1ec0c1857b7c102ca9d114252d05ca5f4dff2d394d3055a7a12f"
+  },
+  "analysis/ghidra-scripts/jump-tables.tsv": {
+    "bytes": 1328,
+    "sha256": "b4a8c33148cdbe52901dcdd71ebf88d0e5145237d47c2d60490949eb3a781c05"
+  },
+  "analysis/ghidra-scripts/registers.tsv": {
+    "bytes": 1871,
+    "sha256": "67d58121cb4f03667c4378582c962232f522acdce20be5977c92ce06ef250d27"
+  },
+  "analysis/ghidra-scripts/vectors.tsv": {
+    "bytes": 860,
+    "sha256": "3c8292d754ba199bc591a59508a1bacd4f40249fc86694dda253ceae4d6d9190"
+  }
+}

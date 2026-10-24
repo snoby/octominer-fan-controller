@@ -1,0 +1,12 @@
+{
+  "loggedIn": true,
+  "authMethod": "claude.ai",
+  "apiProvider": "firstParty",
+  "analyticsDisabled": false,
+  "projectsDirectory": "/Users/snoby/.claude/projects",
+  "configDirectory": "/Users/snoby/.claude",
+  "email": "matt.snoby@gmail.com",
+  "orgId": "e56c7446-1c2c-4aff-aa44-97a784b50b4f",
+  "orgName": "matt.snoby@gmail.com's Organization",
+  "subscriptionType": "pro"
+}

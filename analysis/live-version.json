@@ -1,0 +1,35 @@
+{
+  "host": "cmp-100",
+  "utc": "2026-10-24T01:20:22.831261+00:00",
+  "sysfs": "/sys/bus/usb/devices/1-7",
+  "usb_node": "/dev/bus/usb/001/002",
+  "request": {
+    "bmRequestType": "0xc0",
+    "bRequest": "0x0a",
+    "wValue": 0,
+    "wIndex": 0,
+    "wLength": 256,
+    "timeout_ms": 5000
+  },
+  "samples": [
+    {
+      "length": 4,
+      "raw_hex": "1e 0c 14 0c",
+      "firmware": "3.0",
+      "hardware": "1.2",
+      "bootloader": "2.0",
+      "firmware_target_hardware": "1.2",
+      "target_matches_hardware": true
+    },
+    {
+      "length": 4,
+      "raw_hex": "1e 0c 14 0c",
+      "firmware": "3.0",
+      "hardware": "1.2",
+      "bootloader": "2.0",
+      "firmware_target_hardware": "1.2",
+      "target_matches_hardware": true
+    }
+  ],
+  "repeat_matches": true
+}

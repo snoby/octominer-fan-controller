@@ -1,0 +1,14 @@
+{
+  "function_entries": 122,
+  "vector_stubs": 51,
+  "other_entries": 71,
+  "exported_c_files": 122,
+  "semantic_names_not_original_symbols": true,
+  "annotated_nonvector_entries": 54,
+  "ghidra_vs_llvm_instruction_lengths_compared": 6381,
+  "instruction_length_mismatches": 0,
+  "decompiler_warning_count": 16,
+  "firmware_sha256": "186930d0fe8e4caa6fa2873e151225df6c7d1a6f6c4811a82601b113f65c6ddf",
+  "native_project_sha256": "b243c23f49334f1e13998bb68889046410545fbc5e50edd193875c0a6aca6b48",
+  "scope": "Static analysis; decompile success does NOT prove semantic correctness or completeness"
+}

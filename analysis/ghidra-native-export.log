@@ -1,0 +1,45 @@
+2026-10-23 21:56:27 INFO  (LoggingInitialization) Using log config file: jar:file:/opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml  
+2026-10-23 21:56:27 INFO  (LoggingInitialization) Using log file: /Users/snoby/octominer-re/analysis/ghidra-native-export.log  
+2026-10-23 21:56:27 DEBUG (GhidraObjectInputFilter) Including serial input filter: FileSystem/data/client.rmi.serial.filter  
+2026-10-23 21:56:27 INFO  (Preferences) Loading user preferences: /Users/snoby/Library/ghidra/ghidra_12.2_PUBLIC/preferences  
+2026-10-23 21:56:27 INFO  (ClassSearcher) Searching for classes...  
+2026-10-23 21:56:28 INFO  (ClassSearcher) Class search complete (901 ms)  
+2026-10-23 21:56:28 INFO  (DefaultSSLContextInitializer) Initializing SSL Context  
+2026-10-23 21:56:28 INFO  (SecureRandomFactory) Initializing Random Number Generator...  
+2026-10-23 21:56:28 INFO  (SecureRandomFactory) Random Number Generator initialization complete: NativePRNGNonBlocking  
+2026-10-23 21:56:29 INFO  (DefaultTrustManagerFactory) Loaded 44 trusted CA certificates from the OS trust store.  
+2026-10-23 21:56:29 INFO  (DefaultTrustManagerFactory) Loaded 110 trusted CA certificates from the Java default trust store.  
+2026-10-23 21:56:29 INFO  (AnalyzeHeadless) Headless startup complete (2267 ms)  
+2026-10-23 21:56:29 INFO  (ClassSearcher) Class searcher loaded 60 extension points (19 false positives)  
+2026-10-23 21:56:29 INFO  (HeadlessAnalyzer) HEADLESS Script Paths:
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/WildcardAssembler/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/Decompiler/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/SystemEmulation/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/FunctionID/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/FileFormats/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Processors/8051/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/VersionTracking/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Debug/Debugger-rmi-trace/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/BSim/ghidra_scripts
+    /Users/snoby/octominer-re/analysis/ghidra-scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/DecompilerDependent/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Processors/Atmel/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/Swift/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Processors/DATA/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Debug/Debugger/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Processors/JVM/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Processors/PIC/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/GnuDemangler/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/PDB/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/BytePatterns/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/PyGhidra/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/Base/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/MicrosoftCodeAnalyzer/ghidra_scripts  
+2026-10-23 21:56:29 INFO  (HeadlessAnalyzer) HEADLESS: execution starts  
+2026-10-23 21:56:29 INFO  (HeadlessAnalyzer) Opening existing project: /Users/snoby/octominer-re/ghidra-project/OctominerFW3  
+2026-10-23 21:56:29 INFO  (HeadlessProject) Opening project: /Users/snoby/octominer-re/ghidra-project/OctominerFW3  
+2026-10-23 21:56:30 DEBUG (SleighLanguage) Took 493ms (120ms inside lock) to initialize language /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Processors/Atmel/data/languages/avr8.slaspec -> /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Processors/Atmel/data/languages/avr8.sla  
+2026-10-23 21:56:31 INFO  (HeadlessAnalyzer) REPORT: Processing read-only project file: /octominer-fw3.0-hw1.2-flash.bin  
+2026-10-23 21:56:31 INFO  (HeadlessAnalyzer) REPORT: Execute script: ExportSaved.java '/Users/snoby/octominer-re/decompiled'   
+2026-10-23 21:56:31 INFO  (HeadlessAnalyzer) SCRIPT: /Users/snoby/octominer-re/analysis/ghidra-scripts/ExportSaved.java  
+2026-10-23 21:56:31 INFO  (GhidraScript) ExportSaved.java> SAVED_NATIVE_EXPORT=true   
